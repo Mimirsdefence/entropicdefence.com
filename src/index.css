@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  --color-void: #04060b;
+  --color-abyss: #070b14;
+  --color-panel: #0a111d;
+  --color-line: #17233a;
+  --color-fog: #8fa0b5;
+  --color-frost: #eaf1f9;
+  --color-signal: #38bdf8;
+  --color-pulse: #22d3ee;
+  --color-mint: #34d399;
+  --color-amber: #fbbf24;
+  --color-danger: #f87171;
+
+  --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-void font-sans text-frost antialiased;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-signal) 28%, transparent);
+    color: var(--color-frost);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-signal);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-void);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-line);
+    border-radius: 8px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: color-mix(in oklab, var(--color-line) 80%, var(--color-signal));
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(100deg, #7dd3fc 0%, #38bdf8 35%, #22d3ee 70%, #67e8f9 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .noise-overlay {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 180px 180px;
+  }
+
+  .panel {
+    @apply rounded-2xl border border-line bg-panel/60 backdrop-blur-sm;
+  }
+}
+
+@keyframes pulse-signal {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-pulse-signal {
+  animation: pulse-signal 3.2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-pulse-signal {
+    animation: none;
+  }
+}
