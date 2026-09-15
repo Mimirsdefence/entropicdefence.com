@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 import FloatingCta from '@/components/FloatingCta'
 import Home from '@/pages/Home'
 import Checkout from '@/pages/Checkout'
+import CheckoutExtern from '@/pages/CheckoutExtern'
+import CheckoutIntern from '@/pages/CheckoutIntern'
+import CheckoutLedning from '@/pages/CheckoutLedning'
 import Success from '@/pages/Success'
 import BusinessProfile from '@/pages/BusinessProfile'
 import Papers from '@/pages/Papers'
@@ -22,8 +25,24 @@ const meta: Record<string, { title: string; description: string }> = {
       '40+ år i världens högsta säkerhetsklass. Entropic Defence skyddar företag, myndigheter och kritisk infrastruktur mot utländska aktörer — dygnet runt.',
   },
   '/checkout': {
-    title: 'Välj säkerhetspaket — Entropic Defence',
-    description: 'Välj ert säkerhetspaket. Offertbaserad B2B-prissättning — prata med en konsult dygnet runt.',
+    title: 'Säkerhetspaket & priser — Entropic Defence',
+    description:
+      'Kontinuerlig säkerhetskontroll från 24 900 kr/mån, intern säkerhetsrevision 3 500 kr/tim och säkerhetsledning på offert. Fasta priser exkl. moms.',
+  },
+  '/checkout/extern': {
+    title: 'Kontinuerlig säkerhetskontroll — fasta priser | Entropic Defence',
+    description:
+      'Fasta priser på extern säkerhetskontroll: månadsvis, veckovis eller dagligen. Pris efter antal sidor — under 20, 20–100 eller 100+ sidor. Exkl. moms.',
+  },
+  '/checkout/intern': {
+    title: 'Intern säkerhetsrevision — tre nivåer | Entropic Defence',
+    description:
+      'Intern säkerhetsrevision i tre nivåer: vanlig säkerhet, hög säkerhet och militär grad. 3 500 kr/tim — AI-verktyg ger 1/6 av tiden och högre säkerhet.',
+  },
+  '/checkout/ledning': {
+    title: 'Säkerhetsledning för ledning och styrelse | Entropic Defence',
+    description:
+      'Strategisk säkerhetsledning på offert och 24/7 säkerhetsexpert för hela organisationen — kommer snart. Prata säkerhet på ledningsnivå med oss.',
   },
   '/success': {
     title: 'Förfrågan mottagen — Entropic Defence',
@@ -98,6 +117,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/checkout/extern" element={<CheckoutExtern />} />
+          <Route path="/checkout/intern" element={<CheckoutIntern />} />
+          <Route path="/checkout/ledning" element={<CheckoutLedning />} />
           <Route path="/success" element={<Success />} />
           <Route path="/business-profile" element={<BusinessProfile />} />
           <Route path="/papers" element={<Papers />} />
