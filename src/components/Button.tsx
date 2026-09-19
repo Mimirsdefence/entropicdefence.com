@@ -20,6 +20,7 @@ type Props = {
   type?: 'button' | 'submit'
   onClick?: () => void
   disabled?: boolean
+  state?: unknown
 }
 
 export default function Button({
@@ -31,11 +32,12 @@ export default function Button({
   type,
   onClick,
   disabled,
+  state,
 }: Props) {
   const cls = `${base} ${variants[variant]} ${className}`
   if (to) {
     return (
-      <Link to={to} className={cls} onClick={onClick}>
+      <Link to={to} className={cls} onClick={onClick} state={state}>
         {children}
       </Link>
     )

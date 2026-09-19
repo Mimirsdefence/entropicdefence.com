@@ -1,45 +1,64 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import LogoMark from '@/components/LogoMark'
-
-const columns = [
-  {
-    title: 'Navigering',
-    links: [
-      { to: '/#tjanster', label: 'Tjänster' },
-      { to: '/advisories', label: 'Advisories' },
-      { to: '/papers', label: 'Papers' },
-      { to: '/status', label: 'Säkerhetsstatus' },
-    ],
-  },
-  {
-    title: 'Företag',
-    links: [
-      { to: '/checkout', label: 'Välj paket' },
-      { to: '/business-profile', label: 'Business Profile' },
-      { to: '/support', label: 'Support & FAQ' },
-      { to: '/legal', label: 'Legal' },
-    ],
-  },
-]
+import { useI18n } from '@/i18n'
 
 export default function Footer() {
+  const { t } = useI18n()
+  const { pathname, hash } = useLocation()
+
+  const scrollToTarget = (to: string) => {
+    if (to.startsWith('/#')) {
+      const targetHash = to.slice(1)
+      if (pathname === '/' && hash === targetHash) {
+        document.querySelector(targetHash)?.scrollIntoView({ behavior: 'smooth' })
+      }
+    } else if (pathname === to) {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    }
+  }
+
+  const columns = [
+    {
+      title: t.footer.columnNavigation,
+      links: [
+        { to: '/#tjanster', label: t.footer.linkServices },
+        { to: '/advisories', label: t.footer.linkAdvisories },
+        { to: '/papers', label: t.footer.linkPapers },
+        { to: '/status', label: t.footer.linkStatus },
+      ],
+    },
+    {
+      title: t.footer.columnCompany,
+      links: [
+        { to: '/checkout', label: t.footer.linkPackages },
+        { to: '/business-profile', label: t.footer.linkBusinessProfile },
+        { to: '/support', label: t.footer.linkSupport },
+        { to: '/legal', label: t.footer.linkLegal },
+      ],
+    },
+  ]
+
   return (
     <footer className="relative z-10 border-t border-line bg-abyss/70">
       <div className="mx-auto grid max-w-7xl gap-10 px-5 py-14 md:grid-cols-[1.4fr_1fr_1fr] lg:px-8">
         <div>
-          <Link to="/" className="flex items-center gap-3">
+          <Link
+            to="/"
+            className="flex items-center gap-3"
+            onClick={() => {
+              if (pathname === '/' && !hash) window.scrollTo({ top: 0, behavior: 'smooth' })
+            }}
+          >
             <LogoMark />
             <span className="font-display text-sm font-bold tracking-[0.22em] text-frost">
               ENTROPIC<span className="text-signal">DEFENCE</span>
             </span>
           </Link>
-          <p className="mt-4 max-w-sm text-sm leading-relaxed text-fog">
-            Kontinuerlig säkerhet mot utländska aktörer. 40+ år i världens högsta
-            säkerhetsklass — för företag, myndigheter och kritisk infrastruktur.
-          </p>
+          <p className="mt-4 max-w-sm text-sm leading-relaxed text-fog">{t.footer.tagline}</p>
           <p className="mt-6 font-mono text-xs uppercase tracking-[0.2em] text-fog">
-            Stockholm · Sverige
+            {t.footer.location}
           </p>
+          <p className="mt-2 font-mono text-xs text-fog">{t.footer.address}</p>
         </div>
 
         {columns.map((col) => (
@@ -50,7 +69,11 @@ export default function Footer() {
             <ul className="mt-4 space-y-3">
               {col.links.map((l) => (
                 <li key={l.label}>
-                  <Link to={l.to} className="text-sm text-fog transition-colors hover:text-frost">
+                  <Link
+                    to={l.to}
+                    onClick={() => scrollToTarget(l.to)}
+                    className="text-sm text-fog transition-colors hover:text-frost"
+                  >
                     {l.label}
                   </Link>
                 </li>
@@ -62,7 +85,7 @@ export default function Footer() {
 
       <div className="border-t border-line/70">
         <div className="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-6 text-xs text-fog sm:flex-row sm:items-center sm:justify-between lg:px-8">
-          <p>© 2026 Entropic Defence AB. Alla rättigheter förbehållna.</p>
+          <p>{t.footer.copyright}</p>
           <p className="font-mono">contact@entropicdefence.com</p>
         </div>
       </div>

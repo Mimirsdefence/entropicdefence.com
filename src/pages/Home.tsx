@@ -1,8 +1,9 @@
+import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import {
   ArrowRight,
   Eye,
-  GraduationCap,
+  FileText,
   Network,
   Radar,
   ShieldCheck,
@@ -10,6 +11,7 @@ import {
 } from 'lucide-react'
 import Button from '@/components/Button'
 import Reveal from '@/components/Reveal'
+import { useI18n } from '@/i18n'
 
 function Stat({ value, label }: { value: string; label: string }) {
   return (
@@ -20,37 +22,38 @@ function Stat({ value, label }: { value: string; label: string }) {
   )
 }
 
-const services: { icon: LucideIcon; title: string; text: string }[] = [
-  {
-    icon: ShieldCheck,
-    title: 'Externa säkerhetskontroller',
-    text: 'Penetrationstester, red teaming och sårbarhetsanalyser av er infrastruktur, applikationer och personal.',
-  },
-  {
-    icon: Radar,
-    title: 'Kontinuerlig övervakning',
-    text: '24/7 hotjakt och övervakning mot utländska aktörer och avancerade, riktade intrång.',
-  },
-  {
-    icon: Network,
-    title: 'Leverantörsgranskning',
-    text: 'Säkerhetsgranskning av leverantörer och supply chain — innan de blir er svagaste länk.',
-  },
-  {
-    icon: GraduationCap,
-    title: 'Säkerhetsledning',
-    text: 'Strategisk rådgivning, utbildning och incidentberedskap för ledning, styrelse och säkerhetsorganisation.',
-  },
-]
-
-const steps = [
-  { nr: '01', title: 'Samtal', text: 'Vi förstår er verksamhet, era system och vad som faktiskt behöver skyddas.' },
-  { nr: '02', title: 'Kartläggning', text: 'Hotbild, attackyta och svagaste länk — tekniskt och mänskligt.' },
-  { nr: '03', title: 'Kontroll', text: 'Extern granskning och tester med rapporter som ledningen kan agera på.' },
-  { nr: '04', title: 'Kontinuitet', text: 'Löpande uppföljning så att säkerheten håller — inte bara vid kontrolltillfället.' },
-]
-
 export default function Home() {
+  const { t } = useI18n()
+
+  const services: { icon: LucideIcon; title: string; text: string }[] = [
+    {
+      icon: Radar,
+      title: t.home.services.items[0].title,
+      text: t.home.services.items[0].text,
+    },
+    {
+      icon: ShieldCheck,
+      title: t.home.services.items[1].title,
+      text: t.home.services.items[1].text,
+    },
+    {
+      icon: Network,
+      title: t.home.services.items[2].title,
+      text: t.home.services.items[2].text,
+    },
+    {
+      icon: FileText,
+      title: t.home.services.items[3].title,
+      text: t.home.services.items[3].text,
+    },
+  ]
+
+  const steps = t.home.process.steps.map((s, i) => ({
+    nr: String(i + 1).padStart(2, '0'),
+    title: s.title,
+    text: s.text,
+  }))
+
   return (
     <>
       {/* HERO */}
@@ -59,41 +62,41 @@ export default function Home() {
           <Reveal>
             <p className="mb-6 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-signal">
               <span className="h-px w-10 bg-signal/60" aria-hidden="true" />
-              Kontinuerlig säkerhet · Sverige
+              {t.home.hero.eyebrow}
             </p>
           </Reveal>
 
           <Reveal delay={100}>
             <h1 className="max-w-4xl font-display text-5xl font-bold leading-[1.02] tracking-tight sm:text-6xl lg:text-7xl">
-              Säkerhet som <span className="text-gradient">böjer hotbilden</span> — dygnet runt.
+              {t.home.hero.titleLead}
+              <span className="text-gradient">{t.home.hero.titleHighlight}</span>
+              {t.home.hero.titleEnd}
             </h1>
           </Reveal>
 
           <Reveal delay={200}>
             <p className="mt-7 max-w-2xl text-lg leading-relaxed text-fog sm:text-xl">
-              Entropic Defence skyddar företag, myndigheter och kritisk infrastruktur mot
-              utländska aktörer. 40+ år i världens högsta säkerhetsklass — från regerings-
-              och militärsystem till er verksamhet.
+              {t.home.hero.description}
             </p>
           </Reveal>
 
           <Reveal delay={300}>
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <Button href="#contact">
-                Prata med en konsult
+                {t.home.hero.ctaPrimary}
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </Button>
               <Button to="/checkout" variant="ghost">
-                Se våra säkerhetspaket
+                {t.home.hero.ctaSecondary}
               </Button>
             </div>
           </Reveal>
 
           <Reveal delay={400}>
             <div className="mt-16 grid max-w-2xl grid-cols-3 gap-6 border-t border-line pt-8">
-              <Stat value="40+" label="år i världens högsta säkerhetsklass" />
-              <Stat value="24/7" label="kontinuerlig övervakning och hotjakt" />
-              <Stat value="100%" label="oberoende rådgivning" />
+              {t.home.stats.map((s) => (
+                <Stat key={s.value} value={s.value} label={s.label} />
+              ))}
             </div>
           </Reveal>
         </div>
@@ -102,24 +105,20 @@ export default function Home() {
       {/* TRUST STRIP */}
       <section className="border-y border-line/70 bg-abyss/60">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-10 gap-y-3 px-5 py-6 lg:px-8">
-          <span className="font-mono text-[11px] uppercase tracking-[0.28em] text-signal">
-            Bakgrund
-          </span>
-          <span className="font-mono text-[11px] uppercase tracking-[0.28em] text-fog">
-            Regeringsuppdrag
-          </span>
-          <span className="hidden h-4 w-px bg-line sm:block" aria-hidden="true" />
-          <span className="font-mono text-[11px] uppercase tracking-[0.28em] text-fog">
-            Militära system
-          </span>
-          <span className="hidden h-4 w-px bg-line sm:block" aria-hidden="true" />
-          <span className="font-mono text-[11px] uppercase tracking-[0.28em] text-fog">
-            Kritisk infrastruktur
-          </span>
-          <span className="hidden h-4 w-px bg-line sm:block" aria-hidden="true" />
-          <span className="font-mono text-[11px] uppercase tracking-[0.28em] text-fog">
-            Tystnadsplikt som standard
-          </span>
+          {t.home.trustStrip.map((item, i) => (
+            <Fragment key={item}>
+              <span
+                className={`font-mono text-[11px] uppercase tracking-[0.28em] ${
+                  i === 0 ? 'text-signal' : 'text-fog'
+                }`}
+              >
+                {item}
+              </span>
+              {i < t.home.trustStrip.length - 1 && (
+                <span className="hidden h-4 w-px bg-line sm:block" aria-hidden="true" />
+              )}
+            </Fragment>
+          ))}
         </div>
       </section>
 
@@ -129,16 +128,17 @@ export default function Home() {
           <Reveal>
             <p className="mb-5 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-signal">
               <span className="h-px w-10 bg-signal/60" aria-hidden="true" />
-              Hotbilden har förändrats
+              {t.home.hotbild.eyebrow}
             </p>
             <h2 className="font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-              Det är inte längre frågan <em>om</em> någon försöker — det är frågan{' '}
-              <span className="text-gradient">när</span>.
+              {t.home.hotbild.titleLead}
+              <em>{t.home.hotbild.titleEm}</em>
+              {t.home.hotbild.titleMiddle}
+              <span className="text-gradient">{t.home.hotbild.titleHighlight}</span>
+              {t.home.hotbild.titleEnd}
             </h2>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-fog">
-              Statsunderstödda aktörer arbetar tålmodigt, långsiktigt och genom hela
-              leveranskedjan. En engångskontroll räcker inte. Säkerhet är en kontinuerlig
-              process — vi bygger den processen åt er.
+              {t.home.hotbild.description}
             </p>
           </Reveal>
 
@@ -153,19 +153,17 @@ export default function Home() {
                 </span>
               </div>
               <div className="space-y-2.5 px-5 py-5 text-[13px] leading-relaxed">
-                <p className="text-fog">
-                  <span className="text-signal">&gt;</span> hotbild: statsunderstödda aktörer
-                </p>
-                <p className="text-fog">
-                  <span className="text-signal">&gt;</span> vektorer: supply chain · insider · AI
-                </p>
-                <p className="text-fog">
-                  <span className="text-signal">&gt;</span> exponering: kartläggning pågår
-                </p>
-                <p className="text-mint">
-                  <span className="text-signal">&gt;</span> status:{' '}
-                  <span className="animate-pulse-signal">KONTINUERLIG ÖVERVAKNING AKTIV</span>
-                </p>
+                {t.home.hotbild.terminal.map((line, i) => {
+                  const isLast = i === t.home.hotbild.terminal.length - 1
+                  return (
+                    <p key={line} className={isLast ? 'text-mint' : 'text-fog'}>
+                      <span className="text-signal">&gt;</span> {line}
+                      {isLast && (
+                        <span className="animate-pulse-signal"> {t.home.hotbild.terminalActive}</span>
+                      )}
+                    </p>
+                  )
+                })}
               </div>
             </div>
           </Reveal>
@@ -178,10 +176,10 @@ export default function Home() {
           <Reveal>
             <p className="mb-5 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-signal">
               <span className="h-px w-10 bg-signal/60" aria-hidden="true" />
-              Tjänster
+              {t.home.services.eyebrow}
             </p>
             <h2 className="max-w-2xl font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-              Fyra sätt vi skyddar er verksamhet.
+              {t.home.services.title}
             </h2>
           </Reveal>
 
@@ -207,30 +205,21 @@ export default function Home() {
           <Reveal>
             <p className="mb-5 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-signal">
               <span className="h-px w-10 bg-signal/60" aria-hidden="true" />
-              Fyra decennier
+              {t.home.background.eyebrow}
             </p>
             <h2 className="font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-              40 år i världens högsta säkerhetsklass.
+              {t.home.background.title}
             </h2>
-            <p className="mt-6 max-w-xl text-lg leading-relaxed text-fog">
-              Vi kommer från en värld där ett misstag kan kosta allt. Nu tar vi den
-              erfarenheten till näringslivet — med samma noggrannhet, samma tystnadsplikt
-              och samma kompromisslösa krav på resultat.
-            </p>
-            <p className="mt-4 max-w-xl text-lg leading-relaxed text-fog">
-              Vi säljer ingen hårdvara och ingen mjukvara. Vi är helt oberoende — vår
-              enda lojalitet är ert skydd.
-            </p>
+            {t.home.background.paragraphs.map((p) => (
+              <p key={p} className="mt-6 max-w-xl text-lg leading-relaxed text-fog">
+                {p}
+              </p>
+            ))}
           </Reveal>
 
           <Reveal delay={150}>
             <ul className="space-y-4">
-              {[
-                'Bakgrund i regerings- och försvarsuppdrag',
-                'Erfarenhet av militära system och kritisk infrastruktur',
-                'Oberoende rådgivning — vi säljer inget annat än säkerhet',
-                'Tystnadsplikt och säkerhetsskydd som standard i varje uppdrag',
-              ].map((item) => (
+              {t.home.background.points.map((item) => (
                 <li key={item} className="panel flex items-start gap-4 p-5">
                   <Eye className="mt-0.5 h-5 w-5 shrink-0 text-signal" aria-hidden="true" />
                   <span className="text-sm leading-relaxed text-frost sm:text-base">{item}</span>
@@ -247,10 +236,10 @@ export default function Home() {
           <Reveal>
             <p className="mb-5 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-signal">
               <span className="h-px w-10 bg-signal/60" aria-hidden="true" />
-              Så arbetar vi
+              {t.home.process.eyebrow}
             </p>
             <h2 className="max-w-2xl font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-              Från första samtal till kontinuerlig säkerhet.
+              {t.home.process.title}
             </h2>
           </Reveal>
 
@@ -277,26 +266,25 @@ export default function Home() {
               aria-hidden="true"
             />
             <p className="mb-5 font-mono text-xs uppercase tracking-[0.3em] text-signal">
-              24/7 · Svar inom 24 timmar
+              {t.home.contact.eyebrow}
             </p>
             <h2 className="mx-auto max-w-2xl font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-              Prata med en konsult om er hotbild.
+              {t.home.contact.title}
             </h2>
             <p className="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-fog">
-              Första samtalet är kostnadsfritt och utan förpliktelser. Berätta om er
-              verksamhet — vi berättar var ni är sårbara.
+              {t.home.contact.description}
             </p>
             <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
-              <Button href="mailto:contact@entropicdefence.com">
-                Mejla oss direkt
+              <Button href="mailto:consultant@entropicdefence.com">
+                {t.home.contact.ctaMail}
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </Button>
               <Button to="/support" variant="ghost">
-                Till supporten
+                {t.home.contact.ctaSupport}
               </Button>
             </div>
             <p className="mt-6 font-mono text-xs uppercase tracking-[0.2em] text-fog">
-              contact@entropicdefence.com
+              consultant@entropicdefence.com
             </p>
           </div>
         </Reveal>
@@ -305,14 +293,12 @@ export default function Home() {
       {/* PRE-FOOTER LINK TO PAPERS */}
       <section className="border-t border-line/70">
         <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-4 px-5 py-10 sm:flex-row sm:items-center lg:px-8">
-          <p className="text-sm text-fog">
-            Nyfiken på hur vi tänker? Läs våra papers om AI, fysik och säkerhet.
-          </p>
+          <p className="text-sm text-fog">{t.home.papersCta.text}</p>
           <Link
             to="/papers"
             className="inline-flex items-center gap-2 font-display text-sm font-semibold text-signal transition-colors hover:text-pulse"
           >
-            Till Papers
+            {t.home.papersCta.cta}
             <ArrowRight className="h-4 w-4" aria-hidden="true" />
           </Link>
         </div>

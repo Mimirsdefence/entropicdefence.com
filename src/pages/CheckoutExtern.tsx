@@ -1,211 +1,268 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowLeft, ArrowRight, Check, Clock, MessagesSquare, Wallet } from 'lucide-react'
+import {
+  ArrowLeft,
+  ArrowRight,
+  Check,
+  Clock,
+  MessagesSquare,
+  Wallet,
+} from 'lucide-react'
 import PageHero from '@/components/PageHero'
 import Button from '@/components/Button'
 import Reveal from '@/components/Reveal'
 import QuoteForm, { type QuoteOption } from '@/components/QuoteForm'
-import { externalPlans, pageTiers, VAT_NOTE, type PageTierKey } from '@/data/packages'
+import {
+  EXTERNAL_PLAN_IDS,
+  EXTERNAL_PRICES,
+  EXTERNAL_FEATURED,
+  PERIOD_KEYS,
+  periodPrice,
+  type BillingPeriod,
+  type ExternalPlanId,
+  type PageTierKey,
+} from '@/data/packages'
+import { useI18n } from '@/i18n'
 
-const options: QuoteOption[] = [
-  { value: 'extern-manad', label: 'Kontinuerlig säkerhetskontroll — Månadskontroll' },
-  { value: 'extern-vecka', label: 'Kontinuerlig säkerhetskontroll — Veckokontroll' },
-  { value: 'extern-dag', label: 'Kontinuerlig säkerhetskontroll — Daglig kontroll' },
-  { value: 'extern-100plus', label: 'System över 100 sidor — behovsanalys' },
-]
+const TIER_KEYS: PageTierKey[] = ['small', 'medium', 'large']
+
+const consultIcons = [MessagesSquare, Clock, Wallet]
 
 export default function CheckoutExtern() {
+  const { t } = useI18n()
   const [tier, setTier] = useState<PageTierKey>('small')
-  const activeTier = pageTiers.find((t) => t.key === tier) ?? pageTiers[0]
+  const [period, setPeriod] = useState<BillingPeriod>('year')
+
+  const tierInfo = t.checkoutExtern.tiers[tier]
+
+  const formatPrice = (n: number) => `${n.toLocaleString('sv-SE')} ${t.common.currency}`
+
+  const options: QuoteOption[] = [
+    { value: 'extern-manad', label: t.checkoutExtern.form.options.manad },
+    { value: 'extern-vecka', label: t.checkoutExtern.form.options.vecka },
+    { value: 'extern-dag', label: t.checkoutExtern.form.options.dag },
+    { value: 'extern-100plus', label: t.checkoutExtern.form.options.large },
+  ]
 
   return (
     <>
       <PageHero
-        eyebrow="Kontinuerlig säkerhetskontroll"
+        eyebrow={t.checkoutExtern.hero.eyebrow}
         title={
           <>
-            Fast pris på säkerhet som <span className="text-gradient">aldrig tar paus</span>.
+            {t.checkoutExtern.hero.titleLead}
+            <span className="text-gradient">{t.checkoutExtern.hero.titleHighlight}</span>
+            {t.checkoutExtern.hero.titleEnd}
           </>
         }
-        description="Välj hur ofta vi kontrollerar er externt. Varje kontroll levereras med rapport, remediering och en agentisk konsult som hjälper er IT-personal att stänga fynden."
+        description={t.checkoutExtern.hero.description}
       />
 
-      <section className="mx-auto max-w-7xl px-5 pb-16 lg:px-8">
-        <Reveal>
-          <Link
-            to="/checkout"
-            className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-fog transition-colors hover:text-signal"
+      {/* TIER-VÄLJARE */}
+      <section className="mx-auto max-w-7xl px-5 pb-10 lg:px-8">
+        <div className="flex flex-wrap items-center gap-3">
+          <span className="mr-2 font-mono text-xs uppercase tracking-[0.25em] text-fog">
+            {t.checkoutExtern.tierLabel}
+          </span>
+          <div
+            className="flex rounded-full border border-line bg-abyss/70 p-1"
+            role="group"
+            aria-label={t.checkoutExtern.tierAria}
           >
-            <ArrowLeft className="h-4 w-4" aria-hidden="true" />
-            Alla paket
-          </Link>
-        </Reveal>
-
-        {/* Sidantalsväljare */}
-        <Reveal delay={80}>
-          <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-            <div>
-              <p className="font-mono text-xs uppercase tracking-[0.3em] text-signal">
-                Antal sidor
-              </p>
-              <p className="mt-2 text-sm text-fog">{activeTier.note}</p>
-            </div>
-            <div
-              role="group"
-              aria-label="Välj antal sidor"
-              className="inline-flex flex-wrap gap-1.5 self-start rounded-full border border-line bg-void/60 p-1.5"
-            >
-              {pageTiers.map((t) => {
-                const active = t.key === tier
-                return (
-                  <button
-                    key={t.key}
-                    type="button"
-                    onClick={() => setTier(t.key)}
-                    aria-pressed={active}
-                    className={`rounded-full px-4 py-2 font-mono text-xs uppercase tracking-[0.15em] transition-colors ${
-                      active
-                        ? 'bg-signal text-void'
-                        : 'text-fog hover:bg-signal/10 hover:text-frost'
-                    }`}
-                  >
-                    {t.label}
-                  </button>
-                )
-              })}
-            </div>
-          </div>
-        </Reveal>
-
-        {/* Paket */}
-        <div className="mt-10 grid gap-5 lg:grid-cols-3">
-          {externalPlans.map((p, i) => {
-            const isQuote = p.prices[tier] === 'Offert'
-            return (
-              <Reveal key={p.id} delay={i * 100} className="h-full">
-                <article
-                  className={`panel relative flex h-full flex-col p-7 ${
-                    p.featured ? 'border-signal/60 shadow-[0_0_40px_rgba(56,189,248,0.12)]' : ''
+            {TIER_KEYS.map((key) => {
+              const active = key === tier
+              return (
+                <button
+                  key={key}
+                  type="button"
+                  onClick={() => setTier(key)}
+                  aria-pressed={active}
+                  className={`rounded-full px-5 py-2 font-mono text-xs uppercase tracking-[0.15em] transition-colors ${
+                    active
+                      ? 'bg-signal text-abyss'
+                      : 'text-fog hover:text-frost'
                   }`}
                 >
-                  {p.featured && (
-                    <span className="absolute -top-3 left-7 rounded-full bg-signal px-3 py-1 font-mono text-[10px] font-semibold uppercase tracking-[0.2em] text-void">
-                      Populärast
+                  {t.checkoutExtern.tiers[key].short}
+                </button>
+              )
+            })}
+          </div>
+        </div>
+        <p className="mt-5 max-w-3xl text-sm leading-relaxed text-fog">
+          {tierInfo.label} · {t.common.exclVat} — {tierInfo.note}
+        </p>
+
+        <div className="mt-8 flex flex-wrap items-center gap-3">
+          <span className="mr-2 font-mono text-xs uppercase tracking-[0.25em] text-fog">
+            {t.common.periodLabel}
+          </span>
+          <div
+            className="flex rounded-full border border-line bg-abyss/70 p-1"
+            role="group"
+            aria-label={t.common.periodLabel}
+          >
+            {PERIOD_KEYS.map((key) => {
+              const active = key === period
+              return (
+                <button
+                  key={key}
+                  type="button"
+                  onClick={() => setPeriod(key)}
+                  aria-pressed={active}
+                  className={`rounded-full px-5 py-2 font-mono text-xs uppercase tracking-[0.15em] transition-colors ${
+                    active
+                      ? 'bg-signal text-abyss'
+                      : 'text-fog hover:text-frost'
+                  }`}
+                >
+                  {t.common.periods[key]}
+                </button>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* PLANER */}
+      <section className="mx-auto max-w-7xl px-5 pb-24 lg:px-8">
+        <div className="grid gap-6 lg:grid-cols-3">
+          {EXTERNAL_PLAN_IDS.map((planId: ExternalPlanId, i) => {
+            const plan = t.checkoutExtern.plans[planId]
+            const basePrice = EXTERNAL_PRICES[planId][tier]
+            const price = periodPrice(basePrice, period)
+            const isQuote = price === null
+            const featured = planId === EXTERNAL_FEATURED
+
+            return (
+              <Reveal key={planId} delay={i * 100}>
+                <article
+                  className={`panel relative flex h-full flex-col p-7 ${
+                    featured ? 'border-signal/60' : ''
+                  }`}
+                >
+                  {featured && (
+                    <span className="absolute -top-3 left-6 rounded-full bg-signal px-3 py-1 font-mono text-[10px] uppercase tracking-[0.2em] text-abyss">
+                      {t.common.mostPopular}
                     </span>
                   )}
-                  <p className="font-mono text-[11px] uppercase tracking-[0.25em] text-signal">
-                    {p.cadence}
+
+                  <p className="font-mono text-xs uppercase tracking-[0.25em] text-signal">
+                    {plan.cadence}
                   </p>
-                  <h2 className="mt-3 font-display text-xl font-semibold">{p.name}</h2>
-                  <p className="mt-2 text-sm leading-relaxed text-fog">{p.description}</p>
+                  <h2 className="mt-3 font-display text-xl font-semibold">{plan.name}</h2>
+                  <p className="mt-2 text-sm leading-relaxed text-fog">{plan.description}</p>
 
-                  <div className="mt-6 border-t border-line pt-5">
-                    <p className="font-display text-3xl font-bold">
-                      {p.prices[tier]}
-                      {!isQuote && <span className="ml-2 text-sm font-normal text-fog">/mån</span>}
+                  <p className="mt-6 font-display text-3xl font-bold">
+                    {isQuote ? t.common.quote : formatPrice(price as number)}
+                    {!isQuote && (
+                      <span className="ml-2 text-sm font-normal text-fog">
+                        {t.common.perMonthShort}
+                      </span>
+                    )}
+                  </p>
+                  {!isQuote && period !== 'month' && (
+                    <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.2em] text-mint">
+                      {t.common.savings[period]}
                     </p>
-                    <p className="mt-1 font-mono text-[11px] uppercase tracking-[0.15em] text-fog">
-                      {activeTier.label} · exkl. moms
-                    </p>
-                  </div>
+                  )}
+                  <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.2em] text-fog">
+                    {tierInfo.label} · {t.common.exclVat}
+                    {!isQuote && period !== 'month' && ` · ${t.common.billing[period]}`}
+                  </p>
 
-                  <ul className="mt-6 flex-1 space-y-3">
-                    {p.features.map((f) => (
+                  <ul className="mt-6 space-y-3 border-t border-line pt-6">
+                    {plan.features.map((f) => (
                       <li key={f} className="flex items-start gap-3 text-sm text-frost">
                         <Check className="mt-0.5 h-4 w-4 shrink-0 text-mint" aria-hidden="true" />
-                        {f}
+                        <span className="leading-relaxed">{f}</span>
                       </li>
                     ))}
                   </ul>
 
-                  <Button
-                    href="#forfragan"
-                    variant={p.featured ? 'primary' : 'ghost'}
-                    className="mt-8 w-full"
-                  >
-                    {isQuote ? 'Begär offert' : 'Boka ett samtal'}
-                    <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                  </Button>
+                  <div className="mt-auto pt-8">
+                    <Button href="#forfragan" variant={featured ? 'primary' : 'ghost'}>
+                      {isQuote ? t.checkoutExtern.requestQuote : t.checkoutExtern.bookCall}
+                      <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                    </Button>
+                  </div>
                 </article>
               </Reveal>
             )
           })}
         </div>
 
-        <p className="mt-6 font-mono text-[11px] uppercase tracking-[0.2em] text-fog">
-          {VAT_NOTE} · Lanseringspris · System över 100 sidor prissätts efter behovsanalys
+        <p className="mt-6 text-center font-mono text-xs uppercase tracking-[0.2em] text-fog">
+          {t.common.vatNote} · {t.common.launchPrice} · {t.checkoutExtern.largeNote}
         </p>
+        {period === 'year' && (
+          <p className="mt-3 text-center font-mono text-xs uppercase tracking-[0.2em] text-mint">
+            {t.common.yearTagline}
+          </p>
+        )}
+
+        <div className="mt-10 text-center">
+          <Link
+            to="/checkout"
+            className="inline-flex items-center gap-2 font-display text-sm font-semibold text-fog transition-colors hover:text-frost"
+          >
+            <ArrowLeft className="h-4 w-4" aria-hidden="true" />
+            {t.common.allPackages}
+          </Link>
+        </div>
       </section>
 
-      {/* Konsultmodellen */}
+      {/* KONSULTMODELL */}
       <section className="border-t border-line/70 bg-abyss/50">
-        <div className="mx-auto max-w-7xl px-5 py-20 lg:px-8">
+        <div className="mx-auto max-w-7xl px-5 py-24 lg:px-8">
           <Reveal>
             <p className="mb-5 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-signal">
               <span className="h-px w-10 bg-signal/60" aria-hidden="true" />
-              Ingår i varje paket
+              {t.checkoutExtern.consult.eyebrow}
             </p>
             <h2 className="max-w-2xl font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-              En konsult som stannar kvar — inte bara en rapport.
+              {t.checkoutExtern.consult.title}
             </h2>
           </Reveal>
 
-          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {[
-              {
-                icon: MessagesSquare,
-                title: 'Remediering per fynd',
-                text: 'Varje rapport beskriver exakt vad som är fel och hur det åtgärdas — prioriterat efter verklig risk.',
-              },
-              {
-                icon: Clock,
-                title: '48 timmar efter varje kontroll',
-                text: 'I Månadskontrollen ingår 48 timmar med en agentisk konsult som hjälper er IT att genomföra åtgärderna.',
-              },
-              {
-                icon: Wallet,
-                title: '24/7 i vecko- och dagspaket',
-                text: 'Vecko- och Daglig kontroll ger er en agentisk konsult dygnet runt, med prioritet på kritiska fynd.',
-              },
-            ].map((c, i) => (
-              <Reveal key={c.title} delay={i * 90}>
-                <article className="panel h-full p-6">
-                  <c.icon className="h-7 w-7 text-signal" aria-hidden="true" />
-                  <h3 className="mt-5 font-display text-lg font-semibold leading-snug">{c.title}</h3>
-                  <p className="mt-3 text-sm leading-relaxed text-fog">{c.text}</p>
-                </article>
-              </Reveal>
-            ))}
+          <div className="mt-12 grid gap-5 sm:grid-cols-3">
+            {t.checkoutExtern.consult.cards.map((c, i) => {
+              const Icon = consultIcons[i] ?? MessagesSquare
+              return (
+                <Reveal key={c.title} delay={i * 90}>
+                  <article className="panel h-full p-6">
+                    <Icon className="h-7 w-7 text-signal" aria-hidden="true" />
+                    <h3 className="mt-5 font-display text-lg font-semibold">{c.title}</h3>
+                    <p className="mt-3 text-sm leading-relaxed text-fog">{c.text}</p>
+                  </article>
+                </Reveal>
+              )
+            })}
           </div>
         </div>
       </section>
 
-      <section id="forfragan" className="scroll-mt-24 border-t border-line/70">
-        <div className="mx-auto grid max-w-7xl gap-12 px-5 py-20 lg:grid-cols-2 lg:px-8">
+      {/* OFFERTFORMULÄR */}
+      <section id="forfragan" className="mx-auto max-w-7xl px-5 py-24 lg:px-8">
+        <div className="grid gap-12 lg:grid-cols-2">
           <Reveal>
-            <h2 className="font-display text-2xl font-bold leading-tight sm:text-3xl">
-              Boka ett samtal om er attackyta.
+            <h2 className="font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
+              {t.checkoutExtern.form.title}
             </h2>
-            <p className="mt-4 max-w-md text-lg leading-relaxed text-fog">
-              Berätta hur många sidor och system ni har, så bekräftar vi pris och nivå.
-              System över 100 sidor kräver en kortare behovsanalys först.
+            <p className="mt-5 max-w-xl text-lg leading-relaxed text-fog">
+              {t.checkoutExtern.form.description}
             </p>
-            <ul className="mt-8 space-y-4">
-              {[
-                'Svar inom 24 timmar, alla dagar',
-                'Kostnadsfritt första samtal',
-                'Offert utan förpliktelser',
-                'PGP finns för känslig kommunikation',
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-3 text-sm text-frost">
+            <ul className="mt-8 space-y-3">
+              {t.checkoutExtern.form.bullets.map((b) => (
+                <li key={b} className="flex items-start gap-3 text-sm text-frost">
                   <Check className="mt-0.5 h-4 w-4 shrink-0 text-mint" aria-hidden="true" />
-                  {item}
+                  <span className="leading-relaxed">{b}</span>
                 </li>
               ))}
             </ul>
           </Reveal>
 
-          <Reveal delay={120}>
+          <Reveal delay={150}>
             <QuoteForm options={options} defaultInterest="extern-manad" />
           </Reveal>
         </div>

@@ -2,6 +2,7 @@ import { KeyRound, ShieldAlert, LogOut, Trash2, XCircle } from 'lucide-react'
 import PageHero from '@/components/PageHero'
 import Button from '@/components/Button'
 import Reveal from '@/components/Reveal'
+import { useI18n } from '@/i18n'
 
 function Row({ label, value }: { label: string; value: string }) {
   return (
@@ -13,48 +14,54 @@ function Row({ label, value }: { label: string; value: string }) {
 }
 
 export default function BusinessProfile() {
+  const { t } = useI18n()
+
   return (
     <>
       <PageHero
-        eyebrow="Business Profile"
+        eyebrow={t.businessProfile.hero.eyebrow}
         title={
           <>
-            Ert företags <span className="text-gradient">säkerhetskonto</span>.
+            {t.businessProfile.hero.titleLead}
+            <span className="text-gradient">{t.businessProfile.hero.titleHighlight}</span>
+            {t.businessProfile.hero.titleEnd}
           </>
         }
-        description="Hantera prenumeration, rapportmottagare och konto. Full funktionalitet aktiveras när portalen lanseras i fas B."
+        description={t.businessProfile.hero.description}
       />
 
       <section className="mx-auto max-w-4xl px-5 pb-24 lg:px-8">
         <div className="grid gap-5 lg:grid-cols-2">
           <Reveal>
             <div className="panel h-full p-7">
-              <h2 className="font-display text-lg font-semibold">Konto</h2>
+              <h2 className="font-display text-lg font-semibold">{t.businessProfile.account}</h2>
               <div className="mt-4">
-                <Row label="Företag" value="Entropic Defence AB" />
-                <Row label="Organisationsnummer" value="559999-9999" />
-                <Row label="Kontaktperson" value="—" />
-                <Row label="E-post" value="—" />
+                <Row label={t.businessProfile.company} value="Entropic Defence AB" />
+                <Row label={t.businessProfile.orgNumber} value="559999-9999" />
+                <Row label={t.businessProfile.contactPerson} value="—" />
+                <Row label={t.businessProfile.email} value="—" />
               </div>
             </div>
           </Reveal>
 
           <Reveal delay={100}>
             <div className="panel h-full p-7">
-              <h2 className="font-display text-lg font-semibold">Prenumeration</h2>
+              <h2 className="font-display text-lg font-semibold">
+                {t.businessProfile.subscription}
+              </h2>
               <p className="mt-3 font-display text-2xl font-bold">
-                Kontinuerlig säkerhet
+                {t.businessProfile.subscriptionName}
                 <span className="ml-3 rounded-full bg-mint/15 px-3 py-1 font-mono text-xs font-medium uppercase tracking-[0.15em] text-mint">
-                  Aktiv
+                  {t.common.active}
                 </span>
               </p>
-              <p className="mt-2 text-sm text-fog">Nästa faktura: —</p>
+              <p className="mt-2 text-sm text-fog">{t.businessProfile.nextInvoice}</p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Button variant="ghost" disabled>
-                  Hantera betalning
+                  {t.businessProfile.managePayment}
                 </Button>
                 <Button variant="ghost" disabled>
-                  Uppgradera paket
+                  {t.businessProfile.upgradePackage}
                 </Button>
               </div>
             </div>
@@ -64,18 +71,15 @@ export default function BusinessProfile() {
             <div className="panel p-7">
               <h2 className="flex items-center gap-2 font-display text-lg font-semibold">
                 <KeyRound className="h-5 w-5 text-signal" aria-hidden="true" />
-                Rapportmottagare (PGP)
+                {t.businessProfile.pgpRecipients}
               </h2>
-              <p className="mt-3 text-sm leading-relaxed text-fog">
-                Säkerhetsrapporter levereras krypterat till er IT-ansvarige. Lägg till
-                mottagare och PGP-nycklar när portalen lanseras.
-              </p>
+              <p className="mt-3 text-sm leading-relaxed text-fog">{t.businessProfile.pgpText}</p>
               <div className="mt-5 space-y-2">
-                <Row label="IT-ansvarig" value="—" />
-                <Row label="PGP-nyckel" value="Ingen nyckel tillagd" />
+                <Row label={t.businessProfile.itResponsible} value="—" />
+                <Row label={t.businessProfile.pgpKey} value={t.businessProfile.noKeyAdded} />
               </div>
               <Button variant="ghost" className="mt-5" disabled>
-                Lägg till mottagare
+                {t.businessProfile.addRecipient}
               </Button>
             </div>
           </Reveal>
@@ -84,7 +88,7 @@ export default function BusinessProfile() {
             <div className="panel p-7">
               <h2 className="flex items-center gap-2 font-display text-lg font-semibold">
                 <ShieldAlert className="h-5 w-5 text-danger" aria-hidden="true" />
-                Kontoåtgärder
+                {t.businessProfile.accountActions}
               </h2>
               <div className="mt-5 space-y-3">
                 <button
@@ -93,7 +97,8 @@ export default function BusinessProfile() {
                   className="flex w-full items-center justify-between rounded-lg border border-line px-4 py-3 text-sm text-fog transition-colors disabled:opacity-50"
                 >
                   <span className="flex items-center gap-2">
-                    <XCircle className="h-4 w-4" aria-hidden="true" /> Pausa prenumeration
+                    <XCircle className="h-4 w-4" aria-hidden="true" />
+                    {t.businessProfile.pauseSubscription}
                   </span>
                 </button>
                 <button
@@ -102,7 +107,8 @@ export default function BusinessProfile() {
                   className="flex w-full items-center justify-between rounded-lg border border-line px-4 py-3 text-sm text-fog transition-colors disabled:opacity-50"
                 >
                   <span className="flex items-center gap-2">
-                    <Trash2 className="h-4 w-4" aria-hidden="true" /> Radera konto
+                    <Trash2 className="h-4 w-4" aria-hidden="true" />
+                    {t.businessProfile.deleteAccount}
                   </span>
                 </button>
                 <button
@@ -111,13 +117,12 @@ export default function BusinessProfile() {
                   className="flex w-full items-center justify-between rounded-lg border border-line px-4 py-3 text-sm text-fog transition-colors disabled:opacity-50"
                 >
                   <span className="flex items-center gap-2">
-                    <LogOut className="h-4 w-4" aria-hidden="true" /> Logga ut
+                    <LogOut className="h-4 w-4" aria-hidden="true" />
+                    {t.businessProfile.logout}
                   </span>
                 </button>
               </div>
-              <p className="mt-4 text-xs leading-relaxed text-fog">
-                Aktiveras med inloggning i fas B (säker autentisering via e-post).
-              </p>
+              <p className="mt-4 text-xs leading-relaxed text-fog">{t.businessProfile.phaseBNote}</p>
             </div>
           </Reveal>
         </div>

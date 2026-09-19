@@ -2,17 +2,13 @@ import { CheckCircle2, Circle, Clock, KeyRound } from 'lucide-react'
 import PageHero from '@/components/PageHero'
 import Reveal from '@/components/Reveal'
 import Button from '@/components/Button'
+import { useI18n } from '@/i18n'
 
-const stages = [
-  { title: 'Intag och planering', text: 'Kartläggning av system, mål och tidplan.', state: 'done' },
-  { title: 'Teknisk granskning', text: 'Penetrationstester och sårbarhetsanalys av infrastruktur och applikationer.', state: 'active' },
-  { title: 'Mänsklig granskning', text: 'Intervjuer, rutiner och medvetenhet hos personalen.', state: 'todo' },
-  { title: 'Leverantörsgranskning', text: 'Genomgång av supply chain och tredjepartsberoenden.', state: 'todo' },
-  { title: 'Rapport och åtgärdsplan', text: 'Slutrapport krypterad med PGP till er IT-ansvarige.', state: 'todo' },
-] as const
+type StageState = 'done' | 'active' | 'todo'
 
-function StageIcon({ state }: { state: (typeof stages)[number]['state'] }) {
-  if (state === 'done') return <CheckCircle2 className="h-6 w-6 shrink-0 text-mint" aria-hidden="true" />
+function StageIcon({ state }: { state: StageState }) {
+  if (state === 'done')
+    return <CheckCircle2 className="h-6 w-6 shrink-0 text-mint" aria-hidden="true" />
   if (state === 'active')
     return (
       <span className="relative flex h-6 w-6 shrink-0 items-center justify-center">
@@ -24,16 +20,25 @@ function StageIcon({ state }: { state: (typeof stages)[number]['state'] }) {
 }
 
 export default function Status() {
+  const { t } = useI18n()
+
+  const stages = t.status.stages.map((s, i) => ({
+    ...s,
+    state: (i === 0 ? 'done' : i === 1 ? 'active' : 'todo') as StageState,
+  }))
+
   return (
     <>
       <PageHero
-        eyebrow="Säkerhetsstatus"
+        eyebrow={t.status.hero.eyebrow}
         title={
           <>
-            Följ er kontroll <span className="text-gradient">i realtid</span>.
+            {t.status.hero.titleLead}
+            <span className="text-gradient">{t.status.hero.titleHighlight}</span>
+            {t.status.hero.titleEnd}
           </>
         }
-        description="Här ser ni exakt var i processen er säkerhetskontroll befinner sig. Rapporter levereras krypterat med PGP till er IT-ansvarige."
+        description={t.status.hero.description}
       />
 
       <section className="mx-auto max-w-4xl px-5 pb-24 lg:px-8">
@@ -41,14 +46,14 @@ export default function Status() {
           <div className="panel flex flex-col gap-3 p-6 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="font-mono text-xs uppercase tracking-[0.25em] text-signal">
-                Uppdrag ED-2026-014
+                {t.status.assignment}
               </p>
               <h2 className="mt-1 font-display text-xl font-semibold">
-                Kontinuerlig säkerhet — exempelkund
+                {t.status.assignmentTitle}
               </h2>
             </div>
             <span className="w-fit rounded-full bg-signal/15 px-4 py-2 font-mono text-xs font-medium uppercase tracking-[0.15em] text-signal">
-              Pågår · 40%
+              {t.status.progress}
             </span>
           </div>
         </Reveal>
@@ -77,7 +82,7 @@ export default function Status() {
                     </h3>
                     {s.state === 'active' && (
                       <span className="rounded-full bg-signal/15 px-3 py-0.5 font-mono text-[10px] uppercase tracking-[0.2em] text-signal">
-                        Pågår
+                        {t.common.ongoing}
                       </span>
                     )}
                   </div>
@@ -93,15 +98,14 @@ export default function Status() {
             <div className="flex items-start gap-4">
               <KeyRound className="mt-0.5 h-6 w-6 shrink-0 text-signal" aria-hidden="true" />
               <div>
-                <h2 className="font-display text-base font-semibold">PGP-leverans</h2>
+                <h2 className="font-display text-base font-semibold">{t.status.pgpDelivery}</h2>
                 <p className="mt-1 max-w-md text-sm leading-relaxed text-fog">
-                  Slutrapporter skickas krypterat till er IT-ansvarige. Lägg till mottagare
-                  och nycklar i Business Profile.
+                  {t.status.pgpDeliveryText}
                 </p>
               </div>
             </div>
             <Button to="/business-profile" variant="ghost">
-              Hantera mottagare
+              {t.status.manageRecipients}
             </Button>
           </div>
         </Reveal>

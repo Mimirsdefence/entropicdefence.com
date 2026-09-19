@@ -17,76 +17,34 @@ import Support from '@/pages/Support'
 import Advisories from '@/pages/Advisories'
 import Status from '@/pages/Status'
 import NotFound from '@/pages/NotFound'
-
-const meta: Record<string, { title: string; description: string }> = {
-  '/': {
-    title: 'Entropic Defence — Kontinuerlig säkerhet mot utländska aktörer',
-    description:
-      '40+ år i världens högsta säkerhetsklass. Entropic Defence skyddar företag, myndigheter och kritisk infrastruktur mot utländska aktörer — dygnet runt.',
-  },
-  '/checkout': {
-    title: 'Säkerhetspaket & priser — Entropic Defence',
-    description:
-      'Kontinuerlig säkerhetskontroll från 24 900 kr/mån, intern säkerhetsrevision 3 500 kr/tim och säkerhetsledning på offert. Fasta priser exkl. moms.',
-  },
-  '/checkout/extern': {
-    title: 'Kontinuerlig säkerhetskontroll — fasta priser | Entropic Defence',
-    description:
-      'Fasta priser på extern säkerhetskontroll: månadsvis, veckovis eller dagligen. Pris efter antal sidor — under 20, 20–100 eller 100+ sidor. Exkl. moms.',
-  },
-  '/checkout/intern': {
-    title: 'Intern säkerhetsrevision — tre nivåer | Entropic Defence',
-    description:
-      'Intern säkerhetsrevision i tre nivåer: vanlig säkerhet, hög säkerhet och militär grad. 3 500 kr/tim — AI-verktyg ger 1/6 av tiden och högre säkerhet.',
-  },
-  '/checkout/ledning': {
-    title: 'Säkerhetsledning för ledning och styrelse | Entropic Defence',
-    description:
-      'Strategisk säkerhetsledning på offert och 24/7 säkerhetsexpert för hela organisationen — kommer snart. Prata säkerhet på ledningsnivå med oss.',
-  },
-  '/success': {
-    title: 'Förfrågan mottagen — Entropic Defence',
-    description: 'Er förfrågan är mottagen. En konsult återkommer inom 24 timmar.',
-  },
-  '/business-profile': {
-    title: 'Business Profile — Entropic Defence',
-    description: 'Hantera företagets säkerhetsprenumeration, rapportmottagare och konto.',
-  },
-  '/papers': {
-    title: 'Papers — Entropic Defence',
-    description: 'Vetenskapliga rapporter, hypoteser och essäer om AI, teoretisk fysik, filosofi och säkerhet.',
-  },
-  '/legal': {
-    title: 'Legal — Entropic Defence',
-    description: 'Integritetspolicy, användarvillkor och cookieinformation för Entropic Defence AB.',
-  },
-  '/support': {
-    title: 'Support & FAQ — Entropic Defence',
-    description: 'Vanliga frågor och kundsupport. Vår supportbot svarar 24/7.',
-  },
-  '/advisories': {
-    title: 'Advisories & Disclosures — Entropic Defence',
-    description: 'Säkerhetsadvisories, koordinerad sårbarhetsrapportering och ansvarsfull disclosure.',
-  },
-  '/status': {
-    title: 'Säkerhetsstatus — Entropic Defence',
-    description: 'Följ er pågående säkerhetskontroll — från planering till slutrapport.',
-  },
-  '*': {
-    title: 'Sidan hittades inte — Entropic Defence',
-    description: 'Signalen tappades. Sidan du söker finns inte.',
-  },
-}
+import { useI18n } from '@/i18n'
 
 function usePageEffects() {
   const { pathname, hash } = useLocation()
+  const { t, lang } = useI18n()
+
+  const meta: Record<string, { title: string; description: string }> = {
+    '/': t.meta.home,
+    '/checkout': t.meta.checkout,
+    '/checkout/extern': t.meta.checkoutExtern,
+    '/checkout/intern': t.meta.checkoutIntern,
+    '/checkout/ledning': t.meta.checkoutLedning,
+    '/success': t.meta.success,
+    '/business-profile': t.meta.businessProfile,
+    '/papers': t.meta.papers,
+    '/legal': t.meta.legal,
+    '/support': t.meta.support,
+    '/advisories': t.meta.advisories,
+    '/status': t.meta.status,
+    '*': t.meta.notFound,
+  }
 
   useEffect(() => {
     const m = meta[pathname] ?? meta['*']
     document.title = m.title
     const tag = document.querySelector('meta[name="description"]')
     if (tag) tag.setAttribute('content', m.description)
-  }, [pathname])
+  }, [pathname, lang])
 
   useEffect(() => {
     if (hash) {
