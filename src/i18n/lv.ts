@@ -91,15 +91,10 @@ export const lv: Dictionary = {
       quarter: 'Ceturksnis',
       year: 'Gads',
     },
-    billing: {
-      quarter: 'mēnesī, rēķins reizi ceturksnī',
-      year: 'mēnesī, rēķins reizi gadā',
-    },
     savings: {
-      quarter: 'Ietaupāt 10%',
-      year: 'Ietaupāt 25%',
+      quarter: 'Ceturkšņa abonements: 1 mēnesis bez maksas',
+      year: 'Gada abonements: 3 mēneši bez maksas',
     },
-    yearTagline: 'Gada abonements: 3 mēneši bez maksas',
   },
 
   nav: {

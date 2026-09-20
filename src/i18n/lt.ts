@@ -91,15 +91,10 @@ export const lt: Dictionary = {
       quarter: 'Ketvirtis',
       year: 'Metai',
     },
-    billing: {
-      quarter: 'per mėnesį, sąskaita kas ketvirtį',
-      year: 'per mėnesį, sąskaita kasmet',
-    },
     savings: {
-      quarter: 'Sutaupykite 10 %',
-      year: 'Sutaupykite 25 %',
+      quarter: 'Ketvirčio prenumerata: 1 mėnuo nemokamai',
+      year: 'Metinė prenumerata: 3 mėnesiai nemokamai',
     },
-    yearTagline: 'Metinė prenumerata: 3 mėnesiai nemokamai',
   },
 
   nav: {

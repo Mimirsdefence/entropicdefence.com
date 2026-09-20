@@ -91,15 +91,10 @@ export const th: Dictionary = {
       quarter: 'ไตรมาส',
       year: 'ปี',
     },
-    billing: {
-      quarter: 'ต่อเดือน เรียกเก็บรายไตรมาส',
-      year: 'ต่อเดือน เรียกเก็บรายปี',
-    },
     savings: {
-      quarter: 'ประหยัด 10%',
-      year: 'ประหยัด 25%',
+      quarter: 'สมัครรายไตรมาส: ฟรี 1 เดือน',
+      year: 'สมัครรายปี: ฟรี 3 เดือน',
     },
-    yearTagline: 'สมัครรายปี: ฟรี 3 เดือน',
   },
 
   nav: {

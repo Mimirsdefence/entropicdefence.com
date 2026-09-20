@@ -91,15 +91,10 @@ export const fi: Dictionary = {
       quarter: 'Neljännesvuosi',
       year: 'Vuosi',
     },
-    billing: {
-      quarter: 'kuukaudessa, laskutetaan neljännesvuosittain',
-      year: 'kuukaudessa, laskutetaan vuosittain',
-    },
     savings: {
-      quarter: 'Säästä 10 %',
-      year: 'Säästä 25 %',
+      quarter: 'Neljännesvuositilaus: 1 kuukausi ilmaiseksi',
+      year: 'Vuositilaus: 3 kuukautta ilmaiseksi',
     },
-    yearTagline: 'Vuositilaus: 3 kuukautta ilmaiseksi',
   },
 
   nav: {

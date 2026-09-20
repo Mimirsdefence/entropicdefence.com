@@ -91,15 +91,10 @@ export const no: Dictionary = {
       quarter: 'Kvartal',
       year: 'År',
     },
-    billing: {
-      quarter: 'per måned, faktureres kvartalsvis',
-      year: 'per måned, faktureres årlig',
-    },
     savings: {
-      quarter: 'Spar 10 %',
-      year: 'Spar 25 %',
+      quarter: 'Kvartalsabonnement: 1 måned gratis',
+      year: 'Årsabonnement: 3 måneder gratis',
     },
-    yearTagline: 'Årsabonnement: 3 måneder gratis',
   },
 
   nav: {

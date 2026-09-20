@@ -91,15 +91,10 @@ export const et: Dictionary = {
       quarter: 'Kvartal',
       year: 'Aasta',
     },
-    billing: {
-      quarter: 'kuus, arve kord kvartalis',
-      year: 'kuus, arve kord aastas',
-    },
     savings: {
-      quarter: 'Säästate 10%',
-      year: 'Säästate 25%',
+      quarter: 'Kvartalitellimus: 1 kuu tasuta',
+      year: 'Aastatellimus: 3 kuud tasuta',
     },
-    yearTagline: 'Aastatellimus: 3 kuud tasuta',
   },
 
   nav: {

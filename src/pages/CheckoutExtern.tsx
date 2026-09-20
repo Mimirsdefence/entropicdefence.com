@@ -58,70 +58,83 @@ export default function CheckoutExtern() {
         description={t.checkoutExtern.hero.description}
       />
 
-      {/* TIER-VÄLJARE */}
+      {/* KONTROLLER: Alla paket-länk + period + antal sidor */}
       <section className="mx-auto max-w-7xl px-5 pb-10 lg:px-8">
-        <div className="flex flex-wrap items-center gap-3">
-          <span className="mr-2 font-mono text-xs uppercase tracking-[0.25em] text-fog">
-            {t.checkoutExtern.tierLabel}
-          </span>
-          <div
-            className="flex rounded-full border border-line bg-abyss/70 p-1"
-            role="group"
-            aria-label={t.checkoutExtern.tierAria}
+        <Reveal>
+          <Link
+            to="/checkout"
+            className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-fog transition-colors hover:text-signal"
           >
-            {TIER_KEYS.map((key) => {
-              const active = key === tier
-              return (
-                <button
-                  key={key}
-                  type="button"
-                  onClick={() => setTier(key)}
-                  aria-pressed={active}
-                  className={`rounded-full px-5 py-2 font-mono text-xs uppercase tracking-[0.15em] transition-colors ${
-                    active
-                      ? 'bg-signal text-abyss'
-                      : 'text-fog hover:text-frost'
-                  }`}
-                >
-                  {t.checkoutExtern.tiers[key].short}
-                </button>
-              )
-            })}
-          </div>
-        </div>
-        <p className="mt-5 max-w-3xl text-sm leading-relaxed text-fog">
-          {tierInfo.label} · {t.common.exclVat} — {tierInfo.note}
-        </p>
+            <ArrowLeft className="h-4 w-4" aria-hidden="true" />
+            {t.common.allPackages}
+          </Link>
+        </Reveal>
 
-        <div className="mt-8 flex flex-wrap items-center gap-3">
-          <span className="mr-2 font-mono text-xs uppercase tracking-[0.25em] text-fog">
-            {t.common.periodLabel}
-          </span>
-          <div
-            className="flex rounded-full border border-line bg-abyss/70 p-1"
-            role="group"
-            aria-label={t.common.periodLabel}
-          >
-            {PERIOD_KEYS.map((key) => {
-              const active = key === period
-              return (
-                <button
-                  key={key}
-                  type="button"
-                  onClick={() => setPeriod(key)}
-                  aria-pressed={active}
-                  className={`rounded-full px-5 py-2 font-mono text-xs uppercase tracking-[0.15em] transition-colors ${
-                    active
-                      ? 'bg-signal text-abyss'
-                      : 'text-fog hover:text-frost'
-                  }`}
-                >
-                  {t.common.periods[key]}
-                </button>
-              )
-            })}
+        {/* Periodväljare — kompakt, ovanför, högerställd */}
+        <Reveal delay={60}>
+          <div className="mt-8 flex justify-end">
+            <div
+              className="flex rounded-full border border-line bg-abyss/70 p-1"
+              role="group"
+              aria-label={t.common.periodLabel}
+            >
+              {PERIOD_KEYS.map((key) => {
+                const active = key === period
+                return (
+                  <button
+                    key={key}
+                    type="button"
+                    onClick={() => setPeriod(key)}
+                    aria-pressed={active}
+                    className={`rounded-full px-4 py-1.5 font-mono text-[11px] uppercase tracking-[0.15em] transition-colors ${
+                      active
+                        ? 'bg-signal text-abyss'
+                        : 'text-fog hover:text-frost'
+                    }`}
+                  >
+                    {t.common.periods[key]}
+                  </button>
+                )
+              })}
+            </div>
           </div>
-        </div>
+        </Reveal>
+
+        {/* Antal sidor — gamla utförandet */}
+        <Reveal delay={80}>
+          <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <p className="font-mono text-xs uppercase tracking-[0.3em] text-signal">
+                {t.checkoutExtern.tierLabel}
+              </p>
+              <p className="mt-2 text-sm text-fog">{tierInfo.note}</p>
+            </div>
+            <div
+              role="group"
+              aria-label={t.checkoutExtern.tierAria}
+              className="inline-flex flex-wrap gap-1.5 self-start rounded-full border border-line bg-void/60 p-1.5"
+            >
+              {TIER_KEYS.map((key) => {
+                const active = key === tier
+                return (
+                  <button
+                    key={key}
+                    type="button"
+                    onClick={() => setTier(key)}
+                    aria-pressed={active}
+                    className={`rounded-full px-4 py-2 font-mono text-xs uppercase tracking-[0.15em] transition-colors ${
+                      active
+                        ? 'bg-signal text-void'
+                        : 'text-fog hover:bg-signal/10 hover:text-frost'
+                    }`}
+                  >
+                    {t.checkoutExtern.tiers[key].short}
+                  </button>
+                )
+              })}
+            </div>
+          </div>
+        </Reveal>
       </section>
 
       {/* PLANER */}
@@ -167,8 +180,7 @@ export default function CheckoutExtern() {
                     </p>
                   )}
                   <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.2em] text-fog">
-                    {tierInfo.label} · {t.common.exclVat}
-                    {!isQuote && period !== 'month' && ` · ${t.common.billing[period]}`}
+                    {tierInfo.short} · {t.common.exclVat}
                   </p>
 
                   <ul className="mt-6 space-y-3 border-t border-line pt-6">
@@ -195,21 +207,6 @@ export default function CheckoutExtern() {
         <p className="mt-6 text-center font-mono text-xs uppercase tracking-[0.2em] text-fog">
           {t.common.vatNote} · {t.common.launchPrice} · {t.checkoutExtern.largeNote}
         </p>
-        {period === 'year' && (
-          <p className="mt-3 text-center font-mono text-xs uppercase tracking-[0.2em] text-mint">
-            {t.common.yearTagline}
-          </p>
-        )}
-
-        <div className="mt-10 text-center">
-          <Link
-            to="/checkout"
-            className="inline-flex items-center gap-2 font-display text-sm font-semibold text-fog transition-colors hover:text-frost"
-          >
-            <ArrowLeft className="h-4 w-4" aria-hidden="true" />
-            {t.common.allPackages}
-          </Link>
-        </div>
       </section>
 
       {/* KONSULTMODELL */}

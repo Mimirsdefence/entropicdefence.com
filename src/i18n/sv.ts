@@ -97,15 +97,10 @@ export const sv = {
       quarter: 'Kvartal',
       year: 'År',
     },
-    billing: {
-      quarter: 'per månad, faktureras kvartalsvis',
-      year: 'per månad, faktureras årsvis',
-    },
     savings: {
-      quarter: 'Spara 10 %',
-      year: 'Spara 25 %',
+      quarter: 'Kvartalsabonnemang: 1 månad gratis',
+      year: 'Årsabonnemang: 3 månader gratis',
     },
-    yearTagline: 'Årsabonnemang: 3 månader gratis',
   },
 
   // ── Navigering ──────────────────────────────────────────────────────

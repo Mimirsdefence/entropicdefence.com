@@ -91,15 +91,10 @@ export const fr: Dictionary = {
       quarter: 'Trimestre',
       year: 'Année',
     },
-    billing: {
-      quarter: 'par mois, facturé trimestriellement',
-      year: 'par mois, facturé annuellement',
-    },
     savings: {
-      quarter: 'Économisez 10 %',
-      year: 'Économisez 25 %',
+      quarter: 'Abonnement trimestriel : 1 mois offert',
+      year: 'Abonnement annuel : 3 mois offerts',
     },
-    yearTagline: 'Abonnement annuel : 3 mois offerts',
   },
 
   nav: {
