@@ -4,23 +4,21 @@ export interface LanguageMeta {
   code: LanguageCode
   /** Endonym — språkets namn på sitt eget språk */
   name: string
-  /** Emoji-flagga som visas i språkväljaren */
-  flag: string
   /** Prefix som matchas mot navigator.language (t.ex. "nb-NO" → "no") */
   match: string[]
 }
 
 export const LANGUAGES: LanguageMeta[] = [
-  { code: 'sv', name: 'Svenska', flag: '🇸🇪', match: ['sv'] },
-  { code: 'fi', name: 'Suomi', flag: '🇫🇮', match: ['fi'] },
-  { code: 'da', name: 'Dansk', flag: '🇩🇰', match: ['da'] },
-  { code: 'no', name: 'Norsk', flag: '🇳🇴', match: ['no', 'nb', 'nn'] },
-  { code: 'lt', name: 'Lietuvių', flag: '🇱🇹', match: ['lt'] },
-  { code: 'et', name: 'Eesti', flag: '🇪🇪', match: ['et'] },
-  { code: 'lv', name: 'Latviešu', flag: '🇱🇻', match: ['lv'] },
-  { code: 'fr', name: 'Français', flag: '🇫🇷', match: ['fr'] },
-  { code: 'es', name: 'Español', flag: '🇪🇸', match: ['es'] },
-  { code: 'th', name: 'ไทย', flag: '🇹🇭', match: ['th'] },
+  { code: 'sv', name: 'Svenska', match: ['sv'] },
+  { code: 'fi', name: 'Suomi', match: ['fi'] },
+  { code: 'da', name: 'Dansk', match: ['da'] },
+  { code: 'no', name: 'Norsk', match: ['no', 'nb', 'nn'] },
+  { code: 'lt', name: 'Lietuvių', match: ['lt'] },
+  { code: 'et', name: 'Eesti', match: ['et'] },
+  { code: 'lv', name: 'Latviešu', match: ['lv'] },
+  { code: 'fr', name: 'Français', match: ['fr'] },
+  { code: 'es', name: 'Español', match: ['es'] },
+  { code: 'th', name: 'ไทย', match: ['th'] },
 ]
 
 export const DEFAULT_LANGUAGE: LanguageCode = 'sv'

@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { ChevronDown, Menu, X } from 'lucide-react'
-import LogoMark from '@/components/LogoMark'
 import Button from '@/components/Button'
 import { LANGUAGES, useI18n } from '@/i18n'
 
@@ -31,7 +30,12 @@ function LanguagePicker({ onSelect }: { onSelect?: () => void }) {
         aria-expanded={langOpen}
       >
         <span className="inline-flex items-center gap-2">
-          <span aria-hidden="true">{current.flag}</span>
+          <img
+            src={`/flags/${current.code}.webp`}
+            alt=""
+            className="h-4 w-6 rounded-sm object-cover ring-1 ring-white/10"
+            aria-hidden="true"
+          />
           <span className="font-mono text-xs uppercase tracking-wider">{current.code}</span>
         </span>
         <ChevronDown
@@ -58,7 +62,12 @@ function LanguagePicker({ onSelect }: { onSelect?: () => void }) {
                   l.code === lang ? 'bg-signal/15 text-signal' : 'text-frost hover:bg-panel'
                 }`}
               >
-                <span aria-hidden="true">{l.flag}</span>
+                <img
+                  src={`/flags/${l.code}.webp`}
+                  alt=""
+                  className="h-4 w-6 rounded-sm object-cover ring-1 ring-white/10"
+                  aria-hidden="true"
+                />
                 <span>{l.name}</span>
               </button>
             </li>
@@ -103,7 +112,7 @@ export default function Nav() {
             if (pathname === '/' && !hash) window.scrollTo({ top: 0, behavior: 'smooth' })
           }}
         >
-          <LogoMark />
+          <img src="/logo.webp" alt="" className="h-8 w-8" />
           <span className="font-display text-sm font-bold tracking-[0.22em] text-frost">
             ENTROPIC<span className="text-signal">DEFENCE</span>
           </span>

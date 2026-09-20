@@ -1,5 +1,4 @@
 import { Link, useLocation } from 'react-router-dom'
-import LogoMark from '@/components/LogoMark'
 import { useI18n } from '@/i18n'
 
 export default function Footer() {
@@ -49,7 +48,7 @@ export default function Footer() {
               if (pathname === '/' && !hash) window.scrollTo({ top: 0, behavior: 'smooth' })
             }}
           >
-            <LogoMark />
+            <img src="/logo.webp" alt="" className="h-8 w-8" />
             <span className="font-display text-sm font-bold tracking-[0.22em] text-frost">
               ENTROPIC<span className="text-signal">DEFENCE</span>
             </span>
