@@ -92,8 +92,8 @@ export const da: Dictionary = {
       year: 'År',
     },
     savings: {
-      quarter: 'Kvartalsabonnement: 1 måned gratis',
-      year: 'Årsabonnement: 3 måneder gratis',
+      quarter: 'Spar 10 %',
+      year: 'Spar 25 %',
     },
   },
 

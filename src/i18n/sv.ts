@@ -98,8 +98,8 @@ export const sv = {
       year: 'År',
     },
     savings: {
-      quarter: 'Kvartalsabonnemang: 1 månad gratis',
-      year: 'Årsabonnemang: 3 månader gratis',
+      quarter: 'Spara 10 %',
+      year: 'Spara 25 %',
     },
   },
 

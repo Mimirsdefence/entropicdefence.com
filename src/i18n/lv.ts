@@ -92,8 +92,8 @@ export const lv: Dictionary = {
       year: 'Gads',
     },
     savings: {
-      quarter: 'Ceturkšņa abonements: 1 mēnesis bez maksas',
-      year: 'Gada abonements: 3 mēneši bez maksas',
+      quarter: 'Ietaupāt 10%',
+      year: 'Ietaupāt 25%',
     },
   },
 

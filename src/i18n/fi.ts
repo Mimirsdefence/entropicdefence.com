@@ -92,8 +92,8 @@ export const fi: Dictionary = {
       year: 'Vuosi',
     },
     savings: {
-      quarter: 'Neljännesvuositilaus: 1 kuukausi ilmaiseksi',
-      year: 'Vuositilaus: 3 kuukautta ilmaiseksi',
+      quarter: 'Säästä 10 %',
+      year: 'Säästä 25 %',
     },
   },
 

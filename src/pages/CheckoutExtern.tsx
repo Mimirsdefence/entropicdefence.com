@@ -58,23 +58,21 @@ export default function CheckoutExtern() {
         description={t.checkoutExtern.hero.description}
       />
 
-      {/* KONTROLLER: Alla paket-länk + period + antal sidor */}
+      {/* KONTROLLER: Alla paket-länk + faktureringsperiod + antal sidor */}
       <section className="mx-auto max-w-7xl px-5 pb-10 lg:px-8">
         <Reveal>
-          <Link
-            to="/checkout"
-            className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-fog transition-colors hover:text-signal"
-          >
-            <ArrowLeft className="h-4 w-4" aria-hidden="true" />
-            {t.common.allPackages}
-          </Link>
-        </Reveal>
+          {/* Rad 1: "Alla paket" till vänster, periodväljaren till höger.
+              På smala skärmar bryts perioden ner på egen rad — fortfarande högerställd. */}
+          <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-4">
+            <Link
+              to="/checkout"
+              className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-fog transition-colors hover:text-signal"
+            >
+              <ArrowLeft className="h-4 w-4" aria-hidden="true" />
+              {t.common.allPackages}
+            </Link>
 
-        {/* Period + adressväljare — ett tätt block direkt under "Alla paket" */}
-        <Reveal delay={60}>
-          <div className="mt-10">
-            {/* Faktureringsperiod — kompakt, högerställd, precis ovanför adressväljaren */}
-            <div className="flex items-center justify-end gap-3">
+            <div className="ml-auto flex flex-wrap items-center justify-end gap-x-3 gap-y-2">
               <span className="font-mono text-xs uppercase tracking-[0.3em] text-fog">
                 {t.common.periodLabel}
               </span>
@@ -103,39 +101,39 @@ export default function CheckoutExtern() {
                 })}
               </div>
             </div>
+          </div>
 
-            {/* Adressväljare — gamla utförandet, tätt under */}
-            <div className="mt-4 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-              <div>
-                <p className="font-mono text-xs uppercase tracking-[0.3em] text-signal">
-                  {t.checkoutExtern.tierLabel}
-                </p>
-                <p className="mt-2 text-sm text-fog">{tierInfo.note}</p>
-              </div>
-              <div
-                role="group"
-                aria-label={t.checkoutExtern.tierAria}
-                className="inline-flex flex-wrap gap-1.5 self-start rounded-full border border-line bg-void/60 p-1.5"
-              >
-                {TIER_KEYS.map((key) => {
-                  const active = key === tier
-                  return (
-                    <button
-                      key={key}
-                      type="button"
-                      onClick={() => setTier(key)}
-                      aria-pressed={active}
-                      className={`rounded-full px-4 py-2 font-mono text-xs uppercase tracking-[0.15em] transition-colors ${
-                        active
-                          ? 'bg-signal text-void'
-                          : 'text-fog hover:bg-signal/10 hover:text-frost'
-                      }`}
-                    >
-                      {t.checkoutExtern.tiers[key].short}
-                    </button>
-                  )
-                })}
-              </div>
+          {/* Rad 2: adressväljare — exakt samma avstånd till perioden som förut */}
+          <div className="mt-4 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <p className="font-mono text-xs uppercase tracking-[0.3em] text-signal">
+                {t.checkoutExtern.tierLabel}
+              </p>
+              <p className="mt-2 text-sm text-fog">{tierInfo.note}</p>
+            </div>
+            <div
+              role="group"
+              aria-label={t.checkoutExtern.tierAria}
+              className="inline-flex flex-wrap gap-1.5 self-start rounded-full border border-line bg-void/60 p-1.5"
+            >
+              {TIER_KEYS.map((key) => {
+                const active = key === tier
+                return (
+                  <button
+                    key={key}
+                    type="button"
+                    onClick={() => setTier(key)}
+                    aria-pressed={active}
+                    className={`rounded-full px-4 py-2 font-mono text-xs uppercase tracking-[0.15em] transition-colors ${
+                      active
+                        ? 'bg-signal text-void'
+                        : 'text-fog hover:bg-signal/10 hover:text-frost'
+                    }`}
+                  >
+                    {t.checkoutExtern.tiers[key].short}
+                  </button>
+                )
+              })}
             </div>
           </div>
         </Reveal>
@@ -170,24 +168,27 @@ export default function CheckoutExtern() {
                   <h2 className="mt-3 font-display text-xl font-semibold">{plan.name}</h2>
                   <p className="mt-2 text-sm leading-relaxed text-fog">{plan.description}</p>
 
-                  <p className="mt-6 font-display text-3xl font-bold">
-                    {isQuote ? t.common.quote : formatPrice(price as number)}
-                    {!isQuote && (
-                      <span className="ml-2 text-sm font-normal text-fog">
-                        {t.common.perMonthShort}
+                  {/* Pris + kort rabattmärkning på samma rad */}
+                  <div className="mt-6 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                    <p className="font-display text-3xl font-bold">
+                      {isQuote ? t.common.quote : formatPrice(price as number)}
+                      {!isQuote && (
+                        <span className="ml-2 text-sm font-normal text-fog">
+                          {t.common.perMonthShort}
+                        </span>
+                      )}
+                    </p>
+                    {!isQuote && period !== 'month' && (
+                      <span className="rounded-full border border-mint/40 bg-mint/10 px-2.5 py-1 font-mono text-[10px] font-semibold uppercase tracking-[0.15em] text-mint">
+                        {t.common.savings[period]}
                       </span>
                     )}
-                  </p>
-                  {!isQuote && period !== 'month' && (
-                    <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.2em] text-mint">
-                      {t.common.savings[period]}
-                    </p>
-                  )}
+                  </div>
                   <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.2em] text-fog">
-                    {tierInfo.short}
+                    {tierInfo.short} · {t.common.exclVat}
                   </p>
 
-                  <ul className="mt-6 space-y-3 border-t border-line pt-6">
+                  <ul className="mt-6 flex-1 space-y-3 border-t border-line pt-6">
                     {plan.features.map((f) => (
                       <li key={f} className="flex items-start gap-3 text-sm text-frost">
                         <Check className="mt-0.5 h-4 w-4 shrink-0 text-mint" aria-hidden="true" />
@@ -196,12 +197,14 @@ export default function CheckoutExtern() {
                     ))}
                   </ul>
 
-                  <div className="mt-auto pt-8">
-                    <Button href="#forfragan" variant={featured ? 'primary' : 'ghost'}>
-                      {isQuote ? t.checkoutExtern.requestQuote : t.checkoutExtern.bookCall}
-                      <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                    </Button>
-                  </div>
+                  <Button
+                    href="#forfragan"
+                    variant={featured ? 'primary' : 'ghost'}
+                    className="mt-8 w-full"
+                  >
+                    {isQuote ? t.checkoutExtern.requestQuote : t.checkoutExtern.bookCall}
+                    <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                  </Button>
                 </article>
               </Reveal>
             )
@@ -215,7 +218,7 @@ export default function CheckoutExtern() {
 
       {/* KONSULTMODELL */}
       <section className="border-t border-line/70 bg-abyss/50">
-        <div className="mx-auto max-w-7xl px-5 py-24 lg:px-8">
+        <div className="mx-auto max-w-7xl px-5 py-20 lg:px-8">
           <Reveal>
             <p className="mb-5 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-signal">
               <span className="h-px w-10 bg-signal/60" aria-hidden="true" />
@@ -226,7 +229,7 @@ export default function CheckoutExtern() {
             </h2>
           </Reveal>
 
-          <div className="mt-12 grid gap-5 sm:grid-cols-3">
+          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {t.checkoutExtern.consult.cards.map((c, i) => {
               const Icon = consultIcons[i] ?? MessagesSquare
               return (
@@ -247,7 +250,7 @@ export default function CheckoutExtern() {
       <section id="forfragan" className="mx-auto max-w-7xl px-5 py-24 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-2">
           <Reveal>
-            <h2 className="font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
+            <h2 className="font-display text-2xl font-bold leading-tight tracking-tight sm:text-3xl">
               {t.checkoutExtern.form.title}
             </h2>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-fog">

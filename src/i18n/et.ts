@@ -92,8 +92,8 @@ export const et: Dictionary = {
       year: 'Aasta',
     },
     savings: {
-      quarter: 'Kvartalitellimus: 1 kuu tasuta',
-      year: 'Aastatellimus: 3 kuud tasuta',
+      quarter: 'Säästate 10%',
+      year: 'Säästate 25%',
     },
   },
 

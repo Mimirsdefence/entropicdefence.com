@@ -92,8 +92,8 @@ export const lt: Dictionary = {
       year: 'Metai',
     },
     savings: {
-      quarter: 'Ketvirčio prenumerata: 1 mėnuo nemokamai',
-      year: 'Metinė prenumerata: 3 mėnesiai nemokamai',
+      quarter: 'Sutaupykite 10 %',
+      year: 'Sutaupykite 25 %',
     },
   },
 
