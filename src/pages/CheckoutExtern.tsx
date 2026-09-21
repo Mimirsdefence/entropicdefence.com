@@ -184,7 +184,7 @@ export default function CheckoutExtern() {
                     </p>
                   )}
                   <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.2em] text-fog">
-                    {tierInfo.short} · {t.common.exclVat}
+                    {tierInfo.short}
                   </p>
 
                   <ul className="mt-6 space-y-3 border-t border-line pt-6">
