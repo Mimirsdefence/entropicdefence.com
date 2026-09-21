@@ -340,7 +340,7 @@ export const es: Dictionary = {
       small: {
         label: 'Menos de 20 direcciones expuestas',
         short: 'Menos de 20 direcciones',
-        note: 'Sitio web o aplicación con menos de 20 direcciones expuestas — p. ej. menos de 20 páginas o URL.',
+        note: 'Sistemas pequeños con menos de 20 direcciones expuestas.',
       },
       medium: {
         label: '20–100 direcciones expuestas',

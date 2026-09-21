@@ -340,7 +340,7 @@ export const fi: Dictionary = {
       small: {
         label: 'Alle 20 altistunutta osoitetta',
         short: 'Alle 20 osoitetta',
-        note: 'Verkkosivusto tai sovellus, jossa on alle 20 altistunutta osoitetta — esim. alle 20 sivua tai URL-osoitetta.',
+        note: 'Pienet järjestelmät, joissa on alle 20 altistunutta osoitetta.',
       },
       medium: {
         label: '20–100 altistunutta osoitetta',

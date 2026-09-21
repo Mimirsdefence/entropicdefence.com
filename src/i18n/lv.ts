@@ -340,7 +340,7 @@ export const lv: Dictionary = {
       small: {
         label: 'Mazāk nekā 20 atvērtas adreses',
         short: 'Mazāk nekā 20 adreses',
-        note: 'Vietne vai lietotne ar mazāk nekā 20 atvērtām adresēm — piem., mazāk nekā 20 lapām vai URL.',
+        note: 'Mazas sistēmas ar mazāk nekā 20 atvērtām adresēm.',
       },
       medium: {
         label: '20–100 atvērtas adreses',

@@ -340,7 +340,7 @@ export const no: Dictionary = {
       small: {
         label: 'Under 20 eksponerte adresser',
         short: 'Under 20 adresser',
-        note: 'Nettsted eller app med færre enn 20 eksponerte adresser — f.eks. under 20 sider eller URL-er.',
+        note: 'Små systemer med færre enn 20 eksponerte adresser.',
       },
       medium: {
         label: '20–100 eksponerte adresser',

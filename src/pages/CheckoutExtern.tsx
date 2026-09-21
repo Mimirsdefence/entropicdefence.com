@@ -70,68 +70,72 @@ export default function CheckoutExtern() {
           </Link>
         </Reveal>
 
-        {/* Periodväljare — kompakt, ovanför, högerställd */}
+        {/* Period + adressväljare — ett tätt block direkt under "Alla paket" */}
         <Reveal delay={60}>
-          <div className="mt-8 flex justify-end">
-            <div
-              className="flex rounded-full border border-line bg-abyss/70 p-1"
-              role="group"
-              aria-label={t.common.periodLabel}
-            >
-              {PERIOD_KEYS.map((key) => {
-                const active = key === period
-                return (
-                  <button
-                    key={key}
-                    type="button"
-                    onClick={() => setPeriod(key)}
-                    aria-pressed={active}
-                    className={`rounded-full px-4 py-1.5 font-mono text-[11px] uppercase tracking-[0.15em] transition-colors ${
-                      active
-                        ? 'bg-signal text-abyss'
-                        : 'text-fog hover:text-frost'
-                    }`}
-                  >
-                    {t.common.periods[key]}
-                  </button>
-                )
-              })}
+          <div className="mt-10">
+            {/* Faktureringsperiod — kompakt, högerställd, precis ovanför adressväljaren */}
+            <div className="flex items-center justify-end gap-3">
+              <span className="font-mono text-xs uppercase tracking-[0.3em] text-fog">
+                {t.common.periodLabel}
+              </span>
+              <div
+                className="flex rounded-full border border-line bg-abyss/70 p-1"
+                role="group"
+                aria-label={t.common.periodLabel}
+              >
+                {PERIOD_KEYS.map((key) => {
+                  const active = key === period
+                  return (
+                    <button
+                      key={key}
+                      type="button"
+                      onClick={() => setPeriod(key)}
+                      aria-pressed={active}
+                      className={`rounded-full px-4 py-1.5 font-mono text-[11px] uppercase tracking-[0.15em] transition-colors ${
+                        active
+                          ? 'bg-signal text-abyss'
+                          : 'text-fog hover:text-frost'
+                      }`}
+                    >
+                      {t.common.periods[key]}
+                    </button>
+                  )
+                })}
+              </div>
             </div>
-          </div>
-        </Reveal>
 
-        {/* Antal sidor — gamla utförandet */}
-        <Reveal delay={80}>
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-            <div>
-              <p className="font-mono text-xs uppercase tracking-[0.3em] text-signal">
-                {t.checkoutExtern.tierLabel}
-              </p>
-              <p className="mt-2 text-sm text-fog">{tierInfo.note}</p>
-            </div>
-            <div
-              role="group"
-              aria-label={t.checkoutExtern.tierAria}
-              className="inline-flex flex-wrap gap-1.5 self-start rounded-full border border-line bg-void/60 p-1.5"
-            >
-              {TIER_KEYS.map((key) => {
-                const active = key === tier
-                return (
-                  <button
-                    key={key}
-                    type="button"
-                    onClick={() => setTier(key)}
-                    aria-pressed={active}
-                    className={`rounded-full px-4 py-2 font-mono text-xs uppercase tracking-[0.15em] transition-colors ${
-                      active
-                        ? 'bg-signal text-void'
-                        : 'text-fog hover:bg-signal/10 hover:text-frost'
-                    }`}
-                  >
-                    {t.checkoutExtern.tiers[key].short}
-                  </button>
-                )
-              })}
+            {/* Adressväljare — gamla utförandet, tätt under */}
+            <div className="mt-4 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <p className="font-mono text-xs uppercase tracking-[0.3em] text-signal">
+                  {t.checkoutExtern.tierLabel}
+                </p>
+                <p className="mt-2 text-sm text-fog">{tierInfo.note}</p>
+              </div>
+              <div
+                role="group"
+                aria-label={t.checkoutExtern.tierAria}
+                className="inline-flex flex-wrap gap-1.5 self-start rounded-full border border-line bg-void/60 p-1.5"
+              >
+                {TIER_KEYS.map((key) => {
+                  const active = key === tier
+                  return (
+                    <button
+                      key={key}
+                      type="button"
+                      onClick={() => setTier(key)}
+                      aria-pressed={active}
+                      className={`rounded-full px-4 py-2 font-mono text-xs uppercase tracking-[0.15em] transition-colors ${
+                        active
+                          ? 'bg-signal text-void'
+                          : 'text-fog hover:bg-signal/10 hover:text-frost'
+                      }`}
+                    >
+                      {t.checkoutExtern.tiers[key].short}
+                    </button>
+                  )
+                })}
+              </div>
             </div>
           </div>
         </Reveal>

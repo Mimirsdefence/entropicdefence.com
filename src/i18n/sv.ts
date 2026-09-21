@@ -353,7 +353,7 @@ export const sv = {
       small: {
         label: 'Under 20 exponerade adresser',
         short: 'Under 20 adresser',
-        note: 'Webbplats eller app med färre än 20 exponerade adresser — t.ex. färre än 20 sidor eller URL:er.',
+        note: 'Litet system med färre än 20 exponerade adresser.',
       },
       medium: {
         label: '20–100 exponerade adresser',

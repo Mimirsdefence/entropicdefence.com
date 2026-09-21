@@ -340,7 +340,7 @@ export const et: Dictionary = {
       small: {
         label: 'Alla 20 avatud aadressi',
         short: 'Alla 20 aadressi',
-        note: 'Veebisait või rakendus, millel on vähem kui 20 avatud aadressi — nt alla 20 lehe või URL-i.',
+        note: 'Väikesed süsteemid, millel on vähem kui 20 avatud aadressi.',
       },
       medium: {
         label: '20–100 avatud aadressi',
