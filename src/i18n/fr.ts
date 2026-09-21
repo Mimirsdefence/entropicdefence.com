@@ -358,7 +358,7 @@ export const fr: Dictionary = {
         name: 'Revue mensuelle',
         cadence: '1 revue externe par mois',
         description:
-          'Un socle continu : une revue externe complète chaque mois, des propositions de correction et un consultant qui aide à refermer les constats.',
+          'Un socle continu : une revue externe complète chaque mois, des propositions de correction et un temps de consultant convenu pour refermer les constats.',
         features: [
           '1 revue de sécurité externe par mois',
           'Rapport écrit et corrections pour chaque constat',
@@ -382,13 +382,13 @@ export const fr: Dictionary = {
       dag: {
         name: 'Revue quotidienne',
         cadence: '1 revue externe par jour',
-        consultant: 'Consultant 24/7 · priorité maximale',
+        consultant: 'Temps de consultant 24/7 · priorité maximale',
         description:
           'Presque exclusivement utilisé par les forces armées et les autorités. Un attaquant n\'obtient jamais plus d\'une journée — souvent moins.',
         features: [
           '1 revue de sécurité externe par jour',
           'Rapport écrit et corrections pour chaque constat',
-          'Consultant 24/7 en priorité maximale',
+          'Temps de consultant 24/7 en priorité maximale',
           'Adapté aux forces armées, aux autorités et aux infrastructures critiques',
           'Habilitation de sécurité et confidentialité au plus haut niveau',
         ],
@@ -410,8 +410,8 @@ export const fr: Dictionary = {
           text: 'La revue mensuelle inclut 48 h de temps de consultant pour aider votre IT à mettre en œuvre les corrections.',
         },
         {
-          title: '24/7 dans les packs semaine et jour',
-          text: 'Les revues hebdomadaire et quotidienne offrent du temps de consultant 24h/24, constats critiques en priorité.',
+          title: '24/7 dans le pack jour',
+          text: 'La revue quotidienne offre du temps de consultant 24h/24, constats critiques en priorité.',
         },
       ],
     },

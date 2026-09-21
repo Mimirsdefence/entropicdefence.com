@@ -358,7 +358,7 @@ export const fi: Dictionary = {
         name: 'Kuukausitarkastus',
         cadence: '1 ulkoinen tarkastus kuukaudessa',
         description:
-          'Jatkuva perusta: yksi täydellinen ulkoinen tarkastus joka kuukausi, korjausehdotukset ja konsultti, joka auttaa teitä sulkemaan löydökset.',
+          'Jatkuva perusta: yksi täydellinen ulkoinen tarkastus joka kuukausi, korjausehdotukset ja sovitettu konsulttiaika löydösten sulkemiseen.',
         features: [
           '1 ulkoinen turvallisuustarkastus joka kuukausi',
           'Kirjallinen raportti ja korjaustoimet jokaiseen löydökseen',
@@ -382,13 +382,13 @@ export const fi: Dictionary = {
       dag: {
         name: 'Päivätarkastus',
         cadence: '1 ulkoinen tarkastus päivässä',
-        consultant: '24/7-konsultti · korkein prioriteetti',
+        consultant: '24/7-konsulttiaika · korkein prioriteetti',
         description:
           'Lähes yksinomaan puolustuksen ja viranomaisten käytössä. Hyökkääjä ei koskaan saa vuorokautta enempää aikaa — usein vähemmän.',
         features: [
           '1 ulkoinen turvallisuustarkastus joka päivä',
           'Kirjallinen raportti ja korjaustoimet jokaiseen löydökseen',
-          '24/7-konsultti korkeimmalla prioriteetilla',
+          '24/7-konsulttiaika korkeimmalla prioriteetilla',
           'Räätälöity puolustukselle, viranomaisille ja kriittiselle infrastruktuurille',
           'Turvallisuussuojaus ja vaitiolovelvollisuus korkeimman luokan mukaan',
         ],
@@ -410,8 +410,8 @@ export const fi: Dictionary = {
           text: 'Kuukausitarkastukseen sisältyy 48 tunnin konsulttiaika, joka auttaa IT:tänne toteuttamaan korjaukset.',
         },
         {
-          title: '24/7 viikko- ja päiväpaketeissa',
-          text: 'Viikko- ja päivätarkastus antavat konsulttiaikaa ympäri vuorokauden, kriittiset löydökset priorisoituna.',
+          title: '24/7 päiväpaketissa',
+          text: 'Päivätarkastus antaa konsulttiaikaa ympäri vuorokauden, kriittiset löydökset priorisoituna.',
         },
       ],
     },

@@ -371,7 +371,7 @@ export const sv = {
         name: 'Månadskontroll',
         cadence: '1 extern kontroll per månad',
         description:
-          'Den löpande basen: en fullständig extern kontroll varje månad, med åtgärdsförslag och en konsult som hjälper er stänga fynden.',
+          'Den löpande basen: en fullständig extern kontroll varje månad, med åtgärdsförslag och anpassad konsulttid för att stänga fynden.',
         features: [
           '1 extern säkerhetskontroll varje månad',
           'Skriftlig rapport med remediering per fynd',
@@ -395,13 +395,13 @@ export const sv = {
       dag: {
         name: 'Daglig kontroll',
         cadence: '1 extern kontroll per dag',
-        consultant: '24/7 konsult · högsta prioritet',
+        consultant: '24/7 konsulttid · högsta prioritet',
         description:
           'Används nästan uteslutande av försvar och myndigheter. Angriparen får aldrig mer än ett dygn på sig — ofta mindre.',
         features: [
           '1 extern säkerhetskontroll varje dag',
           'Skriftlig rapport med remediering per fynd',
-          '24/7 konsult med högsta prioritet',
+          '24/7 konsulttid med högsta prioritet',
           'Anpassad för försvar, myndighet och kritisk infrastruktur',
           'Säkerhetsskydd och tystnadsplikt enligt högsta klass',
         ],
@@ -423,8 +423,8 @@ export const sv = {
           text: 'I Månadskontrollen ingår 48 timmars konsulttid som hjälper er IT att genomföra åtgärderna.',
         },
         {
-          title: '24/7 i vecko- och dagspaket',
-          text: 'Vecko- och Daglig kontroll ger er konsulttid dygnet runt, med prioritet på kritiska fynd.',
+          title: '24/7 i dagspaketet',
+          text: 'Daglig kontroll ger er konsulttid dygnet runt, med prioritet på kritiska fynd.',
         },
       ],
     },

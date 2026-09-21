@@ -358,7 +358,7 @@ export const no: Dictionary = {
         name: 'Månedlig gjennomgang',
         cadence: '1 ekstern gjennomgang per måned',
         description:
-          'Det kontinuerlige fundamentet: én full ekstern gjennomgang hver måned, utbedringsforslag og en konsulent som hjelper dere med å lukke funnene.',
+          'Det kontinuerlige fundamentet: én full ekstern gjennomgang hver måned, utbedringsforslag og avtalt konsulenttid for å lukke funnene.',
         features: [
           '1 ekstern sikkerhetsgjennomgang hver måned',
           'Skriftlig rapport og utbedringer for hvert funn',
@@ -382,13 +382,13 @@ export const no: Dictionary = {
       dag: {
         name: 'Daglig gjennomgang',
         cadence: '1 ekstern gjennomgang per dag',
-        consultant: '24/7-konsulent · høyeste prioritet',
+        consultant: '24/7-konsulenttid · høyeste prioritet',
         description:
           'Nesten utelukkende brukt av forsvar og myndigheter. Angriperen får aldri mer enn ett døgn — ofte mindre.',
         features: [
           '1 ekstern sikkerhetsgjennomgang hver dag',
           'Skriftlig rapport og utbedringer for hvert funn',
-          '24/7-konsulent med høyeste prioritet',
+          '24/7-konsulenttid med høyeste prioritet',
           'Skreddersydd for forsvar, myndigheter og kritisk infrastruktur',
           'Sikkerhetsbeskyttelse og taushetsplikt på høyeste nivå',
         ],
@@ -410,8 +410,8 @@ export const no: Dictionary = {
           text: 'I månedlig gjennomgang er 48 timers konsulenttid inkludert for å hjelpe IT-en deres med å gjennomføre rettelsene.',
         },
         {
-          title: '24/7 i uke- og dagspakkene',
-          text: 'Ukentlig og daglig gjennomgang gir konsulenttid døgnet rundt, med kritiske funn prioritert.',
+          title: '24/7 i dagspakken',
+          text: 'Daglig gjennomgang gir konsulenttid døgnet rundt, med kritiske funn prioritert.',
         },
       ],
     },

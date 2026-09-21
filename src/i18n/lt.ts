@@ -358,7 +358,7 @@ export const lt: Dictionary = {
         name: 'Mėnesio patikra',
         cadence: '1 išorinė patikra per mėnesį',
         description:
-          'Nuolatinis pagrindas: viena pilna išorinė patikra kas mėnesį, ištaisymų pasiūlymai ir konsultantas, padedantis užbaigti radinius.',
+          'Nuolatinis pagrindas: viena pilna išorinė patikra kas mėnesį, ištaisymų pasiūlymai ir sutartas konsultanto laikas radiniams užbaigti.',
         features: [
           '1 išorinė saugumo patikra kas mėnesį',
           'Rašytinė ataskaita ir kiekvieno radinio ištaisymai',
@@ -382,13 +382,13 @@ export const lt: Dictionary = {
       dag: {
         name: 'Dienos patikra',
         cadence: '1 išorinė patikra per dieną',
-        consultant: '24/7 konsultantas · aukščiausias prioritetas',
+        consultant: '24/7 konsultanto laikas · aukščiausias prioritetas',
         description:
           'Beveik išimtinai naudojama gynybos ir valdžios institucijų. Užpuolikas niekada negauna daugiau nei paros — dažnai mažiau.',
         features: [
           '1 išorinė saugumo patikra kasdien',
           'Rašytinė ataskaita ir kiekvieno radinio ištaisymai',
-          '24/7 konsultantas aukščiausiu prioritetu',
+          '24/7 konsultanto laikas aukščiausiu prioritetu',
           'Pritaikyta gynybai, institucijoms ir ypatingos svarbos infrastruktūrai',
           'Saugumo apsauga ir konfidencialumas aukščiausiu lygiu',
         ],
@@ -410,8 +410,8 @@ export const lt: Dictionary = {
           text: 'Į mėnesio patikrą įeina 48 val. konsultanto laiko, padedančio jūsų IT įgyvendinti pataisas.',
         },
         {
-          title: '24/7 savaitės ir dienos paketuose',
-          text: 'Savaitės ir dienos patikros suteikia konsultanto laiko visą parą, kritinius radinius prioritizuojant.',
+          title: '24/7 dienos pakete',
+          text: 'Dienos patikra suteikia konsultanto laiko visą parą, kritinius radinius prioritizuojant.',
         },
       ],
     },

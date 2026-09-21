@@ -358,7 +358,7 @@ export const es: Dictionary = {
         name: 'Revisión mensual',
         cadence: '1 revisión externa al mes',
         description:
-          'Una base continua: una revisión externa completa cada mes, propuestas de corrección y un consultor que ayuda a cerrar los hallazgos.',
+          'Una base continua: una revisión externa completa cada mes, propuestas de corrección y tiempo de consultor acordado para cerrar los hallazgos.',
         features: [
           '1 revisión de seguridad externa al mes',
           'Informe escrito y correcciones para cada hallazgo',
@@ -382,13 +382,13 @@ export const es: Dictionary = {
       dag: {
         name: 'Revisión diaria',
         cadence: '1 revisión externa al día',
-        consultant: 'Consultor 24/7 · máxima prioridad',
+        consultant: 'Tiempo de consultor 24/7 · máxima prioridad',
         description:
           'Casi exclusivamente utilizado por fuerzas armadas y autoridades. Un atacante nunca obtiene más de un día — a menudo menos.',
         features: [
           '1 revisión de seguridad externa al día',
           'Informe escrito y correcciones para cada hallazgo',
-          'Consultor 24/7 con máxima prioridad',
+          'Tiempo de consultor 24/7 con máxima prioridad',
           'Adaptado a fuerzas armadas, autoridades e infraestructuras críticas',
           'Habilitación de seguridad y confidencialidad al más alto nivel',
         ],
@@ -410,8 +410,8 @@ export const es: Dictionary = {
           text: 'La revisión mensual incluye 48 horas de consultor para ayudar a su IT a implementar las correcciones.',
         },
         {
-          title: '24/7 en los paquetes semana y día',
-          text: 'Las revisiones semanal y diaria ofrecen tiempo de consultor a todas horas, con hallazgos críticos en prioridad.',
+          title: '24/7 en el paquete día',
+          text: 'La revisión diaria ofrece tiempo de consultor a todas horas, con hallazgos críticos en prioridad.',
         },
       ],
     },

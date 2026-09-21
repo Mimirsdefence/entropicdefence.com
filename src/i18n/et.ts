@@ -358,7 +358,7 @@ export const et: Dictionary = {
         name: 'Igakuine ülevaatus',
         cadence: '1 väline ülevaatus kuus',
         description:
-          'Pidev vundament: üks täielik väline ülevaatus iga kuu, parandusettepanekud ja konsulent, kes aitab leiud sulgeda.',
+          'Pidev vundament: üks täielik väline ülevaatus iga kuu, parandusettepanekud ja kokkulepitud konsulendiaeg leidude sulgemiseks.',
         features: [
           '1 väline turbeülevaatus iga kuu',
           'Kirjalik aruanne ja parandused igale leiule',
@@ -382,13 +382,13 @@ export const et: Dictionary = {
       dag: {
         name: 'Igapäevane ülevaatus',
         cadence: '1 väline ülevaatus päevas',
-        consultant: '24/7 konsulent · kõrgeim prioriteet',
+        consultant: '24/7 konsulendiaeg · kõrgeim prioriteet',
         description:
           'Peaaegu eranditult kaitseväe ja ametiasutuste kasutuses. Ründaja ei saa kunagi rohkem kui ööpäeva — sageli vähem.',
         features: [
           '1 väline turbeülevaatus iga päev',
           'Kirjalik aruanne ja parandused igale leiule',
-          '24/7 konsulent kõrgeima prioriteediga',
+          '24/7 konsulendiaeg kõrgeima prioriteediga',
           'Kohandatud kaitseväele, ametiasutustele ja elutähtsale taristule',
           'Turbekaitse ja konfidentsiaalsus kõrgeimal tasemel',
         ],
@@ -410,8 +410,8 @@ export const et: Dictionary = {
           text: 'Igakuises ülevaatuses sisaldub 48 tundi konsulendiaega, mis aitab teie IT-l parandused ellu viia.',
         },
         {
-          title: '24/7 nädala- ja päevapakettides',
-          text: 'Iganädalane ja igapäevane ülevaatus annavad konsulendiaega ööpäev läbi, kriitilised leiud eelisjärjekorras.',
+          title: '24/7 päevapaketis',
+          text: 'Igapäevane ülevaatus annab konsulendiaega ööpäev läbi, kriitilised leiud eelisjärjekorras.',
         },
       ],
     },
