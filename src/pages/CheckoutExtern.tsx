@@ -63,7 +63,7 @@ export default function CheckoutExtern() {
         <Reveal>
           {/* Rad 1: "Alla paket" till vänster, periodväljaren till höger.
               På smala skärmar bryts perioden ner på egen rad — fortfarande högerställd. */}
-          <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-4">
+          <div className="-mt-3 flex flex-wrap items-center justify-between gap-x-6 gap-y-4">
             <Link
               to="/checkout"
               className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-fog transition-colors hover:text-signal"
@@ -179,7 +179,8 @@ export default function CheckoutExtern() {
                       )}
                     </p>
                     {!isQuote && period !== 'month' && (
-                      <span className="rounded-full border border-mint/40 bg-mint/10 px-2.5 py-1 font-mono text-[10px] font-semibold uppercase tracking-[0.15em] text-mint">
+                      <span className="inline-flex items-center gap-1.5 font-mono text-[10px] font-normal uppercase tracking-[0.2em] text-mint">
+                        <span className="h-1 w-1 rounded-full bg-mint" aria-hidden="true" />
                         {t.common.savings[period]}
                       </span>
                     )}
@@ -211,7 +212,7 @@ export default function CheckoutExtern() {
           })}
         </div>
 
-        <p className="mt-6 text-center font-mono text-xs uppercase tracking-[0.2em] text-fog">
+        <p className="mt-6 font-mono text-[11px] uppercase tracking-[0.2em] text-fog">
           {t.common.vatNote} · {t.common.launchPrice} · {t.checkoutExtern.largeNote}
         </p>
       </section>

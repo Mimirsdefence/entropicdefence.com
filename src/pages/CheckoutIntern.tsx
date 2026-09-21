@@ -118,7 +118,7 @@ export default function CheckoutIntern() {
           </div>
         </Reveal>
 
-        <p className="mt-6 text-center font-mono text-xs uppercase tracking-[0.2em] text-fog">
+        <p className="mt-6 font-mono text-[11px] uppercase tracking-[0.2em] text-fog">
           {t.common.vatNote} · {t.checkoutIntern.rateNote} · {t.common.launchPrice}
         </p>
 
