@@ -10,7 +10,7 @@ import PageHero from '@/components/PageHero'
 import Button from '@/components/Button'
 import Reveal from '@/components/Reveal'
 import QuoteForm, { type QuoteOption } from '@/components/QuoteForm'
-import { EXTERNAL_PRICES, INTERNAL_RATE } from '@/data/packages'
+import { EXTERNAL_PRICES, INTERNAL_RATE, periodPrice } from '@/data/packages'
 import { useI18n } from '@/i18n'
 
 type Category = {
@@ -34,7 +34,7 @@ export default function Checkout() {
     {
       name: t.checkout.categories[0].name,
       icon: Radar,
-      price: `${t.common.from} ${formatPrice(EXTERNAL_PRICES.manad.small ?? 0)}`,
+      price: `${t.common.from} ${formatPrice(periodPrice(EXTERNAL_PRICES.manad.small, 'year') ?? 0)}`,
       period: t.checkout.categories[0].period,
       description: t.checkout.categories[0].description,
       features: t.checkout.categories[0].features,
