@@ -66,7 +66,7 @@ export const fr: Dictionary = {
   },
 
   common: {
-    vatNote: 'Prix HT · TVA de 25 % en sus',
+    vatNote: 'Prix HT',
     launchPrice: 'Prix de lancement',
     exclVat: 'HT',
     perMonthShort: '/mois',

@@ -66,7 +66,7 @@ export const fi: Dictionary = {
   },
 
   common: {
-    vatNote: 'Hinnat alv 0 % · arvonlisävero 25 % lisätään',
+    vatNote: 'Hinnat alv 0 %',
     launchPrice: 'Lanseeraushinta',
     exclVat: 'alv 0 %',
     perMonthShort: '/kk',

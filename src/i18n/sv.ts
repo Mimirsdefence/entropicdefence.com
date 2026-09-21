@@ -71,7 +71,7 @@ export const sv = {
 
   // ── Gemensamma ord & fraser ─────────────────────────────────────────
   common: {
-    vatNote: 'Priser exkl. moms · 25 % moms tillkommer',
+    vatNote: 'Priser exkl. moms',
     launchPrice: 'Lanseringspris',
     exclVat: 'exkl. moms',
     perMonthShort: '/mån',

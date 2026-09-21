@@ -66,7 +66,7 @@ export const th: Dictionary = {
   },
 
   common: {
-    vatNote: 'ราคาไม่รวมภาษีมูลค่าเพิ่ม · บวกภาษีมูลค่าเพิ่ม 25%',
+    vatNote: 'ราคาไม่รวมภาษีมูลค่าเพิ่ม',
     launchPrice: 'ราคาเปิดตัว',
     exclVat: 'ไม่รวมภาษีมูลค่าเพิ่ม',
     perMonthShort: '/เดือน',

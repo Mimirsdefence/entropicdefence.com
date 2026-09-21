@@ -66,7 +66,7 @@ export const et: Dictionary = {
   },
 
   common: {
-    vatNote: 'Hinnad käibemaksuta · lisandub 25% käibemaks',
+    vatNote: 'Hinnad käibemaksuta',
     launchPrice: 'Turuletoomise hind',
     exclVat: 'käibemaksuta',
     perMonthShort: '/kuus',

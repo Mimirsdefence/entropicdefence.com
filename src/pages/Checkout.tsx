@@ -83,56 +83,58 @@ export default function Checkout() {
       />
 
       {/* KATEGORIKORT */}
-      <section className="mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-24">
-        <div className="grid gap-6 lg:grid-cols-3">
+      <section className="mx-auto max-w-7xl px-5 pb-16 lg:px-8">
+        <div className="grid gap-5 lg:grid-cols-3">
           {categories.map((c, i) => (
-            <Reveal key={c.name} delay={i * 100}>
+            <Reveal key={c.name} delay={i * 100} className="h-full">
               <article
                 className={`panel relative flex h-full flex-col p-7 ${
-                  c.featured ? 'border-signal/60' : ''
+                  c.featured ? 'border-signal/60 shadow-[0_0_40px_rgba(56,189,248,0.12)]' : ''
                 }`}
               >
                 {c.featured && (
-                  <span className="absolute -top-3 left-6 rounded-full bg-signal px-3 py-1 font-mono text-[10px] uppercase tracking-[0.2em] text-abyss">
+                  <span className="absolute -top-3 left-7 rounded-full bg-signal px-3 py-1 font-mono text-[10px] font-semibold uppercase tracking-[0.2em] text-void">
                     {t.common.recommended}
                   </span>
                 )}
                 {c.soon && (
-                  <span className="absolute -top-3 left-6 rounded-full border border-line bg-abyss px-3 py-1 font-mono text-[10px] uppercase tracking-[0.2em] text-fog">
+                  <span className="absolute -top-3 left-7 rounded-full border border-amber/60 bg-amber/15 px-3 py-1 font-mono text-[10px] font-semibold uppercase tracking-[0.2em] text-amber">
                     {t.common.comingSoon}
                   </span>
                 )}
 
-                <c.icon className="h-8 w-8 text-signal" aria-hidden="true" />
-                <h2 className="mt-5 font-display text-xl font-semibold">{c.name}</h2>
+                <c.icon className="h-6 w-6 text-signal" aria-hidden="true" />
+                <h2 className="mt-4 font-display text-xl font-semibold">{c.name}</h2>
                 <p className="mt-2 text-sm leading-relaxed text-fog">{c.description}</p>
 
-                <p className="mt-6 font-display text-3xl font-bold">
+                <p className="mt-5 font-display text-3xl font-bold">
                   {c.price}
                   <span className="ml-2 text-sm font-normal text-fog">{c.period}</span>
                 </p>
 
-                <ul className="mt-6 space-y-3 border-t border-line pt-6">
+                <ul className="mt-6 flex-1 space-y-3">
                   {c.features.map((f) => (
                     <li key={f} className="flex items-start gap-3 text-sm text-frost">
                       <Check className="mt-0.5 h-4 w-4 shrink-0 text-mint" aria-hidden="true" />
-                      <span className="leading-relaxed">{f}</span>
+                      {f}
                     </li>
                   ))}
                 </ul>
 
-                <div className="mt-auto pt-8">
-                  <Button to={c.to} variant={c.featured ? 'primary' : 'ghost'}>
-                    {t.checkout.seePackages}
-                    <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                  </Button>
-                </div>
+                <Button
+                  to={c.to}
+                  variant={c.featured ? 'primary' : 'ghost'}
+                  className="mt-8 w-full"
+                >
+                  {t.checkout.seePackages}
+                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                </Button>
               </article>
             </Reveal>
           ))}
         </div>
 
-        <p className="mt-6 text-center font-mono text-xs uppercase tracking-[0.2em] text-fog">
+        <p className="mt-6 font-mono text-[11px] uppercase tracking-[0.2em] text-fog">
           {t.common.vatNote} · {t.common.launchPrice}
         </p>
       </section>

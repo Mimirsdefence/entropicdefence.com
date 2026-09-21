@@ -66,7 +66,7 @@ export const da: Dictionary = {
   },
 
   common: {
-    vatNote: 'Priser ekskl. moms · 25 % moms tillægges',
+    vatNote: 'Priser ekskl. moms',
     launchPrice: 'Lanceringspris',
     exclVat: 'ekskl. moms',
     perMonthShort: '/md.',

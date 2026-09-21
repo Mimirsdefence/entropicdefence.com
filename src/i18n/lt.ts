@@ -66,7 +66,7 @@ export const lt: Dictionary = {
   },
 
   common: {
-    vatNote: 'Kainos be PVM · 25 % PVM pridedamas',
+    vatNote: 'Kainos be PVM',
     launchPrice: 'Pristatymo kaina',
     exclVat: 'be PVM',
     perMonthShort: '/mėn.',

@@ -66,7 +66,7 @@ export const lv: Dictionary = {
   },
 
   common: {
-    vatNote: 'Cenas bez PVN · tiek pievienots 25% PVN',
+    vatNote: 'Cenas bez PVN',
     launchPrice: 'Palaišanas cena',
     exclVat: 'bez PVN',
     perMonthShort: '/mēn.',

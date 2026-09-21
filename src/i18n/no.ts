@@ -66,7 +66,7 @@ export const no: Dictionary = {
   },
 
   common: {
-    vatNote: 'Priser ekskl. mva. · 25 % mva. kommer i tillegg',
+    vatNote: 'Priser ekskl. mva.',
     launchPrice: 'Lanseringspris',
     exclVat: 'ekskl. mva.',
     perMonthShort: '/md.',
