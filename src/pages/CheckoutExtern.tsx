@@ -227,7 +227,7 @@ export default function CheckoutExtern() {
               <span className="h-px w-10 bg-signal/60" aria-hidden="true" />
               {t.checkoutExtern.consult.eyebrow}
             </p>
-            <h2 className="max-w-2xl border-b border-signal/60 pb-6 font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
+            <h2 className="max-w-2xl font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
               {t.checkoutExtern.consult.title}
             </h2>
           </Reveal>
@@ -239,7 +239,7 @@ export default function CheckoutExtern() {
                 <Reveal key={c.title} delay={i * 90}>
                   <article className="panel h-full p-6">
                     <Icon className="h-7 w-7 text-signal" aria-hidden="true" />
-                    <h3 className="mt-5 font-display text-lg font-semibold">{c.title}</h3>
+                    <h3 className="mt-5 font-display text-lg font-semibold leading-snug">{c.title}</h3>
                     <p className="mt-3 text-sm leading-relaxed text-fog">{c.text}</p>
                   </article>
                 </Reveal>
@@ -250,8 +250,8 @@ export default function CheckoutExtern() {
       </section>
 
       {/* OFFERTFORMULÄR */}
-      <section id="forfragan" className="mx-auto max-w-7xl px-5 py-24 lg:px-8">
-        <div className="grid gap-12 lg:grid-cols-2">
+      <section id="forfragan" className="scroll-mt-24 border-t border-line/70">
+        <div className="mx-auto grid max-w-7xl gap-12 px-5 py-20 lg:grid-cols-2 lg:px-8">
           <Reveal>
             <h2 className="font-display text-2xl font-bold leading-tight tracking-tight sm:text-3xl">
               {t.checkoutExtern.form.title}
