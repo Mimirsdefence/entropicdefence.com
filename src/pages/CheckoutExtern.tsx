@@ -166,7 +166,9 @@ export default function CheckoutExtern() {
                     {plan.cadence}
                   </p>
                   <h2 className="mt-3 font-display text-xl font-semibold">{plan.name}</h2>
-                  <p className="mt-2 text-sm leading-relaxed text-fog">{plan.description}</p>
+                  <p className="mt-2 line-clamp-4 min-h-[91px] text-sm leading-relaxed text-fog">
+                    {plan.description}
+                  </p>
 
                   {/* Pris + kort rabattmärkning på samma rad */}
                   <div className="mt-6 flex flex-wrap items-baseline gap-x-3 gap-y-1">
@@ -225,7 +227,7 @@ export default function CheckoutExtern() {
               <span className="h-px w-10 bg-signal/60" aria-hidden="true" />
               {t.checkoutExtern.consult.eyebrow}
             </p>
-            <h2 className="max-w-2xl font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
+            <h2 className="max-w-2xl border-b border-signal/60 pb-6 font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
               {t.checkoutExtern.consult.title}
             </h2>
           </Reveal>
