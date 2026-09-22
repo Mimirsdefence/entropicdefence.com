@@ -383,11 +383,11 @@ export const sv = {
         name: 'Veckokontroll',
         cadence: '1 extern kontroll per vecka',
         description:
-          'För verksamheter som inte har råd att vara sårbara i mer än några dagar — tätare kontroller och 200 timmar konsulttid per månad för att stänga problemen.',
+          'För verksamheter som inte har råd att vara sårbara i mer än några dagar — tätare kontroller och anpassad konsulttid för att stänga problemen.',
         features: [
           '1 extern säkerhetskontroll varje vecka',
           'Skriftlig rapport med remediering per fynd',
-          '200 timmar konsulttid per månad för att stänga problemen',
+          'anpassad konsulttid för att stänga problemen',
           'Prioriterad hantering av kritiska fynd',
           'Kvartalsvis genomgång för säkerhetsledningen',
         ],

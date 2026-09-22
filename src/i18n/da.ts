@@ -370,11 +370,11 @@ export const da: Dictionary = {
         name: 'Ugentlig gennemgang',
         cadence: '1 ekstern gennemgang pr. uge',
         description:
-          'Til virksomheder, der ikke har råd til at være sårbare i mere end få dage — tættere gennemgange og 200 timers konsulenttid pr. måned til at lukke problemer.',
+          'Til virksomheder, der ikke har råd til at være sårbare i mere end få dage — tættere gennemgange og aftalt konsulenttid til at lukke problemer.',
         features: [
           '1 ekstern sikkerhedsgennemgang hver uge',
           'Skriftlig rapport og udbedringer til hvert fund',
-          '200 timers konsulenttid pr. måned til at lukke problemer',
+          'aftalt konsulenttid til at lukke problemer',
           'Prioriteret håndtering af kritiske fund',
           'Kvartalsvis gennemgang for sikkerhedsledelsen',
         ],

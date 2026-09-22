@@ -370,11 +370,11 @@ export const lv: Dictionary = {
         name: 'Iknedēļas pārbaude',
         cadence: '1 ārējā pārbaude nedēļā',
         description:
-          'Uzņēmumiem, kas nevar atļauties ievainojamību ilgāk par dažām dienām — biežākas pārbaudes un 200 stundas konsultanta laika mēnesī atradumu aizvēršanai.',
+          'Uzņēmumiem, kas nevar atļauties ievainojamību ilgāk par dažām dienām — biežākas pārbaudes un saskaņots konsultanta laiks atradumu aizvēršanai.',
         features: [
           '1 ārējā drošības pārbaude katru nedēļu',
           'Rakstisks ziņojums un labojumi katram atradumam',
-          '200 stundas konsultanta laika mēnesī atradumu aizvēršanai',
+          'saskaņots konsultanta laiks atradumu aizvēršanai',
           'Prioritāra kritisko atradumu apstrāde',
           'Ceturksnī pārskats drošības vadībai',
         ],

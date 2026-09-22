@@ -370,11 +370,11 @@ export const et: Dictionary = {
         name: 'Iganädalane ülevaatus',
         cadence: '1 väline ülevaatus nädalas',
         description:
-          'Ettevõtetele, kes ei saa endale lubada haavatavust kauemaks kui mõneks päevaks — tihedamad ülevaatused ja 200 tundi konsulendiaega kuus probleemide sulgemiseks.',
+          'Ettevõtetele, kes ei saa endale lubada haavatavust kauemaks kui mõneks päevaks — tihedamad ülevaatused ja kokkulepitud konsulendiaeg probleemide sulgemiseks.',
         features: [
           '1 väline turbeülevaatus iga nädal',
           'Kirjalik aruanne ja parandused igale leiule',
-          '200 tundi konsulendiaega kuus probleemide sulgemiseks',
+          'kokkulepitud konsulendiaeg probleemide sulgemiseks',
           'Kriitiliste leidude eeliskäsitlus',
           'Kord kvartalis ülevaade turbejuhtkonnale',
         ],

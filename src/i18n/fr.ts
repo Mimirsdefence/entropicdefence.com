@@ -370,11 +370,11 @@ export const fr: Dictionary = {
         name: 'Revue hebdomadaire',
         cadence: '1 revue externe par semaine',
         description:
-          'Pour les entreprises qui ne peuvent pas se permettre une vulnérabilité plus de quelques jours — des revues plus fréquentes et 200 h de consultant par mois pour refermer les constats.',
+          'Pour les entreprises qui ne peuvent pas se permettre une vulnérabilité plus de quelques jours — des revues plus fréquentes et un temps de consultant convenu pour refermer les constats.',
         features: [
           '1 revue de sécurité externe par semaine',
           'Rapport écrit et corrections pour chaque constat',
-          '200 h de temps de consultant par mois pour refermer les constats',
+          'un temps de consultant convenu pour refermer les constats',
           'Traitement prioritaire des constats critiques',
           'Point trimestriel avec la direction sécurité',
         ],

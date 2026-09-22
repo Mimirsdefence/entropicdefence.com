@@ -370,11 +370,11 @@ export const es: Dictionary = {
         name: 'Revisión semanal',
         cadence: '1 revisión externa a la semana',
         description:
-          'Para empresas que no pueden permitirse una vulnerabilidad más de unos días — revisiones más frecuentes y 200 horas de consultor al mes para cerrar hallazgos.',
+          'Para empresas que no pueden permitirse una vulnerabilidad más de unos días — revisiones más frecuentes y tiempo de consultor acordado para cerrar hallazgos.',
         features: [
           '1 revisión de seguridad externa a la semana',
           'Informe escrito y correcciones para cada hallazgo',
-          '200 horas de consultor al mes para cerrar hallazgos',
+          'tiempo de consultor acordado para cerrar hallazgos',
           'Tratamiento prioritario de hallazgos críticos',
           'Revisión trimestral con la dirección de seguridad',
         ],

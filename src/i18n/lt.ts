@@ -370,11 +370,11 @@ export const lt: Dictionary = {
         name: 'Savaitės patikra',
         cadence: '1 išorinė patikra per savaitę',
         description:
-          'Įmonėms, kurios negali būti pažeidžiamos ilgiau nei kelias dienas — tankesnės patikros ir 200 val. konsultanto laiko per mėnesį problemoms užbaigti.',
+          'Įmonėms, kurios negali būti pažeidžiamos ilgiau nei kelias dienas — tankesnės patikros ir sutartas konsultanto laikas problemoms užbaigti.',
         features: [
           '1 išorinė saugumo patikra kas savaitę',
           'Rašytinė ataskaita ir kiekvieno radinio ištaisymai',
-          '200 val. konsultanto laiko per mėnesį problemoms užbaigti',
+          'sutartas konsultanto laikas problemoms užbaigti',
           'Prioritetinis kritinių radinių tvarkymas',
           'Ketvirtinė saugumo vadovybės apžvalga',
         ],

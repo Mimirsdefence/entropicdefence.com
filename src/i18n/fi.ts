@@ -370,11 +370,11 @@ export const fi: Dictionary = {
         name: 'Viikkotarkastus',
         cadence: '1 ulkoinen tarkastus viikossa',
         description:
-          'Yrityksille, joilla ei ole varaa olla haavoittuvia muutamaa päivää kauempaa — tiheämpiä tarkastuksia ja 200 tuntia konsulttiaikaa kuukaudessa ongelmien sulkemiseen.',
+          'Yrityksille, joilla ei ole varaa olla haavoittuvia muutamaa päivää kauempaa — tiheämpiä tarkastuksia ja sovitettu konsulttiaika ongelmien sulkemiseen.',
         features: [
           '1 ulkoinen turvallisuustarkastus joka viikko',
           'Kirjallinen raportti ja korjaustoimet jokaiseen löydökseen',
-          '200 tuntia konsulttiaikaa kuukaudessa ongelmien sulkemiseen',
+          'sovitettu konsulttiaika ongelmien sulkemiseen',
           'Kriittisten löydösten priorisoitu käsittely',
           'Neljännesvuosittainen katsaus turvallisuusjohdolle',
         ],
