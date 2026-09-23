@@ -166,7 +166,7 @@ export const fr: Dictionary = {
       { value: '24/7', label: 'surveillance continue et chasse aux menaces' },
       { value: '100%', label: 'de conseil indépendant' },
     ],
-    trustStrip: ['Marchés publics', 'Systèmes militaires', 'Infrastructures critiques', 'Confidentialité par défaut'],
+    trustStrip: ['Parcours', 'Marchés publics', 'Systèmes militaires', 'Infrastructures critiques', 'Confidentialité par défaut'],
     hotbild: {
       eyebrow: 'La menace a changé',
       titleLead: 'La question n\'est plus ',
@@ -175,7 +175,7 @@ export const fr: Dictionary = {
       titleHighlight: 'quand',
       titleEnd: '.',
       description:
-        'Des acteurs étatiques cartographient en ce moment même les entreprises suédoises — chaînes d\'approvisionnement, employés et systèmes exposés. Celui qui ne se contrôle pas est déjà contrôlé.',
+        'Des acteurs étatiques cartographient en ce moment même les entreprises européennes — chaînes d\'approvisionnement, employés et systèmes exposés. Celui qui ne se contrôle pas est déjà contrôlé.',
       terminal: [
         'menace : acteurs étatiques',
         'vecteurs : chaîne d\'approvisionnement · initiés · IA',
@@ -194,15 +194,15 @@ export const fr: Dictionary = {
         },
         {
           title: 'Audit de sécurité interne',
-          text: 'Nous fortifions le système de l\'intérieur : accès, journalisation et segmentation — environ une fois par an.',
+          text: 'Durcissement approfondi de votre environnement interne : accès, journalisation et segmentation. Une revue complète adaptée à votre profil de risque et à vos exigences.',
         },
         {
           title: 'Pilotage de sécurité',
           text: 'Conseil stratégique pour la direction et le conseil d\'administration — et un expert sécurité 24/7 qui forme vos équipes.',
         },
         {
-          title: 'Advisories & disclosures',
-          text: 'Divulgation coordonnée de vulnérabilités et synthèses techniques publiques une fois les failles refermées.',
+          title: 'Analyse IA propriétaire',
+          text: 'Nos outils d\'IA maison cartographient les menaces, détectent les anomalies et referment les failles en temps réel — avant qu\'un attaquant n\'agisse.',
         },
       ],
     },
@@ -210,7 +210,7 @@ export const fr: Dictionary = {
       eyebrow: 'Quatre décennies',
       title: '40 ans au plus haut niveau mondial.',
       paragraphs: [
-        'Entropic Defence est né d\'un constat : le marché suédois de la sécurité réagit au lieu de prévenir. Nous avons créé l\'entreprise pour faire l\'inverse.',
+        'Entropic Defence est né d\'un constat : le marché européen de la sécurité réagit au lieu de prévenir. Nous avons créé l\'entreprise pour faire l\'inverse.',
         'Nos consultants viennent du monde de la défense et du renseignement. Nous avons protégé des systèmes gouvernementaux, des réseaux militaires et l\'infrastructure critique de la société — contre les adversaires les plus patients qui existent.',
       ],
       points: [
@@ -225,12 +225,12 @@ export const fr: Dictionary = {
       title: 'Du premier appel à la sécurité continue.',
       steps: [
         {
-          title: 'Cartographie',
-          text: 'Nous cartographions les systèmes, les fournisseurs et les risques humains — et identifions où vous êtes le plus vulnérable.',
+          title: 'Échange',
+          text: 'Nous comprenons votre activité, vos systèmes et ce qui doit réellement être protégé.',
         },
         {
-          title: 'Revue',
-          text: 'Revues externes, audit interne ou les deux. Chaque constat est priorisé selon le risque réel.',
+          title: 'Cartographie & revue',
+          text: 'Menaces, surface d\'attaque et revues externes/internes pour identifier vos vulnérabilités.',
         },
         {
           title: 'Correction',
@@ -248,7 +248,7 @@ export const fr: Dictionary = {
       description:
         'La première conversation et un scan de sécurité externe sont gratuits et sans engagement. Parlez-nous de votre activité — nous vous dirons où vous êtes vulnérables.',
       ctaMail: 'Écrivez-nous',
-      ctaSupport: 'Vers le support',
+      ctaSupport: 'Nos packs',
     },
     papersCta: {
       text: 'Notre façon de penser vous intéresse ? Lisez nos papers sur l\'IA, la physique et la sécurité.',

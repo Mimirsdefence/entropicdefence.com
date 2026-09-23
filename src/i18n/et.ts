@@ -166,7 +166,7 @@ export const et: Dictionary = {
       { value: '24/7', label: 'pidev seire ja ohujaht' },
       { value: '100%', label: 'sõltumatu nõustamine' },
     ],
-    trustStrip: ['Riigihanked', 'Sõjaväesüsteemid', 'Elutähtis taristu', 'Konfidentsiaalsus standardina'],
+    trustStrip: ['Taust', 'Riigihanked', 'Sõjaväesüsteemid', 'Elutähtis taristu', 'Konfidentsiaalsus standardina'],
     hotbild: {
       eyebrow: 'Ohupilt on muutunud',
       titleLead: 'Küsimus pole enam, ',
@@ -175,7 +175,7 @@ export const et: Dictionary = {
       titleHighlight: 'millal',
       titleEnd: '.',
       description:
-        'Riiklikud osalejad kaardistavad Rootsi ettevõtteid just praegu — tarneahelaid, töötajaid ja avatud süsteeme. Kes ennast ei kontrolli, on juba kontrollitud.',
+        'Riiklikud osalejad kaardistavad Euroopa ettevõtteid just praegu — tarneahelaid, töötajaid ja avatud süsteeme. Kes ennast ei kontrolli, on juba kontrollitud.',
       terminal: [
         'ohupilt: riiklikud osalejad',
         'vektorid: tarneahel · insaiderid · AI',
@@ -194,15 +194,15 @@ export const et: Dictionary = {
         },
         {
           title: 'Sisemine turbeaudit',
-          text: 'Kindlustame süsteemi seestpoolt: juurdepääsud, logimine ja segmenteerimine — umbes kord aastas.',
+          text: 'Teie sisemise keskkonna põhjalik karastamine: juurdepääsud, logimine ja segmenteerimine. Põhjalik läbivalgustus vastavalt teie riskiprofiilile ja nõuetele.',
         },
         {
           title: 'Turbejuhtimine',
           text: 'Strateegiline nõustamine juhtkonnale ja nõukogule — ning 24/7 turvaekspert, kes koolitab teie töötajaid.',
         },
         {
-          title: 'Advisories & disclosures',
-          text: 'Koordineeritud haavatavuste avalikustamine ja avalikud tehnilised kokkuvõtted, kui nõrkused on suletud.',
+          title: 'Proprietaarne AI-analüüs',
+          text: 'Meie enda arendatud AI-tööriistad kaardistavad ohupilte, tuvastavad kõrvalekaldeid ja sulgevad haavatavusi reaalajas — enne kui ründaja jõuab tegutseda.',
         },
       ],
     },
@@ -210,7 +210,7 @@ export const et: Dictionary = {
       eyebrow: 'Neli aastakümmet',
       title: '40 aastat maailma kõrgeimal tasemel.',
       paragraphs: [
-        'Entropic Defence sündis tõdemusest: Rootsi turbeturg reageerib selle asemel, et ennetada. Ehitasime ettevõtte, et teha vastupidist.',
+        'Entropic Defence sündis tõdemusest: Euroopa turbeturg reageerib selle asemel, et ennetada. Ehitasime ettevõtte, et teha vastupidist.',
         'Meie konsulendid tulevad kaitse- ja luuremaailmast. Oleme kaitsnud valitsussüsteeme, sõjaväevõrke ja ühiskonna elutähtsat taristut — kõige kannatlikumate olemasolevate vastaste eest.',
       ],
       points: [
@@ -225,12 +225,12 @@ export const et: Dictionary = {
       title: 'Esimesest kõnest pideva turbeni.',
       steps: [
         {
-          title: 'Kaardistamine',
-          text: 'Kaardistame süsteemid, tarnijad ja inimriskid — ning tuvastame, kus olete kõige haavatavamad.',
+          title: 'Vestlus',
+          text: 'Mõistame teie tegevust, süsteeme ja seda, mida tegelikult on vaja kaitsta.',
         },
         {
-          title: 'Ülevaatus',
-          text: 'Välised ülevaatused, sisemine audit või mõlemad. Iga leid seatakse tähtsuse järjekorda reaalse riski põhjal.',
+          title: 'Kaardistamine ja ülevaatus',
+          text: 'Ohupilt, ründepind ning välised ja sisemised ülevaatused teie haavatavuste tuvastamiseks.',
         },
         {
           title: 'Parandamine',
@@ -248,7 +248,7 @@ export const et: Dictionary = {
       description:
         'Esimene vestlus ja väline turbesõel on tasuta ega kohusta millekski. Rääkige oma tegevusest — meie ütleme, kus olete haavatavad.',
       ctaMail: 'Kirjuta meile',
-      ctaSupport: 'Toe poole',
+      ctaSupport: 'Meie paketid',
     },
     papersCta: {
       text: 'Huvitab meie mõtteviis? Loe meie paperseid AI-st, füüsikast ja turbest.',

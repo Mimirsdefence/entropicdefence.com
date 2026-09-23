@@ -166,7 +166,7 @@ export const da: Dictionary = {
       { value: '24/7', label: 'kontinuerlig overvågning og trusselsjagt' },
       { value: '100%', label: 'uafhængig rådgivning' },
     ],
-    trustStrip: ['Offentlige opgaver', 'Militære systemer', 'Kritisk infrastruktur', 'Tavshedspligt som standard'],
+    trustStrip: ['Baggrund', 'Offentlige opgaver', 'Militære systemer', 'Kritisk infrastruktur', 'Tavshedspligt som standard'],
     hotbild: {
       eyebrow: 'Trusselsbilledet har ændret sig',
       titleLead: 'Spørgsmålet er ikke længere, ',
@@ -175,7 +175,7 @@ export const da: Dictionary = {
       titleHighlight: 'hvornår',
       titleEnd: '.',
       description:
-        'Statslige aktører kortlægger svenske virksomheder lige nu — forsyningskæder, medarbejdere og eksponerede systemer. Den, der ikke tjekker sig selv, er allerede blevet tjekket.',
+        'Statslige aktører kortlægger europæiske virksomheder lige nu — forsyningskæder, medarbejdere og eksponerede systemer. Den, der ikke tjekker sig selv, er allerede blevet tjekket.',
       terminal: [
         'trusselsbillede: statslige aktører',
         'vektorer: supply chain · insidere · AI',
@@ -194,15 +194,15 @@ export const da: Dictionary = {
         },
         {
           title: 'Intern sikkerhedsrevision',
-          text: 'Vi sikrer systemet indefra: adgange, logning og segmentering — cirka én gang om året.',
+          text: 'Dybdegående hærdning af jeres interne miljø: adgange, logning og segmentering. Grundig gennemlysning tilpasset jeres risikoprofil og krav.',
         },
         {
           title: 'Sikkerhedsledelse',
           text: 'Strategisk rådgivning til ledelse og bestyrelse — samt en 24/7-sikkerhedsekspert, der uddanner jeres medarbejdere.',
         },
         {
-          title: 'Advisories & disclosures',
-          text: 'Koordineret sårbarhedsrapportering og offentlige tekniske resuméer, når sårbarheder er lukket.',
+          title: 'Proprietær AI-analyse',
+          text: 'Vores egenudviklede AI-værktøjer kortlægger trusselsbilleder, opdager afvigelser og lukker sårbarheder i realtid — før en angriber når at handle.',
         },
       ],
     },
@@ -210,7 +210,7 @@ export const da: Dictionary = {
       eyebrow: 'Fire årtier',
       title: '40 år på verdens højeste sikkerhedsniveau.',
       paragraphs: [
-        'Entropic Defence blev født af en erkendelse: det svenske sikkerhedsmarked reagerer i stedet for at forebygge. Vi byggede virksomheden for at gøre det modsatte.',
+        'Entropic Defence blev født af en erkendelse: det europæiske sikkerhedsmarked reagerer i stedet for at forebygge. Vi byggede virksomheden for at gøre det modsatte.',
         'Vores konsulenter kommer fra forsvars- og efterretningsverdenen. Vi har beskyttet regeringssystemer, militære netværk og samfundets kritiske infrastruktur — mod de mest tålmodige modstandere, der findes.',
       ],
       points: [
@@ -225,12 +225,12 @@ export const da: Dictionary = {
       title: 'Fra første opkald til kontinuerlig sikkerhed.',
       steps: [
         {
-          title: 'Kortlægning',
-          text: 'Vi kortlægger systemer, leverandører og menneskelige risici — og identificerer, hvor I er mest sårbare.',
+          title: 'Samtale',
+          text: 'Vi forstår jeres forretning, jeres systemer og hvad der faktisk skal beskyttes.',
         },
         {
-          title: 'Gennemgang',
-          text: 'Eksterne gennemgange, intern revision eller begge dele. Hvert fund prioriteres efter reel risiko.',
+          title: 'Kortlægning & gennemgang',
+          text: 'Trusselsbillede, angrebsflade og eksterne/interne gennemgange for at identificere jeres sårbarheder.',
         },
         {
           title: 'Udbedring',
@@ -248,7 +248,7 @@ export const da: Dictionary = {
       description:
         'Den første samtale og en ekstern sikkerhedsscreening er gratis og uforpligtende. Fortæl om jeres drift — så fortæller vi, hvor I er sårbare.',
       ctaMail: 'Send os en mail',
-      ctaSupport: 'Til support',
+      ctaSupport: 'Vores pakker',
     },
     papersCta: {
       text: 'Nysgerrig på vores tankegang? Læs vores papers om AI, fysik og sikkerhed.',

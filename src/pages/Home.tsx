@@ -279,7 +279,7 @@ export default function Home() {
                 {t.home.contact.ctaMail}
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </Button>
-              <Button to="/support" variant="ghost">
+              <Button to="/checkout" variant="ghost">
                 {t.home.contact.ctaSupport}
               </Button>
             </div>

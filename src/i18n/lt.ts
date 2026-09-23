@@ -166,7 +166,7 @@ export const lt: Dictionary = {
       { value: '24/7', label: 'nuolatinė stebėsena ir grėsmių medžioklė' },
       { value: '100%', label: 'nepriklausomų konsultacijų' },
     ],
-    trustStrip: ['Valstybinės užduotys', 'Karinės sistemos', 'Ypatingos svarbos infrastruktūra', 'Konfidencialumas kaip standartas'],
+    trustStrip: ['Patirtis', 'Valstybinės užduotys', 'Karinės sistemos', 'Ypatingos svarbos infrastruktūra', 'Konfidencialumas kaip standartas'],
     hotbild: {
       eyebrow: 'Grėsmių vaizdas pasikeitė',
       titleLead: 'Klausimas jau ne ',
@@ -175,7 +175,7 @@ export const lt: Dictionary = {
       titleHighlight: 'kada',
       titleEnd: '.',
       description:
-        'Valstybiniai veikėjai dabar žvalgo švedų įmones — tiekimo grandines, darbuotojus ir atviras sistemas. Kas savęs nepatikrina, tas jau yra patikrintas.',
+        'Valstybiniai veikėjai dabar žvalgo Europos įmones — tiekimo grandines, darbuotojus ir atviras sistemas. Kas savęs nepatikrina, tas jau yra patikrintas.',
       terminal: [
         'grėsmių vaizdas: valstybiniai veikėjai',
         'vektoriai: tiekimo grandinė · vidiniai · DI',
@@ -194,15 +194,15 @@ export const lt: Dictionary = {
         },
         {
           title: 'Vidinis saugumo auditas',
-          text: 'Apsaugome sistemą iš vidaus: prieigos, registravimas ir atskyrimas — maždaug kartą per metus.',
+          text: 'Gilus vidinės aplinkos grūdinimas: prieigos, registravimas ir atskyrimas. Išsami peržvalga pagal jūsų rizikos profilį ir reikalavimus.',
         },
         {
           title: 'Saugumo valdymas',
           text: 'Strateginės konsultacijos vadovybei ir valdybai — bei 24/7 saugumo ekspertas, kuris apmoko jūsų darbuotojus.',
         },
         {
-          title: 'Advisories & disclosures',
-          text: 'Koordinuotas pažeidžiamumų atskleidimas ir viešos techninės santraukos, kai spragos uždarytos.',
+          title: 'Proprietarinė DI analizė',
+          text: 'Mūsų pačių sukurti DI įrankiai žvalgo grėsmių vaizdą, aptinka anomalijas ir uždaro pažeidžiamumus realiuoju laiku — kol užpuolikas dar nespėjo veikti.',
         },
       ],
     },
@@ -210,7 +210,7 @@ export const lt: Dictionary = {
       eyebrow: 'Keturi dešimtmečiai',
       title: '40 metų aukščiausiu pasauliniu lygiu.',
       paragraphs: [
-        'Entropic Defence gimė iš įžvalgos: Švedijos saugumo rinka reaguoja, užuot užkirtusi kelią. Įmonę kūrėme tam, kad darytume priešingai.',
+        'Entropic Defence gimė iš įžvalgos: Europos saugumo rinka reaguoja, užuot užkirtusi kelią. Įmonę kūrėme tam, kad darytume priešingai.',
         'Mūsų konsultantai kilę iš gynybos ir žvalgybos pasaulio. Saugojome valdžios sistemas, karinius tinklus ir visuomenės ypatingos svarbos infrastruktūrą — nuo kantriausių egzistuojančių priešininkų.',
       ],
       points: [
@@ -225,12 +225,12 @@ export const lt: Dictionary = {
       title: 'Nuo pirmojo skambučio iki nuolatinės saugos.',
       steps: [
         {
-          title: 'Žvalgymas',
-          text: 'Išsiaiškiname sistemas, tiekėjus ir žmogiškąsias rizikas — ir nustatome, kur esate labiausiai pažeidžiami.',
+          title: 'Pokalbis',
+          text: 'Suprantame jūsų veiklą, sistemas ir tai, ką iš tiesų reikia apsaugoti.',
         },
         {
-          title: 'Patikra',
-          text: 'Išorinės patikros, vidinis auditas arba abu. Kiekvienas radinys prioritizuojamas pagal realią riziką.',
+          title: 'Žvalgymas ir patikra',
+          text: 'Grėsmių vaizdas, atakos paviršius ir išorinės/vidinės patikros jūsų pažeidžiamumams nustatyti.',
         },
         {
           title: 'Ištaisymas',
@@ -248,7 +248,7 @@ export const lt: Dictionary = {
       description:
         'Pirmasis pokalbis ir išorinė saugumo peržiūra yra nemokami ir niekuo neįpareigoja. Papasakokite apie veiklą — mes pasakysime, kur esate pažeidžiami.',
       ctaMail: 'Parašykite mums',
-      ctaSupport: 'Į pagalbą',
+      ctaSupport: 'Mūsų paketai',
     },
     papersCta: {
       text: 'Smalsu, kaip mąstome? Skaitykite mūsų papers apie DI, fiziką ir saugumą.',

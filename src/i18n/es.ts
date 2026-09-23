@@ -166,7 +166,7 @@ export const es: Dictionary = {
       { value: '24/7', label: 'vigilancia continua y caza de amenazas' },
       { value: '100%', label: 'asesoramiento independiente' },
     ],
-    trustStrip: ['Contratos públicos', 'Sistemas militares', 'Infraestructuras críticas', 'Confidencialidad por defecto'],
+    trustStrip: ['Trayectoria', 'Contratos públicos', 'Sistemas militares', 'Infraestructuras críticas', 'Confidencialidad por defecto'],
     hotbild: {
       eyebrow: 'El panorama de amenazas ha cambiado',
       titleLead: 'La pregunta ya no es ',
@@ -175,7 +175,7 @@ export const es: Dictionary = {
       titleHighlight: 'cuándo',
       titleEnd: '.',
       description:
-        'Actores estatales están cartografiando ahora mismo las empresas suecas — cadenas de suministro, empleados y sistemas expuestos. Quien no se controla a sí mismo ya está controlado.',
+        'Actores estatales están cartografiando ahora mismo las empresas europeas — cadenas de suministro, empleados y sistemas expuestos. Quien no se controla a sí mismo ya está controlado.',
       terminal: [
         'panorama de amenazas: actores estatales',
         'vectores: cadena de suministro · internos · IA',
@@ -194,15 +194,15 @@ export const es: Dictionary = {
         },
         {
           title: 'Auditoría de seguridad interna',
-          text: 'Fortificamos el sistema desde dentro: accesos, registro y segmentación — aproximadamente una vez al año.',
+          text: 'Endurecimiento profundo de su entorno interno: accesos, registro y segmentación. Una revisión exhaustiva adaptada a su perfil de riesgo y sus requisitos.',
         },
         {
           title: 'Dirección de seguridad',
           text: 'Asesoramiento estratégico para dirección y consejo — y un experto en seguridad 24/7 que forma a su personal.',
         },
         {
-          title: 'Advisories & disclosures',
-          text: 'Divulgación coordinada de vulnerabilidades y resúmenes técnicos públicos cuando las debilidades están cerradas.',
+          title: 'Análisis de IA propietaria',
+          text: 'Nuestras herramientas de IA propias cartografían las amenazas, detectan anomalías y cierran vulnerabilidades en tiempo real — antes de que un atacante actúe.',
         },
       ],
     },
@@ -210,7 +210,7 @@ export const es: Dictionary = {
       eyebrow: 'Cuatro décadas',
       title: '40 años al más alto nivel mundial.',
       paragraphs: [
-        'Entropic Defence nació de una constatación: el mercado sueco de seguridad reacciona en lugar de prevenir. Creamos la empresa para hacer lo contrario.',
+        'Entropic Defence nació de una constatación: el mercado europeo de seguridad reacciona en lugar de prevenir. Creamos la empresa para hacer lo contrario.',
         'Nuestros consultores provienen del mundo de la defensa y la inteligencia. Hemos protegido sistemas gubernamentales, redes militares y la infraestructura crítica de la sociedad — contra los adversarios más pacientes que existen.',
       ],
       points: [
@@ -225,12 +225,12 @@ export const es: Dictionary = {
       title: 'De la primera llamada a la seguridad continua.',
       steps: [
         {
-          title: 'Cartografía',
-          text: 'Cartografiamos sistemas, proveedores y riesgos humanos — e identificamos dónde es más vulnerable.',
+          title: 'Conversación',
+          text: 'Entendemos su actividad, sus sistemas y lo que realmente necesita protección.',
         },
         {
-          title: 'Revisión',
-          text: 'Revisiones externas, auditoría interna o ambas. Cada hallazgo se prioriza según el riesgo real.',
+          title: 'Cartografía y revisión',
+          text: 'Amenazas, superficie de ataque y revisiones externas/internas para identificar sus vulnerabilidades.',
         },
         {
           title: 'Corrección',
@@ -248,7 +248,7 @@ export const es: Dictionary = {
       description:
         'La primera conversación y un escaneo de seguridad externo son gratuitos y sin compromiso. Cuéntenos sobre su actividad — le diremos dónde es vulnerable.',
       ctaMail: 'Escríbanos',
-      ctaSupport: 'Al soporte',
+      ctaSupport: 'Nuestros paquetes',
     },
     papersCta: {
       text: '¿Le interesa nuestra forma de pensar? Lea nuestros papers sobre IA, física y seguridad.',

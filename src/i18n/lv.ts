@@ -166,7 +166,7 @@ export const lv: Dictionary = {
       { value: '24/7', label: 'nepārtraukta uzraudzība un draudu medības' },
       { value: '100%', label: 'neatkarīgas konsultācijas' },
     ],
-    trustStrip: ['Valsts iepirkumi', 'Militārās sistēmas', 'Kritiskā infrastruktūra', 'Konfidencialitāte kā standarts'],
+    trustStrip: ['Pieredze', 'Valsts iepirkumi', 'Militārās sistēmas', 'Kritiskā infrastruktūra', 'Konfidencialitāte kā standarts'],
     hotbild: {
       eyebrow: 'Apdraudējuma aina ir mainījusies',
       titleLead: 'Jautājums vairs nav, ',
@@ -175,7 +175,7 @@ export const lv: Dictionary = {
       titleHighlight: 'kad',
       titleEnd: '.',
       description:
-        'Valstiski dalībnieki šobrīd kartē Zviedrijas uzņēmumus — piegādes ķēdes, darbiniekus un atvērtās sistēmas. Kas nepārbauda sevi, tas jau ir pārbaudīts.',
+        'Valstiski dalībnieki šobrīd kartē Eiropas uzņēmumus — piegādes ķēdes, darbiniekus un atvērtās sistēmas. Kas nepārbauda sevi, tas jau ir pārbaudīts.',
       terminal: [
         'apdraudējuma aina: valstiski dalībnieki',
         'vektori: piegādes ķēde · iekšējie · MI',
@@ -194,15 +194,15 @@ export const lv: Dictionary = {
         },
         {
           title: 'Iekšējais drošības audits',
-          text: 'Nocietinām sistēmu no iekšpuses: piekļuves, reģistrēšana un segmentēšana — apmēram reizi gadā.',
+          text: 'Dziļa iekšējās vides rūdīšana: piekļuves, reģistrēšana un segmentēšana. Rūpīga caurlūkošana atbilstoši jūsu riska profilam un prasībām.',
         },
         {
           title: 'Drošības vadība',
           text: 'Stratēģiskas konsultācijas vadībai un padomei — un 24/7 drošības eksperts, kas apmāca jūsu darbiniekus.',
         },
         {
-          title: 'Advisories & disclosures',
-          text: 'Koordinēta ievainojamību atklāšana un publiski tehniski kopsavilkumi, kad vājumi ir aizvērti.',
+          title: 'Proprietāra MI analīze',
+          text: 'Mūsu pašu izstrādātie MI rīki kartē draudu ainavu, atklāj novirzes un aizver ievainojamības reāllaikā — pirms uzbrucējs paspēj rīkoties.',
         },
       ],
     },
@@ -210,7 +210,7 @@ export const lv: Dictionary = {
       eyebrow: 'Četras desmitgades',
       title: '40 gadi pasaules augstākajā līmenī.',
       paragraphs: [
-        'Entropic Defence dzimis no atziņas: Zviedrijas drošības tirgus reaģē, nevis novērš. Mēs izveidojām uzņēmumu, lai darītu pretējo.',
+        'Entropic Defence dzimis no atziņas: Eiropas drošības tirgus reaģē, nevis novērš. Mēs izveidojām uzņēmumu, lai darītu pretējo.',
         'Mūsu konsultanti nāk no aizsardzības un izlūkošanas pasaules. Esam aizsargājuši valdības sistēmas, militāros tīklus un sabiedrības kritisko infrastruktūru — pret pacietīgākajiem pretiniekiem, kādi pastāv.',
       ],
       points: [
@@ -225,12 +225,12 @@ export const lv: Dictionary = {
       title: 'No pirmā zvana līdz nepārtrauktai drošībai.',
       steps: [
         {
-          title: 'Kartēšana',
-          text: 'Kartējam sistēmas, piegādātājus un cilvēciskos riskus — un identificējam, kur esat visneaizsargātākie.',
+          title: 'Saruna',
+          text: 'Mēs saprotam jūsu darbību, sistēmas un to, kas patiesi ir jāaizsargā.',
         },
         {
-          title: 'Pārbaude',
-          text: 'Ārējās pārbaudes, iekšējais audits vai abi. Katrs atradums tiek prioritizēts pēc reāla riska.',
+          title: 'Kartēšana un pārbaude',
+          text: 'Draudu aina, uzbrukuma virsma un ārējās/iekšējās pārbaudes jūsu ievainojamību identificēšanai.',
         },
         {
           title: 'Labošana',
@@ -248,7 +248,7 @@ export const lv: Dictionary = {
       description:
         'Pirmā saruna un ārējā drošības pārbaude ir bez maksas un bez saistībām. Pastāstiet par savu darbību — mēs pateiksim, kur esat neaizsargāti.',
       ctaMail: 'Rakstiet mums',
-      ctaSupport: 'Uz atbalstu',
+      ctaSupport: 'Mūsu pakotnes',
     },
     papersCta: {
       text: 'Interesē mūsu domāšanas veids? Lasiet mūsu papers par MI, fiziku un drošību.',

@@ -166,7 +166,7 @@ export const fi: Dictionary = {
       { value: '24/7', label: 'jatkuva valvonta ja uhkajahti' },
       { value: '100%', label: 'riippumatonta neuvontaa' },
     ],
-    trustStrip: ['Valtionhallinnon toimeksiannot', 'Sotilaalliset järjestelmät', 'Kriittinen infrastruktuuri', 'Vaitiolovelvollisuus vakiona'],
+    trustStrip: ['Tausta', 'Valtionhallinnon toimeksiannot', 'Sotilaalliset järjestelmät', 'Kriittinen infrastruktuuri', 'Vaitiolovelvollisuus vakiona'],
     hotbild: {
       eyebrow: 'Uhkakuva on muuttunut',
       titleLead: 'Kysymys ei ole enää siitä, ',
@@ -175,7 +175,7 @@ export const fi: Dictionary = {
       titleHighlight: 'milloin',
       titleEnd: '.',
       description:
-        'Valtiolliset toimijat kartoittavat ruotsalaisia yrityksiä juuri nyt — toimitusketjuja, työntekijöitä ja altistuneita järjestelmiä. Joka ei tarkista itseään, on jo tarkistettu.',
+        'Valtiolliset toimijat kartoittavat eurooppalaisia yrityksiä juuri nyt — toimitusketjuja, työntekijöitä ja altistuneita järjestelmiä. Joka ei tarkista itseään, on jo tarkistettu.',
       terminal: [
         'uhkakuva: valtiolliset toimijat',
         'vektorit: supply chain · sisäpiiri · tekoäly',
@@ -194,15 +194,15 @@ export const fi: Dictionary = {
         },
         {
           title: 'Sisäinen turvallisuusauditointi',
-          text: 'Turvaamme järjestelmän sisältäpäin: käyttöoikeudet, lokitus ja eristys — noin kerran vuodessa.',
+          text: 'Ympäristönne syväkovennus: käyttöoikeudet, lokitus ja eristys. Perusteellinen läpivalaisu riskiprofiilinne ja vaatimustenne mukaan.',
         },
         {
           title: 'Turvallisuusjohtaminen',
           text: 'Strategista neuvontaa johdolle ja hallitukselle — sekä 24/7-turvallisuusasiantuntija, joka kouluttaa henkilöstöänne.',
         },
         {
-          title: 'Advisories & disclosures',
-          text: 'Koordinoitu haavoittuvuusraportointi ja julkiset tekniset yhteenvedot, kun haavoittuvuudet on korjattu.',
+          title: 'Oma tekoälyanalyysi',
+          text: 'Omat tekoälytyökalumme kartoittavat uhkakuvia, tunnistavat poikkeamia ja sulkevat haavoittuvuudet reaaliajassa — ennen kuin hyökkääjä ehtii toimia.',
         },
       ],
     },
@@ -210,7 +210,7 @@ export const fi: Dictionary = {
       eyebrow: 'Neljä vuosikymmentä',
       title: '40 vuotta maailman korkeimmalla turvaluokituksella.',
       paragraphs: [
-        'Entropic Defence syntyi oivalluksesta: Ruotsin turvallisuusmarkkinat reagoivat sen sijaan että ennaltaehkäisisivät. Rakensimme yrityksen tekemään päinvastoin.',
+        'Entropic Defence syntyi oivalluksesta: Euroopan turvallisuusmarkkinat reagoivat sen sijaan että ennaltaehkäisisivät. Rakensimme yrityksen tekemään päinvastoin.',
         'Konsulttimme tulevat puolustus- ja tiedustelumaailmasta. Olemme suojanneet hallitusjärjestelmiä, sotilaallisia verkkoja ja yhteiskunnan kriittistä infrastruktuuria — kärsivällisimpiä vastustajia vastaan, joita on olemassa.',
       ],
       points: [
@@ -225,12 +225,12 @@ export const fi: Dictionary = {
       title: 'Ensimmäisestä puhelusta jatkuvaan turvallisuuteen.',
       steps: [
         {
-          title: 'Kartoitus',
-          text: 'Kartoitamme järjestelmät, toimittajat ja inhimilliset riskit — ja tunnistamme, missä olette haavoittuvimpia.',
+          title: 'Keskustelu',
+          text: 'Ymmärrämme liiketoimintanne, järjestelmänne ja sen, mitä todella on suojattava.',
         },
         {
-          title: 'Tarkastus',
-          text: 'Ulkoisia tarkastuksia, sisäinen auditointi tai molemmat. Jokainen löydös priorisoidaan todellisen riskin mukaan.',
+          title: 'Kartoitus & tarkastus',
+          text: 'Uhkakuva, hyökkäyspinta sekä ulkoiset ja sisäiset tarkastukset haavoittuvuuksienne tunnistamiseksi.',
         },
         {
           title: 'Korjaus',
@@ -248,7 +248,7 @@ export const fi: Dictionary = {
       description:
         'Ensimmäinen keskustelu ja ulkoinen turvallisuuskatselmus ovat maksuttomia ja velvoitteettomia. Kertokaa toiminnastanne — me kerromme, missä olette haavoittuvia.',
       ctaMail: 'Lähetä meille sähköpostia',
-      ctaSupport: 'Tukeen',
+      ctaSupport: 'Pakettimme',
     },
     papersCta: {
       text: 'Kiinnostaako ajattelumme? Lue paperimme tekoälystä, fysiikasta ja turvallisuudesta.',

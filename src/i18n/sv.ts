@@ -177,7 +177,7 @@ export const sv = {
       { value: '24/7', label: 'kontinuerlig övervakning och hotjakt' },
       { value: '100%', label: 'oberoende rådgivning' },
     ],
-    trustStrip: ['Regeringsuppdrag', 'Militära system', 'Kritisk infrastruktur', 'Tystnadsplikt som standard'],
+    trustStrip: ['Bakgrund', 'Regeringsuppdrag', 'Militära system', 'Kritisk infrastruktur', 'Tystnadsplikt som standard'],
     hotbild: {
       eyebrow: 'Hotbilden har förändrats',
       titleLead: 'Det är inte längre frågan ',
@@ -186,7 +186,7 @@ export const sv = {
       titleHighlight: 'när',
       titleEnd: '.',
       description:
-        'Statsunderstödda aktörer kartlägger svenska verksamheter just nu — leverantörskedjor, anställda och exponerade system. Den som inte kontrollerar sig själv är redan kontrollerad.',
+        'Statsunderstödda aktörer kartlägger europeiska verksamheter just nu — leverantörskedjor, anställda och exponerade system. Den som inte kontrollerar sig själv är redan kontrollerad.',
       terminal: [
         'hotbild: statsunderstödda aktörer',
         'vektorer: supply chain · insider · AI',
@@ -205,15 +205,15 @@ export const sv = {
         },
         {
           title: 'Intern säkerhetsrevision',
-          text: 'Vi säkrar systemet inifrån: behörigheter, loggning och isolation — ungefär en gång per år.',
+          text: 'Djupgående härdning av er interna miljö: behörigheter, loggning och isolation. Genomgripande genomlysning anpassad efter er riskprofil och era krav.',
         },
         {
           title: 'Säkerhetsledning',
           text: 'Strategisk rådgivning för ledning och styrelse — och en 24/7 säkerhetsexpert som utbildar er personal.',
         },
         {
-          title: 'Advisories & disclosures',
-          text: 'Koordinerad sårbarhetsrapportering och publika tekniska sammanfattningar när sårbarheter åtgärdats.',
+          title: 'Proprietär AI-analys',
+          text: 'Våra egenutvecklade AI-verktyg kartlägger hotbilder, identifierar avvikelser och stänger sårbarheter i realtid — före en angripare hinner agera.',
         },
       ],
     },
@@ -221,7 +221,7 @@ export const sv = {
       eyebrow: 'Fyra decennier',
       title: '40 år i världens högsta säkerhetsklass.',
       paragraphs: [
-        'Entropic Defence grundades ur en insikt: den svenska säkerhetsmarknaden reagerar i stället för att förebygga. Vi byggde företaget för att göra tvärtom.',
+        'Entropic Defence grundades ur en insikt: den europeiska säkerhetsmarknaden reagerar i stället för att förebygga. Vi byggde företaget för att göra tvärtom.',
         'Våra konsulter kommer från försvars- och underrättelsevärlden. Vi har skyddat regeringssystem, militära nätverk och samhällskritisk infrastruktur — mot de mest tålmodiga motståndare som finns.',
       ],
       points: [
@@ -236,12 +236,12 @@ export const sv = {
       title: 'Från första samtal till kontinuerlig säkerhet.',
       steps: [
         {
-          title: 'Kartläggning',
-          text: 'Vi kartlägger system, leverantörer och mänskliga risker — och identifierar var ni är mest sårbara.',
+          title: 'Samtal',
+          text: 'Vi förstår er verksamhet, era system och vad som faktiskt behöver skyddas.',
         },
         {
-          title: 'Kontroll',
-          text: 'Externa kontroller, intern revision eller båda. Varje fynd prioriteras efter verklig risk.',
+          title: 'Kartläggning & Kontroll',
+          text: 'Hotbild, attackyta och externa/interna kontroller för att identifiera era sårbarheter.',
         },
         {
           title: 'Åtgärd',
@@ -259,7 +259,7 @@ export const sv = {
       description:
         'Första samtalet och en extern säkerhetscheck är kostnadsfria och utan förpliktelser. Berätta om er verksamhet — vi berättar var ni är sårbara.',
       ctaMail: 'Mejla oss direkt',
-      ctaSupport: 'Till supporten',
+      ctaSupport: 'Våra paket',
     },
     papersCta: {
       text: 'Nyfiken på hur vi tänker? Läs våra papers om AI, fysik och säkerhet.',
