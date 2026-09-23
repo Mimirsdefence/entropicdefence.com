@@ -10,7 +10,7 @@ export const no: Dictionary = {
     checkout: {
       title: 'Velg pakke — Entropic Defence',
       description:
-        'Faste priser på kontinuerlig sikkerhet: ekstern gjennomgang, intern revisjon og sikkerhetsledelse. Fra 24 900 kr per måned.',
+        'Faste priser på kontinuerlig sikkerhet: ekstern gjennomgang, intern revisjon og sikkerhetsledelse. Fra 18 700 kr per måned.',
     },
     checkoutExtern: {
       title: 'Kontinuerlig sikkerhetsgjennomgang — Entropic Defence',

@@ -10,7 +10,7 @@ export const et: Dictionary = {
     checkout: {
       title: 'Vali pakett — Entropic Defence',
       description:
-        'Fikseeritud hinnad pidevale turbele: väline ülevaatus, sisemine audit ja turbejuhtimine. Alates 24 900 kr kuus.',
+        'Fikseeritud hinnad pidevale turbele: väline ülevaatus, sisemine audit ja turbejuhtimine. Alates 18 700 kr kuus.',
     },
     checkoutExtern: {
       title: 'Pidev turbeülevaatus — Entropic Defence',

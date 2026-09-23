@@ -10,7 +10,7 @@ export const fi: Dictionary = {
     checkout: {
       title: 'Valitse paketti — Entropic Defence',
       description:
-        'Kiinteät hinnat jatkuvalle turvallisuudelle: ulkoinen tarkastus, sisäinen auditointi ja turvallisuusjohtaminen. Alkaen 24 900 kr kuukaudessa.',
+        'Kiinteät hinnat jatkuvalle turvallisuudelle: ulkoinen tarkastus, sisäinen auditointi ja turvallisuusjohtaminen. Alkaen 18 700 kr kuukaudessa.',
     },
     checkoutExtern: {
       title: 'Jatkuva turvallisuustarkastus — Entropic Defence',

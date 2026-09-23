@@ -14,7 +14,7 @@ export const sv = {
     checkout: {
       title: 'Välj paket — Entropic Defence',
       description:
-        'Fasta priser på kontinuerlig säkerhet: extern kontroll, intern revision och säkerhetsledning. Från 24 900 kr per månad.',
+        'Fasta priser på kontinuerlig säkerhet: extern kontroll, intern revision och säkerhetsledning. Från 18 700 kr per månad.',
     },
     checkoutExtern: {
       title: 'Kontinuerlig säkerhetskontroll — Entropic Defence',

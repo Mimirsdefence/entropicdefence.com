@@ -10,7 +10,7 @@ export const lt: Dictionary = {
     checkout: {
       title: 'Pasirinkite paketą — Entropic Defence',
       description:
-        'Fiksuotos nuolatinės saugos kainos: išorinė patikra, vidinis auditas ir saugumo valdymas. Nuo 24 900 kr per mėnesį.',
+        'Fiksuotos nuolatinės saugos kainos: išorinė patikra, vidinis auditas ir saugumo valdymas. Nuo 18 700 kr per mėnesį.',
     },
     checkoutExtern: {
       title: 'Nuolatinė saugumo patikra — Entropic Defence',

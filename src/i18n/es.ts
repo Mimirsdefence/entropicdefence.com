@@ -10,7 +10,7 @@ export const es: Dictionary = {
     checkout: {
       title: 'Elige un paquete — Entropic Defence',
       description:
-        'Precios fijos para seguridad continua: revisión externa, auditoría interna y dirección de seguridad. Desde 24 900 kr al mes.',
+        'Precios fijos para seguridad continua: revisión externa, auditoría interna y dirección de seguridad. Desde 18 700 kr al mes.',
     },
     checkoutExtern: {
       title: 'Revisión de seguridad continua — Entropic Defence',
