@@ -641,7 +641,7 @@ export const et: Dictionary = {
         title: 'Tehisintellekt',
         text: 'AI-süsteemide turbemõjud, arutlevad mudelid ja autonoomia.',
         papers: [
-          { title: 'Kui mudel mõtleb ise – Autonoomsed häkkerid' },
+          { title: 'Kui mudel mõtleb ise — autonoomsed häkkerid' },
           { title: 'AI ründepinnana: juhised, andmed ja tarneahel' },
         ],
       },
@@ -649,16 +649,16 @@ export const et: Dictionary = {
         title: 'Teoreetiline füüsika',
         text: 'Entroopia, informatsioon ja aeg — alusuuringud, mis kujundavad meie turbemõtlemist.',
         papers: [
-          { title: 'Intellekti füüsikaline definitsioon' },
-          { title: 'Kui viimane footon on lagunenud' },
+          { title: 'Entroopia kui intelligentsuse mõõt: miks harmoonia on tõhusam energiaolek' },
+          { title: 'Aeg, vaatlus ja haavatavus — füüsikaline vaatenurk' },
         ],
       },
       {
         title: 'Filosoofia',
         text: 'Eetika, vabadus ja vastutus jälgimise ja vastaste maailmas.',
         papers: [
-          { title: 'AI – kõige demokraatlikum tööriist, mis eales loodud' },
-          { title: 'Arukad, "isejagunevad" tööriistad – vastus Faraday paradoksile' },
+          { title: 'Avatud ühiskonna kaitsmine suletud vahenditega' },
+          { title: 'Usaldus on haavatavus — ja meie kõige olulisem ressurss' },
         ],
       },
       {
@@ -726,7 +726,7 @@ export const et: Dictionary = {
       titleHighlight: 'ööpäev läbi',
       titleEnd: '.',
       description:
-        'Korduma kippuvad küsimused, meie valve vastab 24/7. Kiireloomuliste intsidentide korral: kirjutage ja märkige teemaks INCIDENT.',
+        'Valige, kas soovite võtta meie valvega otse ühendust või leida vastuse allolevatest korduma kippuvatest küsimustest. Kiireloomuliste intsidentide korral märkige teemaks INCIDENT.',
     },
     duty: {
       title: 'Räägi meie valvega',
@@ -741,7 +741,7 @@ export const et: Dictionary = {
       },
       {
         q: 'Kas vastate tõesti 24/7?',
-        a: 'Jah. Meie valve võtab ülesandeid vastu ööpäev läbi. Tavalistele küsimustele saate otsese vastuse ja intsidente käsitletakse diskreetselt.',
+        a: 'Jah, meie valve on mehitatud ööpäev läbi, igal päeval aastas.',
       },
       {
         q: 'Kuidas turbe-aruanded tarnitakse?',
@@ -753,7 +753,7 @@ export const et: Dictionary = {
       },
       {
         q: 'Kui palju see maksab?',
-        a: 'Iga ettevõte on ainulaadne, seetõttu teeme alati pakkumise. Esimene vestlus on tasuta ega kohusta millekski. Vaadake pakette jaotisest "Vali pakett".',
+        a: 'Iga ettevõte on ainulaadne, seetõttu teeme alati pakkumise. Väiksematele süsteemidele, millel on vähem avatud aadresse, on meil fikseeritud hinnad — vaadake pakette jaotisest "Vali pakett". Esimene vestlus on tasuta ega kohusta millekski.',
       },
       {
         q: 'Kas töötate konfidentsiaalselt?',

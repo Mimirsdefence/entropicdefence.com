@@ -641,7 +641,7 @@ export const no: Dictionary = {
         title: 'Kunstig intelligens',
         text: 'Sikkerhetskonsekvenser av AI-systemer, resonnerende modeller og autonomi.',
         papers: [
-          { title: 'Når modellen tenker selv – Autonome hackere' },
+          { title: 'Når modellen tenker selv — autonome hackere' },
           { title: 'AI som angrepsflate: prompts, data og leverandørkjede' },
         ],
       },
@@ -649,16 +649,16 @@ export const no: Dictionary = {
         title: 'Teoretisk fysikk',
         text: 'Entropi, informasjon og tid — grunnforskning som former hvordan vi tenker om sikkerhet.',
         papers: [
-          { title: 'En fysisk definisjon av intelligens' },
-          { title: 'Når det siste fotonet har henfalt' },
+          { title: 'Entropi som intelligensmål: hvorfor harmoni er en mer effektiv energitilstand' },
+          { title: 'Tid, observasjon og sårbarhet — et fysikalsk perspektiv' },
         ],
       },
       {
         title: 'Filosofi',
         text: 'Etikk, frihet og ansvar i en verden av overvåking og motstandere.',
         papers: [
-          { title: 'AI – det mest demokratiske verktøyet som noensinne er skapt' },
-          { title: 'Intelligente, "selvdelende" verktøy – et svar på Faradays paradoks' },
+          { title: 'Å forsvare det åpne samfunnet med lukkede midler' },
+          { title: 'Tillit er en sårbarhet — og vår viktigste ressurs' },
         ],
       },
       {
@@ -726,7 +726,7 @@ export const no: Dictionary = {
       titleHighlight: 'døgnet rundt',
       titleEnd: '.',
       description:
-        'Ofte stilte spørsmål, vakten vår svarer 24/7. Ved akutte hendelser: send e-post og merk den INCIDENT i emnefeltet.',
+        'Velg om du vil kontakte vakten vår direkte eller finne svar i de ofte stilte spørsmålene nedenfor. Ved akutte hendelser: merk emnefeltet med INCIDENT.',
     },
     duty: {
       title: 'Snakk med vakten vår',
@@ -741,7 +741,7 @@ export const no: Dictionary = {
       },
       {
         q: 'Svarer dere virkelig 24/7?',
-        a: 'Ja. Vakten vår mottar oppdrag døgnet rundt. På vanlige spørsmål får du et direkte svar, og hendelser håndteres diskret.',
+        a: 'Ja, vakten vår er bemannet døgnet rundt, alle dager i året.',
       },
       {
         q: 'Hvordan leveres sikkerhetsrapporter?',
@@ -753,7 +753,7 @@ export const no: Dictionary = {
       },
       {
         q: 'Hva koster det?',
-        a: 'Hver bedrift er unik, derfor gir vi alltid et tilbud. Den første samtalen er gratis og uforpliktende. Se pakkene våre under "Velg pakke".',
+        a: 'Hver bedrift er unik, derfor gir vi alltid et tilbud. For mindre systemer med færre eksponerte adresser har vi faste priser — se pakkene våre under "Velg pakke". Den første samtalen er gratis og uforpliktende.',
       },
       {
         q: 'Jobber dere under taushetsplikt?',

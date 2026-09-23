@@ -641,7 +641,7 @@ export const lt: Dictionary = {
         title: 'Dirbtinis intelektas',
         text: 'DI sistemų saugumo pasekmės, mąstantys modeliai ir autonomija.',
         papers: [
-          { title: 'Kai modelis mąsto pats – Autonominiai hakeriai' },
+          { title: 'Kai modelis mąsto pats — autonominiai hakeriai' },
           { title: 'DI kaip atakos paviršius: užuominos, duomenys ir tiekimo grandinė' },
         ],
       },
@@ -649,16 +649,16 @@ export const lt: Dictionary = {
         title: 'Teorinė fizika',
         text: 'Entropija, informacija ir laikas — fundamentiniai tyrimai, formuojantys saugumo mąstymą.',
         papers: [
-          { title: 'Fizinis intelekto apibrėžimas' },
-          { title: 'Kai paskutinis fotonas suiro' },
+          { title: 'Entropija kaip intelekto matas: kodėl harmonija yra efektyvesnė energijos būsena' },
+          { title: 'Laikas, stebėjimas ir pažeidžiamumas — fizinė perspektyva' },
         ],
       },
       {
         title: 'Filosofija',
         text: 'Etika, laisvė ir atsakomybė stebėjimo ir priešininkų pasaulyje.',
         papers: [
-          { title: 'DI – demokratiškiausias kada nors sukurtas įrankis' },
-          { title: 'Protingi, "savidalūs" įrankiai – atsakymas Faradėjaus paradoksui' },
+          { title: 'Ginti atvirą visuomenę uždaromis priemonėmis' },
+          { title: 'Pasitikėjimas yra pažeidžiamumas — ir svarbiausias mūsų išteklius' },
         ],
       },
       {
@@ -726,7 +726,7 @@ export const lt: Dictionary = {
       titleHighlight: 'visą parą',
       titleEnd: '.',
       description:
-        'Dažniausiai užduodami klausimai, mūsų budėtojai atsako 24/7. Skubiais atvejais: rašykite ir pažymėkite INCIDENT.',
+        'Pasirinkite, ar norite susisiekti su mūsų budėtojais tiesiogiai, ar rasti atsakymą dažniausiai užduodamuose klausimuose toliau. Skubiais atvejais pažymėkite temą INCIDENT.',
     },
     duty: {
       title: 'Pakalbėkite su mūsų budėtojais',
@@ -741,7 +741,7 @@ export const lt: Dictionary = {
       },
       {
         q: 'Ar tikrai atsakote 24/7?',
-        a: 'Taip. Mūsų budėtojai priima užduotis visą parą. Į įprastus klausimus gaunate tiesioginį atsakymą, o incidentai tvarkomi diskretiškai.',
+        a: 'Taip, mūsų budėtojai dirba visą parą, kiekvieną metų dieną.',
       },
       {
         q: 'Kaip siunčiamos saugumo ataskaitos?',
@@ -753,7 +753,7 @@ export const lt: Dictionary = {
       },
       {
         q: 'Kiek tai kainuoja?',
-        a: 'Kiekviena įmonė unikali, todėl visada teikiame pasiūlymą. Pirmasis pokalbis nemokamas ir neįpareigojantis. Žr. paketus skiltyje "Pasirinkite paketą".',
+        a: 'Kiekviena įmonė unikali, todėl visada teikiame pasiūlymą. Mažoms sistemoms su mažiau atvirų adresų turime fiksuotas kainas — žr. paketus skiltyje "Pasirinkite paketą". Pirmasis pokalbis nemokamas ir neįpareigojantis.',
       },
       {
         q: 'Ar dirbate konfidencialiai?',

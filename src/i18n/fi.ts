@@ -641,7 +641,7 @@ export const fi: Dictionary = {
         title: 'Tekoäly',
         text: 'Tekoälyjärjestelmien turvallisuusvaikutukset, päättelykykyiset mallit ja autonomia.',
         papers: [
-          { title: 'Kun malli ajattelee itse – Autonomiset hakkerit' },
+          { title: 'Kun malli ajattelee itse — autonomiset hakkerit' },
           { title: 'Tekoäly hyökkäyspintana: promptit, data ja toimitusketju' },
         ],
       },
@@ -649,16 +649,16 @@ export const fi: Dictionary = {
         title: 'Teoreettinen fysiikka',
         text: 'Entropia, informaatio ja aika — perustutkimusta, joka muovaa tapaamme ajatella turvallisuutta.',
         papers: [
-          { title: 'Älykkyyden fysikaalinen määritelmä' },
-          { title: 'Kun viimeinen fotoni on hajonnut' },
+          { title: 'Entropia älykkyyden mittana: miksi harmonia on tehokkaampi energiatila' },
+          { title: 'Aika, havainto ja haavoittuvuus — fysikaalinen näkökulma' },
         ],
       },
       {
         title: 'Filosofia',
         text: 'Etiikka, vapaus ja vastuu valvonnan ja vastustajien maailmassa.',
         papers: [
-          { title: 'Tekoäly – demokraattisin koskaan luotu työkalu' },
-          { title: 'Älykkäät, "itseään jakavat" työkalut – vastaus Faradayn paradoksiin' },
+          { title: 'Avoimen yhteiskunnan puolustaminen suljetuin keinoin' },
+          { title: 'Luottamus on haavoittuvuus — ja tärkein voimavaramme' },
         ],
       },
       {
@@ -726,7 +726,7 @@ export const fi: Dictionary = {
       titleHighlight: 'ympäri vuorokauden',
       titleEnd: '.',
       description:
-        'Usein kysytyt kysymykset, päivystyksemme vastaa 24/7. Akuuteissa häiriöissä: lähettäkää sähköpostia ja merkitkää aiheeksi INCIDENT.',
+        'Valitse, haluatko ottaa yhteyttä päivystykseemme suoraan vai löytää vastauksen usein kysytyistä kysymyksistä alta. Akuuteissa häiriöissä merkitse aiheeksi INCIDENT.',
     },
     duty: {
       title: 'Keskustele päivystyksemme kanssa',
@@ -741,7 +741,7 @@ export const fi: Dictionary = {
       },
       {
         q: 'Vastaatteko todella 24/7?',
-        a: 'Kyllä. Päivystyksemme ottaa tehtäviä vastaan ympäri vuorokauden. Tavallisiin kysymyksiin saa suoran vastauksen, ja häiriöt hoidetaan hienovaraisesti.',
+        a: 'Kyllä, päivystyksemme on miehitetty ympäri vuorokauden, vuoden jokaisena päivänä.',
       },
       {
         q: 'Miten turvallisuusraportit toimitetaan?',
@@ -753,7 +753,7 @@ export const fi: Dictionary = {
       },
       {
         q: 'Mitä se maksaa?',
-        a: 'Jokainen yritys on ainutlaatuinen, siksi teemme aina tarjouksen. Ensimmäinen keskustelu on maksuton ja velvoitteeton. Katso pakettimme kohdasta "Valitse paketti".',
+        a: 'Jokainen yritys on ainutlaatuinen, siksi teemme aina tarjouksen. Pienille järjestelmille, joissa on vähemmän avoimia osoitteita, meillä on kiinteät hinnat — katso pakettimme kohdasta "Valitse paketti". Ensimmäinen keskustelu on maksuton ja velvoitteeton.',
       },
       {
         q: 'Työskentelettekö vaitiolovelvollisuuden alaisena?',

@@ -641,7 +641,7 @@ export const fr: Dictionary = {
         title: 'Intelligence artificielle',
         text: 'Implications de sécurité des systèmes IA, modèles de raisonnement et autonomie.',
         papers: [
-          { title: 'Quand le modèle pense par lui-même — Les hackers autonomes' },
+          { title: 'Quand le modèle pense par lui-même — les hackers autonomes' },
           { title: 'L\'IA comme surface d\'attaque : instructions, données et chaîne d\'approvisionnement' },
         ],
       },
@@ -649,16 +649,16 @@ export const fr: Dictionary = {
         title: 'Physique théorique',
         text: 'Entropie, information et temps — une recherche fondamentale qui façonne notre pensée de la sécurité.',
         papers: [
-          { title: 'Une définition physique de l\'intelligence' },
-          { title: 'Quand le dernier photon s\'est désintégré' },
+          { title: 'L\'entropie comme mesure de l\'intelligence : pourquoi l\'harmonie est un état énergétique plus efficace' },
+          { title: 'Temps, observation et vulnérabilité — une perspective physique' },
         ],
       },
       {
         title: 'Philosophie',
         text: 'Éthique, liberté et responsabilité dans un monde de surveillance et d\'adversaires.',
         papers: [
-          { title: 'L\'IA — l\'outil le plus démocratique jamais créé' },
-          { title: 'Des outils intelligents et "auto-diviseurs" — une réponse au paradoxe de Faraday' },
+          { title: 'Défendre la société ouverte avec des moyens fermés' },
+          { title: 'La confiance est une vulnérabilité — et notre ressource la plus importante' },
         ],
       },
       {
@@ -726,7 +726,7 @@ export const fr: Dictionary = {
       titleHighlight: '24h/24',
       titleEnd: '.',
       description:
-        'Questions fréquentes, notre permanence répond 24h/24. En cas d\'incident urgent : écrivez-nous et marquez le sujet INCIDENT.',
+        'Choisissez de contacter directement notre permanence ou de trouver une réponse dans les questions fréquentes ci-dessous. En cas d\'incident urgent, marquez le sujet INCIDENT.',
     },
     duty: {
       title: 'Parlez à notre permanence',
@@ -741,7 +741,7 @@ export const fr: Dictionary = {
       },
       {
         q: 'Répondez-vous vraiment 24/7 ?',
-        a: 'Oui. Notre permanence accepte des missions 24h/24. Aux questions ordinaires, vous recevez une réponse directe, et les incidents sont traités avec discrétion.',
+        a: 'Oui, notre permanence est assurée 24h/24, tous les jours de l\'année.',
       },
       {
         q: 'Comment les rapports de sécurité sont-ils livrés ?',
@@ -753,7 +753,7 @@ export const fr: Dictionary = {
       },
       {
         q: 'Combien ça coûte ?',
-        a: 'Chaque entreprise est unique, c\'est pourquoi nous établissons toujours un devis. La première conversation est gratuite et sans engagement. Voir les packs sous « Choisissez un pack ».',
+        a: 'Chaque entreprise est unique, c\'est pourquoi nous établissons toujours un devis. Pour les systèmes plus petits avec moins d\'adresses exposées, nous proposons des tarifs fixes — voir les packs sous « Choisissez un pack ». La première conversation est gratuite et sans engagement.',
       },
       {
         q: 'Travaillez-vous de manière confidentielle ?',

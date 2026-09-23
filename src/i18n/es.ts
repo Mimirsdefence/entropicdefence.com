@@ -641,7 +641,7 @@ export const es: Dictionary = {
         title: 'Inteligencia artificial',
         text: 'Implicaciones de seguridad de los sistemas de IA, modelos de razonamiento y autonomía.',
         papers: [
-          { title: 'Cuando el modelo piensa por sí mismo — Hackers autónomos' },
+          { title: 'Cuando el modelo piensa por sí mismo — hackers autónomos' },
           { title: 'La IA como superficie de ataque: instrucciones, datos y cadena de suministro' },
         ],
       },
@@ -649,16 +649,16 @@ export const es: Dictionary = {
         title: 'Física teórica',
         text: 'Entropía, información y tiempo — investigación fundamental que moldea nuestro pensamiento en seguridad.',
         papers: [
-          { title: 'Una definición física de la inteligencia' },
-          { title: 'Cuando el último fotón se ha desintegrado' },
+          { title: 'La entropía como medida de la inteligencia: por qué la armonía es un estado energético más eficaz' },
+          { title: 'Tiempo, observación y vulnerabilidad — una perspectiva física' },
         ],
       },
       {
         title: 'Filosofía',
         text: 'Ética, libertad y responsabilidad en un mundo de vigilancia y adversarios.',
         papers: [
-          { title: 'La IA — la herramienta más democrática jamás creada' },
-          { title: 'Herramientas inteligentes y "autodivisibles" — una respuesta a la paradoja de Faraday' },
+          { title: 'Defender la sociedad abierta con medios cerrados' },
+          { title: 'La confianza es una vulnerabilidad — y nuestro recurso más importante' },
         ],
       },
       {
@@ -726,7 +726,7 @@ export const es: Dictionary = {
       titleHighlight: 'a todas horas',
       titleEnd: '.',
       description:
-        'Preguntas frecuentes, nuestra guardia responde 24/7. En incidentes urgentes: escríbanos y marque el asunto INCIDENT.',
+        'Elija si desea contactar directamente con nuestra guardia o encontrar respuesta en las preguntas frecuentes de abajo. En incidentes urgentes, marque el asunto INCIDENT.',
     },
     duty: {
       title: 'Hable con nuestra guardia',
@@ -741,7 +741,7 @@ export const es: Dictionary = {
       },
       {
         q: '¿De verdad responden 24/7?',
-        a: 'Sí. Nuestra guardia acepta encargos a todas horas. A las preguntas ordinarias recibe una respuesta directa, y los incidentes se gestionan con discreción.',
+        a: 'Sí, nuestra guardia está atendida a todas horas, todos los días del año.',
       },
       {
         q: '¿Cómo se entregan los informes de seguridad?',
@@ -753,7 +753,7 @@ export const es: Dictionary = {
       },
       {
         q: '¿Cuánto cuesta?',
-        a: 'Cada empresa es única, por eso siempre elaboramos un presupuesto. La primera conversación es gratuita y sin compromiso. Vea los paquetes en «Elegir paquete».',
+        a: 'Cada empresa es única, por eso siempre elaboramos un presupuesto. Para sistemas más pequeños con menos direcciones expuestas, tenemos precios fijos — vea los paquetes en «Elegir paquete». La primera conversación es gratuita y sin compromiso.',
       },
       {
         q: '¿Trabajan de forma confidencial?',

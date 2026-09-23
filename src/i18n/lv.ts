@@ -641,7 +641,7 @@ export const lv: Dictionary = {
         title: 'Mākslīgais intelekts',
         text: 'MI sistēmu drošības ietekme, spriežošie modeļi un autonomija.',
         papers: [
-          { title: 'Kad modelis domā pats — Autonomie hakeri' },
+          { title: 'Kad modelis domā pats — autonomie hakeri' },
           { title: 'MI kā uzbrukuma virsma: instrukcijas, dati un piegādes ķēde' },
         ],
       },
@@ -649,16 +649,16 @@ export const lv: Dictionary = {
         title: 'Teorētiskā fizika',
         text: 'Entropija, informācija un laiks — pamatpētījumi, kas veido mūsu drošības domāšanu.',
         papers: [
-          { title: 'Fizikāla intelekta definīcija' },
-          { title: 'Kad pēdējais fotons ir sabrucis' },
+          { title: 'Entropija kā inteliģences mērs: kāpēc harmonija ir efektīvāks enerģijas stāvoklis' },
+          { title: 'Laiks, novērojums un ievainojamība — fizikāla perspektīva' },
         ],
       },
       {
         title: 'Filozofija',
         text: 'Ētika, brīvība un atbildība uzraudzības un pretinieku pasaulē.',
         papers: [
-          { title: 'MI — demokrātiskākais rīks, kāds jebkad radīts' },
-          { title: 'Saprātīgi, "pašdalīgi" rīki — atbilde Faradeja paradoksam' },
+          { title: 'Aizstāvēt atvērto sabiedrību ar slēgtiem līdzekļiem' },
+          { title: 'Uzticēšanās ir ievainojamība — un mūsu svarīgākais resurss' },
         ],
       },
       {
@@ -726,7 +726,7 @@ export const lv: Dictionary = {
       titleHighlight: 'visu diennakti',
       titleEnd: '.',
       description:
-        'Bieži uzdotie jautājumi, mūsu dežūrdaļa atbild 24/7. Steidzamu incidentu gadījumā: rakstiet un atzīmējiet tēmu INCIDENT.',
+        'Izvēlieties, vai vēlaties sazināties ar mūsu dežūrdaļu tieši, vai atrast atbildi bieži uzdotajos jautājumos tālāk. Steidzamu incidentu gadījumā atzīmējiet tēmu INCIDENT.',
     },
     duty: {
       title: 'Runājiet ar mūsu dežūrdaļu',
@@ -741,7 +741,7 @@ export const lv: Dictionary = {
       },
       {
         q: 'Vai tiešām atbildat 24/7?',
-        a: 'Jā. Mūsu dežūrdaļa pieņem uzdevumus visu diennakti. Uz parastiem jautājumiem saņemat tiešu atbildi, un incidenti tiek risināti diskrēti.',
+        a: 'Jā, mūsu dežūrdaļa ir apkalpota visu diennakti, katru gada dienu.',
       },
       {
         q: 'Kā tiek piegādāti drošības ziņojumi?',
@@ -753,7 +753,7 @@ export const lv: Dictionary = {
       },
       {
         q: 'Cik tas maksā?',
-        a: 'Katrs uzņēmums ir unikāls, tāpēc vienmēr veidojam piedāvājumu. Pirmā saruna ir bez maksas un bez saistībām. Skatiet pakotnes sadaļā "Izvēlieties pakotni".',
+        a: 'Katrs uzņēmums ir unikāls, tāpēc vienmēr veidojam piedāvājumu. Mazākām sistēmām ar mazāk atvērtām adresēm mums ir fiksētas cenas — skatiet pakotnes sadaļā "Izvēlieties pakotni". Pirmā saruna ir bez maksas un bez saistībām.',
       },
       {
         q: 'Vai strādājat konfidenciāli?',

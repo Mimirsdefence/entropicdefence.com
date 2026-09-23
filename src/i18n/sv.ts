@@ -659,7 +659,7 @@ export const sv = {
         title: 'Artificiell intelligens',
         text: 'Säkerhetsimplikationer av AI-system, resonerande modeller och autonomi.',
         papers: [
-          { title: 'När modellen tänker själv – Autonoma Hackers' },
+          { title: 'När modellen tänker själv — autonoma hackers' },
           { title: 'AI som attackyta: prompt, data och supply chain' },
         ],
       },
@@ -667,16 +667,16 @@ export const sv = {
         title: 'Teoretisk fysik',
         text: 'Entropi, information och tid — grundforskning som formar hur vi tänker om säkerhet.',
         papers: [
-          { title: 'En fysikalisk definition av intelligens' },
-          { title: 'När den sista fotonen har sönderfallit' },
+          { title: 'Entropi som intelligensmått: varför harmoni är ett mer effektivt energiläge' },
+          { title: 'Tid, observation och sårbarhet — ett fysikaliskt perspektiv' },
         ],
       },
       {
         title: 'Filosofi',
         text: 'Etik, frihet och ansvar i en värld av övervakning och motståndare.',
         papers: [
-          { title: 'AI – det mest demokratiska verktyget som någonsin skapats' },
-          { title: 'Intelligenta, "själv delande" verktyg – svaret på Faraday-paradoxen' },
+          { title: 'Att försvara det öppna samhället med slutna medel' },
+          { title: 'Förtroende är en sårbarhet — och vår viktigaste resurs' },
         ],
       },
       {
@@ -746,7 +746,7 @@ export const sv = {
       titleHighlight: 'dygnet runt',
       titleEnd: '.',
       description:
-        'Vanliga frågor, vår jour svarar 24/7. Vid akuta incidenter: mejla och märk ämnesraden med INCIDENT.',
+        'Välj om du vill kontakta vår jour direkt eller hitta svar i vanliga frågor nedan. Vid akuta incidenter, märk ämnesraden med INCIDENT.',
     },
     duty: {
       title: 'Prata med vår jour',
@@ -761,7 +761,7 @@ export const sv = {
       },
       {
         q: 'Svarar ni verkligen 24/7?',
-        a: 'Ja. Vår jour tar emot ärenden dygnet runt. Vanliga frågor får direktsvar, och incidenter hanteras diskret.',
+        a: 'Ja, vår jour är bemannad dygnet runt, alla dagar om året.',
       },
       {
         q: 'Hur skickas säkerhetsrapporter?',
@@ -773,7 +773,7 @@ export const sv = {
       },
       {
         q: 'Vad kostar det?',
-        a: 'Varje verksamhet är unik, därför offererar vi alltid. Första samtalet är kostnadsfritt och utan förpliktelser. Se våra paket under "Välj paket".',
+        a: 'Varje verksamhet är unik, därför offererar vi alltid. För mindre system med färre exponerade adresser har vi fasta priser — se våra paket under "Välj paket". Första samtalet är kostnadsfritt och utan förpliktelser.',
       },
       {
         q: 'Arbetar ni under tystnadsplikt?',
