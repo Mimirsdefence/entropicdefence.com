@@ -124,7 +124,6 @@ export const fi: Dictionary = {
     linkSupport: 'Tuki & UKK',
     linkLegal: 'Lakiasiat',
     location: 'Tukholma · Ruotsi',
-    address: 'Sjöfartsgatan 9, 120 62 Nacka',
     copyright: '© 2026 Entropic Defence. Kaikki oikeudet pidätetään.',
   },
 

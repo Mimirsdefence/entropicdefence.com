@@ -124,7 +124,6 @@ export const lv: Dictionary = {
     linkSupport: 'Atbalsts un BUJ',
     linkLegal: 'Juridiskā informācija',
     location: 'Stokholma · Zviedrija',
-    address: 'Sjöfartsgatan 9, 120 62 Nacka',
     copyright: '© 2026 Entropic Defence. Visas tiesības aizsargātas.',
   },
 

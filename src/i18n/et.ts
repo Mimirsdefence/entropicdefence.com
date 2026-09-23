@@ -124,7 +124,6 @@ export const et: Dictionary = {
     linkSupport: 'Tugi ja KKK',
     linkLegal: 'Õigusinfo',
     location: 'Stockholm · Rootsi',
-    address: 'Sjöfartsgatan 9, 120 62 Nacka',
     copyright: '© 2026 Entropic Defence. Kõik õigused kaitstud.',
   },
 

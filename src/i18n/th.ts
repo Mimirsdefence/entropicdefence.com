@@ -124,7 +124,6 @@ export const th: Dictionary = {
     linkSupport: 'ฝ่ายสนับสนุนและคำถามที่พบบ่อย',
     linkLegal: 'ข้อมูลทางกฎหมาย',
     location: 'สตอกโฮล์ม · สวีเดน',
-    address: 'Sjöfartsgatan 9, 120 62 Nacka',
     copyright: '© 2026 Entropic Defence. สงวนลิขสิทธิ์ทั้งหมด',
   },
 

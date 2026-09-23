@@ -124,7 +124,6 @@ export const fr: Dictionary = {
     linkSupport: 'Support et FAQ',
     linkLegal: 'Informations légales',
     location: 'Stockholm · Suède',
-    address: 'Sjöfartsgatan 9, 120 62 Nacka',
     copyright: '© 2026 Entropic Defence. Tous droits réservés.',
   },
 

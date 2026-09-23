@@ -132,7 +132,6 @@ export const sv = {
     linkSupport: 'Support & FAQ',
     linkLegal: 'Legal',
     location: 'Stockholm · Sverige',
-    address: 'Sjöfartsgatan 9, 120 62 Nacka',
     copyright: '© 2026 Entropic Defence. Alla rättigheter förbehållna.',
   },
 

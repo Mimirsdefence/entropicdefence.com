@@ -124,7 +124,6 @@ export const lt: Dictionary = {
     linkSupport: 'Pagalba ir DUK',
     linkLegal: 'Teisinė informacija',
     location: 'Stokholmas · Švedija',
-    address: 'Sjöfartsgatan 9, 120 62 Nacka',
     copyright: '© 2026 Entropic Defence. Visos teisės saugomos.',
   },
 

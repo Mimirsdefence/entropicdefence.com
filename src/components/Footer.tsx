@@ -57,7 +57,6 @@ export default function Footer() {
           <p className="mt-6 font-mono text-xs uppercase tracking-[0.2em] text-fog">
             {t.footer.location}
           </p>
-          <p className="mt-2 font-mono text-xs text-fog">{t.footer.address}</p>
         </div>
 
         {columns.map((col) => (
