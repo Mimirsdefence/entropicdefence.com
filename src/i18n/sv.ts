@@ -746,11 +746,11 @@ export const sv = {
       titleHighlight: 'dygnet runt',
       titleEnd: '.',
       description:
-        'Vanliga frågor, direktsvar och direktkontakt. Vid akuta incidenter: mejla och märk ämnesraden med INCIDENT.',
+        'Vanliga frågor, vår jour svarar 24/7. Vid akuta incidenter: mejla och märk ämnesraden med INCIDENT.',
     },
     duty: {
       title: 'Prata med vår jour',
-      text: 'Vår jour svarar dygnet runt. Vanliga frågor får direktsvar, och vid incidenter når ni alltid en människa.',
+      text: 'Vår jour svarar dygnet runt. Vanliga frågor får direktsvar och incidenter hanteras diskret.',
       badge: 'Online · 24/7',
     },
     faqTitle: 'Vanliga frågor',
@@ -761,7 +761,7 @@ export const sv = {
       },
       {
         q: 'Svarar ni verkligen 24/7?',
-        a: 'Ja. Vår jour tar emot ärenden dygnet runt. Vanliga frågor får direktsvar, och vid incidenter når ni alltid en människa.',
+        a: 'Ja. Vår jour tar emot ärenden dygnet runt. Vanliga frågor får direktsvar, och incidenter hanteras diskret.',
       },
       {
         q: 'Hur skickas säkerhetsrapporter?',

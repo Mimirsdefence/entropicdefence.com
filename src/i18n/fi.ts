@@ -726,11 +726,11 @@ export const fi: Dictionary = {
       titleHighlight: 'ympäri vuorokauden',
       titleEnd: '.',
       description:
-        'Usein kysytyt kysymykset, suorat vastaukset ja suora yhteydenotto. Akuuteissa häiriöissä: lähettäkää sähköpostia ja merkitkää aiheeksi INCIDENT.',
+        'Usein kysytyt kysymykset, päivystyksemme vastaa 24/7. Akuuteissa häiriöissä: lähettäkää sähköpostia ja merkitkää aiheeksi INCIDENT.',
     },
     duty: {
       title: 'Keskustele päivystyksemme kanssa',
-      text: 'Päivystyksemme vastaa ympäri vuorokauden. Tavallisiin kysymyksiin saa suoran vastauksen, ja häiriötilanteissa tavoitatte aina ihmisen.',
+      text: 'Päivystyksemme vastaa ympäri vuorokauden. Tavallisiin kysymyksiin saa suoran vastauksen, ja häiriöt hoidetaan hienovaraisesti.',
       badge: 'Online · 24/7',
     },
     faqTitle: 'Usein kysytyt kysymykset',
@@ -741,7 +741,7 @@ export const fi: Dictionary = {
       },
       {
         q: 'Vastaatteko todella 24/7?',
-        a: 'Kyllä. Päivystyksemme ottaa tehtäviä vastaan ympäri vuorokauden. Tavallisiin kysymyksiin saa suoran vastauksen, ja häiriötilanteissa tavoitatte aina ihmisen.',
+        a: 'Kyllä. Päivystyksemme ottaa tehtäviä vastaan ympäri vuorokauden. Tavallisiin kysymyksiin saa suoran vastauksen, ja häiriöt hoidetaan hienovaraisesti.',
       },
       {
         q: 'Miten turvallisuusraportit toimitetaan?',

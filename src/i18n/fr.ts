@@ -726,11 +726,11 @@ export const fr: Dictionary = {
       titleHighlight: '24h/24',
       titleEnd: '.',
       description:
-        'Questions fréquentes, réponses directes et contact direct. En cas d\'incident urgent : écrivez-nous et marquez le sujet INCIDENT.',
+        'Questions fréquentes, notre permanence répond 24h/24. En cas d\'incident urgent : écrivez-nous et marquez le sujet INCIDENT.',
     },
     duty: {
       title: 'Parlez à notre permanence',
-      text: 'Notre permanence répond 24h/24. Aux questions ordinaires, vous recevez une réponse directe, et en cas d\'incident, vous atteignez toujours un humain.',
+      text: 'Notre permanence répond 24h/24. Aux questions ordinaires, vous recevez une réponse directe, et les incidents sont traités avec discrétion.',
       badge: 'En ligne · 24/7',
     },
     faqTitle: 'Questions fréquentes',
@@ -741,7 +741,7 @@ export const fr: Dictionary = {
       },
       {
         q: 'Répondez-vous vraiment 24/7 ?',
-        a: 'Oui. Notre permanence accepte des missions 24h/24. Aux questions ordinaires, vous recevez une réponse directe, et en cas d\'incident, vous atteignez toujours un humain.',
+        a: 'Oui. Notre permanence accepte des missions 24h/24. Aux questions ordinaires, vous recevez une réponse directe, et les incidents sont traités avec discrétion.',
       },
       {
         q: 'Comment les rapports de sécurité sont-ils livrés ?',

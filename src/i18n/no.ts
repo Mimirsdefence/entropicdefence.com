@@ -726,11 +726,11 @@ export const no: Dictionary = {
       titleHighlight: 'døgnet rundt',
       titleEnd: '.',
       description:
-        'Ofte stilte spørsmål, direkte svar og direkte kontakt. Ved akutte hendelser: send e-post og merk den INCIDENT i emnefeltet.',
+        'Ofte stilte spørsmål, vakten vår svarer 24/7. Ved akutte hendelser: send e-post og merk den INCIDENT i emnefeltet.',
     },
     duty: {
       title: 'Snakk med vakten vår',
-      text: 'Vakten vår svarer døgnet rundt. På vanlige spørsmål får du et direkte svar, og ved hendelser når du alltid et menneske.',
+      text: 'Vakten vår svarer døgnet rundt. På vanlige spørsmål får du et direkte svar, og hendelser håndteres diskret.',
       badge: 'Online · 24/7',
     },
     faqTitle: 'Ofte stilte spørsmål',
@@ -741,7 +741,7 @@ export const no: Dictionary = {
       },
       {
         q: 'Svarer dere virkelig 24/7?',
-        a: 'Ja. Vakten vår mottar oppdrag døgnet rundt. På vanlige spørsmål får du et direkte svar, og ved hendelser når du alltid et menneske.',
+        a: 'Ja. Vakten vår mottar oppdrag døgnet rundt. På vanlige spørsmål får du et direkte svar, og hendelser håndteres diskret.',
       },
       {
         q: 'Hvordan leveres sikkerhetsrapporter?',

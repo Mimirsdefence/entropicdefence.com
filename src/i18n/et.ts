@@ -726,11 +726,11 @@ export const et: Dictionary = {
       titleHighlight: 'ööpäev läbi',
       titleEnd: '.',
       description:
-        'Korduma kippuvad küsimused, otsesed vastused ja otsene kontakt. Kiireloomuliste intsidentide korral: kirjutage ja märkige teemaks INCIDENT.',
+        'Korduma kippuvad küsimused, meie valve vastab 24/7. Kiireloomuliste intsidentide korral: kirjutage ja märkige teemaks INCIDENT.',
     },
     duty: {
       title: 'Räägi meie valvega',
-      text: 'Meie valve vastab ööpäev läbi. Tavalistele küsimustele saate otsese vastuse ja intsidentide korral jõuate alati inimeseni.',
+      text: 'Meie valve vastab ööpäev läbi. Tavalistele küsimustele saate otsese vastuse ja intsidente käsitletakse diskreetselt.',
       badge: 'Online · 24/7',
     },
     faqTitle: 'Korduma kippuvad küsimused',
@@ -741,7 +741,7 @@ export const et: Dictionary = {
       },
       {
         q: 'Kas vastate tõesti 24/7?',
-        a: 'Jah. Meie valve võtab ülesandeid vastu ööpäev läbi. Tavalistele küsimustele saate otsese vastuse ja intsidentide korral jõuate alati inimeseni.',
+        a: 'Jah. Meie valve võtab ülesandeid vastu ööpäev läbi. Tavalistele küsimustele saate otsese vastuse ja intsidente käsitletakse diskreetselt.',
       },
       {
         q: 'Kuidas turbe-aruanded tarnitakse?',

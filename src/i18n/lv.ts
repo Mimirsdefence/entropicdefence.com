@@ -726,11 +726,11 @@ export const lv: Dictionary = {
       titleHighlight: 'visu diennakti',
       titleEnd: '.',
       description:
-        'Bieži uzdotie jautājumi, tiešas atbildes un tiešs kontakts. Steidzamu incidentu gadījumā: rakstiet un atzīmējiet tēmu INCIDENT.',
+        'Bieži uzdotie jautājumi, mūsu dežūrdaļa atbild 24/7. Steidzamu incidentu gadījumā: rakstiet un atzīmējiet tēmu INCIDENT.',
     },
     duty: {
       title: 'Runājiet ar mūsu dežūrdaļu',
-      text: 'Mūsu dežūrdaļa atbild visu diennakti. Uz parastiem jautājumiem saņemat tiešu atbildi, un incidentu gadījumā vienmēr sasniedzat cilvēku.',
+      text: 'Mūsu dežūrdaļa atbild visu diennakti. Uz parastiem jautājumiem saņemat tiešu atbildi, un incidenti tiek risināti diskrēti.',
       badge: 'Tiešsaistē · 24/7',
     },
     faqTitle: 'Bieži uzdotie jautājumi',
@@ -741,7 +741,7 @@ export const lv: Dictionary = {
       },
       {
         q: 'Vai tiešām atbildat 24/7?',
-        a: 'Jā. Mūsu dežūrdaļa pieņem uzdevumus visu diennakti. Uz parastiem jautājumiem saņemat tiešu atbildi, un incidentu gadījumā vienmēr sasniedzat cilvēku.',
+        a: 'Jā. Mūsu dežūrdaļa pieņem uzdevumus visu diennakti. Uz parastiem jautājumiem saņemat tiešu atbildi, un incidenti tiek risināti diskrēti.',
       },
       {
         q: 'Kā tiek piegādāti drošības ziņojumi?',

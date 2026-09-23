@@ -726,11 +726,11 @@ export const lt: Dictionary = {
       titleHighlight: 'visą parą',
       titleEnd: '.',
       description:
-        'Dažniausiai užduodami klausimai, tiesioginiai atsakymai ir tiesioginis kontaktas. Skubiais atvejais: rašykite ir pažymėkite INCIDENT.',
+        'Dažniausiai užduodami klausimai, mūsų budėtojai atsako 24/7. Skubiais atvejais: rašykite ir pažymėkite INCIDENT.',
     },
     duty: {
       title: 'Pakalbėkite su mūsų budėtojais',
-      text: 'Mūsų budėtojai atsako visą parą. Į įprastus klausimus gaunate tiesioginį atsakymą, o incidentų metu visada pasieksite žmogų.',
+      text: 'Mūsų budėtojai atsako visą parą. Į įprastus klausimus gaunate tiesioginį atsakymą, o incidentai tvarkomi diskretiškai.',
       badge: 'Prisijungę · 24/7',
     },
     faqTitle: 'Dažniausiai užduodami klausimai',
@@ -741,7 +741,7 @@ export const lt: Dictionary = {
       },
       {
         q: 'Ar tikrai atsakote 24/7?',
-        a: 'Taip. Mūsų budėtojai priima užduotis visą parą. Į įprastus klausimus gaunate tiesioginį atsakymą, o incidentų metu visada pasieksite žmogų.',
+        a: 'Taip. Mūsų budėtojai priima užduotis visą parą. Į įprastus klausimus gaunate tiesioginį atsakymą, o incidentai tvarkomi diskretiškai.',
       },
       {
         q: 'Kaip siunčiamos saugumo ataskaitos?',

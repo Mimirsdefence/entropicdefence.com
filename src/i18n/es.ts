@@ -726,11 +726,11 @@ export const es: Dictionary = {
       titleHighlight: 'a todas horas',
       titleEnd: '.',
       description:
-        'Preguntas frecuentes, respuestas directas y contacto directo. En incidentes urgentes: escríbanos y marque el asunto INCIDENT.',
+        'Preguntas frecuentes, nuestra guardia responde 24/7. En incidentes urgentes: escríbanos y marque el asunto INCIDENT.',
     },
     duty: {
       title: 'Hable con nuestra guardia',
-      text: 'Nuestra guardia responde a todas horas. A las preguntas ordinarias recibe una respuesta directa, y en caso de incidente siempre llega a un humano.',
+      text: 'Nuestra guardia responde a todas horas. A las preguntas ordinarias recibe una respuesta directa, y los incidentes se gestionan con discreción.',
       badge: 'En línea · 24/7',
     },
     faqTitle: 'Preguntas frecuentes',
@@ -741,7 +741,7 @@ export const es: Dictionary = {
       },
       {
         q: '¿De verdad responden 24/7?',
-        a: 'Sí. Nuestra guardia acepta encargos a todas horas. A las preguntas ordinarias recibe una respuesta directa, y en caso de incidente siempre llega a un humano.',
+        a: 'Sí. Nuestra guardia acepta encargos a todas horas. A las preguntas ordinarias recibe una respuesta directa, y los incidentes se gestionan con discreción.',
       },
       {
         q: '¿Cómo se entregan los informes de seguridad?',
