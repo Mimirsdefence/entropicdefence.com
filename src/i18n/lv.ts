@@ -145,6 +145,7 @@ export const lv: Dictionary = {
     describePlaceholder: 'Īsi par darbību, sistēmām un to, ko vēlaties aizsargāt…',
     sendRequest: 'Nosūtīt pieprasījumu',
     sending: 'Nosūta…',
+    sendError: 'Nosūtot radās kļūda. Mēģiniet vēlreiz vai rakstiet mums tieši.',
     consentBefore: 'Nosūtot jūs piekrītat mūsu ',
     consentLink: 'privātuma politikai',
     consentAfter: '. Mēs nekad nekopīgojam jūsu datus ar trešajām pusēm.',

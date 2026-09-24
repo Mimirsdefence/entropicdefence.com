@@ -145,6 +145,7 @@ export const et: Dictionary = {
     describePlaceholder: 'Lühidalt tegevusest, süsteemidest ja sellest, mida soovite kaitsta…',
     sendRequest: 'Saada päring',
     sending: 'Saatmine…',
+    sendError: 'Midagi läks saatmisel valesti. Proovige uuesti või kirjutage meile otse.',
     consentBefore: 'Saates nõustute meie ',
     consentLink: 'privaatsuspoliitikaga',
     consentAfter: '. Me ei jaga kunagi teie andmeid kolmandate osapooltega.',

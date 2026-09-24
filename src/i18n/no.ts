@@ -145,6 +145,7 @@ export const no: Dictionary = {
     describePlaceholder: 'Kort om virksomheten, systemene og hva dere vil beskytte…',
     sendRequest: 'Send forespørsel',
     sending: 'Sender…',
+    sendError: 'Noe gikk galt under sending. Prøv igjen, eller send oss en e-post direkte.',
     consentBefore: 'Ved å sende godtar du ',
     consentLink: 'personvernerklæringen vår',
     consentAfter: '. Vi deler aldri opplysningene dine med tredjeparter.',

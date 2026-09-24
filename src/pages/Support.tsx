@@ -31,10 +31,33 @@ function FaqItem({ q, a }: { q: string; a: string }) {
 export default function Support() {
   const { t } = useI18n()
   const [sent, setSent] = useState(false)
+  const [submitting, setSubmitting] = useState(false)
+  const [error, setError] = useState(false)
 
-  function onSubmit(e: FormEvent<HTMLFormElement>) {
+  async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
-    setSent(true)
+    setError(false)
+    setSubmitting(true)
+    try {
+      const data = new FormData(e.currentTarget)
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: data.get('name'),
+          email: data.get('email'),
+          subject: data.get('subject'),
+          message: data.get('message'),
+          website: data.get('website'),
+        }),
+      })
+      if (!res.ok) throw new Error('send failed')
+      setSent(true)
+    } catch {
+      setError(true)
+    } finally {
+      setSubmitting(false)
+    }
   }
 
   return (
@@ -98,12 +121,21 @@ export default function Support() {
               </div>
             ) : (
               <form onSubmit={onSubmit} className="panel mt-8 space-y-5 p-7">
+                <input
+                  type="text"
+                  name="website"
+                  tabIndex={-1}
+                  autoComplete="off"
+                  aria-hidden="true"
+                  className="hidden"
+                />
                 <div className="grid gap-5 sm:grid-cols-2">
                   <label className="block">
                     <span className="text-sm text-fog">{t.support.form.name}</span>
                     <input
                       required
                       type="text"
+                      name="name"
                       className="mt-2 w-full rounded-lg border border-line bg-void/70 px-4 py-3 text-sm text-frost placeholder:text-fog/50 focus:border-signal focus:outline-none"
                       placeholder={t.support.form.namePlaceholder}
                     />
@@ -113,6 +145,7 @@ export default function Support() {
                     <input
                       required
                       type="email"
+                      name="email"
                       className="mt-2 w-full rounded-lg border border-line bg-void/70 px-4 py-3 text-sm text-frost placeholder:text-fog/50 focus:border-signal focus:outline-none"
                       placeholder={t.support.form.emailPlaceholder}
                     />
@@ -122,29 +155,34 @@ export default function Support() {
                   <span className="text-sm text-fog">{t.support.form.subject}</span>
                   <select
                     required
+                    name="subject"
                     defaultValue=""
                     className="mt-2 w-full rounded-lg border border-line bg-void/70 px-4 py-3 text-sm text-frost focus:border-signal focus:outline-none"
                   >
                     <option value="" disabled>
                       {t.support.form.subjectPlaceholder}
                     </option>
-                    <option>{t.support.form.subjectOptions.serviceQuestion}</option>
-                    <option>{t.support.form.subjectOptions.ongoingSupport}</option>
-                    <option>{t.support.form.subjectOptions.incident}</option>
-                    <option>{t.support.form.subjectOptions.other}</option>
+                    <option value={t.support.form.subjectOptions.serviceQuestion}>{t.support.form.subjectOptions.serviceQuestion}</option>
+                    <option value={t.support.form.subjectOptions.ongoingSupport}>{t.support.form.subjectOptions.ongoingSupport}</option>
+                    <option value={t.support.form.subjectOptions.incident}>{t.support.form.subjectOptions.incident}</option>
+                    <option value={t.support.form.subjectOptions.other}>{t.support.form.subjectOptions.other}</option>
                   </select>
                 </label>
                 <label className="block">
                   <span className="text-sm text-fog">{t.support.form.message}</span>
                   <textarea
                     required
+                    name="message"
                     rows={5}
                     className="mt-2 w-full resize-none rounded-lg border border-line bg-void/70 px-4 py-3 text-sm text-frost placeholder:text-fog/50 focus:border-signal focus:outline-none"
                     placeholder={t.support.form.messagePlaceholder}
                   />
                 </label>
-                <Button type="submit" className="w-full">
-                  {t.support.form.send}
+                {error && (
+                  <p className="text-center text-sm text-danger">{t.forms.sendError}</p>
+                )}
+                <Button type="submit" disabled={submitting} className="w-full">
+                  {submitting ? t.forms.sending : t.support.form.send}
                 </Button>
               </form>
             )}

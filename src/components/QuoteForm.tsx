@@ -17,16 +17,45 @@ export default function QuoteForm({ options, defaultInterest = '', submitLabel }
   const navigate = useNavigate()
   const { t } = useI18n()
   const [submitting, setSubmitting] = useState(false)
+  const [error, setError] = useState(false)
 
-  function onSubmit(e: FormEvent<HTMLFormElement>) {
+  async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
+    setError(false)
     setSubmitting(true)
-    // Simulerad förfrågan — riktig integration kommer i Phase B (Neon + Stripe + mejl).
-    setTimeout(() => navigate('/success'), 700)
+    try {
+      const data = new FormData(e.currentTarget)
+      const res = await fetch('/api/checkout', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          company: data.get('company'),
+          orgnr: data.get('orgnr'),
+          name: data.get('name'),
+          email: data.get('email'),
+          plan: data.get('plan'),
+          message: data.get('message'),
+          website: data.get('website'),
+        }),
+      })
+      if (!res.ok) throw new Error('send failed')
+      navigate('/success')
+    } catch {
+      setError(true)
+      setSubmitting(false)
+    }
   }
 
   return (
     <form onSubmit={onSubmit} className="panel space-y-5 p-7">
+      <input
+        type="text"
+        name="website"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        className="hidden"
+      />
       <div className="grid gap-5 sm:grid-cols-2">
         <label className="block">
           <span className="text-sm text-fog">{t.forms.company}</span>
@@ -98,6 +127,9 @@ export default function QuoteForm({ options, defaultInterest = '', submitLabel }
           placeholder={t.forms.describePlaceholder}
         />
       </label>
+      {error && (
+        <p className="text-center text-sm text-danger">{t.forms.sendError}</p>
+      )}
       <Button type="submit" disabled={submitting} className="w-full">
         {submitting ? t.forms.sending : (submitLabel ?? t.forms.sendRequest)}
         {!submitting && <ArrowRight className="h-4 w-4" aria-hidden="true" />}

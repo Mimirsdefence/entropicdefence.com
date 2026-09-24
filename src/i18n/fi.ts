@@ -145,6 +145,7 @@ export const fi: Dictionary = {
     describePlaceholder: 'Lyhyesti toiminnastanne, järjestelmistänne ja siitä, mitä haluatte suojata…',
     sendRequest: 'Lähetä pyyntö',
     sending: 'Lähetetään…',
+    sendError: 'Viestin lähettämisessä tapahtui virhe. Yritä uudelleen tai lähetä meille sähköpostia suoraan.',
     consentBefore: 'Lähettämällä hyväksyt ',
     consentLink: 'tietosuojaselosteemme',
     consentAfter: '. Emme koskaan jaa tietojanne kolmansille osapuolille.',

@@ -145,6 +145,7 @@ export const lt: Dictionary = {
     describePlaceholder: 'Trumpai apie veiklą, sistemas ir ką norite apsaugoti…',
     sendRequest: 'Siųsti užklausą',
     sending: 'Siunčiama…',
+    sendError: 'Kažkas nepavyko siunčiant. Bandykite dar kartą arba parašykite mums tiesiogiai.',
     consentBefore: 'Siųsdami sutinkate su mūsų ',
     consentLink: 'privatumo politika',
     consentAfter: '. Niekada nedalijame jūsų duomenų su trečiosiomis šalimis.',

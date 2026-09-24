@@ -145,6 +145,7 @@ export const fr: Dictionary = {
     describePlaceholder: 'En bref sur votre activité, vos systèmes et ce que vous voulez protéger…',
     sendRequest: 'Envoyer la demande',
     sending: 'Envoi…',
+    sendError: 'Une erreur s\'est produite lors de l\'envoi. Réessayez ou écrivez-nous directement.',
     consentBefore: 'En envoyant, vous acceptez notre ',
     consentLink: 'politique de confidentialité',
     consentAfter: '. Nous ne partageons jamais vos données avec des tiers.',

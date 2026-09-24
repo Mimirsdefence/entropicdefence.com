@@ -155,6 +155,7 @@ export const sv = {
     describePlaceholder: 'Kort om er verksamhet, system och vad ni vill skydda…',
     sendRequest: 'Skicka förfrågan',
     sending: 'Skickar…',
+    sendError: 'Något gick fel när meddelandet skulle skickas. Försök igen eller mejla oss direkt.',
     consentBefore: 'Genom att skicka godkänner du vår ',
     consentLink: 'integritetspolicy',
     consentAfter: '. Vi delar aldrig dina uppgifter med tredje part.',
