@@ -696,7 +696,7 @@ export const fi: Dictionary = {
           'Entropic Defence AB ("me", "meitä") vaalii yksityisyyttänne. Tämä seloste kuvaa, miten käsittelemme henkilötietoja, kun vierailette entropicdefence.com-sivustolla, otatte meihin yhteyttä tai käytätte palveluitamme.',
           'Keräämme tiedot, jotka itse annatte: nimi, yritys, y-tunnus, sähköposti ja se, mitä kirjoitatte yhteydenottolomakkeeseen. Käytämme tietoja vain pyyntöihin vastaamiseen, tarjousten tekemiseen ja sopimusten täyttämiseen.',
           'Emme koskaan myy tietojanne ja jaamme niitä vain niille palveluntarjoajille, joita palvelun tuottaminen edellyttää (esim. hosting), sopimuksin, jotka suojaavat tietojanne. Tiedot poistetaan, kun niitä ei enää tarvita, kuitenkin viimeistään voimassa olevan kirjanpito- ja turvallisuuslainsäädännön mukaisesti.',
-          'Oikeusperuste: oikeutettu etu ja/tai sopimus. Teillä on oikeus pyytää rekisteriote, oikaisu, poisto ja tietojen siirto. Ottakaa yhteyttä: contact@entropicdefence.com.',
+          'Oikeusperuste: oikeutettu etu ja/tai sopimus. Teillä on oikeus pyytää rekisteriote, oikaisu, poisto ja tietojen siirto. Ottakaa yhteyttä: support@entropicdefence.com.',
         ],
       },
       {

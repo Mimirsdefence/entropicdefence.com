@@ -715,7 +715,7 @@ export const sv = {
           'Entropic Defence AB ("vi", "oss") värnar din integritet. Denna policy beskriver hur vi hanterar personuppgifter när du besöker entropicdefence.com, kontaktar oss eller anlitar våra tjänster.',
           'Vi samlar in de uppgifter du själv lämnar: namn, företag, organisationsnummer, e-post och det du skriver i kontaktformulär. Vi använder uppgifterna enbart för att besvara förfrågningar, offerera och fullgöra avtal.',
           'Vi säljer aldrig dina uppgifter och delar dem endast med de leverantörer som krävs för att driva tjänsten (t.ex. hosting) under avtal som skyddar dina uppgifter. Uppgifter raderas när de inte längre behövs, dock senast i enlighet med gällande bokförings- och säkerhetslagstiftning.',
-          'Rättslig grund: berättigat intresse och/eller avtal. Du har rätt att begära registerutdrag, rättelse, radering och dataportabilitet. Kontakta oss på contact@entropicdefence.com.',
+          'Rättslig grund: berättigat intresse och/eller avtal. Du har rätt att begära registerutdrag, rättelse, radering och dataportabilitet. Kontakta oss på support@entropicdefence.com.',
         ],
       },
       {

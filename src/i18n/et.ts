@@ -696,7 +696,7 @@ export const et: Dictionary = {
           'Entropic Defence AB ("meie", "meid") kaitseb teie privaatsust. See poliitika kirjeldab, kuidas töötleme isikuandmeid, kui külastate entropicdefence.com, võtate meiega ühendust või kasutate meie teenuseid.',
           'Kogume ainult neid andmeid, mille ise esitate: nimi, ettevõte, registrikood, meil ja see, mida kontaktvormi kirjutate. Kasutame andmeid üksnes päringutele vastamiseks, pakkumiste tegemiseks ja lepingute täitmiseks.',
           'Me ei müü kunagi teie andmeid ja jagame neid ainult teenuse osutamiseks vajalike teenusepakkujatega (nt majutus), lepingute alusel, mis kaitsevad teie andmeid. Andmed kustutatakse, kui need pole enam vajalikud, hiljemalt kehtivate raamatupidamis- ja turbeõigusaktide kohaselt.',
-          'Õiguslik alus: õigustatud huvi ja/või leping. Teil on õigus nõuda teavet, parandamist, kustutamist ja andmete ülekandmist. Kontakt: contact@entropicdefence.com.',
+          'Õiguslik alus: õigustatud huvi ja/või leping. Teil on õigus nõuda teavet, parandamist, kustutamist ja andmete ülekandmist. Kontakt: support@entropicdefence.com.',
         ],
       },
       {

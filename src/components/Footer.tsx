@@ -84,7 +84,7 @@ export default function Footer() {
       <div className="border-t border-line/70">
         <div className="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-6 text-xs text-fog sm:flex-row sm:items-center sm:justify-between lg:px-8">
           <p>{t.footer.copyright}</p>
-          <p className="font-mono">contact@entropicdefence.com</p>
+          <p className="font-mono">support@entropicdefence.com</p>
         </div>
       </div>
     </footer>

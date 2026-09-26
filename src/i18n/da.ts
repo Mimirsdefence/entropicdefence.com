@@ -696,7 +696,7 @@ export const da: Dictionary = {
           'Entropic Defence AB ("vi", "os") værner om dit privatliv. Denne politik beskriver, hvordan vi behandler personoplysninger, når du besøger entropicdefence.com, kontakter os eller bruger vores ydelser.',
           'Vi indsamler de oplysninger, du selv giver: navn, virksomhed, CVR-nummer, mail og det, du skriver i kontaktformularen. Vi bruger udelukkende oplysningerne til at besvare forespørgsler, give tilbud og opfylde aftaler.',
           'Vi sælger aldrig dine oplysninger og deler dem kun med de leverandører, der er nødvendige for at levere ydelsen (fx hosting), under aftaler, der beskytter dine data. Oplysninger slettes, når de ikke længere er nødvendige, dog senest i henhold til gældende bogførings- og sikkerhedslovgivning.',
-          'Retsgrundlag: legitim interesse og/eller aftale. Du har ret til at anmode om indsigt, berigtigelse, sletning og dataportabilitet. Kontakt: contact@entropicdefence.com.',
+          'Retsgrundlag: legitim interesse og/eller aftale. Du har ret til at anmode om indsigt, berigtigelse, sletning og dataportabilitet. Kontakt: support@entropicdefence.com.',
         ],
       },
       {

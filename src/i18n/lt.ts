@@ -696,7 +696,7 @@ export const lt: Dictionary = {
           'Entropic Defence AB ("mes", "mums") saugo jūsų privatumą. Ši politika aprašo, kaip tvarkome asmens duomenis, kai lankotės entropicdefence.com, susisiekiate su mumis ar naudojatės paslaugomis.',
           'Renkame tik tuos duomenis, kuriuos pateikiate patys: vardą, įmonę, įmonės kodą, el. paštą ir tai, ką rašote kontaktų formoje. Duomenis naudojame tik užklausoms atsakyti, pasiūlymams teikti ir sutartims vykdyti.',
           'Niekada neparduodame jūsų duomenų ir dalijamės tik su tiekėjais, būtinais paslaugai teikti (pvz., priegloba), pagal sutartis, saugančias jūsų duomenis. Duomenys ištrinami, kai nebereikalingi, bet ne vėliau nei pagal galiojančius apskaitos ir saugumo teisės aktus.',
-          'Teisinis pagrindas: teisėtas interesas ir (arba) sutartis. Turite teisę prašyti išrašo, taisymo, ištrynimo ir duomenų perkėlimo. Susisiekite: contact@entropicdefence.com.',
+          'Teisinis pagrindas: teisėtas interesas ir (arba) sutartis. Turite teisę prašyti išrašo, taisymo, ištrynimo ir duomenų perkėlimo. Susisiekite: support@entropicdefence.com.',
         ],
       },
       {

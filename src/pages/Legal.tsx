@@ -55,10 +55,10 @@ export default function Legal() {
           <p className="mt-8 text-center text-sm text-fog">
             {t.legal.questions}{' '}
             <a
-              href="mailto:contact@entropicdefence.com"
+              href="mailto:support@entropicdefence.com"
               className="text-signal transition-colors hover:text-pulse hover:underline"
             >
-              contact@entropicdefence.com
+              support@entropicdefence.com
             </a>
           </p>
         </Reveal>

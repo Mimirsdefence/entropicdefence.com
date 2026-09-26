@@ -696,7 +696,7 @@ export const lv: Dictionary = {
           'Entropic Defence AB ("mēs", "mūs") aizsargā jūsu privātumu. Šī politika apraksta, kā mēs apstrādājam personas datus, kad apmeklējat entropicdefence.com, sazināties ar mums vai izmantojat mūsu pakalpojumus.',
           'Mēs vācam tikai tos datus, kurus pats iesniedzat: vārdu, uzņēmumu, reģistrācijas numuru, e-pastu un to, ko rakstāt kontaktu veidlapā. Datus izmantojam tikai, lai atbildētu uz pieprasījumiem, sagatavotu piedāvājumus un izpildītu līgumus.',
           'Mēs nekad nepārdodam jūsu datus un kopīgojam tos tikai ar pakalpojumu sniedzējiem, kas nepieciešami pakalpojuma sniegšanai (piem., mitināšana), saskaņā ar līgumiem, kas aizsargā jūsu datus. Dati tiek dzēsti, kad tie vairs nav nepieciešami, vēlākais saskaņā ar spēkā esošajiem grāmatvedības un drošības tiesību aktiem.',
-          'Juridiskais pamats: leģitīmas intereses un/vai līgums. Jums ir tiesības pieprasīt informāciju, labošanu, dzēšanu un datu pārnesamību. Kontakts: contact@entropicdefence.com.',
+          'Juridiskais pamats: leģitīmas intereses un/vai līgums. Jums ir tiesības pieprasīt informāciju, labošanu, dzēšanu un datu pārnesamību. Kontakts: support@entropicdefence.com.',
         ],
       },
       {

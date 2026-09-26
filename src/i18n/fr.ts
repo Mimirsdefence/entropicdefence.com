@@ -696,7 +696,7 @@ export const fr: Dictionary = {
           'Entropic Defence AB (« nous ») protège votre vie privée. Cette politique décrit comment nous traitons les données personnelles lorsque vous visitez entropicdefence.com, nous contactez ou utilisez nos services.',
           'Nous ne collectons que les données que vous fournissez : nom, entreprise, numéro d\'organisation, e-mail et le contenu du formulaire de contact. Nous utilisons les données uniquement pour répondre aux demandes, établir des devis et exécuter des contrats.',
           'Nous ne vendons jamais vos données et ne les partageons qu\'avec les prestataires nécessaires au service (p. ex. hébergement), dans le cadre de contrats qui protègent vos données. Les données sont supprimées lorsqu\'elles ne sont plus nécessaires, au plus tard conformément à la législation comptable et de sécurité applicable.',
-          'Base juridique : intérêt légitime et/ou contrat. Vous avez le droit de demander l\'information, la rectification, la suppression et la portabilité des données. Contact : contact@entropicdefence.com.',
+          'Base juridique : intérêt légitime et/ou contrat. Vous avez le droit de demander l\'information, la rectification, la suppression et la portabilité des données. Contact : support@entropicdefence.com.',
         ],
       },
       {
