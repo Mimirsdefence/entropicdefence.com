@@ -48,15 +48,21 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   ].filter(Boolean)
 
   try {
-    await resend.emails.send({
+    // OBS: Resend-SDK:n kastar INTE vid API-fel, den returnerar { data, error }.
+    const { error } = await resend.emails.send({
       from: 'Entropic Defence <no-reply@entropicdefence.com>',
       to: [CONSULTANT_EMAIL],
       replyTo: email,
       subject: `Offertförfrågan: ${plan}`,
       text: lines.join('\n'),
     })
+
+    if (error) {
+      console.error('Resend send failed:', error)
+      return res.status(500).json({ error: 'Failed to send email' })
+    }
   } catch (error) {
-    console.error('Resend send failed:', error)
+    console.error('Resend send threw:', error)
     return res.status(500).json({ error: 'Failed to send email' })
   }
 
