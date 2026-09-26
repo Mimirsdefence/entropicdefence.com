@@ -27,7 +27,14 @@ export default function Advisories() {
               <FileWarning className="h-6 w-6 text-amber" aria-hidden="true" />
               <h2 className="mt-4 font-display text-base font-semibold">{t.advisories.report}</h2>
               <p className="mt-2 text-sm leading-relaxed text-fog">{t.advisories.reportText}</p>
-              <p className="mt-4 font-mono text-xs text-signal">security@entropicdefence.com</p>
+              <p className="mt-4 font-mono text-xs">
+                <a
+                  href="mailto:security@entropicdefence.com"
+                  className="text-signal transition-colors hover:text-pulse hover:underline"
+                >
+                  security@entropicdefence.com
+                </a>
+              </p>
             </article>
           </Reveal>
           <Reveal delay={80}>
