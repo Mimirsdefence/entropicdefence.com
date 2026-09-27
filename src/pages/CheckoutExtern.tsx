@@ -170,33 +170,37 @@ export default function CheckoutExtern() {
                     {plan.description}
                   </p>
 
-                  {/* Rabattrad ovanför priset — styrs av perioden, identisk för alla kort.
-                      Reserverad höjd så prisraden inte hoppar när perioden byts. */}
-                  <div className="mt-3 flex min-h-4 items-center">
-                    {!isQuote && period !== 'month' && (
-                      <span className="inline-flex items-center gap-1.5 font-mono text-[11px] tracking-[0.05em] text-mint">
-                        <span
-                          className="animate-pulse-signal h-1 w-1 rounded-full bg-mint"
-                          aria-hidden="true"
-                        />
-                        {t.common.savings[period]}
-                      </span>
-                    )}
+                  {/* Prispanel — strecket ligger efter titel + subtext, precis som facit
+                      (2769062): priset och allt därunder ligger under strecket.
+                      Rabattraden hör till priset och står först i panelen; reserverad höjd
+                      så prisraden inte hoppar när perioden byts. */}
+                  <div className="mt-6 border-t border-line pt-5">
+                    <div className="flex min-h-4 items-center">
+                      {!isQuote && period !== 'month' && (
+                        <span className="inline-flex items-center gap-1.5 font-mono text-[11px] tracking-[0.05em] text-mint">
+                          <span
+                            className="animate-pulse-signal h-1 w-1 rounded-full bg-mint"
+                            aria-hidden="true"
+                          />
+                          {t.common.savings[period]}
+                        </span>
+                      )}
+                    </div>
+
+                    <p className="mt-1.5 font-display text-3xl font-bold">
+                      {isQuote ? t.common.quote : formatPrice(price as number)}
+                      {!isQuote && (
+                        <span className="ml-2 text-sm font-normal text-fog">
+                          {t.common.perMonthShort}
+                        </span>
+                      )}
+                    </p>
+                    <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.2em] text-fog">
+                      {tierInfo.short} · {t.common.exclVat}
+                    </p>
                   </div>
 
-                  <p className="mt-1.5 font-display text-3xl font-bold">
-                    {isQuote ? t.common.quote : formatPrice(price as number)}
-                    {!isQuote && (
-                      <span className="ml-2 text-sm font-normal text-fog">
-                        {t.common.perMonthShort}
-                      </span>
-                    )}
-                  </p>
-                  <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.2em] text-fog">
-                    {tierInfo.short} · {t.common.exclVat}
-                  </p>
-
-                  <ul className="mt-6 flex-1 space-y-3 border-t border-line pt-6">
+                  <ul className="mt-6 flex-1 space-y-3">
                     {plan.features.map((f) => (
                       <li key={f} className="flex items-start gap-3 text-sm text-frost">
                         <Check className="mt-0.5 h-4 w-4 shrink-0 text-mint" aria-hidden="true" />
