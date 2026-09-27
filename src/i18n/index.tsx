@@ -8,6 +8,7 @@ import { lt } from './lt'
 import { et } from './et'
 import { lv } from './lv'
 import { pl } from './pl'
+import { sl } from './sl'
 import { fr } from './fr'
 import { es } from './es'
 import { th } from './th'
@@ -34,6 +35,7 @@ const translations: Record<LanguageCode, Dictionary> = {
   et,
   lv,
   pl,
+  sl,
   fr,
   es,
   th,

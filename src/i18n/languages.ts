@@ -8,6 +8,7 @@ export type LanguageCode =
   | 'et'
   | 'lv'
   | 'pl'
+  | 'sl'
   | 'fr'
   | 'es'
   | 'th'
@@ -30,6 +31,7 @@ export const LANGUAGES: LanguageMeta[] = [
   { code: 'et', name: 'Eesti', match: ['et'] },
   { code: 'lv', name: 'Latviešu', match: ['lv'] },
   { code: 'pl', name: 'Polski', match: ['pl'] },
+  { code: 'sl', name: 'Slovenščina', match: ['sl'] },
   { code: 'fr', name: 'Français', match: ['fr'] },
   { code: 'es', name: 'Español', match: ['es'] },
   { code: 'th', name: 'ไทย', match: ['th'] },
