@@ -1,4 +1,15 @@
-export type LanguageCode = 'sv' | 'fi' | 'da' | 'no' | 'lt' | 'et' | 'lv' | 'fr' | 'es' | 'th'
+export type LanguageCode =
+  | 'sv'
+  | 'en'
+  | 'fi'
+  | 'da'
+  | 'no'
+  | 'lt'
+  | 'et'
+  | 'lv'
+  | 'fr'
+  | 'es'
+  | 'th'
 
 export interface LanguageMeta {
   code: LanguageCode
@@ -10,6 +21,7 @@ export interface LanguageMeta {
 
 export const LANGUAGES: LanguageMeta[] = [
   { code: 'sv', name: 'Svenska', match: ['sv'] },
+  { code: 'en', name: 'English', match: ['en'] },
   { code: 'fi', name: 'Suomi', match: ['fi'] },
   { code: 'da', name: 'Dansk', match: ['da'] },
   { code: 'no', name: 'Norsk', match: ['no', 'nb', 'nn'] },
@@ -21,7 +33,7 @@ export const LANGUAGES: LanguageMeta[] = [
   { code: 'th', name: 'ไทย', match: ['th'] },
 ]
 
-export const DEFAULT_LANGUAGE: LanguageCode = 'sv'
+export const DEFAULT_LANGUAGE: LanguageCode = 'en'
 
 export function languageFromNavigator(value: string | undefined): LanguageCode {
   if (!value) return DEFAULT_LANGUAGE

@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
 import { sv, type Dictionary } from './sv'
+import { en } from './en'
 import { fi } from './fi'
 import { da } from './da'
 import { no } from './no'
@@ -22,7 +23,7 @@ export type { LanguageCode, Dictionary }
 
 const STORAGE_KEY = 'ed-lang'
 
-const translations: Record<LanguageCode, Dictionary> = { sv, fi, da, no, lt, et, lv, fr, es, th }
+const translations: Record<LanguageCode, Dictionary> = { sv, en, fi, da, no, lt, et, lv, fr, es, th }
 
 interface I18nContextValue {
   lang: LanguageCode
