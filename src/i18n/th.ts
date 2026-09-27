@@ -92,8 +92,8 @@ export const th: Dictionary = {
       year: 'ปี',
     },
     savings: {
-      quarter: 'ประหยัด 10%',
-      year: 'ประหยัด 25%',
+      quarter: 'ลด 10%',
+      year: 'ฟรี 3 เดือน',
     },
   },
 

@@ -98,8 +98,8 @@ export const sv = {
       year: 'År',
     },
     savings: {
-      quarter: 'Spara 10 %',
-      year: 'Spara 25 %',
+      quarter: '10 % rabatt',
+      year: '3 fria månader ingår',
     },
   },
 
@@ -460,7 +460,7 @@ export const sv = {
     rate: {
       eyebrow: 'Konsulttid',
       perHour: '/ timme',
-      text: 'Ni betalar för faktiskt arbete — inte för oss att lära oss ert system långsamt. Omfattning och tid bekräftas efter en kortare behovsanalys.',
+      text: 'Ni betalar för faktiskt arbete — inte för att vi ska lära oss ert system på er tid. Omfattning och tid bekräftas efter en kort behovsanalys.',
     },
     levels: {
       vanlig: {

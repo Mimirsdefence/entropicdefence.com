@@ -170,23 +170,28 @@ export default function CheckoutExtern() {
                     {plan.description}
                   </p>
 
-                  {/* Pris + kort rabattmärkning på samma rad */}
-                  <div className="mt-6 flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                    <p className="font-display text-3xl font-bold">
-                      {isQuote ? t.common.quote : formatPrice(price as number)}
-                      {!isQuote && (
-                        <span className="ml-2 text-sm font-normal text-fog">
-                          {t.common.perMonthShort}
-                        </span>
-                      )}
-                    </p>
+                  {/* Rabattrad ovanför priset — styrs av perioden, identisk för alla kort.
+                      Reserverad höjd så prisraden inte hoppar när perioden byts. */}
+                  <div className="mt-6 flex min-h-4 items-center">
                     {!isQuote && period !== 'month' && (
                       <span className="inline-flex items-center gap-1.5 font-mono text-[10px] font-normal uppercase tracking-[0.2em] text-mint">
-                        <span className="h-1 w-1 rounded-full bg-mint" aria-hidden="true" />
+                        <span
+                          className="animate-pulse-signal h-1 w-1 rounded-full bg-mint"
+                          aria-hidden="true"
+                        />
                         {t.common.savings[period]}
                       </span>
                     )}
                   </div>
+
+                  <p className="mt-1.5 font-display text-3xl font-bold">
+                    {isQuote ? t.common.quote : formatPrice(price as number)}
+                    {!isQuote && (
+                      <span className="ml-2 text-sm font-normal text-fog">
+                        {t.common.perMonthShort}
+                      </span>
+                    )}
+                  </p>
                   <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.2em] text-fog">
                     {tierInfo.short} · {t.common.exclVat}
                   </p>

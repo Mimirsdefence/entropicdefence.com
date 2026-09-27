@@ -92,8 +92,8 @@ export const lv: Dictionary = {
       year: 'Gads',
     },
     savings: {
-      quarter: 'Ietaupāt 10%',
-      year: 'Ietaupāt 25%',
+      quarter: '10% atlaide',
+      year: '3 mēneši bez maksas',
     },
   },
 
