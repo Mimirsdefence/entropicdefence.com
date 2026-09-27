@@ -46,7 +46,7 @@ function LanguagePicker({ onSelect }: { onSelect?: () => void }) {
 
       {langOpen && (
         <ul
-          className="absolute right-0 z-10 mt-2 max-h-72 w-44 overflow-auto rounded-xl border border-line bg-void/95 p-1.5 shadow-2xl backdrop-blur-xl"
+          className="absolute right-0 z-10 mt-2 grid max-h-72 w-[22rem] max-w-[calc(100vw-2.5rem)] grid-cols-2 gap-1 overflow-auto rounded-xl border border-line bg-void/95 p-1.5 shadow-2xl backdrop-blur-xl"
           aria-label={t.common.chooseLanguage}
         >
           {LANGUAGES.map((l) => (
@@ -58,17 +58,17 @@ function LanguagePicker({ onSelect }: { onSelect?: () => void }) {
                   setLangOpen(false)
                   onSelect?.()
                 }}
-                className={`flex w-full items-center gap-2.5 rounded-lg px-3 py-2 text-left text-sm transition-colors ${
+                className={`flex w-full items-center gap-2.5 rounded-lg px-2.5 py-2 text-left text-sm transition-colors ${
                   l.code === lang ? 'bg-signal/15 text-signal' : 'text-frost hover:bg-panel'
                 }`}
               >
                 <img
                   src={`/flags/${l.code}.webp`}
                   alt=""
-                  className="h-4 w-6 rounded-sm object-cover ring-1 ring-white/10"
+                  className="h-4 w-6 shrink-0 rounded-sm object-cover ring-1 ring-white/10"
                   aria-hidden="true"
                 />
-                <span>{l.name}</span>
+                <span className="min-w-0 truncate">{l.name}</span>
               </button>
             </li>
           ))}
