@@ -452,34 +452,41 @@ export const lv: Dictionary = {
       vanlig: {
         name: 'Parastā drošība',
         level: '1. līmenis',
-        tagline: 'Uzņēmumiem, kam nepieciešams neatkarīgs novērtējums bez visa uzreiz.',
+        tagline: 'Joprojām augstāk, nekā spēj sniegt jebkurš cits tirgus dalībnieks.',
+        description:
+          'Piekļuvju, reģistrēšanas, segmentēšanas un rutīnu pārskats no iekšpuses. To pieprasa daudzi auditori — un tas aizver durvis, kuras ārējā pārbaude nekad neredz.',
         features: [
-          'Piekļuvju un kontu pārskats',
-          'Reģistrēšanas un izsekojamības kontrole',
-          'Pamata aizsardzība e-pastam, ierīcēm un tīklam',
-          'Rakstisks ziņojums ar prioritizētām darbībām',
+          'Piekļuvju un lomu pārskats',
+          'Reģistrēšana, trauksmes un izsekojamība',
+          'Personāla un piegādātāju rutīnas',
+          'Noslēguma ziņojums ar prioritizētu rīcības plānu',
         ],
       },
       hog: {
         name: 'Augstā drošība',
         level: '2. līmenis',
-        tagline: 'Uzņēmumiem ar sensitīviem datiem, aktīvu apdraudējuma ainu vai klientu un līgumu prasībām.',
+        tagline: 'Īpaši augsta drošība, kur iekšpuse neuzticas nevienam — pat ne sev.',
+        description:
+          'Nulles uzticēšanās arhitektūra, segmentētas zonas un noslēpumi, kas nekad nepamet aparatūru. Uzņēmumiem ar sensitīviem datiem un reālām aizsargājamām vērtībām.',
         features: [
-          'Viss no Parastās drošības',
-          'Tīkla segmentēšana un stingrs piekļuves modelis',
-          'Sistēma, kas neatbild uz zondēšanu',
-          'Atkārtotas iekšējās kontroles',
+          'Nulles uzticēšanās arhitektūra un mikrosegmentēšana',
+          'Kriptoatslēgu pārvaldība un noslēpumu izplatīšana',
+          'Aizsardzība pret iekšējiem apdraudējumiem un anomāliju noteikšana',
+          'Gatavības plāns iekšējam incidentam',
         ],
       },
       militar: {
         name: 'Militārais līmenis',
         level: '3. līmenis',
-        tagline: 'Īpaši augsta drošība, kur iekšpuse neuzticas nevienam — pat ne sev.',
+        tagline: 'Sistēmas nav redzamas pat tad, kad kāds tās pingina.',
+        description:
+          'Augstākais iekšējais līmenis, ko piegādājam. Sistēma eksistē, bet nesniedz atbildi, pirkstu nospiedumus un nekādu regularitāti. Rezervēts aizsardzībai, valsts iestādēm un kritiskajai infrastruktūrai.',
         features: [
-          'Viss no Augstās drošības',
-          'Kritisko sistēmu un datu segmentēšana',
-          'Fiziskā drošība un piekļuves kontrole',
-          'Sistēma, kas neatbild uz zondēšanu — visos līmeņos',
+          'Slēpta infrastruktūra — nekādu atbilžu uz zondēšanu',
+          'Apzināts troksnis pret pirkstu nospiedumiem un laika analīzi',
+          'Atslēgu materiāla fiziska un loģiska izolācija',
+          'Nepārtraukta visas ķēdes iekšējā pārskatīšana',
+          'Drošības aizsardzība augstākajā līmenī',
         ],
       },
     },
@@ -488,6 +495,8 @@ export const lv: Dictionary = {
     efficiency: {
       eyebrow: 'Efektivitāte',
       title: 'Kur cilvēkam vajadzīgas sešas stundas, mēs izmantojam vienu.',
+      paragraphFirst:
+        'Visā audita laikā strādājam ar patentētiem MI rīkiem. Tāpēc sarežģīti uzdevumi aizņem aptuveni sesto daļu laika salīdzinājumā ar tikai cilvēku drošības ekspertiem — nezaudējot kvalitāti.',
       paragraphLead: 'Rezultāts nav tikai ātrāks. Tā ir ',
       paragraphHighlight: 'augstāka drošība',
       paragraphEnd: ', nekā cilvēks vienatnē spēj sasniegt.',
@@ -509,7 +518,7 @@ export const lv: Dictionary = {
     form: {
       title: 'Pastāstiet, kas jāaizsargā.',
       description:
-        'Iekšējais audits vienmēr tiek pielāgots. Pastāstiet par sistēmām, datiem un prasībām — atbildēsim ar līmeni un stundu aplēsi.',
+        'Jo sensitīvāka vide, jo vairāk vēlamies zināt pirms aplēses sniegšanas. Viss tiek apstrādāts saskaņā ar konfidencialitāti un var notikt caur PGP.',
       bullets: [
         'Bezmaksas vajadzību analīze',
         'Stundu aplēse pirms darba sākuma',

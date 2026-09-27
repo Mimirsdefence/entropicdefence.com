@@ -452,34 +452,41 @@ export const da: Dictionary = {
       vanlig: {
         name: 'Normal sikkerhed',
         level: 'Niveau 1',
-        tagline: 'Til virksomheder, der har brug for en uafhængig udtalelse uden at gøre alt på én gang.',
+        tagline: 'Stadig højere end noget, nogen anden aktør leverer.',
+        description:
+          'Gennemgang af adgange, logning, segmentering og rutiner indefra. Kræves af mange revisorer — og lukker døre, som en ekstern gennemgang aldrig ser.',
         features: [
-          'Gennemgang af adgange og konti',
-          'Kontrol af logning og sporbarhed',
-          'Grundlæggende beskyttelse af mail, enheder og netværk',
-          'Skriftlig rapport med prioriterede tiltag',
+          'Adgangs- og rollegranskning',
+          'Logning, alarm og sporbarhed',
+          'Rutiner for personale og leverandører',
+          'Slutrapport med prioriteret handleplan',
         ],
       },
       hog: {
         name: 'Høj sikkerhed',
         level: 'Niveau 2',
-        tagline: 'Til virksomheder med følsomme data, et aktivt trusselsbillede eller krav fra kunder og kontrakter.',
+        tagline: 'Forhøjet sikkerhed, hvor indersiden ikke stoler på nogen — ikke engang sig selv.',
+        description:
+          'Zero-trust-arkitektur, segmenterede zoner og hemmeligheder, der aldrig forlader hardwaren. Til virksomheder med følsomme data og reelle beskyttelsesværdier.',
         features: [
-          'Alt fra Normal sikkerhed',
-          'Netværkssegmentering og stram adgangsmodel',
-          'Et system, der ikke svarer på sondering',
-          'Tilbagevendende interne kontroller',
+          'Zero-trust-arkitektur og mikrosegmentering',
+          'Kryptonøglehåndtering og spredning af hemmeligheder',
+          'Insider-beskyttelse og anomalidetektion',
+          'Beredskabsplan for interne hændelser',
         ],
       },
       militar: {
         name: 'Militært niveau',
         level: 'Niveau 3',
-        tagline: 'Forhøjet sikkerhed, hvor indersiden ikke stoler på nogen — ikke engang sig selv.',
+        tagline: 'Systemerne er ikke engang synlige, når nogen pinger dem.',
+        description:
+          'Det højeste interne niveau, vi leverer. Systemet eksisterer, men afgiver intet svar, intet fingeraftryk og ingen regelmæssighed. Forbeholdt forsvar, myndigheder og kritisk infrastruktur.',
         features: [
-          'Alt fra Høj sikkerhed',
-          'Segmentering af kritiske systemer og data',
-          'Fysisk sikkerhed og adgangskontrol',
-          'Et system, der ikke svarer på sondering — på alle niveauer',
+          'Skjult infrastruktur — ingen svar på sondering',
+          'Bevidst støj mod fingeraftryk og tidsanalyse',
+          'Fysisk og logisk isolation af nøglemateriale',
+          'Kontinuerlig revision af hele kæden indefra',
+          'Sikkerhedsbeskyttelse på højeste niveau',
         ],
       },
     },
@@ -488,6 +495,8 @@ export const da: Dictionary = {
     efficiency: {
       eyebrow: 'Effektivitet',
       title: 'Hvor et menneske bruger seks timer, bruger vi én.',
+      paragraphFirst:
+        'Vi arbejder med proprietære AI-værktøjer gennem hele revisionen. Det betyder, at komplekse opgaver tager omkring en sjettedel af tiden sammenlignet med menneskelige sikkerhedseksperter alene — uden at gå på kompromis med kvaliteten.',
       paragraphLead: 'Resultatet er ikke bare hurtigere. Det er ',
       paragraphHighlight: 'højere sikkerhed',
       paragraphEnd: ', end et menneske kan opnå alene.',
@@ -509,7 +518,7 @@ export const da: Dictionary = {
     form: {
       title: 'Fortæl, hvad der skal beskyttes.',
       description:
-        'Intern revision skræddersys altid. Fortæl om systemer, data og krav — så vender vi tilbage med niveau og timeestimat.',
+        'Jo mere følsomt miljø, desto mere vil vi vide, før vi giver et estimat. Alt behandles under tavshedspligt og kan ske via PGP.',
       bullets: [
         'Gratis behovsanalyse',
         'Estimat på konsulenttimer, før arbejdet begynder',

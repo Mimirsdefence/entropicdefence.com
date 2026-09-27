@@ -49,63 +49,24 @@ export default function CheckoutIntern() {
         description={t.checkoutIntern.hero.description}
       />
 
-      {/* NIVÅER */}
-      <section className="mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-24">
-        <div className="grid gap-6 lg:grid-cols-3">
-          {INTERNAL_LEVEL_IDS.map((id: InternalLevelId, i) => {
-            const level = t.checkoutIntern.levels[id]
-            const Icon = levelIcons[id]
-            const featured = id === 'hog'
-
-            return (
-              <Reveal key={id} delay={i * 100}>
-                <article
-                  className={`panel relative flex h-full flex-col p-7 ${
-                    featured ? 'border-signal/60' : ''
-                  }`}
-                >
-                  {featured && (
-                    <span className="absolute -top-3 left-6 rounded-full bg-signal px-3 py-1 font-mono text-[10px] uppercase tracking-[0.2em] text-abyss">
-                      {t.common.mostPopular}
-                    </span>
-                  )}
-
-                  <Icon className="h-8 w-8 text-signal" aria-hidden="true" />
-                  <p className="mt-5 font-mono text-xs uppercase tracking-[0.25em] text-fog">
-                    {level.level}
-                  </p>
-                  <h2 className="mt-2 font-display text-xl font-semibold">{level.name}</h2>
-                  <p className="mt-3 text-sm leading-relaxed text-fog">{level.tagline}</p>
-
-                  <ul className="mt-6 space-y-3 border-t border-line pt-6">
-                    {level.features.map((f) => (
-                      <li key={f} className="flex items-start gap-3 text-sm text-frost">
-                        <Check className="mt-0.5 h-4 w-4 shrink-0 text-mint" aria-hidden="true" />
-                        <span className="leading-relaxed">{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-
-                  <div className="mt-auto pt-8">
-                    <Button href="#forfragan" variant={featured ? 'primary' : 'ghost'}>
-                      {t.checkoutIntern.requestReview}
-                      <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                    </Button>
-                  </div>
-                </article>
-              </Reveal>
-            )
-          })}
-        </div>
-
-        {/* TIMMARVDE */}
+      <section className="mx-auto max-w-7xl px-5 pb-16 lg:px-8">
         <Reveal>
-          <div className="panel mt-10 flex flex-col items-start justify-between gap-6 p-7 sm:flex-row sm:items-center">
+          <Link
+            to="/checkout"
+            className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-fog transition-colors hover:text-signal"
+          >
+            <ArrowLeft className="h-4 w-4" aria-hidden="true" />
+            {t.common.allPackages}
+          </Link>
+        </Reveal>
+
+        <Reveal delay={80}>
+          <div className="panel mt-10 flex flex-col gap-4 p-6 sm:flex-row sm:items-center sm:justify-between">
             <div>
-              <p className="font-mono text-xs uppercase tracking-[0.25em] text-signal">
+              <p className="font-mono text-xs uppercase tracking-[0.3em] text-signal">
                 {t.checkoutIntern.rate.eyebrow}
               </p>
-              <p className="mt-3 font-display text-3xl font-bold">
+              <p className="mt-2 font-display text-3xl font-bold">
                 {formatPrice(INTERNAL_RATE)}
                 <span className="ml-2 text-sm font-normal text-fog">
                   {t.checkoutIntern.rate.perHour}
@@ -118,77 +79,121 @@ export default function CheckoutIntern() {
           </div>
         </Reveal>
 
+        <div className="mt-10 grid gap-5 lg:grid-cols-3">
+          {INTERNAL_LEVEL_IDS.map((id, i) => {
+            const level = t.checkoutIntern.levels[id]
+            const Icon = levelIcons[id]
+            const featured = id === 'hog'
+            return (
+              <Reveal key={id} delay={i * 100} className="h-full">
+                <article
+                  className={`panel relative flex h-full flex-col p-7 ${
+                    featured ? 'border-signal/60 shadow-[0_0_40px_rgba(56,189,248,0.12)]' : ''
+                  }`}
+                >
+                  {featured && (
+                    <span className="absolute -top-3 left-7 rounded-full bg-signal px-3 py-1 font-mono text-[10px] font-semibold uppercase tracking-[0.2em] text-void">
+                      {t.common.recommended}
+                    </span>
+                  )}
+                  <Icon className="h-6 w-6 text-signal" aria-hidden="true" />
+                  <p className="mt-4 font-mono text-[11px] uppercase tracking-[0.25em] text-signal">
+                    {level.level}
+                  </p>
+                  <h2 className="mt-2 font-display text-xl font-semibold">{level.name}</h2>
+                  <p className="mt-2 font-display text-sm font-semibold text-frost/90">
+                    {level.tagline}
+                  </p>
+                  <p className="mt-3 text-sm leading-relaxed text-fog">{level.description}</p>
+                  <ul className="mt-6 flex-1 space-y-3">
+                    {level.features.map((f) => (
+                      <li key={f} className="flex items-start gap-3 text-sm text-frost">
+                        <Check className="mt-0.5 h-4 w-4 shrink-0 text-mint" aria-hidden="true" />
+                        {f}
+                      </li>
+                    ))}
+                  </ul>
+                  <Button
+                    href="#forfragan"
+                    variant={featured ? 'primary' : 'ghost'}
+                    className="mt-8 w-full"
+                  >
+                    {t.checkoutIntern.requestReview}
+                    <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                  </Button>
+                </article>
+              </Reveal>
+            )
+          })}
+        </div>
+
         <p className="mt-6 font-mono text-[11px] uppercase tracking-[0.2em] text-fog">
           {t.common.vatNote} · {t.checkoutIntern.rateNote} · {t.common.launchPrice}
         </p>
-
-        <div className="mt-10 text-center">
-          <Link
-            to="/checkout"
-            className="inline-flex items-center gap-2 font-display text-sm font-semibold text-fog transition-colors hover:text-frost"
-          >
-            <ArrowLeft className="h-4 w-4" aria-hidden="true" />
-            {t.common.allPackages}
-          </Link>
-        </div>
       </section>
 
-      {/* EFFEKTIVITET */}
+      {/* Varför 3 500 kr/tim */}
       <section className="border-t border-line/70 bg-abyss/50">
-        <div className="mx-auto max-w-7xl px-5 py-24 lg:px-8">
-          <Reveal>
-            <p className="mb-5 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-signal">
-              <span className="h-px w-10 bg-signal/60" aria-hidden="true" />
-              {t.checkoutIntern.efficiency.eyebrow}
-            </p>
-            <h2 className="max-w-2xl font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-              {t.checkoutIntern.efficiency.title}
-            </h2>
-            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-fog">
-              {t.checkoutIntern.efficiency.paragraphLead}
-              <span className="text-gradient">{t.checkoutIntern.efficiency.paragraphHighlight}</span>
-              {t.checkoutIntern.efficiency.paragraphEnd}
-            </p>
-          </Reveal>
+        <div className="mx-auto max-w-7xl px-5 py-20 lg:px-8">
+          <div className="grid gap-12 lg:grid-cols-2">
+            <Reveal>
+              <p className="mb-5 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-signal">
+                <span className="h-px w-10 bg-signal/60" aria-hidden="true" />
+                {t.checkoutIntern.efficiency.eyebrow}
+              </p>
+              <h2 className="font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
+                {t.checkoutIntern.efficiency.title}
+              </h2>
+              <p className="mt-6 max-w-xl text-lg leading-relaxed text-fog">
+                {t.checkoutIntern.efficiency.paragraphFirst}
+              </p>
+              <p className="mt-4 max-w-xl text-lg leading-relaxed text-fog">
+                {t.checkoutIntern.efficiency.paragraphLead}
+                <span className="text-frost">{t.checkoutIntern.efficiency.paragraphHighlight}</span>
+                {t.checkoutIntern.efficiency.paragraphEnd}
+              </p>
+            </Reveal>
 
-          <div className="mt-12 grid gap-5 sm:grid-cols-3">
-            {t.checkoutIntern.efficiency.cards.map((c, i) => {
-              const Icon = efficiencyIcons[i] ?? Zap
-              return (
-                <Reveal key={c.title} delay={i * 90}>
-                  <article className="panel h-full p-6">
-                    <Icon className="h-7 w-7 text-signal" aria-hidden="true" />
-                    <h3 className="mt-5 font-display text-lg font-semibold">{c.title}</h3>
-                    <p className="mt-3 text-sm leading-relaxed text-fog">{c.text}</p>
-                  </article>
-                </Reveal>
-              )
-            })}
+            <Reveal delay={150}>
+              <ul className="space-y-4">
+                {t.checkoutIntern.efficiency.cards.map((c, i) => {
+                  const Icon = efficiencyIcons[i] ?? Zap
+                  return (
+                    <li key={c.title} className="panel flex items-start gap-4 p-5">
+                      <Icon className="mt-0.5 h-5 w-5 shrink-0 text-signal" aria-hidden="true" />
+                      <div>
+                        <p className="font-display text-sm font-semibold text-frost">{c.title}</p>
+                        <p className="mt-1 text-sm leading-relaxed text-fog">{c.text}</p>
+                      </div>
+                    </li>
+                  )
+                })}
+              </ul>
+            </Reveal>
           </div>
         </div>
       </section>
 
-      {/* OFFERTFORMULÄR */}
-      <section id="forfragan" className="mx-auto max-w-7xl px-5 py-24 lg:px-8">
-        <div className="grid gap-12 lg:grid-cols-2">
+      <section id="forfragan" className="scroll-mt-24 border-t border-line/70">
+        <div className="mx-auto grid max-w-7xl gap-12 px-5 py-20 lg:grid-cols-2 lg:px-8">
           <Reveal>
-            <h2 className="font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
+            <h2 className="font-display text-2xl font-bold leading-tight sm:text-3xl">
               {t.checkoutIntern.form.title}
             </h2>
-            <p className="mt-5 max-w-xl text-lg leading-relaxed text-fog">
+            <p className="mt-4 max-w-md text-lg leading-relaxed text-fog">
               {t.checkoutIntern.form.description}
             </p>
-            <ul className="mt-8 space-y-3">
+            <ul className="mt-8 space-y-4">
               {t.checkoutIntern.form.bullets.map((b) => (
                 <li key={b} className="flex items-start gap-3 text-sm text-frost">
                   <Check className="mt-0.5 h-4 w-4 shrink-0 text-mint" aria-hidden="true" />
-                  <span className="leading-relaxed">{b}</span>
+                  {b}
                 </li>
               ))}
             </ul>
           </Reveal>
 
-          <Reveal delay={150}>
+          <Reveal delay={120}>
             <QuoteForm
               options={options}
               defaultInterest="intern-hog"

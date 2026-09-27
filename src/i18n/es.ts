@@ -452,34 +452,41 @@ export const es: Dictionary = {
       vanlig: {
         name: 'Seguridad estándar',
         level: 'Nivel 1',
-        tagline: 'Para empresas que necesitan una evaluación independiente sin hacerlo todo a la vez.',
+        tagline: 'Siempre más alto de lo que cualquier otro actor entrega.',
+        description:
+          'Revisión de accesos, registro, segmentación y rutinas desde dentro. La exigen muchos auditores — y cierra puertas que un control externo nunca ve.',
         features: [
-          'Revisión de accesos y cuentas',
-          'Control de registro y trazabilidad',
-          'Protección básica de correo, dispositivos y red',
-          'Informe escrito con acciones priorizadas',
+          'Revisión de accesos y roles',
+          'Registro, alertas y trazabilidad',
+          'Rutinas para personal y proveedores',
+          'Informe final con plan de acción priorizado',
         ],
       },
       hog: {
         name: 'Seguridad alta',
         level: 'Nivel 2',
-        tagline: 'Para empresas con datos sensibles, un panorama de amenazas activo o exigencias de clientes y contratos.',
+        tagline: 'Seguridad reforzada donde el interior no confía en nadie — ni siquiera en sí mismo.',
+        description:
+          'Arquitectura de confianza cero, zonas segmentadas y secretos que nunca salen del hardware. Para organizaciones con datos sensibles y valores reales que proteger.',
         features: [
-          'Todo lo de Seguridad estándar',
-          'Segmentación de red y modelo de acceso estricto',
-          'Un sistema que no responde a las sondas',
-          'Controles internos repetidos',
+          'Arquitectura de confianza cero y microsegmentación',
+          'Gestión de claves criptográficas y distribución de secretos',
+          'Protección contra amenazas internas y detección de anomalías',
+          'Plan de preparación para incidentes internos',
         ],
       },
       militar: {
         name: 'Nivel militar',
         level: 'Nivel 3',
-        tagline: 'Seguridad muy alta donde el interior no confía en nadie — ni siquiera en sí mismo.',
+        tagline: 'Los sistemas ni siquiera se ven cuando alguien les hace ping.',
+        description:
+          'El nivel interno más alto que entregamos. El sistema existe, pero no emite respuesta, huella ni regularidad. Reservado para defensa, autoridades e infraestructura crítica.',
         features: [
-          'Todo lo de Seguridad alta',
-          'Segmentación de sistemas y datos críticos',
-          'Seguridad física y control de acceso',
-          'Un sistema que no responde a las sondas — en todos los niveles',
+          'Infraestructura oculta — sin respuestas al sondear',
+          'Ruido intencional contra huellas y análisis temporal',
+          'Aislamiento físico y lógico del material de claves',
+          'Auditoría continua de toda la cadena desde dentro',
+          'Protección de seguridad al más alto nivel',
         ],
       },
     },
@@ -488,6 +495,8 @@ export const es: Dictionary = {
     efficiency: {
       eyebrow: 'Eficiencia',
       title: 'Donde un humano tarda seis horas, nosotros tardamos una.',
+      paragraphFirst:
+        'Trabajamos con herramientas de IA propias durante toda la auditoría. Eso hace que los encargos complejos lleven aproximadamente una sexta parte del tiempo frente a expertos humanos solos — sin comprometer la calidad.',
       paragraphLead: 'El resultado no es solo más rápido. Es una ',
       paragraphHighlight: 'seguridad más alta',
       paragraphEnd: ' de la que un humano solo puede alcanzar.',
@@ -509,7 +518,7 @@ export const es: Dictionary = {
     form: {
       title: 'Cuéntenos qué hay que proteger.',
       description:
-        'La auditoría interna siempre se adapta. Cuéntenos sobre sistemas, datos y exigencias — respondemos con nivel y estimación de horas.',
+        'Cuanto más sensible sea el entorno, más queremos saber antes de dar una estimación. Todo se trata bajo confidencialidad y puede hacerse por PGP.',
       bullets: [
         'Análisis de necesidades gratuito',
         'Estimación de horas antes de comenzar',

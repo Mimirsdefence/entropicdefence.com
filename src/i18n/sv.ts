@@ -460,40 +460,47 @@ export const sv = {
     rate: {
       eyebrow: 'Konsulttid',
       perHour: '/ timme',
-      text: 'Ni betalar för faktiskt arbete — inte för att vi ska lära oss ert system långsamt. Omfattning och tid bekräftas efter en kortare behovsanalys.',
+      text: 'Ni betalar för faktiskt arbete — inte för oss att lära oss ert system långsamt. Omfattning och tid bekräftas efter en kortare behovsanalys.',
     },
     levels: {
       vanlig: {
         name: 'Vanlig säkerhet',
         level: 'Nivå 1',
-        tagline: 'För verksamheter som behöver ett oberoende utlåtande utan att göra allt på en gång.',
+        tagline: 'Fortfarande högre än vad någon annan aktör levererar.',
+        description:
+          'Genomgång av behörigheter, loggning, segmentering och rutiner inifrån. Krävs av många revisorer — och stänger dörrar som en extern kontroll aldrig ser.',
         features: [
-          'Genomgång av behörigheter och konton',
-          'Granskning av loggning och spårbarhet',
-          'Basskydd för e-post, slutenheter och nätverk',
-          'Skriftlig rapport med prioriterade åtgärder',
+          'Behörighets- och rollgenomgång',
+          'Loggning, larmning och spårbarhet',
+          'Rutiner för personal och leverantörer',
+          'Slutrapport med prioriterad åtgärdsplan',
         ],
       },
       hog: {
         name: 'Hög säkerhet',
         level: 'Nivå 2',
-        tagline: 'För verksamheter med känsliga data, pågående hotbild eller krav från kunder och avtal.',
+        tagline: 'Förhöjd säkerhet där insidan inte litar på någon — inte ens sig själv.',
+        description:
+          'Nolltillitsarkitektur, segmenterade zoner och hemligheter som aldrig lämnar hårdvaran. För verksamheter med känsliga data och verkliga skyddsvärden.',
         features: [
-          'Allt från Vanlig säkerhet',
-          'Nätverkssegmentering och strikt behörighetsmodell',
-          'System som inte svarar vid sondering',
-          'Återkommande interna kontroller',
+          'Nolltillitsarkitektur och mikrosegmentering',
+          'Kryptonyckelhantering och hemlighetsspridning',
+          'Insider-skydd och anomalidetektering',
+          'Beredskapsplan för intern incident',
         ],
       },
       militar: {
         name: 'Militär grad',
         level: 'Nivå 3',
-        tagline: 'Förhöjd säkerhet där insidan inte litar på någon — inte ens sig själv.',
+        tagline: 'Systemen syns inte ens när någon pingar dem.',
+        description:
+          'Den högsta interna nivån vi levererar. Systemet existerar, men avger inget svar, inget fingeravtryck och ingen regelbundenhet. Reserverat för försvar, myndighet och kritisk infrastruktur.',
         features: [
-          'Allt från Hög säkerhet',
-          'Isolation av kritiska system och data',
-          'Fysisk säkerhet och åtkomstkontroll',
-          'System som inte svarar vid sondering — på alla nivåer',
+          'Dold infrastruktur — inga svar vid sondering',
+          'Avsiktligt brus mot fingeravtryck och tidsanalys',
+          'Fysisk och logisk isolation av nyckelmaterial',
+          'Kontinuerlig revision av hela kedjan inifrån',
+          'Säkerhetskydd enligt högsta klass',
         ],
       },
     },
@@ -502,6 +509,8 @@ export const sv = {
     efficiency: {
       eyebrow: 'Effektivitet',
       title: 'Där en människa behöver sex timmar, behöver vi en.',
+      paragraphFirst:
+        'Vi arbetar med proprietära AI-verktyg genom hela revisionen. Det gör att komplexa uppdrag tar ungefär en sjättedel av tiden jämfört med enbart mänskliga säkerhetsexperter — utan att kompromissa med kvaliteten.',
       paragraphLead: 'Resultatet är inte bara snabbare. Det är ',
       paragraphHighlight: 'högre säkerhet',
       paragraphEnd: ' än en människa kan åstadkomma på egen hand.',
@@ -523,7 +532,7 @@ export const sv = {
     form: {
       title: 'Berätta vad som behöver skyddas.',
       description:
-        'Intern revision är alltid skräddarsydd. Berätta om system, data och krav — vi återkommer med nivå och ett estimat i konsulttimmar.',
+        'Ju känsligare miljö, desto mer vill vi veta innan vi ger ett estimat. Allt behandlas under tystnadsplikt och kan ske via PGP.',
       bullets: [
         'Kostnadsfri behovsanalys',
         'Estimat i konsulttimmar innan arbetet startar',

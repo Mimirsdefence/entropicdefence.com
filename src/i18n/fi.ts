@@ -452,34 +452,41 @@ export const fi: Dictionary = {
       vanlig: {
         name: 'Normaali turvallisuus',
         level: 'Taso 1',
-        tagline: 'Yrityksille, jotka tarvitsevat riippumattoman lausunnon ilman että kaikki tehdään kerralla.',
+        tagline: 'Edelleen korkeampi kuin mitä kukaan muu toimija toimittaa.',
+        description:
+          'Käyttöoikeuksien, lokituksen, segmentoinnin ja rutiinien läpikäynti sisältäpäin. Moni tilintarkastaja edellyttää sitä — ja se sulkee ovet, joita ulkoinen tarkastus ei koskaan näe.',
         features: [
-          'Käyttöoikeuksien ja tilien läpikäynti',
-          'Lokituksen ja jäljitettävyyden tarkastus',
-          'Sähköpostin, päätelaitteiden ja verkon perussuojaus',
-          'Kirjallinen raportti priorisoiduista toimenpiteistä',
+          'Käyttöoikeus- ja rooliläpikäynti',
+          'Lokitus, hälytys ja jäljitettävyys',
+          'Henkilöstön ja toimittajien rutiinit',
+          'Loppuraportti priorisoiduilla toimenpiteillä',
         ],
       },
       hog: {
         name: 'Korkea turvallisuus',
         level: 'Taso 2',
-        tagline: 'Yrityksille, joilla on arkaluonteista dataa, aktiivinen uhkakuva tai vaatimuksia asiakkailta ja sopimuksilta.',
+        tagline: 'Korotettu turvallisuus, jossa sisäpuoli ei luota kehenkään — ei edes itseensä.',
+        description:
+          'Nollaluottamusarkkitehtuuri, segmentoidut vyöhykkeet ja salaisuudet, jotka eivät koskaan poistu laitteistosta. Yrityksille, joilla on arkaluonteista dataa ja todellisia suojattavia arvoja.',
         features: [
-          'Kaikki Normaalista turvallisuudesta',
-          'Verkon segmentointi ja tiukka käyttöoikeusmalli',
-          'Järjestelmä, joka ei vastaa tunnusteluun',
-          'Toistuvat sisäiset tarkastukset',
+          'Nollaluottamusarkkitehtuuri ja mikrosegmentointi',
+          'Salausavainten hallinta ja salaisuuksien levitys',
+          'Sisäpiirisuojaus ja poikkeamien havaitseminen',
+          'Valmiussuunnitelma sisäiselle poikkeamalle',
         ],
       },
       militar: {
         name: 'Sotilaallinen taso',
         level: 'Taso 3',
-        tagline: 'Korotettu turvallisuus, jossa sisäpuoli ei luota kehenkään — ei edes itseensä.',
+        tagline: 'Järjestelmät eivät näy edes silloin, kun joku pingaa niitä.',
+        description:
+          'Korkein toimittamamme sisäinen taso. Järjestelmä on olemassa, mutta ei anna vastausta, sormenjälkeä eikä säännönmukaisuutta. Varattu puolustukselle, viranomaisille ja kriittiselle infrastruktuurille.',
         features: [
-          'Kaikki Korkeasta turvallisuudesta',
-          'Kriittisten järjestelmien ja datan eristys',
-          'Fyysinen turvallisuus ja kulunvalvonta',
-          'Järjestelmä, joka ei vastaa tunnusteluun — kaikilla tasoilla',
+          'Piilotettu infrastruktuuri — ei vastauksia sondeeraukseen',
+          'Tarkoituksellista kohinaa sormenjälkiä ja aika-analyysiä vastaan',
+          'Avainmateriaalin fyysinen ja looginen eristys',
+          'Koko ketjun jatkuva sisäinen tarkastus',
+          'Turvallisuussuojaus korkeimman luokan mukaan',
         ],
       },
     },
@@ -488,6 +495,8 @@ export const fi: Dictionary = {
     efficiency: {
       eyebrow: 'Tehokkuus',
       title: 'Mihin ihminen tarvitsee kuusi tuntia, me tarvitsemme yhden.',
+      paragraphFirst:
+        'Käytämme omia AI-työkaluja koko auditoinnin ajan. Siksi monimutkaiset toimeksiannot vievät noin kuudesosan ajasta verrattuna pelkkiin ihmisasiantuntijoihin — laadusta tinkimättä.',
       paragraphLead: 'Tulos ei ole vain nopeampi. Se on ',
       paragraphHighlight: 'korkeampaa turvallisuutta',
       paragraphEnd: ' kuin mihin ihminen pystyy yksin.',
@@ -509,7 +518,7 @@ export const fi: Dictionary = {
     form: {
       title: 'Kertokaa, mitä pitää suojata.',
       description:
-        'Sisäinen auditointi räätälöidään aina. Kertokaa järjestelmistä, datasta ja vaatimuksista — palaamme tason ja tuntiarvion kanssa.',
+        'Mitä arkaluonteisempi ympäristö, sitä enemmän haluamme tietää ennen arvion antamista. Kaikki käsitellään vaitiolovelvollisuuden alaisena ja voidaan hoitaa PGP:llä.',
       bullets: [
         'Maksuton tarveanalyysi',
         'Arvio konsulttitunneista ennen työn alkua',

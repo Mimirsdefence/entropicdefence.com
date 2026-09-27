@@ -452,34 +452,41 @@ export const fr: Dictionary = {
       vanlig: {
         name: 'Sécurité standard',
         level: 'Niveau 1',
-        tagline: 'Pour les entreprises qui ont besoin d\'une évaluation indépendante sans tout faire en même temps.',
+        tagline: 'Toujours supérieur à ce que n\'importe quel autre acteur livre.',
+        description:
+          'Revue des accès, de la journalisation, de la segmentation et des routines depuis l\'intérieur. Exigée par de nombreux auditeurs — et elle ferme des portes qu\'un contrôle externe ne voit jamais.',
         features: [
-          'Revue des accès et des comptes',
-          'Contrôle de la journalisation et de la traçabilité',
-          'Protection de base des e-mails, appareils et réseau',
-          'Rapport écrit avec actions priorisées',
+          'Revue des accès et des rôles',
+          'Journalisation, alerte et traçabilité',
+          'Routines pour le personnel et les fournisseurs',
+          'Rapport final avec plan d\'action priorisé',
         ],
       },
       hog: {
         name: 'Sécurité élevée',
         level: 'Niveau 2',
-        tagline: 'Pour les entreprises avec des données sensibles, une menace active ou des exigences clients et contractuelles.',
+        tagline: 'Sécurité renforcée où l\'intérieur ne fait confiance à personne — pas même à lui-même.',
+        description:
+          'Architecture zéro confiance, zones segmentées et secrets qui ne quittent jamais le matériel. Pour les organisations avec des données sensibles et de réelles valeurs à protéger.',
         features: [
-          'Tout de la Sécurité standard',
-          'Segmentation du réseau et modèle d\'accès strict',
-          'Un système qui ne répond pas aux sondes',
-          'Contrôles internes répétés',
+          'Architecture zéro confiance et microsegmentation',
+          'Gestion des clés cryptographiques et diffusion des secrets',
+          'Protection contre les menaces internes et détection d\'anomalies',
+          'Plan de préparation aux incidents internes',
         ],
       },
       militar: {
         name: 'Niveau militaire',
         level: 'Niveau 3',
-        tagline: 'Sécurité très élevée où l\'intérieur ne fait confiance à personne — pas même à lui-même.',
+        tagline: 'Les systèmes ne sont même pas visibles quand quelqu\'un les pingue.',
+        description:
+          'Le plus haut niveau interne que nous livrons. Le système existe, mais n\'émet aucune réponse, aucune empreinte et aucune régularité. Réservé à la défense, aux autorités et aux infrastructures critiques.',
         features: [
-          'Tout de la Sécurité élevée',
-          'Segmentation des systèmes et données critiques',
-          'Sécurité physique et contrôle d\'accès',
-          'Un système qui ne répond pas aux sondes — à tous les niveaux',
+          'Infrastructure furtive — aucune réponse aux sondages',
+          'Bruit intentionnel contre les empreintes et l\'analyse temporelle',
+          'Isolation physique et logique du matériel de clés',
+          'Audit continu de toute la chaîne depuis l\'intérieur',
+          'Protection de sécurité au plus haut niveau',
         ],
       },
     },
@@ -488,6 +495,8 @@ export const fr: Dictionary = {
     efficiency: {
       eyebrow: 'Efficacité',
       title: 'Là où un humain met six heures, nous en mettons une.',
+      paragraphFirst:
+        'Nous utilisons des outils d\'IA propriétaires tout au long de la révision. Les missions complexes prennent ainsi environ un sixième du temps par rapport à des experts humains seuls — sans compromettre la qualité.',
       paragraphLead: 'Le résultat n\'est pas seulement plus rapide. C\'est une ',
       paragraphHighlight: 'sécurité plus élevée',
       paragraphEnd: ' qu\'un humain seul ne peut atteindre.',
@@ -509,7 +518,7 @@ export const fr: Dictionary = {
     form: {
       title: 'Dites-nous ce qu\'il faut protéger.',
       description:
-        'L\'audit interne est toujours adapté. Parlez-nous des systèmes, des données et des exigences — nous répondons avec un niveau et une estimation d\'heures.',
+        'Plus l\'environnement est sensible, plus nous voulons en savoir avant de donner une estimation. Tout est traité sous le secret professionnel et peut passer par PGP.',
       bullets: [
         'Analyse des besoins gratuite',
         'Estimation d\'heures avant le début du travail',

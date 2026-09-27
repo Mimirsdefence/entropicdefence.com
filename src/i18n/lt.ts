@@ -452,34 +452,41 @@ export const lt: Dictionary = {
       vanlig: {
         name: 'Įprasta sauga',
         level: '1 lygis',
-        tagline: 'Įmonėms, kurioms reikia nepriklausomos išvados, nedarant visko iš karto.',
+        tagline: 'Vis tiek aukščiau, nei pristato bet kuris kitas veikėjas.',
+        description:
+          'Prieigų, registravimo, segmentavimo ir tvarkų peržiūra iš vidaus. Reikalauja daugelis auditorių — ir uždaro duris, kurių išorinė patikra niekada nepamato.',
         features: [
-          'Prieigų ir paskyrų peržiūra',
-          'Registravimo ir atsekamumo kontrolė',
-          'Bazinė el. pašto, įrenginių ir tinklo apsauga',
-          'Rašytinė ataskaita su prioritetiniais veiksmais',
+          'Prieigų ir vaidmenų peržiūra',
+          'Registravimas, signalizavimas ir atsekamumas',
+          'Personalo ir tiekėjų tvarkos',
+          'Galutinė ataskaita su prioritetinių veiksmų planu',
         ],
       },
       hog: {
         name: 'Aukšta sauga',
         level: '2 lygis',
-        tagline: 'Įmonėms su jautriais duomenimis, aktyviu grėsmių vaizdu ar klientų bei sutarčių reikalavimais.',
+        tagline: 'Padidinta sauga, kai vidus nepasitiki niekuo — net savimi.',
+        description:
+          'Nulinės pasitikėjimo architektūra, segmentuotos zonos ir paslaptys, kurios niekada nepalieka aparatinės įrangos. Įmonėms su jautriais duomenimis ir tikromis saugomomis vertybėmis.',
         features: [
-          'Viskas iš Įprastos saugos',
-          'Tinklo segmentavimas ir griežtas prieigų modelis',
-          'Sistema, kuri neatsako į zondavimą',
-          'Pasikartojančios vidinės kontrolės',
+          'Nulinės pasitikėjimo architektūra ir mikrosegmentavimas',
+          'Kripto raktų valdymas ir paslapčių platinimas',
+          'Apsauga nuo vidinių grėsmių ir anomalijų aptikimas',
+          'Pasirengimo vidiniam incidentui planas',
         ],
       },
       militar: {
         name: 'Karinis lygis',
         level: '3 lygis',
-        tagline: 'Padidinta sauga, kai vidus nepasitiki niekuo — net savimi.',
+        tagline: 'Sistemos nematomos net tada, kai kas nors jas pingina.',
+        description:
+          'Aukščiausias mūsų vidinis lygis. Sistema egzistuoja, bet neduoda jokio atsakymo, jokio piršto antspaudo ir jokio reguliarumo. Skirta gynybai, valdžios institucijoms ir kritinei infrastruktūrai.',
         features: [
-          'Viskas iš Aukštos saugos',
-          'Kritinių sistemų ir duomenų atskyrimas',
-          'Fizinė sauga ir prieigos kontrolė',
-          'Sistema, kuri neatsako į zondavimą — visais lygiais',
+          'Paslėpta infrastruktūra — jokių atsakymų į zondavimą',
+          'Tyčinis triukšmas prieš pirštų antspaudus ir laiko analizę',
+          'Fizinė ir loginė raktų medžiagos izoliacija',
+          'Nuolatinė visos grandinės vidinė peržiūra',
+          'Saugumo apsauga aukščiausiu lygiu',
         ],
       },
     },
@@ -488,6 +495,8 @@ export const lt: Dictionary = {
     efficiency: {
       eyebrow: 'Efektyvumas',
       title: 'Kur žmogui reikia šešių valandų, mums užtenka vienos.',
+      paragraphFirst:
+        'Per visą auditą naudojame nuosavus DI įrankius. Todėl sudėtingi darbai trunka maždaug šeštadalį laiko, palyginti su vien žmonėmis saugos ekspertais — neaukojant kokybės.',
       paragraphLead: 'Rezultatas ne tik greitesnis. Tai ',
       paragraphHighlight: 'aukštesnė sauga',
       paragraphEnd: ', nei žmogus gali pasiekti vienas.',
@@ -509,7 +518,7 @@ export const lt: Dictionary = {
     form: {
       title: 'Papasakokite, ką reikia apsaugoti.',
       description:
-        'Vidinis auditas visada pritaikomas. Papasakokite apie sistemas, duomenis ir reikalavimus — grįšime su lygiu ir valandų sąmata.',
+        'Kuo jautresnė aplinka, tuo daugiau norime žinoti prieš pateikdami sąmatą. Viskas tvarkoma laikantis konfidencialumo ir gali vykti per PGP.',
       bullets: [
         'Nemokama poreikių analizė',
         'Konsultanto valandų sąmata prieš pradedant darbą',

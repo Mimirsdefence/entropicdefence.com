@@ -452,34 +452,41 @@ export const et: Dictionary = {
       vanlig: {
         name: 'Tavaline turve',
         level: 'Tase 1',
-        tagline: 'Ettevõtetele, kes vajavad sõltumatut hinnangut ilma kõike korraga tegemata.',
+        tagline: 'Ikka kõrgem kui see, mida ükski teine osaleja pakub.',
+        description:
+          'Juurdepääsude, logimise, segmenteerimise ja rutiinide ülevaatus seestpoolt. Paljud auditiorid nõuavad seda — ja see sulgeb uksed, mida väline ülevaatus kunagi ei näe.',
         features: [
-          'Juurdepääsude ja kontode ülevaatus',
-          'Logimise ja jälgitavuse kontroll',
-          'Meili, seadmete ja võrgu põhikaitse',
-          'Kirjalik aruanne tähtsustatud meetmetega',
+          'Juurdepääsude ja rollide ülevaatus',
+          'Logimine, alarmeerimine ja jälgitavus',
+          'Personali ja tarnijate rutiinid',
+          'Lõpparuanne tähtsustatud tegevuskavaga',
         ],
       },
       hog: {
         name: 'Kõrge turve',
         level: 'Tase 2',
-        tagline: 'Ettevõtetele tundlike andmete, aktiivse ohupildi või klientide ja lepingute nõuetega.',
+        tagline: 'Kõrgendatud turve, kus sisemus ei usalda kedagi — isegi mitte iseennast.',
+        description:
+          'Null-usalduse arhitektuur, segmenteeritud tsoonid ja saladused, mis ei lahku kunagi riistvarast. Ettevõtetele tundlike andmete ja tõeliste kaitseväärtustega.',
         features: [
-          'Kõik Tavalisest turbest',
-          'Võrgu segmenteerimine ja range juurdepääsumudel',
-          'Süsteem, mis ei vasta sondeerimisele',
-          'Korduvad sisekontrollid',
+          'Null-usalduse arhitektuur ja mikrosegmenteerimine',
+          'Krüptovõtmete haldus ja saladuste levitamine',
+          'Insiderikaitse ja anomaaliate tuvastamine',
+          'Valmisolekuplaan sisemiseks intsidendiks',
         ],
       },
       militar: {
         name: 'Sõjaline tase',
         level: 'Tase 3',
-        tagline: 'Kõrgendatud turve, kus sisemus ei usalda kedagi — isegi mitte iseennast.',
+        tagline: 'Süsteemid pole nähtavad isegi siis, kui keegi neid pingib.',
+        description:
+          'Kõrgeim sisemine tase, mida pakume. Süsteem on olemas, kuid ei anna vastust, sõrmejälge ega regulaarsust. Reserveeritud kaitsele, riigiasutustele ja kriitilisele infrastruktuurile.',
         features: [
-          'Kõik Kõrgest turbest',
-          'Kriitiliste süsteemide ja andmete segmenteerimine',
-          'Füüsiline turve ja juurdepääsukontroll',
-          'Süsteem, mis ei vasta sondeerimisele — kõigil tasemetel',
+          'Varjatud infrastruktuur — ei mingeid vastuseid sondeerimisele',
+          'Tahtlik müra sõrmejälgede ja ajaanalüüsi vastu',
+          'Võtmematerjali füüsiline ja loogiline eraldamine',
+          'Kogu ahela pidev seestpoolt audit',
+          'Turbekaitse kõrgeima klassi järgi',
         ],
       },
     },
@@ -488,6 +495,8 @@ export const et: Dictionary = {
     efficiency: {
       eyebrow: 'Tõhusus',
       title: 'Kus inimene kulutab kuus tundi, kulutame meie ühe.',
+      paragraphFirst:
+        'Kasutame kogu auditi jooksul oma AI-tööriistu. Seetõttu võtavad keerulised ülesanded umbes kuuendiku ajast võrreldes ainult inimeste turvaekspertidega — kvaliteedis järeleandmisi tegemata.',
       paragraphLead: 'Tulemus pole lihtsalt kiirem. See on ',
       paragraphHighlight: 'kõrgem turve',
       paragraphEnd: ', kui inimene üksi suudab saavutada.',
@@ -509,7 +518,7 @@ export const et: Dictionary = {
     form: {
       title: 'Rääkige, mida tuleb kaitsta.',
       description:
-        'Sisemine audit kohandatakse alati. Rääkige süsteemidest, andmetest ja nõuetest — vastame taseme ja tunnihinnanguga.',
+        'Mida tundlikum keskkond, seda rohkem tahame teada enne hinnangu andmist. Kõike käsitletakse konfidentsiaalsuskohustuse alusel ja see võib toimuda PGP kaudu.',
       bullets: [
         'Tasuta vajaduste analüüs',
         'Konsulenditundide hinnang enne töö algust',
