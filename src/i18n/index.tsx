@@ -7,6 +7,7 @@ import { no } from './no'
 import { lt } from './lt'
 import { et } from './et'
 import { lv } from './lv'
+import { pl } from './pl'
 import { fr } from './fr'
 import { es } from './es'
 import { th } from './th'
@@ -23,7 +24,20 @@ export type { LanguageCode, Dictionary }
 
 const STORAGE_KEY = 'ed-lang'
 
-const translations: Record<LanguageCode, Dictionary> = { sv, en, fi, da, no, lt, et, lv, fr, es, th }
+const translations: Record<LanguageCode, Dictionary> = {
+  sv,
+  en,
+  fi,
+  da,
+  no,
+  lt,
+  et,
+  lv,
+  pl,
+  fr,
+  es,
+  th,
+}
 
 interface I18nContextValue {
   lang: LanguageCode
