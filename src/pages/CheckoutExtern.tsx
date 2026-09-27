@@ -172,9 +172,9 @@ export default function CheckoutExtern() {
 
                   {/* Rabattrad ovanför priset — styrs av perioden, identisk för alla kort.
                       Reserverad höjd så prisraden inte hoppar när perioden byts. */}
-                  <div className="mt-6 flex min-h-4 items-center">
+                  <div className="mt-3 flex min-h-4 items-center">
                     {!isQuote && period !== 'month' && (
-                      <span className="inline-flex items-center gap-1.5 font-mono text-[10px] font-normal uppercase tracking-[0.2em] text-mint">
+                      <span className="inline-flex items-center gap-1.5 font-mono text-[11px] tracking-[0.05em] text-mint">
                         <span
                           className="animate-pulse-signal h-1 w-1 rounded-full bg-mint"
                           aria-hidden="true"
