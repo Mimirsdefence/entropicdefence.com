@@ -697,7 +697,7 @@ export const da: Dictionary = {
       titleEnd: '.',
       description: 'Privatlivspolitik, vilkår og cookieoplysninger. Skrevet til at blive læst — ikke begravet.',
     },
-    updatedPrefix: 'Senest opdateret: 2026-09-13',
+    updatedPrefix: 'Senest opdateret: 2026-10-03',
     sections: [
       {
         title: 'Privatlivspolitik',

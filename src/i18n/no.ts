@@ -697,7 +697,7 @@ export const no: Dictionary = {
       titleEnd: '.',
       description: 'Personvernerklæring, vilkår og informasjonskapsler. Skrevet for å leses — ikke graves ned.',
     },
-    updatedPrefix: 'Sist oppdatert: 2026-09-13',
+    updatedPrefix: 'Sist oppdatert: 2026-10-03',
     sections: [
       {
         title: 'Personvernerklæring',

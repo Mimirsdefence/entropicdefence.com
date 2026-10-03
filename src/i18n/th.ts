@@ -697,7 +697,7 @@ export const th: Dictionary = {
       titleEnd: '.',
       description: 'นโยบายความเป็นส่วนตัว เงื่อนไข และข้อมูลคุกกี้ เขียนมาให้อ่าน — ไม่ใช่ให้ซ่อน',
     },
-    updatedPrefix: 'อัปเดตล่าสุด: 2026-09-13',
+    updatedPrefix: 'อัปเดตล่าสุด: 2026-10-03',
     sections: [
       {
         title: 'นโยบายความเป็นส่วนตัว',

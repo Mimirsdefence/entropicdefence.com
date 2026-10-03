@@ -697,7 +697,7 @@ export const fr: Dictionary = {
       titleEnd: '.',
       description: 'Politique de confidentialité, conditions et informations sur les cookies. Écrit pour être lu — pas pour être caché.',
     },
-    updatedPrefix: 'Dernière mise à jour : 2026-09-13',
+    updatedPrefix: 'Dernière mise à jour : 2026-10-03',
     sections: [
       {
         title: 'Politique de confidentialité',

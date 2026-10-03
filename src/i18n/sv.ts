@@ -716,7 +716,7 @@ export const sv = {
       titleEnd: '.',
       description: 'Integritetspolicy, användarvillkor och cookieinformation. Skrivna för att läsas — inte för att begravas.',
     },
-    updatedPrefix: 'Senast uppdaterad: 2026-09-13',
+    updatedPrefix: 'Senast uppdaterad: 2026-10-03',
     sections: [
       {
         title: 'Integritetspolicy',

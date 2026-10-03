@@ -697,7 +697,7 @@ export const lv: Dictionary = {
       titleEnd: '.',
       description: 'Privātuma politika, noteikumi un sīkdatņu informācija. Rakstīts, lai lasītu — nevis lai slēptu.',
     },
-    updatedPrefix: 'Pēdējoreiz atjaunināts: 2026-09-13',
+    updatedPrefix: 'Pēdējoreiz atjaunināts: 2026-10-03',
     sections: [
       {
         title: 'Privātuma politika',

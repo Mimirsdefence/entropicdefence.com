@@ -740,7 +740,7 @@ export const pl: Dictionary = {
       description:
         'Polityka prywatności, warunki korzystania i informacje o plikach cookie. Napisane tak, żeby dało się je przeczytać — nie żeby je zakopać.',
     },
-    updatedPrefix: 'Ostatnia aktualizacja: 2026-09-13',
+    updatedPrefix: 'Ostatnia aktualizacja: 2026-10-03',
     sections: [
       {
         title: 'Polityka prywatności',

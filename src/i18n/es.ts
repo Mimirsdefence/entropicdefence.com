@@ -697,7 +697,7 @@ export const es: Dictionary = {
       titleEnd: '.',
       description: 'Política de privacidad, términos e información sobre cookies. Escrito para leerse — no para ocultarse.',
     },
-    updatedPrefix: 'Última actualización: 2026-09-13',
+    updatedPrefix: 'Última actualización: 2026-10-03',
     sections: [
       {
         title: 'Política de privacidad',

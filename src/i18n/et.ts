@@ -697,7 +697,7 @@ export const et: Dictionary = {
       titleEnd: '.',
       description: 'Privaatsuspoliitika, tingimused ja küpsiste teave. Kirjutatud lugemiseks — mitte peitmiseks.',
     },
-    updatedPrefix: 'Viimati uuendatud: 2026-09-13',
+    updatedPrefix: 'Viimati uuendatud: 2026-10-03',
     sections: [
       {
         title: 'Privaatsuspoliitika',

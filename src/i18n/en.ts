@@ -718,7 +718,7 @@ export const en: Dictionary = {
       description:
         'Privacy policy, terms of use and cookie information. Written to be read — not to be buried.',
     },
-    updatedPrefix: 'Last updated: 2026-09-13',
+    updatedPrefix: 'Last updated: 2026-10-03',
     sections: [
       {
         title: 'Privacy policy',

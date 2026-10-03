@@ -725,7 +725,7 @@ export const sl: Dictionary = {
       description:
         'Politika zasebnosti, pogoji uporabe in informacije o piškotkih. Napisani tako, da se berejo — ne da bi se zakopali.',
     },
-    updatedPrefix: 'Nazadnje posodobljeno: 2026-09-13',
+    updatedPrefix: 'Nazadnje posodobljeno: 2026-10-03',
     sections: [
       {
         title: 'Politika zasebnosti',

@@ -697,7 +697,7 @@ export const lt: Dictionary = {
       titleEnd: '.',
       description: 'Privatumo politika, sąlygos ir slapukų informacija. Parašyta skaitymui — ne paslėpimui.',
     },
-    updatedPrefix: 'Paskutinį kartą atnaujinta: 2026-09-13',
+    updatedPrefix: 'Paskutinį kartą atnaujinta: 2026-10-03',
     sections: [
       {
         title: 'Privatumo politika',

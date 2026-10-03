@@ -697,7 +697,7 @@ export const fi: Dictionary = {
       titleEnd: '.',
       description: 'Tietosuojaseloste, käyttöehdot ja evästetiedot. Kirjoitettu luettavaksi — ei haudattavaksi.',
     },
-    updatedPrefix: 'Päivitetty viimeksi: 2026-09-13',
+    updatedPrefix: 'Päivitetty viimeksi: 2026-10-03',
     sections: [
       {
         title: 'Tietosuojaseloste',
