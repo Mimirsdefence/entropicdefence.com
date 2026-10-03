@@ -25,7 +25,7 @@ function Stat({ value, label }: { value: string; label: string }) {
 export default function Home() {
   const { t } = useI18n()
 
-  const services: { icon: LucideIcon; title: string; text: string }[] = [
+  const services: { icon: LucideIcon; title: string; text: string; to?: string }[] = [
     {
       icon: Radar,
       title: t.home.services.items[0].title,
@@ -45,6 +45,7 @@ export default function Home() {
       icon: FileText,
       title: t.home.services.items[3].title,
       text: t.home.services.items[3].text,
+      to: '/disclosures#ai-tool',
     },
   ]
 
@@ -53,6 +54,15 @@ export default function Home() {
     title: s.title,
     text: s.text,
   }))
+
+  // Trust-stripen: klickbara poster pekar på fördjupningen (samma ordning som t.home.trustStrip)
+  const trustLinks: (string | null)[] = [
+    null,
+    '/disclosures#government',
+    '/disclosures#military',
+    null,
+    '/legal#tystnadsplikt',
+  ]
 
   return (
     <>
@@ -105,20 +115,27 @@ export default function Home() {
       {/* TRUST STRIP */}
       <section className="border-y border-line/70 bg-abyss/60">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-10 gap-y-3 px-5 py-6 lg:px-8">
-          {t.home.trustStrip.map((item, i) => (
-            <Fragment key={item}>
+          {t.home.trustStrip.map((item, i) => {
+            const to = trustLinks[i]
+            const label = (
               <span
                 className={`font-mono text-[11px] uppercase tracking-[0.28em] ${
                   i === 0 ? 'text-signal' : 'text-fog'
-                }`}
+                }${to ? ' transition-colors hover:text-frost' : ''}`}
               >
                 {item}
               </span>
-              {i < t.home.trustStrip.length - 1 && (
-                <span className="hidden h-4 w-px bg-line sm:block" aria-hidden="true" />
-              )}
-            </Fragment>
-          ))}
+            )
+
+            return (
+              <Fragment key={item}>
+                {to ? <Link to={to}>{label}</Link> : label}
+                {i < t.home.trustStrip.length - 1 && (
+                  <span className="hidden h-4 w-px bg-line sm:block" aria-hidden="true" />
+                )}
+              </Fragment>
+            )
+          })}
         </div>
       </section>
 
@@ -184,8 +201,8 @@ export default function Home() {
           </Reveal>
 
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {services.map((s, i) => (
-              <Reveal key={s.title} delay={i * 90}>
+            {services.map((s, i) => {
+              const card = (
                 <article className="panel group h-full p-6 transition-colors duration-300 hover:border-signal/50">
                   <s.icon className="h-7 w-7 text-signal" aria-hidden="true" />
                   <h3 className="mt-5 font-display text-lg font-semibold leading-snug">
@@ -193,8 +210,20 @@ export default function Home() {
                   </h3>
                   <p className="mt-3 text-sm leading-relaxed text-fog">{s.text}</p>
                 </article>
-              </Reveal>
-            ))}
+              )
+
+              return (
+                <Reveal key={s.title} delay={i * 90}>
+                  {s.to ? (
+                    <Link to={s.to} className="block h-full">
+                      {card}
+                    </Link>
+                  ) : (
+                    card
+                  )}
+                </Reveal>
+              )
+            })}
           </div>
         </div>
       </section>
