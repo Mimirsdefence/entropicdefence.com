@@ -737,6 +737,15 @@ export const sv = {
         ],
       },
       {
+        id: 'tystnadsplikt',
+        title: 'Tystnadsplikt',
+        body: [
+          'Beställare godkänner att våra agenter och konsulter har laglig rätt att genomföra penetrationstester inom de överenskomna ramarna. Där kritiska sårbarheter upptäcks skall dessa rapporteras så snabbt som möjligt till beställaren.',
+          'Utförare skall ej genomföra tester som kan skadligt påverka infrastrukturen. Skrivna instruktioner skall godkännas av beställaren före eventuell test. Vi genomför aldrig destruktiva tester utan explicit godkännande.',
+          'Vårt åtagande innefattar absolut tystnadsplikt om inte annat överenskommits. Vi berättar inte ens vilka våra kunder är.',
+        ],
+      },
+      {
         title: 'Cookies',
         body: [
           'Vi använder inga spårningscookies och ingen tredjepartsannonsering. De enda cookies som kan förekomma är nödvändiga sessionscookies för att webbplatsen ska fungera tekniskt.',

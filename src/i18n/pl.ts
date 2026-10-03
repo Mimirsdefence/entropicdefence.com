@@ -761,6 +761,15 @@ export const pl: Dictionary = {
         ],
       },
       {
+        id: 'tystnadsplikt',
+        title: 'Poufność',
+        body: [
+          'Zamawiający przyjmuje do wiadomości, że nasi agenci i konsultanci mają prawo do przeprowadzania testów penetracyjnych w uzgodnionym zakresie. Jeśli zostaną wykryte krytyczne luki, są one zgłaszane zamawiającemu tak szybko, jak to możliwe.',
+          'Nie przeprowadzamy testów, które mogą uszkodzić infrastrukturę. Pisemne instrukcje muszą zostać zatwierdzone przez zamawiającego przed jakimkolwiek testem. Nigdy nie przeprowadzamy testów destrukcyjnych bez wyraźnej zgody.',
+          'Nasze zobowiązanie obejmuje całkowitą poufność, o ile nie uzgodniono inaczej. Nie ujawniamy nawet, kim są nasi klienci.',
+        ],
+      },
+      {
         title: 'Pliki cookie',
         body: [
           'Nie używamy plików cookie do śledzenia ani reklam podmiotów trzecich. Jedyne pliki cookie, jakie mogą wystąpić, to niezbędne pliki sesyjne potrzebne do technicznego działania strony.',

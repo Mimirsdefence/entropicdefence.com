@@ -718,6 +718,15 @@ export const et: Dictionary = {
         ],
       },
       {
+        id: 'tystnadsplikt',
+        title: 'Konfidentsiaalsus',
+        body: [
+          'Tellija kinnitab, et meie agentidel ja konsultantidel on seaduslik õigus teha läbistusteste kokkulepitud raames. Kui avastatakse kriitilisi haavatavusi, teatatakse neist tellijale võimalikult kiiresti.',
+          'Me ei tee teste, mis võivad infrastruktuuri kahjustada. Kirjalikud juhised peab enne võimalikku testi heaks kiitma tellija. Me ei tee kunagi destruktiivseid teste ilma selgesõnalise heakskiiduta.',
+          'Meie kohustus hõlmab absoluutset konfidentsiaalsust, kui ei ole kokku lepitud teisiti. Me ei avalda isegi seda, kes on meie kliendid.',
+        ],
+      },
+      {
         title: 'Küpsised',
         body: [
           'Me ei kasuta jälgimisküpsiseid ega kolmandate osapoolte reklaami. Ainsad võimalikud küpsised on vajalikud seansiküpsised, et leht tehniliselt töötaks.',

@@ -718,6 +718,15 @@ export const lv: Dictionary = {
         ],
       },
       {
+        id: 'tystnadsplikt',
+        title: 'Konfidencialitāte',
+        body: [
+          'Pasūtītājs piekrīt, ka mūsu aģentiem un konsultantiem ir likumīgas tiesības veikt iespiešanās testus saskaņotajās robežās. Ja tiek atklātas kritiskas ievainojamības, tās pēc iespējas ātrāk tiek ziņotas pasūtītājam.',
+          'Mēs neveicam testus, kas var kaitēt infrastruktūrai. Rakstiskas instrukcijas pirms iespējamā testa ir jāapstiprina pasūtītājam. Mēs nekad neveicam destruktīvus testus bez skaidras atļaujas.',
+          'Mūsu saistības ietver absolūtu konfidencialitāti, ja vien nav vienošanās par citu. Mēs neatklājam pat to, kas ir mūsu klienti.',
+        ],
+      },
+      {
         title: 'Sīkdatnes',
         body: [
           'Mēs neizmantojam izsekošanas sīkdatnes vai trešo pušu reklāmu. Vienīgās iespējamās sīkdatnes ir nepieciešamās sesiju sīkdatnes, lai vietne tehniski darbotos.',

@@ -718,6 +718,15 @@ export const fi: Dictionary = {
         ],
       },
       {
+        id: 'tystnadsplikt',
+        title: 'Salassapitovelvollisuus',
+        body: [
+          'Toimeksiantaja hyväksyy, että agenteillamme ja konsulteillamme on laillinen oikeus suorittaa tunkeutumistestejä sovituissa raameissa. Jos kriittisiä haavoittuvuuksia havaitaan, ne raportoidaan toimeksiantajalle mahdollisimman nopeasti.',
+          'Emme suorita testejä, jotka voivat vahingoittaa infrastruktuuria. Kirjalliset ohjeet on hyväksytettävä toimeksiantajalla ennen mahdollista testiä. Emme koskaan suorita destruktiivisia testejä ilman nimenomaista hyväksyntää.',
+          'Sitoumuksemme sisältää ehdottoman salassapitovelvollisuuden, ellei toisin sovita. Emme kerro edes, ketkä ovat asiakkaitamme.',
+        ],
+      },
+      {
         title: 'Evästeet',
         body: [
           'Emme käytä seurantaevästeitä emmekä kolmannen osapuolen mainontaa. Ainoat mahdolliset evästeet ovat välttämättömiä istuntoevästeitä, jotta sivusto toimii teknisesti.',

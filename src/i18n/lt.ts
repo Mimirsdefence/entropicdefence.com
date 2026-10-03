@@ -718,6 +718,15 @@ export const lt: Dictionary = {
         ],
       },
       {
+        id: 'tystnadsplikt',
+        title: 'Konfidencialumas',
+        body: [
+          'Užsakovas sutinka, kad mūsų agentai ir konsultantai turi teisę atlikti įsiskverbimo testus sutartose ribose. Jei aptinkama kritinių pažeidžiamumų, apie juos kuo greičiau pranešama užsakovui.',
+          'Mes neatliekame testų, galinčių pakenkti infrastruktūrai. Rašytines instrukcijas prieš bet kokį testą turi patvirtinti užsakovas. Mes niekada neatliekame destruktyvių testų be aiškaus patvirtinimo.',
+          'Mūsų įsipareigojimas apima absoliutų konfidencialumą, jei nesusitarta kitaip. Mes net neatskleidžiame, kas yra mūsų klientai.',
+        ],
+      },
+      {
         title: 'Slapukai',
         body: [
           'Nenaudojame sekimo slapukų ar trečiųjų šalių reklamos. Vieninteliai galimi slapukai yra būtini sesijos slapukai, kad svetainė veiktų techniškai.',

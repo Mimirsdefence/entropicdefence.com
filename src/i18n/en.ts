@@ -739,6 +739,15 @@ export const en: Dictionary = {
         ],
       },
       {
+        id: 'tystnadsplikt',
+        title: 'Confidentiality',
+        body: [
+          'The client acknowledges that our agents and consultants are legally authorised to carry out penetration tests within the agreed scope. Where critical vulnerabilities are found, these are reported to the client as quickly as possible.',
+          'We never carry out tests that could harm the infrastructure. Written instructions must be approved by the client before any test. We never perform destructive tests without explicit approval.',
+          'Our commitment includes absolute confidentiality unless otherwise agreed. We do not even disclose who our clients are.',
+        ],
+      },
+      {
         title: 'Cookies',
         body: [
           'We use no tracking cookies and no third-party advertising. The only cookies that may occur are necessary session cookies so that the website works technically.',

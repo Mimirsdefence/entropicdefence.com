@@ -718,6 +718,15 @@ export const da: Dictionary = {
         ],
       },
       {
+        id: 'tystnadsplikt',
+        title: 'Tavshedspligt',
+        body: [
+          'Kunden accepterer, at vores agenter og konsulenter har lovlig ret til at udføre penetrationstests inden for de aftalte rammer. Hvis der opdages kritiske sårbarheder, rapporteres de hurtigst muligt til kunden.',
+          'Vi udfører ikke tests, der kan skade infrastrukturen. Skriftlige instrukser skal godkendes af kunden før en eventuel test. Vi udfører aldrig destruktive tests uden udtrykkelig godkendelse.',
+          'Vores forpligtelse omfatter absolut tavshedspligt, medmindre andet er aftalt. Vi fortæller ikke engang, hvem vores kunder er.',
+        ],
+      },
+      {
         title: 'Cookies',
         body: [
           'Vi bruger ikke sporingscookies eller tredjepartsannoncering. De eneste mulige cookies er nødvendige sessionscookies, så siden fungerer teknisk.',

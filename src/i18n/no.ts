@@ -718,6 +718,15 @@ export const no: Dictionary = {
         ],
       },
       {
+        id: 'tystnadsplikt',
+        title: 'Taushetsplikt',
+        body: [
+          'Kunden godkjenner at våre agenter og konsulenter har lovlig rett til å gjennomføre penetrasjonstester innenfor de avtalte rammene. Dersom kritiske sårbarheter oppdages, rapporteres disse til kunden så raskt som mulig.',
+          'Vi gjennomfører ikke tester som kan skade infrastrukturen. Skriftlige instrukser skal godkjennes av kunden før en eventuell test. Vi gjennomfører aldri destruktive tester uten uttrykkelig godkjenning.',
+          'Vårt engasjement omfatter absolutt taushetsplikt med mindre annet er avtalt. Vi forteller ikke engang hvem kundene våre er.',
+        ],
+      },
+      {
         title: 'Informasjonskapsler',
         body: [
           'Vi bruker ikke sporingskapsler eller tredjepartsannonsering. De eneste mulige kapslene er nødvendige øktkapsler, slik at siden fungerer teknisk.',

@@ -1,14 +1,21 @@
-import { FileText, ShieldCheck, Cookie, type LucideIcon } from 'lucide-react'
+import { FileText, ShieldCheck, Cookie, Lock, type LucideIcon } from 'lucide-react'
 import PageHero from '@/components/PageHero'
 import Reveal from '@/components/Reveal'
 import { useI18n } from '@/i18n'
 
-const sectionIcons: LucideIcon[] = [ShieldCheck, FileText, Cookie]
+type LegalSection = {
+  /** Valfritt ankare (#...) som sätts i ordboken — t.ex. #tystnadsplikt. */
+  id?: string
+  title: string
+  body: string[]
+}
+
+const sectionIcons: LucideIcon[] = [ShieldCheck, FileText, Lock, Cookie]
 
 export default function Legal() {
   const { t } = useI18n()
 
-  const sections = t.legal.sections.map((s, i) => ({
+  const sections: (LegalSection & { icon: LucideIcon })[] = t.legal.sections.map((s, i) => ({
     ...s,
     icon: sectionIcons[i],
   }))
@@ -31,7 +38,7 @@ export default function Legal() {
         <div className="space-y-5">
           {sections.map((s, i) => (
             <Reveal key={s.title} delay={i * 80}>
-              <article className="panel p-7">
+              <article id={s.id} className={s.id ? 'panel p-7 scroll-mt-24' : 'panel p-7'}>
                 <div className="flex items-center gap-3">
                   <s.icon className="h-5 w-5 text-signal" aria-hidden="true" />
                   <h2 className="font-display text-xl font-semibold">{s.title}</h2>

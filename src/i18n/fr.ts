@@ -718,6 +718,15 @@ export const fr: Dictionary = {
         ],
       },
       {
+        id: 'tystnadsplikt',
+        title: 'Confidentialité',
+        body: [
+          'Le client accepte que nos agents et consultants aient le droit légal de réaliser des tests d\'intrusion dans le cadre convenu. Si des vulnérabilités critiques sont découvertes, elles sont signalées au client dans les plus brefs délais.',
+          'Nous ne réalisons pas de tests susceptibles de nuire à l\'infrastructure. Les instructions écrites doivent être approuvées par le client avant tout test. Nous ne réalisons jamais de tests destructifs sans accord explicite.',
+          'Notre engagement inclut une confidentialité absolue, sauf accord contraire. Nous ne révélons pas même l\'identité de nos clients.',
+        ],
+      },
+      {
         title: 'Cookies',
         body: [
           'Nous n\'utilisons ni cookies de suivi ni publicité tierce. Les seuls cookies possibles sont des cookies de session nécessaires au fonctionnement technique du site.',

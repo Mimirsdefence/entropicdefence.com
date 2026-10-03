@@ -746,6 +746,15 @@ export const sl: Dictionary = {
         ],
       },
       {
+        id: 'tystnadsplikt',
+        title: 'Zaupnost',
+        body: [
+          'Naročnik soglaša, da imajo naši agenti in svetovalci zakonito pravico izvajati penetracijske teste v dogovorjenih okvirih. Če odkrijemo kritične ranljivosti, jih čim prej prijavimo naročniku.',
+          'Ne izvajamo testov, ki bi lahko škodljivo vplivali na infrastrukturo. Pisna navodila mora pred morebitnim testom odobriti naročnik. Nikoli ne izvajamo destruktivnih testov brez izrecnega soglasja.',
+          'Naša zaveza vključuje popolno zaupnost, razen če je dogovorjeno drugače. Ne izdamo niti, kdo so naše stranke.',
+        ],
+      },
+      {
         title: 'Piškotki',
         body: [
           'Ne uporabljamo sledilnih piškotkov niti oglaševanja tretjih oseb. Edini možni piškotki so nujni sejni piškotki, potrebni za tehnično delovanje spletne strani.',
