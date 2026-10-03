@@ -33,11 +33,6 @@ export const sl: Dictionary = {
       title: 'Povpraševanje prejeto — Entropic Defence',
       description: 'Vaše povpraševanje je prejeto. Svetovalec se bo oglasil v najkrajšem času.',
     },
-    businessProfile: {
-      title: 'Business Profile — Entropic Defence',
-      description:
-        'Varnostni račun vašega podjetja: naročnina, prejemniki poročil (PGP) in nastavitve računa.',
-    },
     papers: {
       title: 'Papers — Entropic Defence',
       description:
@@ -132,7 +127,6 @@ export const sl: Dictionary = {
     linkPapers: 'Papers',
     linkStatus: 'Varnostni status',
     linkPackages: 'Izberite paket',
-    linkBusinessProfile: 'Business Profile',
     linkSupport: 'Podpora in pogosta vprašanja',
     linkLegal: 'Pravno',
     location: 'Stockholm · Švedska',
@@ -630,38 +624,6 @@ export const sl: Dictionary = {
   },
 
   // ── Business Profile ─────────────────────────────────────────────────
-  businessProfile: {
-    hero: {
-      eyebrow: 'Business Profile',
-      titleLead: 'Varnostni račun ',
-      titleHighlight: 'vašega podjetja',
-      titleEnd: '.',
-      description:
-        'Upravljajte naročnino, prejemnike poročil in račun. Polna funkcionalnost se aktivira, ko se portal zažene v fazi B.',
-    },
-    account: 'Račun',
-    company: 'Podjetje',
-    orgNumber: 'Matična številka',
-    contactPerson: 'Kontaktna oseba',
-    email: 'E-naslov',
-    subscription: 'Naročnina',
-    subscriptionName: 'Neprekinjeno varovanje',
-    nextInvoice: 'Naslednji račun: —',
-    managePayment: 'Upravljaj plačilo',
-    upgradePackage: 'Nadgradi paket',
-    pgpRecipients: 'Prejemniki poročil (PGP)',
-    pgpText:
-      'Varnostna poročila se dostavijo šifrirano vašemu odgovornemu za IT. Prejemnike in PGP ključe dodate, ko se portal zažene.',
-    itResponsible: 'Odgovorni za IT',
-    pgpKey: 'PGP ključ',
-    noKeyAdded: 'Ni dodanega ključa',
-    addRecipient: 'Dodaj prejemnika',
-    accountActions: 'Dejanja na računu',
-    pauseSubscription: 'Začasno ustavi naročnino',
-    deleteAccount: 'Izbriši račun',
-    logout: 'Odjava',
-    phaseBNote: 'Aktivira se s prijavo v fazi B (varna overitev po e-pošti).',
-  },
 
   // ── Papers ───────────────────────────────────────────────────────────
   papers: {

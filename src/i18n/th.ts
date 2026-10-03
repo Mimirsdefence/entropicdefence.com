@@ -31,11 +31,6 @@ export const th: Dictionary = {
       title: 'ได้รับคำขอแล้ว — Entropic Defence',
       description: 'ได้รับคำขอของท่านแล้ว ที่ปรึกษาจะตอบกลับโดยเร็วที่สุด',
     },
-    businessProfile: {
-      title: 'Business Profile — Entropic Defence',
-      description:
-        'บัญชีความปลอดภัยขององค์กรท่าน: การสมัครสมาชิก ผู้รับรายงาน (PGP) และการตั้งค่าบัญชี',
-    },
     papers: {
       title: 'Papers — Entropic Defence',
       description:
@@ -126,7 +121,6 @@ export const th: Dictionary = {
     linkPapers: 'Papers',
     linkStatus: 'สถานะความปลอดภัย',
     linkPackages: 'เลือกแพ็กเกจ',
-    linkBusinessProfile: 'Business Profile',
     linkSupport: 'ฝ่ายสนับสนุนและคำถามที่พบบ่อย',
     linkLegal: 'ข้อมูลทางกฎหมาย',
     location: 'สตอกโฮล์ม · สวีเดน',
@@ -608,38 +602,6 @@ export const th: Dictionary = {
     ctaPapers: 'อ่าน papers ของเรา',
   },
 
-  businessProfile: {
-    hero: {
-      eyebrow: 'Business Profile',
-      titleLead: 'บัญชี ',
-      titleHighlight: 'ความปลอดภัยขององค์กรท่าน',
-      titleEnd: '.',
-      description:
-        'จัดการการสมัครสมาชิก ผู้รับรายงาน และบัญชี ฟังก์ชันเต็มรูปแบบจะเปิดใช้งานเมื่อพอร์ทัลเปิดตัวในเฟส B',
-    },
-    account: 'บัญชี',
-    company: 'บริษัท',
-    orgNumber: 'เลขทะเบียนองค์กร',
-    contactPerson: 'ผู้ติดต่อ',
-    email: 'อีเมล',
-    subscription: 'การสมัครสมาชิก',
-    subscriptionName: 'ความปลอดภัยต่อเนื่อง',
-    nextInvoice: 'ใบแจ้งหนี้ถัดไป: —',
-    managePayment: 'จัดการการชำระเงิน',
-    upgradePackage: 'เปลี่ยนแพ็กเกจ',
-    pgpRecipients: 'ผู้รับรายงาน (PGP)',
-    pgpText:
-      'รายงานความปลอดภัยส่งมอบแบบเข้ารหัสถึงผู้รับผิดชอบไอทีของท่าน เพิ่มผู้รับและคีย์ PGP เมื่อพอร์ทัลเปิดตัว',
-    itResponsible: 'ผู้รับผิดชอบไอที',
-    pgpKey: 'คีย์ PGP',
-    noKeyAdded: 'ยังไม่มีคีย์',
-    addRecipient: 'เพิ่มผู้รับ',
-    accountActions: 'การดำเนินการบัญชี',
-    pauseSubscription: 'พักการสมัครสมาชิก',
-    deleteAccount: 'ลบบัญชี',
-    logout: 'ออกจากระบบ',
-    phaseBNote: 'เปิดใช้งานพร้อมการเข้าสู่ระบบในเฟส B (การยืนยันตัวตนที่ปลอดภัยทางอีเมล)',
-  },
 
   papers: {
     hero: {

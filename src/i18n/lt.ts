@@ -31,11 +31,6 @@ export const lt: Dictionary = {
       title: 'Užklausa gauta — Entropic Defence',
       description: 'Jūsų užklausa gauta. Konsultantas atsakys kuo greičiau.',
     },
-    businessProfile: {
-      title: 'Business Profile — Entropic Defence',
-      description:
-        'Jūsų įmonės saugumo paskyra: prenumerata, ataskaitų gavėjai (PGP) ir paskyros nustatymai.',
-    },
     papers: {
       title: 'Papers — Entropic Defence',
       description:
@@ -126,7 +121,6 @@ export const lt: Dictionary = {
     linkPapers: 'Papers',
     linkStatus: 'Saugumo būsena',
     linkPackages: 'Pasirinkite paketą',
-    linkBusinessProfile: 'Business Profile',
     linkSupport: 'Pagalba ir DUK',
     linkLegal: 'Teisinė informacija',
     location: 'Stokholmas · Švedija',
@@ -608,38 +602,6 @@ export const lt: Dictionary = {
     ctaPapers: 'Skaitykite mūsų papers',
   },
 
-  businessProfile: {
-    hero: {
-      eyebrow: 'Business Profile',
-      titleLead: 'Jūsų įmonės ',
-      titleHighlight: 'saugumo paskyra',
-      titleEnd: '.',
-      description:
-        'Valdykite prenumeratą, ataskaitų gavėjus ir paskyrą. Visas funkcionalumas įsijungs, kai portalas bus paleistas B etape.',
-    },
-    account: 'Paskyra',
-    company: 'Įmonė',
-    orgNumber: 'Įmonės kodas',
-    contactPerson: 'Kontaktinis asmuo',
-    email: 'El. paštas',
-    subscription: 'Prenumerata',
-    subscriptionName: 'Nuolatinė sauga',
-    nextInvoice: 'Kita sąskaita: —',
-    managePayment: 'Tvarkyti mokėjimą',
-    upgradePackage: 'Atnaujinti paketą',
-    pgpRecipients: 'Ataskaitų gavėjai (PGP)',
-    pgpText:
-      'Saugumo ataskaitos siunčiamos šifruotai jūsų IT atsakingam asmeniui. Pridėkite gavėjus ir PGP raktus, kai portalas bus paleistas.',
-    itResponsible: 'IT atsakingas',
-    pgpKey: 'PGP raktas',
-    noKeyAdded: 'Raktas nepridėtas',
-    addRecipient: 'Pridėti gavėją',
-    accountActions: 'Paskyros veiksmai',
-    pauseSubscription: 'Pristabdyti prenumeratą',
-    deleteAccount: 'Ištrinti paskyrą',
-    logout: 'Atsijungti',
-    phaseBNote: 'Įsijungs su prisijungimu B etape (saugus el. pašto autentifikavimas).',
-  },
 
   papers: {
     hero: {

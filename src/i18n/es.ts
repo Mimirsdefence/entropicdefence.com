@@ -31,11 +31,6 @@ export const es: Dictionary = {
       title: 'Solicitud recibida — Entropic Defence',
       description: 'Su solicitud ha sido recibida. Un consultor le responderá lo antes posible.',
     },
-    businessProfile: {
-      title: 'Business Profile — Entropic Defence',
-      description:
-        'La cuenta de seguridad de su empresa: suscripción, destinatarios de informes (PGP) y ajustes de cuenta.',
-    },
     papers: {
       title: 'Papers — Entropic Defence',
       description:
@@ -126,7 +121,6 @@ export const es: Dictionary = {
     linkPapers: 'Papers',
     linkStatus: 'Estado de seguridad',
     linkPackages: 'Elegir paquete',
-    linkBusinessProfile: 'Business Profile',
     linkSupport: 'Soporte y FAQ',
     linkLegal: 'Información legal',
     location: 'Estocolmo · Suecia',
@@ -608,38 +602,6 @@ export const es: Dictionary = {
     ctaPapers: 'Leer nuestros papers',
   },
 
-  businessProfile: {
-    hero: {
-      eyebrow: 'Business Profile',
-      titleLead: 'La cuenta de ',
-      titleHighlight: 'seguridad de su empresa',
-      titleEnd: '.',
-      description:
-        'Gestione la suscripción, los destinatarios de informes y la cuenta. La funcionalidad completa se activa cuando el portal se lance en la fase B.',
-    },
-    account: 'Cuenta',
-    company: 'Empresa',
-    orgNumber: 'Número de organización',
-    contactPerson: 'Persona de contacto',
-    email: 'Correo',
-    subscription: 'Suscripción',
-    subscriptionName: 'Seguridad continua',
-    nextInvoice: 'Próxima factura: —',
-    managePayment: 'Gestionar pago',
-    upgradePackage: 'Cambiar de paquete',
-    pgpRecipients: 'Destinatarios de informes (PGP)',
-    pgpText:
-      'Los informes de seguridad se entregan cifrados a su responsable de IT. Añada destinatarios y claves PGP cuando el portal se lance.',
-    itResponsible: 'Responsable de IT',
-    pgpKey: 'Clave PGP',
-    noKeyAdded: 'Ninguna clave añadida',
-    addRecipient: 'Añadir destinatario',
-    accountActions: 'Acciones de cuenta',
-    pauseSubscription: 'Pausar suscripción',
-    deleteAccount: 'Eliminar cuenta',
-    logout: 'Cerrar sesión',
-    phaseBNote: 'Se activa con el inicio de sesión en la fase B (autenticación segura por correo).',
-  },
 
   papers: {
     hero: {

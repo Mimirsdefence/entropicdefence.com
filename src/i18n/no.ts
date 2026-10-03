@@ -31,11 +31,6 @@ export const no: Dictionary = {
       title: 'Forespørsel mottatt — Entropic Defence',
       description: 'Forespørselen din er mottatt. En konsulent svarer så raskt som mulig.',
     },
-    businessProfile: {
-      title: 'Business Profile — Entropic Defence',
-      description:
-        'Bedriftens sikkerhetskonto: abonnement, rapportmottakere (PGP) og kontoinnstillinger.',
-    },
     papers: {
       title: 'Papers — Entropic Defence',
       description:
@@ -126,7 +121,6 @@ export const no: Dictionary = {
     linkPapers: 'Papers',
     linkStatus: 'Sikkerhetsstatus',
     linkPackages: 'Velg pakke',
-    linkBusinessProfile: 'Business Profile',
     linkSupport: 'Support & FAQ',
     linkLegal: 'Juridisk',
     location: 'Stockholm · Sverige',
@@ -608,38 +602,6 @@ export const no: Dictionary = {
     ctaPapers: 'Les papersene våre',
   },
 
-  businessProfile: {
-    hero: {
-      eyebrow: 'Business Profile',
-      titleLead: 'Bedriftens ',
-      titleHighlight: 'sikkerhetskonto',
-      titleEnd: '.',
-      description:
-        'Administrer abonnement, rapportmottakere og konto. Full funksjonalitet aktiveres når portalen lanseres i fase B.',
-    },
-    account: 'Konto',
-    company: 'Bedrift',
-    orgNumber: 'Organisasjonsnummer',
-    contactPerson: 'Kontaktperson',
-    email: 'E-post',
-    subscription: 'Abonnement',
-    subscriptionName: 'Kontinuerlig sikkerhet',
-    nextInvoice: 'Neste faktura: —',
-    managePayment: 'Administrer betaling',
-    upgradePackage: 'Oppgrader pakke',
-    pgpRecipients: 'Rapportmottakere (PGP)',
-    pgpText:
-      'Sikkerhetsrapporter leveres kryptert til deres IT-ansvarlige. Legg til mottakere og PGP-nøkler når portalen lanseres.',
-    itResponsible: 'IT-ansvarlig',
-    pgpKey: 'PGP-nøkkel',
-    noKeyAdded: 'Ingen nøkkel lagt til',
-    addRecipient: 'Legg til mottaker',
-    accountActions: 'Kontohandlinger',
-    pauseSubscription: 'Sett abonnementet på pause',
-    deleteAccount: 'Slett konto',
-    logout: 'Logg ut',
-    phaseBNote: 'Aktiveres med innlogging i fase B (sikker e-postbasert autentisering).',
-  },
 
   papers: {
     hero: {

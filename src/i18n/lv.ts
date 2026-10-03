@@ -31,11 +31,6 @@ export const lv: Dictionary = {
       title: 'Pieprasījums saņemts — Entropic Defence',
       description: 'Jūsu pieprasījums ir saņemts. Konsultants atbildēs, tiklīdz vien iespējams.',
     },
-    businessProfile: {
-      title: 'Business Profile — Entropic Defence',
-      description:
-        'Jūsu uzņēmuma drošības konts: abonements, ziņojumu saņēmēji (PGP) un konta iestatījumi.',
-    },
     papers: {
       title: 'Papers — Entropic Defence',
       description:
@@ -126,7 +121,6 @@ export const lv: Dictionary = {
     linkPapers: 'Papers',
     linkStatus: 'Drošības statuss',
     linkPackages: 'Izvēlieties pakotni',
-    linkBusinessProfile: 'Business Profile',
     linkSupport: 'Atbalsts un BUJ',
     linkLegal: 'Juridiskā informācija',
     location: 'Stokholma · Zviedrija',
@@ -608,38 +602,6 @@ export const lv: Dictionary = {
     ctaPapers: 'Lasiet mūsu papers',
   },
 
-  businessProfile: {
-    hero: {
-      eyebrow: 'Business Profile',
-      titleLead: 'Jūsu uzņēmuma ',
-      titleHighlight: 'drošības konts',
-      titleEnd: '.',
-      description:
-        'Pārvaldiet abonementu, ziņojumu saņēmējus un kontu. Pilna funkcionalitāte aktivizējas, kad portāls tiek palaists B fāzē.',
-    },
-    account: 'Konts',
-    company: 'Uzņēmums',
-    orgNumber: 'Reģistrācijas numurs',
-    contactPerson: 'Kontaktpersona',
-    email: 'E-pasts',
-    subscription: 'Abonements',
-    subscriptionName: 'Nepārtraukta drošība',
-    nextInvoice: 'Nākamais rēķins: —',
-    managePayment: 'Pārvaldīt maksājumu',
-    upgradePackage: 'Uzlabot pakotni',
-    pgpRecipients: 'Ziņojumu saņēmēji (PGP)',
-    pgpText:
-      'Drošības ziņojumi tiek piegādāti šifrēti jūsu IT atbildīgajam. Pievienojiet saņēmējus un PGP atslēgas, kad portāls tiek palaists.',
-    itResponsible: 'IT atbildīgais',
-    pgpKey: 'PGP atslēga',
-    noKeyAdded: 'Atslēga nav pievienota',
-    addRecipient: 'Pievienot saņēmēju',
-    accountActions: 'Konta darbības',
-    pauseSubscription: 'Apturēt abonementu',
-    deleteAccount: 'Dzēst kontu',
-    logout: 'Izrakstīties',
-    phaseBNote: 'Aktivizējas ar pieteikšanos B fāzē (droša e-pasta autentifikācija).',
-  },
 
   papers: {
     hero: {

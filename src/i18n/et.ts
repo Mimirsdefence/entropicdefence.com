@@ -31,11 +31,6 @@ export const et: Dictionary = {
       title: 'Päring vastu võetud — Entropic Defence',
       description: 'Teie päring on vastu võetud. Konsulent vastab esimesel võimalusel.',
     },
-    businessProfile: {
-      title: 'Business Profile — Entropic Defence',
-      description:
-        'Teie ettevõtte turbekonto: tellimus, aruande saajad (PGP) ja konto seaded.',
-    },
     papers: {
       title: 'Papers — Entropic Defence',
       description:
@@ -126,7 +121,6 @@ export const et: Dictionary = {
     linkPapers: 'Papers',
     linkStatus: 'Turbeolek',
     linkPackages: 'Vali pakett',
-    linkBusinessProfile: 'Business Profile',
     linkSupport: 'Tugi ja KKK',
     linkLegal: 'Õigusinfo',
     location: 'Stockholm · Rootsi',
@@ -608,38 +602,6 @@ export const et: Dictionary = {
     ctaPapers: 'Loe meie paperseid',
   },
 
-  businessProfile: {
-    hero: {
-      eyebrow: 'Business Profile',
-      titleLead: 'Teie ettevõtte ',
-      titleHighlight: 'turbekonto',
-      titleEnd: '.',
-      description:
-        'Halda tellimust, aruande saajaid ja kontot. Täielik funktsionaalsus aktiveerub, kui portaal B-etapis käivitatakse.',
-    },
-    account: 'Konto',
-    company: 'Ettevõte',
-    orgNumber: 'Registrikood',
-    contactPerson: 'Kontaktisik',
-    email: 'Meil',
-    subscription: 'Tellimus',
-    subscriptionName: 'Pidev turve',
-    nextInvoice: 'Järgmine arve: —',
-    managePayment: 'Halda makset',
-    upgradePackage: 'Uuenda paketti',
-    pgpRecipients: 'Aruande saajad (PGP)',
-    pgpText:
-      'Turbe-aruanded tarnitakse krüpteeritult teie IT-vastutajale. Lisage saajaid ja PGP-võtmeid, kui portaal käivitub.',
-    itResponsible: 'IT-vastutaja',
-    pgpKey: 'PGP-võti',
-    noKeyAdded: 'Võtit pole lisatud',
-    addRecipient: 'Lisa saaja',
-    accountActions: 'Kontotoimingud',
-    pauseSubscription: 'Peata tellimus',
-    deleteAccount: 'Kustuta konto',
-    logout: 'Logi välja',
-    phaseBNote: 'Aktiveerub sisselogimisega B-etapis (turvaline meilipõhine autentimine).',
-  },
 
   papers: {
     hero: {

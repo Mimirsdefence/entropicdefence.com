@@ -31,11 +31,6 @@ export const da: Dictionary = {
       title: 'Forespørgsel modtaget — Entropic Defence',
       description: 'Din forespørgsel er modtaget. En konsulent vender tilbage så hurtigt som muligt.',
     },
-    businessProfile: {
-      title: 'Business Profile — Entropic Defence',
-      description:
-        'Din virksomheds sikkerhedskonto: abonnement, rapportmodtagere (PGP) og kontoindstillinger.',
-    },
     papers: {
       title: 'Papers — Entropic Defence',
       description:
@@ -126,7 +121,6 @@ export const da: Dictionary = {
     linkPapers: 'Papers',
     linkStatus: 'Sikkerhedsstatus',
     linkPackages: 'Vælg pakke',
-    linkBusinessProfile: 'Business Profile',
     linkSupport: 'Support & FAQ',
     linkLegal: 'Juridisk',
     location: 'Stockholm · Sverige',
@@ -608,38 +602,6 @@ export const da: Dictionary = {
     ctaPapers: 'Læs vores papers',
   },
 
-  businessProfile: {
-    hero: {
-      eyebrow: 'Business Profile',
-      titleLead: 'Din virksomheds ',
-      titleHighlight: 'sikkerhedskonto',
-      titleEnd: '.',
-      description:
-        'Administrer abonnement, rapportmodtagere og konto. Fuld funktionalitet aktiveres, når portalen lanceres i fase B.',
-    },
-    account: 'Konto',
-    company: 'Virksomhed',
-    orgNumber: 'CVR-nummer',
-    contactPerson: 'Kontaktperson',
-    email: 'Mail',
-    subscription: 'Abonnement',
-    subscriptionName: 'Kontinuerlig sikkerhed',
-    nextInvoice: 'Næste faktura: —',
-    managePayment: 'Administrer betaling',
-    upgradePackage: 'Opgrader pakke',
-    pgpRecipients: 'Rapportmodtagere (PGP)',
-    pgpText:
-      'Sikkerhedsrapporter leveres krypteret til jeres IT-ansvarlige. Tilføj modtagere og PGP-nøgler, når portalen lanceres.',
-    itResponsible: 'IT-ansvarlig',
-    pgpKey: 'PGP-nøgle',
-    noKeyAdded: 'Ingen nøgle tilføjet',
-    addRecipient: 'Tilføj modtager',
-    accountActions: 'Kontohandlinger',
-    pauseSubscription: 'Sæt abonnement på pause',
-    deleteAccount: 'Slet konto',
-    logout: 'Log ud',
-    phaseBNote: 'Aktiveres med login i fase B (sikker mail-baseret autentificering).',
-  },
 
   papers: {
     hero: {

@@ -35,11 +35,6 @@ export const sv = {
       title: 'Förfrågan mottagen — Entropic Defence',
       description: 'Er förfrågan är mottagen. En konsult återkommer snarast.',
     },
-    businessProfile: {
-      title: 'Business Profile — Entropic Defence',
-      description:
-        'Ert företags säkerhetskonto: prenumeration, rapportmottagare (PGP) och kontoinställningar.',
-    },
     papers: {
       title: 'Papers — Entropic Defence',
       description:
@@ -134,7 +129,6 @@ export const sv = {
     linkPapers: 'Papers',
     linkStatus: 'Säkerhetsstatus',
     linkPackages: 'Välj paket',
-    linkBusinessProfile: 'Business Profile',
     linkSupport: 'Support & FAQ',
     linkLegal: 'Legal',
     location: 'Stockholm · Sverige',
@@ -625,38 +619,6 @@ export const sv = {
   },
 
   // ── Business Profile ─────────────────────────────────────────────────
-  businessProfile: {
-    hero: {
-      eyebrow: 'Business Profile',
-      titleLead: 'Ert företags ',
-      titleHighlight: 'säkerhetskonto',
-      titleEnd: '.',
-      description:
-        'Hantera prenumeration, rapportmottagare och konto. Full funktionalitet aktiveras när portalen lanseras i fas B.',
-    },
-    account: 'Konto',
-    company: 'Företag',
-    orgNumber: 'Organisationsnummer',
-    contactPerson: 'Kontaktperson',
-    email: 'E-post',
-    subscription: 'Prenumeration',
-    subscriptionName: 'Kontinuerlig säkerhet',
-    nextInvoice: 'Nästa faktura: —',
-    managePayment: 'Hantera betalning',
-    upgradePackage: 'Uppgradera paket',
-    pgpRecipients: 'Rapportmottagare (PGP)',
-    pgpText:
-      'Säkerhetsrapporter levereras krypterat till er IT-ansvarige. Lägg till mottagare och PGP-nycklar när portalen lanseras.',
-    itResponsible: 'IT-ansvarig',
-    pgpKey: 'PGP-nyckel',
-    noKeyAdded: 'Ingen nyckel tillagd',
-    addRecipient: 'Lägg till mottagare',
-    accountActions: 'Kontoåtgärder',
-    pauseSubscription: 'Pausa prenumeration',
-    deleteAccount: 'Radera konto',
-    logout: 'Logga ut',
-    phaseBNote: 'Aktiveras med inloggning i fas B (säker autentisering via e-post).',
-  },
 
   // ── Papers ───────────────────────────────────────────────────────────
   papers: {

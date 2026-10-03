@@ -32,11 +32,6 @@ export const pl: Dictionary = {
       title: 'Zapytanie przyjęte — Entropic Defence',
       description: 'Otrzymaliśmy Państwa zapytanie. Konsultant skontaktuje się jak najszybciej.',
     },
-    businessProfile: {
-      title: 'Business Profile — Entropic Defence',
-      description:
-        'Konto bezpieczeństwa Państwa firmy: subskrypcja, odbiorcy raportów (PGP) i ustawienia konta.',
-    },
     papers: {
       title: 'Papers — Entropic Defence',
       description:
@@ -129,7 +124,6 @@ export const pl: Dictionary = {
     linkPapers: 'Papers',
     linkStatus: 'Status bezpieczeństwa',
     linkPackages: 'Wybierz pakiet',
-    linkBusinessProfile: 'Business Profile',
     linkSupport: 'Wsparcie i FAQ',
     linkLegal: 'Legal',
     location: 'Sztokholm · Szwecja',
@@ -648,38 +642,6 @@ export const pl: Dictionary = {
   },
 
   // ── Business Profile ──────────────────────────────────────────────────
-  businessProfile: {
-    hero: {
-      eyebrow: 'Business Profile',
-      titleLead: 'Konto bezpieczeństwa ',
-      titleHighlight: 'Państwa firmy',
-      titleEnd: '.',
-      description:
-        'Zarządzajcie subskrypcją, odbiorcami raportów i kontem. Pełna funkcjonalność zostanie uruchomiona razem z portalem w fazie B.',
-    },
-    account: 'Konto',
-    company: 'Firma',
-    orgNumber: 'Numer rejestrowy',
-    contactPerson: 'Osoba kontaktowa',
-    email: 'E-mail',
-    subscription: 'Subskrypcja',
-    subscriptionName: 'Ciągłe bezpieczeństwo',
-    nextInvoice: 'Następna faktura: —',
-    managePayment: 'Zarządzaj płatnością',
-    upgradePackage: 'Ulepsz pakiet',
-    pgpRecipients: 'Odbiorcy raportów (PGP)',
-    pgpText:
-      'Raporty bezpieczeństwa dostarczamy zaszyfrowane do osoby odpowiedzialnej za IT. Dodawanie odbiorców i kluczy PGP będzie możliwe po uruchomieniu portalu.',
-    itResponsible: 'Osoba odpowiedzialna za IT',
-    pgpKey: 'Klucz PGP',
-    noKeyAdded: 'Nie dodano klucza',
-    addRecipient: 'Dodaj odbiorcę',
-    accountActions: 'Działania na koncie',
-    pauseSubscription: 'Wstrzymaj subskrypcję',
-    deleteAccount: 'Usuń konto',
-    logout: 'Wyloguj się',
-    phaseBNote: 'Aktywne po logowaniu w fazie B (bezpieczne uwierzytelnianie e-mailem).',
-  },
 
   // ── Papers ────────────────────────────────────────────────────────────
   papers: {

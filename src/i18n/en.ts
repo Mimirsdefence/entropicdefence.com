@@ -31,11 +31,6 @@ export const en: Dictionary = {
       title: 'Request received — Entropic Defence',
       description: 'We have received your request. A consultant will get back to you shortly.',
     },
-    businessProfile: {
-      title: 'Business Profile — Entropic Defence',
-      description:
-        'Your company security account: subscription, report recipients (PGP) and account settings.',
-    },
     papers: {
       title: 'Papers — Entropic Defence',
       description:
@@ -127,7 +122,6 @@ export const en: Dictionary = {
     linkPapers: 'Papers',
     linkStatus: 'Security status',
     linkPackages: 'Choose a package',
-    linkBusinessProfile: 'Business Profile',
     linkSupport: 'Support & FAQ',
     linkLegal: 'Legal',
     location: 'Stockholm · Sweden',
@@ -623,38 +617,6 @@ export const en: Dictionary = {
   },
 
   // ── Business Profile ─────────────────────────────────────────────────
-  businessProfile: {
-    hero: {
-      eyebrow: 'Business Profile',
-      titleLead: 'Your company ',
-      titleHighlight: 'security account',
-      titleEnd: '.',
-      description:
-        'Manage subscription, report recipients and account. Full functionality is activated when the portal launches in phase B.',
-    },
-    account: 'Account',
-    company: 'Company',
-    orgNumber: 'Company registration number',
-    contactPerson: 'Contact person',
-    email: 'Email',
-    subscription: 'Subscription',
-    subscriptionName: 'Continuous security',
-    nextInvoice: 'Next invoice: —',
-    managePayment: 'Manage payment',
-    upgradePackage: 'Upgrade package',
-    pgpRecipients: 'Report recipients (PGP)',
-    pgpText:
-      'Security reports are delivered encrypted to your IT manager. Add recipients and PGP keys when the portal launches.',
-    itResponsible: 'IT manager',
-    pgpKey: 'PGP key',
-    noKeyAdded: 'No key added',
-    addRecipient: 'Add recipient',
-    accountActions: 'Account actions',
-    pauseSubscription: 'Pause subscription',
-    deleteAccount: 'Delete account',
-    logout: 'Sign out',
-    phaseBNote: 'Activated with sign-in in phase B (secure authentication via email).',
-  },
 
   // ── Papers ───────────────────────────────────────────────────────────
   papers: {

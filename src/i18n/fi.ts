@@ -31,11 +31,6 @@ export const fi: Dictionary = {
       title: 'Pyyntö vastaanotettu — Entropic Defence',
       description: 'Pyyntönne on vastaanotettu. Konsultti vastaa mahdollisimman pian.',
     },
-    businessProfile: {
-      title: 'Business Profile — Entropic Defence',
-      description:
-        'Yrityksenne turvallisuustili: tilaus, raporttien vastaanottajat (PGP) ja tiliasetukset.',
-    },
     papers: {
       title: 'Papers — Entropic Defence',
       description:
@@ -126,7 +121,6 @@ export const fi: Dictionary = {
     linkPapers: 'Papers',
     linkStatus: 'Turvallisuustilanne',
     linkPackages: 'Valitse paketti',
-    linkBusinessProfile: 'Business Profile',
     linkSupport: 'Tuki & UKK',
     linkLegal: 'Lakiasiat',
     location: 'Tukholma · Ruotsi',
@@ -608,38 +602,6 @@ export const fi: Dictionary = {
     ctaPapers: 'Lue paperimme',
   },
 
-  businessProfile: {
-    hero: {
-      eyebrow: 'Business Profile',
-      titleLead: 'Yrityksenne ',
-      titleHighlight: 'turvallisuustili',
-      titleEnd: '.',
-      description:
-        'Hallitse tilausta, raporttien vastaanottajia ja tiliä. Täysi toiminnallisuus aktivoituu, kun portaali lanseerataan vaiheessa B.',
-    },
-    account: 'Tili',
-    company: 'Yritys',
-    orgNumber: 'Y-tunnus',
-    contactPerson: 'Yhteyshenkilö',
-    email: 'Sähköposti',
-    subscription: 'Tilaus',
-    subscriptionName: 'Jatkuva turvallisuus',
-    nextInvoice: 'Seuraava lasku: —',
-    managePayment: 'Hallitse maksua',
-    upgradePackage: 'Päivitä paketti',
-    pgpRecipients: 'Raporttien vastaanottajat (PGP)',
-    pgpText:
-      'Turvallisuusraportit toimitetaan salattuna IT-vastaavallenne. Lisää vastaanottajia ja PGP-avaimia, kun portaali lanseerataan.',
-    itResponsible: 'IT-vastaava',
-    pgpKey: 'PGP-avain',
-    noKeyAdded: 'Ei lisättyä avainta',
-    addRecipient: 'Lisää vastaanottaja',
-    accountActions: 'Tilitoimenpiteet',
-    pauseSubscription: 'Keskeytä tilaus',
-    deleteAccount: 'Poista tili',
-    logout: 'Kirjaudu ulos',
-    phaseBNote: 'Aktivoidaan kirjautumisella vaiheessa B (turvallinen tunnistautuminen sähköpostilla).',
-  },
 
   papers: {
     hero: {
