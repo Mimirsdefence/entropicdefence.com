@@ -730,6 +730,8 @@ export const lv: Dictionary = {
           'Pasūtītājs piekrīt, ka mūsu aģentiem un konsultantiem ir likumīgas tiesības veikt iespiešanās testus saskaņotajās robežās. Ja tiek atklātas kritiskas ievainojamības, tās pēc iespējas ātrāk tiek ziņotas pasūtītājam.',
           'Mēs neveicam testus, kas var kaitēt infrastruktūrai. Rakstiskas instrukcijas pirms iespējamā testa ir jāapstiprina pasūtītājam. Mēs nekad neveicam destruktīvus testus bez skaidras atļaujas.',
           'Mūsu saistības ietver absolūtu konfidencialitāti, ja vien nav vienošanās par citu. Mēs neatklājam pat to, kas ir mūsu klienti.',
+          'Konfidencialitāte ir standarts katrā uzdevumā neatkarīgi no apjoma. Strādājam pēc noteiktām procedūrām: pēc iespējas mazāka piekļuve jūsu sistēmām, šifrēta atradņu un atskaišu glabāšana un atsevišķas darbvietas katram klientam.',
+          'Pirms pirmās tikšanās labprāt parakstām atsevišķu konfidencialitātes līgumu (NDA) vai strādājam saskaņā ar jūsu esošo līgumu. Mūsu konsultanti ir pārbaudīti un saistīti ar konfidencialitāti arī pēc uzdevuma beigām — un mēs nekad neatklājam, kas ir mūsu klienti.',
         ],
       },
       {

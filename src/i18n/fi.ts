@@ -730,6 +730,8 @@ export const fi: Dictionary = {
           'Toimeksiantaja hyväksyy, että agenteillamme ja konsulteillamme on laillinen oikeus suorittaa tunkeutumistestejä sovituissa raameissa. Jos kriittisiä haavoittuvuuksia havaitaan, ne raportoidaan toimeksiantajalle mahdollisimman nopeasti.',
           'Emme suorita testejä, jotka voivat vahingoittaa infrastruktuuria. Kirjalliset ohjeet on hyväksytettävä toimeksiantajalla ennen mahdollista testiä. Emme koskaan suorita destruktiivisia testejä ilman nimenomaista hyväksyntää.',
           'Sitoumuksemme sisältää ehdottoman salassapitovelvollisuuden, ellei toisin sovita. Emme kerro edes, ketkä ovat asiakkaitamme.',
+          'Luottamuksellisuus on vakiona jokaisessa toimeksiannossa koosta riippumatta. Toimimme kiinteiden käytäntöjen mukaan: mahdollisimman vähäinen pääsy järjestelmiinne, löydösten ja raporttien salattu säilytys sekä asiakaskohtaiset erilliset työtilat.',
+          'Teemme mielellämme erillisen salassapitosopimuksen (NDA) ennen ensimmäistä tapaamista tai työskentelemme teidän nykyisen sopimuksenne mukaisesti. Konsulttimme on turvallisuustarkistettu ja heitä sitoo salassapitovelvollisuus myös toimeksiannon päätyttyä — emmekä kerro koskaan, ketkä ovat asiakkaitamme.',
         ],
       },
       {

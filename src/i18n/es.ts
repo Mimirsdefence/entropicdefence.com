@@ -730,6 +730,8 @@ export const es: Dictionary = {
           'El cliente acepta que nuestros agentes y consultores tienen derecho legal a realizar pruebas de penetración dentro del marco acordado. Si se detectan vulnerabilidades críticas, se notifican al cliente lo antes posible.',
           'No realizamos pruebas que puedan afectar negativamente a la infraestructura. Las instrucciones escritas deben ser aprobadas por el cliente antes de cualquier prueba. Nunca realizamos pruebas destructivas sin aprobación explícita.',
           'Nuestro compromiso incluye confidencialidad absoluta, salvo acuerdo en contrario. Ni siquiera revelamos quiénes son nuestros clientes.',
+          'La confidencialidad es la norma en cada encargo, sin importar el tamaño. Trabajamos con procedimientos fijos: el mínimo acceso posible a sus sistemas, almacenamiento cifrado de hallazgos e informes y espacios de trabajo separados para cada cliente.',
+          'Con gusto firmamos un acuerdo de confidencialidad (NDA) aparte antes de la primera reunión, o trabajamos bajo su acuerdo existente. Nuestros consultores están verificados y sujetos a confidencialidad incluso después de finalizar el encargo — y nunca revelamos quiénes son nuestros clientes.',
         ],
       },
       {

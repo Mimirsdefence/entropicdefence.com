@@ -730,6 +730,8 @@ export const et: Dictionary = {
           'Tellija kinnitab, et meie agentidel ja konsultantidel on seaduslik õigus teha läbistusteste kokkulepitud raames. Kui avastatakse kriitilisi haavatavusi, teatatakse neist tellijale võimalikult kiiresti.',
           'Me ei tee teste, mis võivad infrastruktuuri kahjustada. Kirjalikud juhised peab enne võimalikku testi heaks kiitma tellija. Me ei tee kunagi destruktiivseid teste ilma selgesõnalise heakskiiduta.',
           'Meie kohustus hõlmab absoluutset konfidentsiaalsust, kui ei ole kokku lepitud teisiti. Me ei avalda isegi seda, kes on meie kliendid.',
+          'Konfidentsiaalsus on standard igas ülesandes, olenemata suurusest. Töötame kindlate protseduuride järgi: võimalikult väike juurdepääs teie süsteemidele, leidude ja aruannete krüpteeritud hoiustamine ning iga kliendi jaoks eraldi tööruum.',
+          'Allkirjastame hea meelega eraldi konfidentsiaalsuslepingu (NDA) enne esimest kohtumist või töötame teie kehtiva lepingu alusel. Meie konsultandid on taustakontrollitud ja seotud konfidentsiaalsuskohustusega ka pärast ülesande lõppu — ega avalda kunagi, kes on meie kliendid.',
         ],
       },
       {

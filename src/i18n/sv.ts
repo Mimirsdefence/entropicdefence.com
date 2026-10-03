@@ -749,6 +749,8 @@ export const sv = {
           'Beställare godkänner att våra agenter och konsulter har laglig rätt att genomföra penetrationstester inom de överenskomna ramarna. Där kritiska sårbarheter upptäcks skall dessa rapporteras så snabbt som möjligt till beställaren.',
           'Utförare skall ej genomföra tester som kan skadligt påverka infrastrukturen. Skrivna instruktioner skall godkännas av beställaren före eventuell test. Vi genomför aldrig destruktiva tester utan explicit godkännande.',
           'Vårt åtagande innefattar absolut tystnadsplikt om inte annat överenskommits. Vi berättar inte ens vilka våra kunder är.',
+          'Sekretess är standard i varje uppdrag, oavsett storlek. Vi arbetar enligt fasta rutiner: lägsta möjliga behörighet i era system, krypterad lagring av fynd och rapporter, och avgränsade arbetsytor per kund.',
+          'Vi tecknar gärna separat sekretessavtal (NDA) innan första mötet och kan arbeta under ert befintliga avtal. Våra konsulter är säkerhetsprövade och bundna av tystnadsplikt även efter uppdragets slut — och vi berättar aldrig vilka våra kunder är.',
         ],
       },
       {

@@ -730,6 +730,8 @@ export const da: Dictionary = {
           'Kunden accepterer, at vores agenter og konsulenter har lovlig ret til at udføre penetrationstests inden for de aftalte rammer. Hvis der opdages kritiske sårbarheder, rapporteres de hurtigst muligt til kunden.',
           'Vi udfører ikke tests, der kan skade infrastrukturen. Skriftlige instrukser skal godkendes af kunden før en eventuel test. Vi udfører aldrig destruktive tests uden udtrykkelig godkendelse.',
           'Vores forpligtelse omfatter absolut tavshedspligt, medmindre andet er aftalt. Vi fortæller ikke engang, hvem vores kunder er.',
+          'Fortrolighed er standard i enhver opgave, uanset størrelse. Vi arbejder efter faste rutiner: mindst mulig adgang til jeres systemer, krypteret opbevaring af fund og rapporter og adskilte arbejdsområder pr. kunde.',
+          'Vi underskriver gerne en særskilt fortrolighedsaftale (NDA) inden første møde eller arbejder under jeres eksisterende aftale. Vores konsulenter er sikkerhedsgodkendt og bundet af tavshedspligt også efter opgavens afslutning — og vi fortæller aldrig, hvem vores kunder er.',
         ],
       },
       {

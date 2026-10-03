@@ -758,6 +758,8 @@ export const sl: Dictionary = {
           'Naročnik soglaša, da imajo naši agenti in svetovalci zakonito pravico izvajati penetracijske teste v dogovorjenih okvirih. Če odkrijemo kritične ranljivosti, jih čim prej prijavimo naročniku.',
           'Ne izvajamo testov, ki bi lahko škodljivo vplivali na infrastrukturo. Pisna navodila mora pred morebitnim testom odobriti naročnik. Nikoli ne izvajamo destruktivnih testov brez izrecnega soglasja.',
           'Naša zaveza vključuje popolno zaupnost, razen če je dogovorjeno drugače. Ne izdamo niti, kdo so naše stranke.',
+          'Zaupnost je standard pri vsakem projektu, ne glede na obseg. Delamo po ustaljenih postopkih: čim manjši dostop do vaših sistemov, šifrirano shranjevanje ugotovitev in poročil ter ločena delovna okolja za vsakega naročnika.',
+          'Pred prvim sestankom z veseljem podpišemo ločeno pogodbo o zaupnosti (NDA) ali delamo po vaši obstoječi pogodbi. Naši svetovalci so varnostno preverjeni in zavezani k zaupnosti tudi po zaključku projekta — in nikoli ne izdamo, kdo so naše stranke.',
         ],
       },
       {

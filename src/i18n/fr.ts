@@ -730,6 +730,8 @@ export const fr: Dictionary = {
           'Le client accepte que nos agents et consultants aient le droit légal de réaliser des tests d\'intrusion dans le cadre convenu. Si des vulnérabilités critiques sont découvertes, elles sont signalées au client dans les plus brefs délais.',
           'Nous ne réalisons pas de tests susceptibles de nuire à l\'infrastructure. Les instructions écrites doivent être approuvées par le client avant tout test. Nous ne réalisons jamais de tests destructifs sans accord explicite.',
           'Notre engagement inclut une confidentialité absolue, sauf accord contraire. Nous ne révélons pas même l\'identité de nos clients.',
+          'La confidentialité est la norme sur chaque mission, quelle que soit sa taille. Nous travaillons selon des procédures fixes : accès minimal à vos systèmes, stockage chiffré des constats et des rapports, et espaces de travail séparés pour chaque client.',
+          'Nous signons volontiers un accord de confidentialité (NDA) distinct avant la première réunion, ou nous travaillons sous votre accord existant. Nos consultants sont vérifiés et tenus à la confidentialité après la fin de la mission — et nous ne révélons jamais l\'identité de nos clients.',
         ],
       },
       {

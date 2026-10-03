@@ -773,6 +773,8 @@ export const pl: Dictionary = {
           'Zamawiający przyjmuje do wiadomości, że nasi agenci i konsultanci mają prawo do przeprowadzania testów penetracyjnych w uzgodnionym zakresie. Jeśli zostaną wykryte krytyczne luki, są one zgłaszane zamawiającemu tak szybko, jak to możliwe.',
           'Nie przeprowadzamy testów, które mogą uszkodzić infrastrukturę. Pisemne instrukcje muszą zostać zatwierdzone przez zamawiającego przed jakimkolwiek testem. Nigdy nie przeprowadzamy testów destrukcyjnych bez wyraźnej zgody.',
           'Nasze zobowiązanie obejmuje całkowitą poufność, o ile nie uzgodniono inaczej. Nie ujawniamy nawet, kim są nasi klienci.',
+          'Poufność jest standardem w każdym zleceniu, niezależnie od jego rozmiaru. Pracujemy według stałych procedur: jak najmniejszy dostęp do Państwa systemów, szyfrowane przechowywanie ustaleń i raportów oraz odrębne przestrzenie robocze dla każdego klienta.',
+          'Chętnie podpiszemy odrębną umowę o zachowaniu poufności (NDA) przed pierwszym spotkaniem albo pracujemy na podstawie Państwa istniejącej umowy. Nasi konsultanci są sprawdzeni i zobowiązani do poufności również po zakończeniu zlecenia — i nigdy nie ujawniamy, kim są nasi klienci.',
         ],
       },
       {

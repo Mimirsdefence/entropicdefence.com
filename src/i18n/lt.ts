@@ -730,6 +730,8 @@ export const lt: Dictionary = {
           'Užsakovas sutinka, kad mūsų agentai ir konsultantai turi teisę atlikti įsiskverbimo testus sutartose ribose. Jei aptinkama kritinių pažeidžiamumų, apie juos kuo greičiau pranešama užsakovui.',
           'Mes neatliekame testų, galinčių pakenkti infrastruktūrai. Rašytines instrukcijas prieš bet kokį testą turi patvirtinti užsakovas. Mes niekada neatliekame destruktyvių testų be aiškaus patvirtinimo.',
           'Mūsų įsipareigojimas apima absoliutų konfidencialumą, jei nesusitarta kitaip. Mes net neatskleidžiame, kas yra mūsų klientai.',
+          'Konfidencialumas yra standartas kiekvienoje užduotyje, nepriklausomai nuo dydžio. Dirbame pagal nustatytas tvarkas: kuo mažesnė prieiga prie jūsų sistemų, užšifruotas radinių ir ataskaitų saugojimas, atskiros darbo erdvės kiekvienam klientui.',
+          'Mielai pasirašome atskirą konfidencialumo sutartį (NDA) prieš pirmąjį susitikimą arba dirbame pagal jūsų galiojančią sutartį. Mūsų konsultantai yra patikrinti ir įsipareigoję saugoti konfidencialumą ir pasibaigus užduočiai — ir mes niekada neatskleidžiame, kas yra mūsų klientai.',
         ],
       },
       {

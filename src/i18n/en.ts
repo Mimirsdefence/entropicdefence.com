@@ -751,6 +751,8 @@ export const en: Dictionary = {
           'The client acknowledges that our agents and consultants are legally authorised to carry out penetration tests within the agreed scope. Where critical vulnerabilities are found, these are reported to the client as quickly as possible.',
           'We never carry out tests that could harm the infrastructure. Written instructions must be approved by the client before any test. We never perform destructive tests without explicit approval.',
           'Our commitment includes absolute confidentiality unless otherwise agreed. We do not even disclose who our clients are.',
+          'Confidentiality is standard in every engagement, whatever its size. We work to fixed routines: the least possible access to your systems, encrypted storage of findings and reports, and separate workspaces for each client.',
+          'We are happy to sign a separate non-disclosure agreement (NDA) before the first meeting, or to work under your existing agreement. Our consultants are security vetted and remain bound by confidentiality after the engagement ends — and we never disclose who our clients are.',
         ],
       },
       {
