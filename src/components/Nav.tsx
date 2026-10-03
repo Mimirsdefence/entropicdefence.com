@@ -85,7 +85,7 @@ export default function Nav() {
 
   const links = [
     { to: '/#tjanster', label: t.nav.services },
-    { to: '/advisories', label: t.nav.advisories },
+    { to: '/disclosures', label: t.nav.disclosures },
     { to: '/papers', label: t.nav.papers },
     { to: '/support', label: t.nav.support },
   ]

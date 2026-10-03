@@ -105,6 +105,7 @@ export const lv: Dictionary = {
   nav: {
     services: 'Pakalpojumi',
     advisories: 'Advisories',
+    disclosures: 'Disclosures',
     papers: 'Papers',
     support: 'Atbalsts',
     talkToConsultant: 'Runājiet ar konsultantu',
@@ -121,7 +122,7 @@ export const lv: Dictionary = {
     columnNavigation: 'Navigācija',
     columnCompany: 'Uzņēmums',
     linkServices: 'Pakalpojumi',
-    linkAdvisories: 'Advisories',
+    linkReviews: 'Pārskati',
     linkPapers: 'Papers',
     linkStatus: 'Drošības statuss',
     linkPackages: 'Izvēlieties pakotni',

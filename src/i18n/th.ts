@@ -105,6 +105,7 @@ export const th: Dictionary = {
   nav: {
     services: 'บริการ',
     advisories: 'Advisories',
+    disclosures: 'Disclosures',
     papers: 'Papers',
     support: 'ฝ่ายสนับสนุน',
     talkToConsultant: 'พูดคุยกับที่ปรึกษา',
@@ -121,7 +122,7 @@ export const th: Dictionary = {
     columnNavigation: 'การนำทาง',
     columnCompany: 'บริษัท',
     linkServices: 'บริการ',
-    linkAdvisories: 'Advisories',
+    linkReviews: 'การตรวจสอบ',
     linkPapers: 'Papers',
     linkStatus: 'สถานะความปลอดภัย',
     linkPackages: 'เลือกแพ็กเกจ',

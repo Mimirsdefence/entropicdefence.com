@@ -112,6 +112,7 @@ export const sv = {
   nav: {
     services: 'Tjänster',
     advisories: 'Advisories',
+    disclosures: 'Disclosures',
     papers: 'Papers',
     support: 'Support',
     talkToConsultant: 'Prata med en konsult',
@@ -129,7 +130,7 @@ export const sv = {
     columnNavigation: 'Navigering',
     columnCompany: 'Företag',
     linkServices: 'Tjänster',
-    linkAdvisories: 'Advisories',
+    linkReviews: 'Granskningar',
     linkPapers: 'Papers',
     linkStatus: 'Säkerhetsstatus',
     linkPackages: 'Välj paket',

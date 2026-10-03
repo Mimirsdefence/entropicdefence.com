@@ -105,6 +105,7 @@ export const lt: Dictionary = {
   nav: {
     services: 'Paslaugos',
     advisories: 'Advisories',
+    disclosures: 'Disclosures',
     papers: 'Papers',
     support: 'Pagalba',
     talkToConsultant: 'Pakalbėkite su konsultantu',
@@ -121,7 +122,7 @@ export const lt: Dictionary = {
     columnNavigation: 'Navigacija',
     columnCompany: 'Įmonė',
     linkServices: 'Paslaugos',
-    linkAdvisories: 'Advisories',
+    linkReviews: 'Apžvalgos',
     linkPapers: 'Papers',
     linkStatus: 'Saugumo būsena',
     linkPackages: 'Pasirinkite paketą',

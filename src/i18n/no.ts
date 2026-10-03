@@ -105,6 +105,7 @@ export const no: Dictionary = {
   nav: {
     services: 'Tjenester',
     advisories: 'Advisories',
+    disclosures: 'Disclosures',
     papers: 'Papers',
     support: 'Support',
     talkToConsultant: 'Snakk med en konsulent',
@@ -121,7 +122,7 @@ export const no: Dictionary = {
     columnNavigation: 'Navigasjon',
     columnCompany: 'Selskap',
     linkServices: 'Tjenester',
-    linkAdvisories: 'Advisories',
+    linkReviews: 'Gjennomganger',
     linkPapers: 'Papers',
     linkStatus: 'Sikkerhetsstatus',
     linkPackages: 'Velg pakke',

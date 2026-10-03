@@ -110,6 +110,7 @@ export const sl: Dictionary = {
   nav: {
     services: 'Storitve',
     advisories: 'Obvestila',
+    disclosures: 'Disclosures',
     papers: 'Papers',
     support: 'Podpora',
     talkToConsultant: 'Pogovor s svetovalcem',
@@ -127,7 +128,7 @@ export const sl: Dictionary = {
     columnNavigation: 'Navigacija',
     columnCompany: 'Podjetje',
     linkServices: 'Storitve',
-    linkAdvisories: 'Obvestila',
+    linkReviews: 'Pregledi',
     linkPapers: 'Papers',
     linkStatus: 'Varnostni status',
     linkPackages: 'Izberite paket',

@@ -21,7 +21,7 @@ export default function Footer() {
       title: t.footer.columnNavigation,
       links: [
         { to: '/#tjanster', label: t.footer.linkServices },
-        { to: '/advisories', label: t.footer.linkAdvisories },
+        { to: '/advisories', label: t.footer.linkReviews },
         { to: '/papers', label: t.footer.linkPapers },
         { to: '/status', label: t.footer.linkStatus },
       ],

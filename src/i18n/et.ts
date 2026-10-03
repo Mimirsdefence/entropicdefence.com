@@ -105,6 +105,7 @@ export const et: Dictionary = {
   nav: {
     services: 'Teenused',
     advisories: 'Advisories',
+    disclosures: 'Disclosures',
     papers: 'Papers',
     support: 'Tugi',
     talkToConsultant: 'Räägi konsulendiga',
@@ -121,7 +122,7 @@ export const et: Dictionary = {
     columnNavigation: 'Navigatsioon',
     columnCompany: 'Ettevõte',
     linkServices: 'Teenused',
-    linkAdvisories: 'Advisories',
+    linkReviews: 'Ülevaated',
     linkPapers: 'Papers',
     linkStatus: 'Turbeolek',
     linkPackages: 'Vali pakett',
