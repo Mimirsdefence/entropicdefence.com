@@ -1,4 +1,4 @@
-import { Fragment } from 'react'
+import { Fragment, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
   ArrowRight,
@@ -24,6 +24,7 @@ function Stat({ value, label }: { value: string; label: string }) {
 
 export default function Home() {
   const { t } = useI18n()
+  const [hoveredTrust, setHoveredTrust] = useState<number | null>(null)
 
   const services: { icon: LucideIcon; title: string; text: string; to?: string }[] = [
     {
@@ -120,10 +121,11 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-10 gap-y-3 px-5 py-6 lg:px-8">
           {t.home.trustStrip.map((item, i) => {
             const to = trustLinks[i]
+            const active = to ? hoveredTrust === i : hoveredTrust === null && i === 0
             const label = (
               <span
-                className={`font-mono text-[11px] uppercase tracking-[0.28em] text-fog${
-                  to ? ' transition-colors hover:text-signal' : ''
+                className={`font-mono text-[11px] uppercase tracking-[0.28em] transition-colors ${
+                  active ? 'text-signal' : 'text-fog'
                 }`}
               >
                 {item}
@@ -132,7 +134,17 @@ export default function Home() {
 
             return (
               <Fragment key={item}>
-                {to ? <Link to={to}>{label}</Link> : label}
+                {to ? (
+                  <Link
+                    to={to}
+                    onMouseEnter={() => setHoveredTrust(i)}
+                    onMouseLeave={() => setHoveredTrust(null)}
+                  >
+                    {label}
+                  </Link>
+                ) : (
+                  label
+                )}
                 {i < t.home.trustStrip.length - 1 && (
                   <span className="hidden h-4 w-px bg-line sm:block" aria-hidden="true" />
                 )}
