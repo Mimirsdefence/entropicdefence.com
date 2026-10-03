@@ -54,6 +54,11 @@ export const lt: Dictionary = {
       description:
         'Koordinuotas pažeidžiamumų atskleidimas. Radote mūsų sistemų spragą? Mes į tai žiūrime rimtai.',
     },
+    disclosures: {
+      title: 'Disclosures — Entropic Defence',
+      description:
+        'Mūsų patentuota AI analizė, įrankis „Red Flag – Ethical hacker“ ir tai, ką galime atvirai pasakyti apie vyriausybės užsakymus ir karines sistemas.',
+    },
     status: {
       title: 'Saugumo būsena — Entropic Defence',
       description:
@@ -822,6 +827,86 @@ export const lt: Dictionary = {
     activeTitle: 'Aktyvūs advisories',
     activeText:
       'Šiuo metu viešų saugumo pranešimų nėra. Kai spraga uždaroma ir suderinama, čia skelbiame techninę santrauką.',
+  },
+
+  // ── Disclosures ──────────────────────────────────────────────────────
+  disclosures: {
+    hero: {
+      eyebrow: 'Disclosures',
+      titleLead: 'Tai, ką galime ',
+      titleHighlight: 'pasakyti atvirai',
+      titleEnd: '.',
+      description:
+        'Atrinktos mūsų darbo dalys, kurias galime aprašyti atvirai — mūsų patentuota AI analizė ir patirtis, slypinti už vyriausybės bei kariuomenės užsakymų. Visa kita lieka įslaptinta, o konfidencialumo pareiga galioja ir čia.',
+    },
+    ai: {
+      eyebrow: 'Patentuota AI analizė',
+      title: 'Red Flag – Ethical hacker',
+      lead:
+        'Red Flag – Ethical hacker — tai mūsų pačių analizės platforma, skirta AI pagrįstam rizikos identifikavimui. Specializuoti agentai kartografuoja taikinį, aptinka nukrypimus ir juos išbando — automatiškai ir nuolat — o kiekvieną radinį patvirtina konsultantas, kol jis dar nepasiekė ataskaitos. Tai, ką rankinė patikra išbando imtimis žmogaus tempu, platforma išanalizuoja visiškai per minutes.',
+      paragraphs: [
+        'Mūsų įrankis „Red Flag – Ethical hacker“ susideda iš įvairių agentų, specializuotų atlikti užduotis, tačiau juos galima naudoti kartu siekiant kitaip sunkių tikslų.',
+        'Mūsų testai prieš veikiančią, svarbią infrastruktūrą — daugiausia Šveicarijoje — parodė daugiau nei 90 procentų sėkmės rodiklį: įsibrovimas į dideles įmones (100 vietų ar daugiau) pasiektas per minutes.',
+        'Mes nuolat testuojame ir kartais pridedame naujų pajėgumų agentų, kurie, mūsų manymu, tinka.',
+      ],
+      agentsTitle: 'Agentai',
+      methodLabel: 'Metodas',
+      agents: [
+        {
+          title: 'Pen X agentas',
+          lead:
+            'Įsilaužimo agentas, kurį galima naudoti bandymams ar įsibrovimui iš išorės su įprasta prieiga.',
+          method: [
+            'Naudoja visas turimas priemones, kad bandytų gauti prieigą, pakelti teises ar rasti spragų gynyboje. Tikrina zero day pažeidžiamumus ir žinomas CVE.',
+          ],
+        },
+        {
+          title: 'Infrastruktūros vertinimo agentas',
+          lead: 'Kartografuoja ir dokumentuoja aplinką.',
+          method: [
+            'Kartografuoja infrastruktūrą naudodamas administratoriaus paskyrą ir patikrina, ar žemėlapis yra išsamus.',
+            'Testuoja pagal infrastruktūros vertinimo dokumentaciją.',
+            'Pateikia ataskaitą su kartografuotomis struktūromis. Ji gali turėti restruktūrizavimo rekomendacijų, tačiau pagrindinis tikslas — suteikti informaciją Pen I agentui.',
+          ],
+        },
+        {
+          title: 'Pen I agentas',
+          lead: 'Vidinis įsiskverbimo testavimas — tinklo viduje, su administratoriaus prieiga.',
+          method: [
+            'Perskaito infrastruktūros ataskaitą ir testuoja pažeidžiamumus.',
+            'Sudaro planą, kaip sušvelninti nustatytas rizikas.',
+            'Įvertina darbo krūvį, reikalingą pažeidžiamumams pašalinti — pavyzdžiui, izoliuoti tinklus ir serverius bei atlikti konkrečių silpnų vietų sutvirtinimą.',
+            'Mūsų infrastruktūros analizė tikrina, kas nutiktų, jei kas nors prasiskverbtų pro išorinius sluoksnius. Tam reikia rankinio darbo, ir gaunama viena ar kelios ataskaitos, kurias IT skyrius gali naudoti kaip rekomendacijas įvairiems saugumo lygiams pagal prioritetą.',
+          ],
+        },
+        {
+          title: 'Trijažo agentas',
+          lead:
+            'Patvirtinimo agentas, kurį įsiskverbimo agentai paleidžia, kai yra parengta rašytinė ataskaita.',
+          method: [
+            'Perskaito ataskaitą ir ištestuoja visus POC bei išsaugo įrodymus.',
+            'Bendrauja su įsiskverbimo agentu, kad ataskaitoje liktų tik tikri, patvirtinti radiniai, turintys saugumo poveikį.',
+          ],
+        },
+      ],
+      manualTitle: 'Rankinė peržiūra',
+      manualText: [
+        'AI yra toli pažengęs, tačiau jis vis tiek gali išgalvoti dalykų — kad ir kaip gerai būtų parašyti raginimai. Jis taip pat ribotas tokiose srityse kaip vaizduotė ir neturi to, ką vadiname intuicija.',
+        'Dėl šių apribojimų kiekvieną radinį visada vertiname rankiniu būdu ir užtikriname, kad POC būtų visiškai veikiantys. Be to, bent vienas konsultantas seka AI pradinio vertinimo metu.',
+      ],
+    },
+    gov: {
+      eyebrow: 'Vyriausybės užsakymai ir karinės sistemos',
+      title: 'Vyriausybės užsakymai',
+      paragraphs: [
+        'Įmonės įkūrėjas daug dirbo Švedijos vyriausybės ir kariuomenės srityse ir suprojektavo nemažai įslaptintų sistemų glaudžiai bendradarbiaudamas su kariuomenės žvalgyba ir radijo žvalgyba.',
+        'Visame saugumo darbe paskutiniai penki procentai yra sunkiausi ir brangiausi suprojektuoti bei įgyvendinti. Toks saugumo lygis paprastai yra skirtas įslaptintoms sistemoms. Turime dvidešimt metų patirties šiame lygyje ir galime sutvirtinti jūsų sistemą tiek, kiek norite — kuo arčiau 100 procentų. Tik žinokite, kad kaina sparčiai auga dėl pačių paskutinių procentų.',
+      ],
+      militaryTitle: 'Karinės sistemos',
+      militaryText: [
+        'Daug metų dirbome su karinėmis sistemomis, todėl turime ilgą patirtį to patikimumo ir saugumo lygio, kurio jos reikalauja. Galime pateikti rekomendacijų sistemų sutvirtinimui, taip pat dėl pertekliškumo ir veikimo patikimumo.',
+      ],
+    },
   },
 
   status: {

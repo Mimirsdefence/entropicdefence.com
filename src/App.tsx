@@ -15,6 +15,7 @@ import Papers from '@/pages/Papers'
 import Legal from '@/pages/Legal'
 import Support from '@/pages/Support'
 import Advisories from '@/pages/Advisories'
+import Disclosures from '@/pages/Disclosures'
 import Status from '@/pages/Status'
 import NotFound from '@/pages/NotFound'
 import { useI18n } from '@/i18n'
@@ -35,6 +36,7 @@ function usePageEffects() {
     '/legal': t.meta.legal,
     '/support': t.meta.support,
     '/advisories': t.meta.advisories,
+    '/disclosures': t.meta.disclosures,
     '/status': t.meta.status,
     '*': t.meta.notFound,
   }
@@ -84,6 +86,7 @@ export default function App() {
           <Route path="/legal" element={<Legal />} />
           <Route path="/support" element={<Support />} />
           <Route path="/advisories" element={<Advisories />} />
+          <Route path="/disclosures" element={<Disclosures />} />
           <Route path="/status" element={<Status />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

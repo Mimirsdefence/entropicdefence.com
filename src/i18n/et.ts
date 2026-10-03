@@ -54,6 +54,11 @@ export const et: Dictionary = {
       description:
         'Koordineeritud haavatavuste avalikustamine. Leidsite meie süsteemidest nõrkuse? Võtame seda tõsiselt.',
     },
+    disclosures: {
+      title: 'Disclosures — Entropic Defence',
+      description:
+        'Meie oma AI-analüüs, tööriist Red Flag – Ethical hacker ja see, mida saame avalikult öelda valitsusasutuste tellimuste ning sõjaliste süsteemide kohta.',
+    },
     status: {
       title: 'Turbeolek — Entropic Defence',
       description:
@@ -822,6 +827,85 @@ export const et: Dictionary = {
     activeTitle: 'Aktiivsed advisories',
     activeText:
       'Hetkel avalikke turbenõuandeid pole. Kui nõrkus on suletud ja koordineeritud, avaldame siin tehnilise kokkuvõtte.',
+  },
+
+  // ── Disclosures ──────────────────────────────────────────────────────
+  disclosures: {
+    hero: {
+      eyebrow: 'Disclosures',
+      titleLead: 'Mida me saame ',
+      titleHighlight: 'avalikult öelda',
+      titleEnd: '.',
+      description:
+        'Valitud osad meie tööst, mida saame avalikult kirjeldada — meie oma AI-analüüs ja kogemus valitsuse ning kaitseväe tellimuste taga. Kõik muu jääb salastatuks ja konfidentsiaalsuskohustus kehtib ka siin.',
+    },
+    ai: {
+      eyebrow: 'Oma AI-analüüs',
+      title: 'Red Flag – Ethical hacker',
+      lead:
+        'Red Flag – Ethical hacker on meie enda analüüsiplatvorm AI-põhiseks riskide tuvastamiseks. Spetsialiseerunud agendid kaardistavad sihtmärgi, leiavad kõrvalekalded ja testivad neid — automaatselt ja pidevalt — samal ajal kui iga leiu kinnitab konsultant enne, kui see jõuab raportisse. Selle, mida käsitsi ülevaatus suudab inimlikus tempos pisteliselt kontrollida, analüüsib platvorm tervikuna minutitega.',
+      paragraphs: [
+        'Meie tööriist Red Flag – Ethical hacker koosneb mitmest agendist, mis on spetsialiseerunud ülesannete täitmisele, kuid mida saab kasutada koos, et saavutada muidu raskeid eesmärke.',
+        'Meie testid töötava, olulise taristu vastu — peamiselt Šveitsis — on näidanud üle 90 protsendi õnnestumise määra, kusjuures sissetung suurtesse ettevõtetesse (100 asukohta või rohkem) saavutati minutitega.',
+        'Testime pidevalt ja lisame mõnikord uusi võimekusagente, mis meie hinnangul sobivad.',
+      ],
+      agentsTitle: 'Agendid',
+      methodLabel: 'Meetod',
+      agents: [
+        {
+          title: 'Pen X agent',
+          lead:
+            'Häkkimisagent, mida saab kasutada testimiseks või sissetungiks väljastpoolt, tavalise juurdepääsuga.',
+          method: [
+            'Kasutab kõiki olemasolevaid tööriistu, et proovida pääseda ligi, tõsta õigusi või leida auke kaitstuses. Testib zero day haavatavusi ja tuntud CVE-sid.',
+          ],
+        },
+        {
+          title: 'Taristu hindamise agent',
+          lead: 'Kaardistab ja dokumenteerib keskkonna.',
+          method: [
+            'Kaardistab taristu administraatori kontoga ja kontrollib, et kaart oleks täielik.',
+            'Testib vastavalt taristu hindamise dokumentatsioonile.',
+            'Esitab raporti kaardistatud struktuuridega. See võib sisaldada ümberkorraldamise soovitusi, kuid peamine eesmärk on anda sisend Pen I agendile.',
+          ],
+        },
+        {
+          title: 'Pen I agent',
+          lead: 'Sisemine tungimistestimine — võrgu sees, administraatori juurdepääsuga.',
+          method: [
+            'Loeb taristu raporti ja testib haavatavusi.',
+            'Koostab plaani leitud riskide leevendamiseks.',
+            'Hindab töömahtu haavatavuste kõrvaldamiseks — näiteks võrkude ja serverite isoleerimine ning konkreetsete nõrkade kohtade tugevdamine.',
+            'Meie taristuanalüüs testib, mis juhtuks, kui keegi tungiks läbi välimiste kihtide. See nõuab käsitsi tehtavat tööd ja annab ühe või mitu raportit, mida IT-osakond saab kasutada soovitustena erinevate turvatasemete jaoks prioriteetsuse järjekorras.',
+          ],
+        },
+        {
+          title: 'Triaaž-agent',
+          lead: 'Kinnitusagent, mille tungimisagendid käivitavad, kui kirjalik raport on olemas.',
+          method: [
+            'Loeb raporti ja testib läbi kõik POC-id ning salvestab tõendid.',
+            'Suhtleb tungimisagendiga, et raport sisaldaks ainult tõelisi, kinnitatud leide, millel on turvamõju.',
+          ],
+        },
+      ],
+      manualTitle: 'Käsitsi ülevaatus',
+      manualText: [
+        'AI on kaugele jõudnud, kuid suudab siiski asju välja mõelda — ükskõik kui hästi on juhised kirjutatud. Samuti on see piiratud sellistes valdkondades nagu kujutlusvõime ja puudub see, mida nimetame intuitsiooniks.',
+        'Nende piirangute tõttu hindame iga leidu alati käsitsi ja veendume, et POC-id töötaksid täielikult. Lisaks jälgib vähemalt üks konsultant AI-d esialgse hindamise ajal.',
+      ],
+    },
+    gov: {
+      eyebrow: 'Valitsuse tellimused ja sõjalised süsteemid',
+      title: 'Valitsuse tellimused',
+      paragraphs: [
+        'Ettevõtte asutaja on ulatuslikult töötanud Rootsi valitsuses ja sõjaväes ning projekteerinud mitmeid salastatud süsteeme tihedas koostöös sõjaväeluure ja signaalluurega.',
+        'Kogu turvatöös on viimased viis protsenti kõige raskemad ja kallimad projekteerida ja rakendada. See turvatase on tavaliselt reserveeritud salastatud süsteemidele. Meil on selles tasemes kahekümne aasta kogemus ja suudame teie süsteemi karastada teie soovitud määral — nii lähedale saja protsendi piirile kui võimalik. Olge lihtsalt teadlik, et hind kasvab kiiresti kõige viimaste protsentide juures.',
+      ],
+      militaryTitle: 'Sõjalised süsteemid',
+      militaryText: [
+        'Oleme palju aastaid töötanud sõjaliste süsteemidega ja omame seetõttu pikaajalist kogemust nende nõutava töökindluse ja turvalisuse tasemega. Saame anda soovitusi süsteemide karastamiseks ning ka liiasuse ja töökindluse kohta.',
+      ],
+    },
   },
 
   status: {

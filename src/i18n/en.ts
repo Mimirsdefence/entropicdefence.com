@@ -54,6 +54,11 @@ export const en: Dictionary = {
       description:
         'Coordinated vulnerability disclosure. Found a vulnerability in our systems? We take it seriously.',
     },
+    disclosures: {
+      title: 'Disclosures — Entropic Defence',
+      description:
+        'Our proprietary AI analysis, the Red Flag – Ethical hacker tool, and what we can say publicly about government assignments and military systems.',
+    },
     status: {
       title: 'Security status — Entropic Defence',
       description:
@@ -847,7 +852,87 @@ export const en: Dictionary = {
       'No public security advisories right now. Once a vulnerability has been remediated and coordinated, we publish a technical summary here.',
   },
 
+  // ── Disclosures ──────────────────────────────────────────────────────
   // ── Security status ──────────────────────────────────────────────────
+  disclosures: {
+    hero: {
+      eyebrow: 'Disclosures',
+      titleLead: 'What we can ',
+      titleHighlight: 'say publicly',
+      titleEnd: '.',
+      description:
+        'Selected parts of our work that we are able to describe openly — our proprietary AI analysis and the experience behind our government and military assignments. Everything else remains classified, and our duty of confidentiality applies here too.',
+    },
+    ai: {
+      eyebrow: 'Proprietary AI analysis',
+      title: 'Red Flag – Ethical hacker',
+      lead:
+        'Red Flag – Ethical hacker is our in-house analysis platform for AI-driven risk identification. Specialised agents map the target, surface deviations and test them — automatically and continuously — while every finding is verified by a consultant before it reaches a report. What a manual review samples at human speed, the platform analyses in full within minutes.',
+      paragraphs: [
+        'Our Red Flag – Ethical hacker tool consists of various agents specialised to accomplish tasks, but that can be used in concert to achieve otherwise difficult objectives.',
+        'Our tests against live, important infrastructure — mainly in Switzerland — have shown a success rate above 90 per cent, with penetration achieved for large companies (100 sites or more) within minutes.',
+        'We are constantly testing, and we sometimes add new capacity agents that we believe will fit.',
+      ],
+      agentsTitle: 'The agents',
+      methodLabel: 'Method',
+      agents: [
+        {
+          title: 'Pen X agent',
+          lead:
+            'A hacking agent that can be used to test or penetrate from the outside, with normal access.',
+          method: [
+            'Uses every available tool to try to gain access, elevate privileges or find holes in the defences. Tests for zero day vulnerabilities and known CVEs.',
+          ],
+        },
+        {
+          title: 'Infrastructure assessment agent',
+          lead: 'Maps and documents the environment.',
+          method: [
+            'Maps the infrastructure using an admin account and verifies that the map is complete.',
+            'Tests according to the Infrastructure assessment documentation.',
+            'Provides a report showing the mapped structures. It can contain recommendations for restructuring, but the main purpose is to provide input to the Pen I agent.',
+          ],
+        },
+        {
+          title: 'Pen I agent',
+          lead: 'Internal penetration testing — inside the network, with admin access.',
+          method: [
+            'Reads the infrastructure report and tests for vulnerabilities.',
+            'Draws up a plan for mitigating the risks found.',
+            'Assesses the workload required to address the vulnerabilities — for example isolating networks and servers and hardening specific weak points.',
+            'Our infrastructure analysis tests what would happen if someone penetrated the outer layers. This involves manual work and produces one or more reports that the IT department can use as recommendations for different security levels, in order of priority.',
+          ],
+        },
+        {
+          title: 'Triage agent',
+          lead:
+            'A verification agent that is started by the penetration agents once a written report exists.',
+          method: [
+            'Reads the report and tests through all the POCs, and preserves the evidence.',
+            'Communicates with the penetration agent so that the report only contains real, verified findings that have a security impact.',
+          ],
+        },
+      ],
+      manualTitle: 'Manual revision',
+      manualText: [
+        'AI has come a long way, but it can still make things up — no matter how well the prompts are written. It is also limited in areas such as imagination, and lacks what we call intuition.',
+        'Because of these limitations we always carry out a manual assessment of every finding and make sure the POCs are fully functional. At least one consultant also follows the AI through the initial assessment.',
+      ],
+    },
+    gov: {
+      eyebrow: 'Government assignments & military systems',
+      title: 'Government assignments',
+      paragraphs: [
+        'The founder of the company has worked extensively within the Swedish government and military, and has designed a number of classified systems in close cooperation with military intelligence and signals intelligence.',
+        'In all security work, the last five per cent is the hardest and most expensive to design and implement. That level of security is normally reserved for classified systems. We have twenty years of experience at that level and can harden your system to whatever degree you choose — as close to 100 per cent as it gets. Just be aware that the cost rises steeply for the very last per cent.',
+      ],
+      militaryTitle: 'Military systems',
+      militaryText: [
+        'We have worked with military systems for many years and therefore have long experience of the level of operational reliability and security they demand. We can provide recommendations for hardening systems, and for redundancy and operational reliability.',
+      ],
+    },
+  },
+
   status: {
     hero: {
       eyebrow: 'Security status',

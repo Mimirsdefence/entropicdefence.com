@@ -55,6 +55,11 @@ export const pl: Dictionary = {
       description:
         'Skoordynowane zgłaszanie podatności. Znalazłeś podatność w naszych systemach? Traktujemy to poważnie.',
     },
+    disclosures: {
+      title: 'Disclosures — Entropic Defence',
+      description:
+        'Nasza własna analiza AI, narzędzie Red Flag – Ethical hacker i to, co możemy otwarcie powiedzieć o zleceniach rządowych i systemach wojskowych.',
+    },
     status: {
       title: 'Status bezpieczeństwa — Entropic Defence',
       description: 'Śledźcie kontrolę bezpieczeństwa krok po kroku. Aktualizacje i raporty wysyłamy e-mailem do osób odpowiedzialnych.',
@@ -869,7 +874,87 @@ export const pl: Dictionary = {
       'Obecnie brak publicznych advisories bezpieczeństwa. Gdy podatność zostanie usunięta i skoordynowana, opublikujemy tu techniczne podsumowanie.',
   },
 
+  // ── Disclosures ──────────────────────────────────────────────────────
   // ── Status bezpieczeństwa ─────────────────────────────────────────────
+  disclosures: {
+    hero: {
+      eyebrow: 'Disclosures',
+      titleLead: 'To, co możemy ',
+      titleHighlight: 'powiedzieć otwarcie',
+      titleEnd: '.',
+      description:
+        'Wybrane części naszej pracy, które możemy opisać otwarcie — nasza własna analiza AI i doświadczenie stojące za zleceniami dla rządu i sił zbrojnych. Wszystko inne pozostaje niejawne, a obowiązek zachowania tajemnicy dotyczy również tej strony.',
+    },
+    ai: {
+      eyebrow: 'Własna analiza AI',
+      title: 'Red Flag – Ethical hacker',
+      lead:
+        'Red Flag – Ethical hacker to nasza własna platforma analityczna do identyfikacji ryzyka opartej na AI. Wyspecjalizowani agenci mapują cel, wykrywają odchylenia i je testują — automatycznie i w sposób ciągły — a każde ustalenie weryfikuje konsultant, zanim trafi do raportu. To, co przegląd ręczny sprawdza wyrywkowo w ludzkim tempie, platforma analizuje w całości w kilka minut.',
+      paragraphs: [
+        'Nasze narzędzie Red Flag – Ethical hacker składa się z różnych agentów wyspecjalizowanych w realizacji zadań, których można jednak użyć razem, aby osiągnąć cele trudne w inny sposób.',
+        'Nasze testy na działającej, ważnej infrastrukturze — głównie w Szwajcarii — wykazały skuteczność powyżej 90 procent, a włamanie do dużych firm (100 lokalizacji lub więcej) zostało osiągnięte w kilka minut.',
+        'Nieustannie testujemy i czasem dodajemy nowych agentów zdolnościowych, które naszym zdaniem się sprawdzą.',
+      ],
+      agentsTitle: 'Agenci',
+      methodLabel: 'Metoda',
+      agents: [
+        {
+          title: 'Agent Pen X',
+          lead:
+            'Agent hakerski, którego można użyć do testowania lub penetracji z zewnątrz, przy normalnym dostępie.',
+          method: [
+            'Wykorzystuje wszystkie dostępne narzędzia, aby uzyskać dostęp, podnieść uprawnienia lub znaleźć dziury w zabezpieczeniach. Testuje pod kątem podatności zero day i znanych CVE.',
+          ],
+        },
+        {
+          title: 'Agent oceny infrastruktury',
+          lead: 'Mapuje i dokumentuje środowisko.',
+          method: [
+            'Mapuje infrastrukturę, używając konta administratora, i weryfikuje, że mapa jest kompletna.',
+            'Testuje zgodnie z dokumentacją oceny infrastruktury.',
+            'Dostarcza raport z zmapowanymi strukturami. Może zawierać zalecenia dotyczące restrukturyzacji, ale głównym celem jest dostarczenie informacji agentowi Pen I.',
+          ],
+        },
+        {
+          title: 'Agent Pen I',
+          lead: 'Wewnętrzne testy penetracyjne — wewnątrz sieci, z dostępem administratora.',
+          method: [
+            'Czyta raport o infrastrukturze i testuje podatności.',
+            'Przygotowuje plan ograniczenia wykrytych ryzyk.',
+            'Ocenia nakład pracy potrzebny do usunięcia podatności — na przykład izolacji sieci i serwerów oraz wzmocnienia konkretnych słabych punktów.',
+            'Nasza analiza infrastruktury sprawdza, co by się stało, gdyby ktoś przeniknął przez warstwy zewnętrzne. Wymaga to pracy ręcznej i daje jeden lub kilka raportów, które dział IT może wykorzystać jako zalecenia dla różnych poziomów bezpieczeństwa, w kolejności priorytetów.',
+          ],
+        },
+        {
+          title: 'Agent triage',
+          lead:
+            'Agent weryfikujący, uruchamiany przez agentów penetracyjnych, gdy istnieje raport pisemny.',
+          method: [
+            'Czyta raport i testuje wszystkie POC oraz zapisuje dowody.',
+            'Komunikuje się z agentem penetracyjnym, aby raport zawierał wyłącznie rzeczywiste, zweryfikowane ustalenia mające wpływ na bezpieczeństwo.',
+          ],
+        },
+      ],
+      manualTitle: 'Przegląd ręczny',
+      manualText: [
+        'AI zaszła daleko, ale wciąż potrafi coś wymyślić — niezależnie od tego, jak dobrze napisane są instrukcje. Ma też ograniczenia np. w zakresie wyobraźni i brakuje jej tego, co nazywamy intuicją.',
+        'Z powodu tych ograniczeń zawsze dokonujemy ręcznej oceny każdego ustalenia i upewniamy się, że POC są w pełni działające. Dodatkowo co najmniej jeden konsultant towarzyszy AI w trakcie wstępnej oceny.',
+      ],
+    },
+    gov: {
+      eyebrow: 'Zlecenia rządowe i systemy wojskowe',
+      title: 'Zlecenia rządowe',
+      paragraphs: [
+        'Założyciel firmy pracował w szerokim zakresie w szwedzkiej administracji rządowej i wojsku oraz projektował szereg systemów niejawnych w ścisłej współpracy z wywiadem wojskowym i wywiadem radioelektronicznym.',
+        'W każdej pracy nad bezpieczeństwem ostatnie pięć procent jest najtrudniejsze i najdroższe do zaprojektowania i wdrożenia. Ten poziom bezpieczeństwa jest zwykle zarezerwowany dla systemów niejawnych. Mamy dwadzieścia lat doświadczenia na tym poziomie i możemy wzmocnić państwa system w dowolnym zakresie — tak blisko 100 procent, jak to możliwe. Należy jednak pamiętać, że koszt gwałtownie rośnie przy ostatnich procentach.',
+      ],
+      militaryTitle: 'Systemy wojskowe',
+      militaryText: [
+        'Od wielu lat pracujemy z systemami wojskowymi, dlatego mamy długie doświadczenie w zakresie wymaganego przez nie poziomu niezawodności działania i bezpieczeństwa. Możemy przedstawić zalecenia dotyczące wzmocnienia systemów, a także redundancji i niezawodności działania.',
+      ],
+    },
+  },
+
   status: {
     hero: {
       eyebrow: 'Status bezpieczeństwa',

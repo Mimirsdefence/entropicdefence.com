@@ -54,6 +54,11 @@ export const lv: Dictionary = {
       description:
         'Koordinēta ievainojamību atklāšana. Atradāt vājumu mūsu sistēmās? Mēs to uztveram nopietni.',
     },
+    disclosures: {
+      title: 'Disclosures — Entropic Defence',
+      description:
+        'Mūsu pašu AI analīze, rīks “Red Flag – Ethical hacker” un tas, ko atklāti varam pastāstīt par valdības uzdevumiem un militārajām sistēmām.',
+    },
     status: {
       title: 'Drošības statuss — Entropic Defence',
       description:
@@ -822,6 +827,86 @@ export const lv: Dictionary = {
     activeTitle: 'Aktīvās advisories',
     activeText:
       'Pašlaik publisku drošības paziņojumu nav. Kad vājums ir aizvērts un koordinēts, mēs šeit publicējam tehnisku kopsavilkumu.',
+  },
+
+  // ── Disclosures ──────────────────────────────────────────────────────
+  disclosures: {
+    hero: {
+      eyebrow: 'Disclosures',
+      titleLead: 'Tas, ko varam ',
+      titleHighlight: 'pastāstīt atklāti',
+      titleEnd: '.',
+      description:
+        'Atlasītas mūsu darba daļas, ko varam aprakstīt atklāti — mūsu pašu AI analīze un pieredze aiz valdības un aizsardzības uzdevumiem. Viss pārējais paliek klasificēts, un konfidencialitātes pienākums attiecas arī uz šo lapu.',
+    },
+    ai: {
+      eyebrow: 'Mūsu pašu AI analīze',
+      title: 'Red Flag – Ethical hacker',
+      lead:
+        'Red Flag – Ethical hacker ir mūsu pašu analīzes platforma AI balstītai risku identificēšanai. Specializēti aģenti kartē mērķi, atklāj novirzes un pārbauda tās — automātiski un nepārtraukti —, savukārt katru atradumu pirms nonākšanas ziņojumā pārbauda konsultants. To, ko manuāla pārbaude paspēj pārbaudīt izlasē cilvēka tempā, platforma izanalizē pilnībā dažu minūšu laikā.',
+      paragraphs: [
+        'Mūsu rīks Red Flag – Ethical hacker sastāv no vairākiem aģentiem, kas specializējušies uzdevumu veikšanā, taču tos var izmantot kopā, lai sasniegtu citādi grūtus mērķus.',
+        'Mūsu testi pret dzīvu, svarīgu infrastruktūru — galvenokārt Šveicē — ir uzrādījuši vairāk nekā 90 procentu veiksmes līmeni, un iekļūšana lielos uzņēmumos (100 vietas vai vairāk) tika panākta dažu minūšu laikā.',
+        'Mēs pastāvīgi testējam un dažkārt pievienojam jaunus kapacitātes aģentus, kas, mūsuprāt, derēs.',
+      ],
+      agentsTitle: 'Aģenti',
+      methodLabel: 'Metode',
+      agents: [
+        {
+          title: 'Pen X aģents',
+          lead:
+            'Uzlaušanas aģents, ko var izmantot testēšanai vai iekļūšanai no ārpuses ar parastu piekļuvi.',
+          method: [
+            'Izmanto visus pieejamos rīkus, lai mēģinātu iegūt piekļuvi, paaugstināt tiesības vai atrast caurumus aizsardzībā. Pārbauda zero day ievainojamības un zināmas CVE.',
+          ],
+        },
+        {
+          title: 'Infrastruktūras novērtēšanas aģents',
+          lead: 'Kartē un dokumentē vidi.',
+          method: [
+            'Kartē infrastruktūru, izmantojot administratora kontu, un pārbauda, vai karte ir pilnīga.',
+            'Testē saskaņā ar infrastruktūras novērtēšanas dokumentāciju.',
+            'Sniedz ziņojumu ar kartētajām struktūrām. Tajā var būt pārstrukturēšanas ieteikumi, taču galvenais mērķis ir sniegt informāciju Pen I aģentam.',
+          ],
+        },
+        {
+          title: 'Pen I aģents',
+          lead: 'Iekšēja iekļūšanas testēšana — tīkla iekšienē, ar administratora piekļuvi.',
+          method: [
+            'Nolasa infrastruktūras ziņojumu un testē ievainojamības.',
+            'Izstrādā plānu konstatēto risku mazināšanai.',
+            'Novērtē darba apjomu ievainojamību novēršanai — piemēram, tīklu un serveru izolēšanu un konkrētu vājo vietu nostiprināšanu.',
+            'Mūsu infrastruktūras analīze pārbauda, kas notiktu, ja kāds iekļūtu cauri ārējiem slāņiem. Tas prasa manuālu darbu un sniedz vienu vai vairākus ziņojumus, ko IT nodaļa var izmantot kā ieteikumus dažādiem drošības līmeņiem prioritārā secībā.',
+          ],
+        },
+        {
+          title: 'Triažas aģents',
+          lead:
+            'Verifikācijas aģents, ko iekļūšanas aģenti palaiž, kad ir gatavs rakstisks ziņojums.',
+          method: [
+            'Nolasa ziņojumu un pārbauda visus POC, kā arī saglabā pierādījumus.',
+            'Sazinās ar iekļūšanas aģentu, lai ziņojumā būtu tikai reāli, verificēti atradumi ar drošības ietekmi.',
+          ],
+        },
+      ],
+      manualTitle: 'Manuāla pārskatīšana',
+      manualText: [
+        'AI ir tālu tikusi, taču tā joprojām var izdomāt lietas — lai cik labi būtu uzrakstītas pamudinājumu frāzes. Tā arī ir ierobežota tādās jomās kā iztēle un tai trūkst tā, ko saucam par intuīciju.',
+        'Šo ierobežojumu dēļ mēs vienmēr veicam manuālu katra atraduma novērtējumu un pārliecināmies, ka POC ir pilnībā funkcionējoši. Turklāt vismaz viens konsultants seko AI sākotnējā novērtējuma laikā.',
+      ],
+    },
+    gov: {
+      eyebrow: 'Valdības uzdevumi un militārās sistēmas',
+      title: 'Valdības uzdevumi',
+      paragraphs: [
+        'Uzņēmuma dibinātājs ir plaši strādājis Zviedrijas valdībā un militārajā jomā un ir projektējis vairākas klasificētas sistēmas ciešā sadarbībā ar militāro izlūkošanu un signālizlūkošanu.',
+        'Visā drošības darbā pēdējie pieci procenti ir visgrūtāk un visdārgāk projektējamie un ieviešamie. Šis drošības līmenis parasti ir paredzēts klasificētām sistēmām. Mums ir divdesmit gadu pieredze šajā līmenī, un mēs varam stiprināt jūsu sistēmu tik lielā mērā, cik vēlaties — pēc iespējas tuvāk 100 procentiem. Vien ņemiet vērā, ka izmaksas strauji pieaug tieši par pēdējiem procentiem.',
+      ],
+      militaryTitle: 'Militārās sistēmas',
+      militaryText: [
+        'Mēs daudzus gadus esam strādājuši ar militārajām sistēmām, tāpēc mums ir ilga pieredze ar šīm sistēmām nepieciešamo darbības drošumu un drošību. Varam sniegt ieteikumus sistēmu stiprināšanai, kā arī dublēšanai un darbības drošumam.',
+      ],
+    },
   },
 
   status: {

@@ -56,6 +56,11 @@ export const sl: Dictionary = {
       description:
         'Usklajeno poročanje o ranljivostih. Ste našli ranljivost v naših sistemih? To jemljemo resno.',
     },
+    disclosures: {
+      title: 'Disclosures — Entropic Defence',
+      description:
+        'Naša lastna analiza AI, orodje Red Flag – Ethical hacker in tisto, kar lahko odkrito povemo o vladnih naročilih in vojaških sistemih.',
+    },
     status: {
       title: 'Varnostni status — Entropic Defence',
       description:
@@ -855,7 +860,87 @@ export const sl: Dictionary = {
       'Trenutno ni javnih varnostnih obvestil. Ko bo ranljivost odpravljena in usklajena, bomo tukaj objavili tehnični povzetek.',
   },
 
+  // ── Disclosures ──────────────────────────────────────────────────────
   // ── Varnostni status ─────────────────────────────────────────────────
+  disclosures: {
+    hero: {
+      eyebrow: 'Disclosures',
+      titleLead: 'To, kar lahko ',
+      titleHighlight: 'povemo odkrito',
+      titleEnd: '.',
+      description:
+        'Izbrani deli našega dela, ki jih lahko opisujemo odkrito — naša lastna analiza AI in izkušnje za naročili vlade in obrambe. Vse ostalo ostaja zaupno, dolžnost varovanja zaupnosti pa velja tudi tukaj.',
+    },
+    ai: {
+      eyebrow: 'Lastna analiza AI',
+      title: 'Red Flag – Ethical hacker',
+      lead:
+        'Red Flag – Ethical hacker je naša lastna analitična platforma za prepoznavanje tveganj na podlagi AI. Specializirani agenti kartirajo cilj, zaznajo odstopanja in jih preizkusijo — samodejno in neprekinjeno — vsako ugotovitev pa pred vključitvijo v poročilo preveri svetovalec. Kar ročni pregled preveri vzorčno v človeškem tempu, platforma v celoti analizira v nekaj minutah.',
+      paragraphs: [
+        'Naše orodje Red Flag – Ethical hacker sestavlja več agentov, specializiranih za opravljanje nalog, ki pa jih je mogoče uporabiti skupaj za doseganje sicer težkih ciljev.',
+        'Naši testi na delujoči, pomembni infrastrukturi — predvsem v Švici — so pokazali več kot 90-odstotno uspešnost, vdor v velika podjetja (100 lokacij ali več) pa je bil dosežen v nekaj minutah.',
+        'Nenehno testiramo in včasih dodamo nove agente zmogljivosti, za katere menimo, da bodo ustrezali.',
+      ],
+      agentsTitle: 'Agenti',
+      methodLabel: 'Metoda',
+      agents: [
+        {
+          title: 'Agent Pen X',
+          lead:
+            'Hakerski agent, ki ga lahko uporabimo za testiranje ali vdor od zunaj z običajnim dostopom.',
+          method: [
+            'Uporabi vsa razpoložljiva orodja, da poskusi pridobiti dostop, dvigniti pravice ali najti luknje v obrambi. Testira za ranljivosti zero day in znane CVE.',
+          ],
+        },
+        {
+          title: 'Agent za oceno infrastrukture',
+          lead: 'Kartira in dokumentira okolje.',
+          method: [
+            'Kartira infrastrukturo z računom administratorja in preveri, ali je zemljevid popoln.',
+            'Testira v skladu z dokumentacijo za oceno infrastrukture.',
+            'Poda poročilo s kartiranimi strukturami. Lahko vsebuje predloge za prestrukturiranje, vendar je glavni namen zagotoviti podlago agentu Pen I.',
+          ],
+        },
+        {
+          title: 'Agent Pen I',
+          lead: 'Notranje penetracijsko testiranje — znotraj omrežja, z dostopom administratorja.',
+          method: [
+            'Prebere poročilo o infrastrukturi in testira ranljivosti.',
+            'Pripravi načrt za ublažitev ugotovljenih tveganj.',
+            'Oceni obseg dela za odpravo ranljivosti — na primer izolacijo omrežij in strežnikov ter okrepitev določenih šibkih točk.',
+            'Naša analiza infrastrukture preveri, kaj bi se zgodilo, če bi kdo prodrl skozi zunanje plasti. To zahteva ročno delo in da eno ali več poročil, ki jih lahko IT-oddelek uporabi kot priporočila za različne ravni varnosti po vrstnem redu prednosti.',
+          ],
+        },
+        {
+          title: 'Agent triaže',
+          lead:
+            'Verifikacijski agent, ki ga penetracijski agenti zaženejo, ko je na voljo pisno poročilo.',
+          method: [
+            'Prebere poročilo in preizkusi vse POC ter shrani dokaze.',
+            'Komunicira s penetracijskim agentom, da poročilo vsebuje le resnične, preverjene ugotovitve z vplivom na varnost.',
+          ],
+        },
+      ],
+      manualTitle: 'Ročni pregled',
+      manualText: [
+        'AI je prišla daleč, a si še vedno lahko izmisli stvari — ne glede na to, kako dobro so napisana navodila. Omejena je tudi na področjih, kot je domišljija, in ji manjka tisto, čemur pravimo intuicija.',
+        'Zaradi teh omejitev vsako ugotovitev vedno ocenimo ročno in poskrbimo, da POC v celoti delujejo. Poleg tega vsaj en svetovalec spremlja AI med začetno oceno.',
+      ],
+    },
+    gov: {
+      eyebrow: 'Vladna naročila in vojaški sistemi',
+      title: 'Vladna naročila',
+      paragraphs: [
+        'Ustanovitelj podjetja je v veliki meri delal v švedski vladi in vojski ter oblikoval številne zaupne sisteme v tesnem sodelovanju z vojaško obveščevalno službo in signalno obveščevalno dejavnostjo.',
+        'Pri vsakem varnostnem delu je zadnjih pet odstotkov najtežje in najdražje načrtovati in izvesti. Ta raven varnosti je običajno rezervirana za zaupne sisteme. Imamo dvajset let izkušenj na tej ravni in lahko vaš sistem utrdimo v poljubni meri — čim bliže 100 odstotkom. Bodite le pozorni, da stroški pri zadnjih odstotkih hitro naraščajo.',
+      ],
+      militaryTitle: 'Vojaški sistemi',
+      militaryText: [
+        'Veliko let smo delali z vojaškimi sistemi, zato imamo dolgoletne izkušnje z ravnijo obratovalne zanesljivosti in varnosti, ki jo zahtevajo. Lahko podamo priporočila za utrjevanje sistemov ter za redundanco in obratovalno zanesljivost.',
+      ],
+    },
+  },
+
   status: {
     hero: {
       eyebrow: 'Varnostni status',

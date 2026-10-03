@@ -54,6 +54,11 @@ export const fi: Dictionary = {
       description:
         'Koordinoitu haavoittuvuusraportointi. Löysitkö haavoittuvuuden järjestelmistämme? Otamme sen vakavasti.',
     },
+    disclosures: {
+      title: 'Disclosures — Entropic Defence',
+      description:
+        'Oma tekoälyanalyysimme, Red Flag – Ethical hacker -työkalu sekä se, mitä voimme kertoa avoimesti valtionhallinnon toimeksiannoista ja sotilasjärjestelmistä.',
+    },
     status: {
       title: 'Turvallisuustilanne — Entropic Defence',
       description:
@@ -822,6 +827,86 @@ export const fi: Dictionary = {
     activeTitle: 'Aktiiviset advisories',
     activeText:
       'Ei julkisia turvallisuusadvisoreita juuri nyt. Kun haavoittuvuus on korjattu ja koordinoitu, julkaisemme teknisen yhteenvedon täällä.',
+  },
+
+  // ── Disclosures ──────────────────────────────────────────────────────
+  disclosures: {
+    hero: {
+      eyebrow: 'Disclosures',
+      titleLead: 'Se mitä voimme ',
+      titleHighlight: 'kertoa avoimesti',
+      titleEnd: '.',
+      description:
+        'Valikoituja osia työstämme, joista voimme kertoa avoimesti — oma tekoälyanalyysimme ja kokemus valtionhallinnon ja puolustuksen toimeksiannoista. Kaikki muu pysyy salassa, ja salassapitovelvollisuus koskee myös tätä sivua.',
+    },
+    ai: {
+      eyebrow: 'Oma tekoälyanalyysi',
+      title: 'Red Flag – Ethical hacker',
+      lead:
+        'Red Flag – Ethical hacker on oma analyysialustamme tekoälypohjaiseen riskien tunnistamiseen. Erikoistuneet agentit kartoittavat kohteen, löytävät poikkeamat ja testaavat ne — automaattisesti ja jatkuvasti — ja jokainen löydös varmennetaan konsultin toimesta ennen kuin se päätyy raporttiin. Sen minkä manuaalinen tarkastus ehtii pistokokein ihmisvauhdilla, alusta analysoi kokonaan minuuteissa.',
+      paragraphs: [
+        'Työkalumme Red Flag – Ethical hacker koostuu useista agenteista, jotka on erikoistettu tiettyihin tehtäviin mutta joita voidaan käyttää yhdessä muuten vaikeiden tavoitteiden saavuttamiseksi.',
+        'Testimme elävää, tärkeää infrastruktuuria vastaan — pääosin Sveitsissä — ovat osoittaneet yli 90 prosentin onnistumisprosentin, ja murto suuriin yrityksiin (100 toimipistettä tai enemmän) on saavutettu minuuteissa.',
+        'Testaamme jatkuvasti ja lisäämme joskus uusia kapasiteettiagentteja, joiden uskomme sopivan.',
+      ],
+      agentsTitle: 'Agentit',
+      methodLabel: 'Menetelmä',
+      agents: [
+        {
+          title: 'Pen X -agentti',
+          lead:
+            'Hakkerointiagentti, jota voidaan käyttää testaamiseen tai tunkeutumiseen ulkopuolelta normaaleilla käyttöoikeuksilla.',
+          method: [
+            'Käyttää kaikkia käytettävissä olevia työkaluja yrittääkseen saada pääsyn, korottaa käyttöoikeuksia tai löytää aukkoja puolustuksesta. Testaa zero day -haavoittuvuuksia ja tunnettuja CVE:itä.',
+          ],
+        },
+        {
+          title: 'Infrastruktuurin kartoitusagentti',
+          lead: 'Kartoittaa ja dokumentoi ympäristön.',
+          method: [
+            'Kartoittaa infrastruktuurin admin-tilillä ja varmistaa, että kartta on täydellinen.',
+            'Testaa infrastruktuurin arviointia koskevan dokumentaation mukaisesti.',
+            'Tuottaa raportin, joka näyttää kartatut rakenteet. Raportti voi sisältää ehdotuksia uudelleenjärjestelystä, mutta päätarkoitus on antaa lähtötiedot Pen I -agentille.',
+          ],
+        },
+        {
+          title: 'Pen I -agentti',
+          lead: 'Sisäinen tunkeutumistestaus — verkon sisällä, admin-käyttöoikeuksilla.',
+          method: [
+            'Lukee infrastruktuuriraportin ja testaa haavoittuvuuksia.',
+            'Laatii suunnitelman löydettyjen riskien lieventämiseksi.',
+            'Arvioi työmäärän haavoittuvuuksien korjaamiseksi — esimerkiksi verkkojen ja palvelinten eristämiseksi sekä tiettyjen heikkojen kohtien koventamiseksi.',
+            'Infrastruktuurianalyysimme testaa, mitä tapahtuisi, jos joku tunkeutuisi ulompien kerrosten läpi. Tämä vaatii manuaalista työtä ja tuottaa yhden tai useamman raportin, jota IT-osasto voi käyttää suosituksina eri turvatasoille tärkeysjärjestyksessä.',
+          ],
+        },
+        {
+          title: 'Triage-agentti',
+          lead:
+            'Varmennusagentti, jonka tunkeutumisagentit käynnistävät, kun kirjallinen raportti on olemassa.',
+          method: [
+            'Lukee raportin ja testaa kaikki POC:it sekä tallentaa todisteet.',
+            'Viestii tunkeutumisagentin kanssa, jotta raportti sisältää vain todellisia, varmennettuja löydöksiä, joilla on turvallisuusvaikutus.',
+          ],
+        },
+      ],
+      manualTitle: 'Manuaalinen tarkistus',
+      manualText: [
+        'Tekoäly on edistynyt pitkälle, mutta se voi yhä keksiä asioita — riippumatta siitä, miten hyvin kehotteet on kirjoitettu. Se on myös rajoittunut esimerkiksi mielikuvituksen alueella ja siltä puuttuu se, mitä kutsumme intuitioksi.',
+        'Näiden rajoitusten vuoksi teemme aina manuaalisen arvion jokaisesta löydöksestä ja varmistamme, että POC:it toimivat täysin. Lisäksi vähintään yksi konsultti seuraa tekoälyä alkuarvioinnin aikana.',
+      ],
+    },
+    gov: {
+      eyebrow: 'Valtionhallinnon toimeksiannot ja sotilasjärjestelmät',
+      title: 'Valtionhallinnon toimeksiannot',
+      paragraphs: [
+        'Yrityksen perustaja on työskennellyt laajasti Ruotsin valtionhallinnossa ja puolustusvoimissa ja suunnitellut useita salaisia järjestelmiä tiiviissä yhteistyössä sotilastiedustelun ja signaalitiedustelun kanssa.',
+        'Kaikessa turvallisuustyössä viimeiset viisi prosenttia ovat vaikeimmat ja kalleimmat suunnitella ja toteuttaa. Tämä turvallisuuden taso on yleensä varattu salaisiksi luokitelluille järjestelmille. Meillä on kaksikymmentä vuotta kokemusta tältä tasolta, ja voimme koventaa järjestelmänne haluamallanne tasolla — niin lähelle sataa prosenttia kuin mahdollista. Ole kuitenkin tietoinen siitä, että kustannus kasvaa nopeasti aivan viimeisten prosenttien osalta.',
+      ],
+      militaryTitle: 'Sotilasjärjestelmät',
+      militaryText: [
+        'Olemme työskennelleet monia vuosia sotilasjärjestelmien parissa ja meillä on siksi pitkä kokemus niiden vaatimasta käyttövarmuuden ja turvallisuuden tasosta. Voimme antaa suosituksia järjestelmien koventamiseksi sekä redundanssista ja käyttövarmuudesta.',
+      ],
+    },
   },
 
   status: {

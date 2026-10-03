@@ -54,6 +54,11 @@ export const no: Dictionary = {
       description:
         'Koordinert sårbarhetsrapportering. Har du funnet et sikkerhetshull i systemene våre? Vi tar det på alvor.',
     },
+    disclosures: {
+      title: 'Disclosures — Entropic Defence',
+      description:
+        'Vår proprietære AI-analyse, verktøyet Red Flag – Ethical hacker og det vi åpent kan fortelle om regjeringsoppdrag og militære systemer.',
+    },
     status: {
       title: 'Sikkerhetsstatus — Entropic Defence',
       description:
@@ -822,6 +827,86 @@ export const no: Dictionary = {
     activeTitle: 'Aktive advisories',
     activeText:
       'Ingen offentlige sikkerhetsadvisories akkurat nå. Når en sårbarhet er lukket og koordinert, publiserer vi et teknisk sammendrag her.',
+  },
+
+  // ── Disclosures ──────────────────────────────────────────────────────
+  disclosures: {
+    hero: {
+      eyebrow: 'Disclosures',
+      titleLead: 'Det vi kan ',
+      titleHighlight: 'fortelle åpent',
+      titleEnd: '.',
+      description:
+        'Utvalgte deler av arbeidet vårt som vi kan beskrive åpent — vår proprietære AI-analyse og erfaringen bak våre oppdrag for regjering og forsvar. Alt annet forblir klassifisert, og taushetsplikten gjelder også her.',
+    },
+    ai: {
+      eyebrow: 'Proprietær AI-analyse',
+      title: 'Red Flag – Ethical hacker',
+      lead:
+        'Red Flag – Ethical hacker er vår egen analyseplattform for AI-drevet risikoidentifisering. Spesialiserte agenter kartlegger målet, finner avvik og tester dem — automatisk og kontinuerlig — mens hvert funn verifiseres av en konsulent før det når en rapport. Det en manuell gjennomgang stikkprøver i menneskelig tempo, analyserer plattformen i sin helhet i løpet av minutter.',
+      paragraphs: [
+        'Verktøyet vårt Red Flag – Ethical hacker består av flere agenter som er spesialisert på å løse oppgaver, men som kan brukes sammen for å nå mål som ellers er vanskelige.',
+        'Testene våre mot levende, viktig infrastruktur — hovedsakelig i Sveits — har vist en treffsikkerhet på over 90 prosent, med gjennombrudd oppnådd hos store selskaper (100 lokasjoner eller flere) i løpet av minutter.',
+        'Vi tester hele tiden og legger av og til til nye kapasitetsagenter vi mener passer.',
+      ],
+      agentsTitle: 'Agentene',
+      methodLabel: 'Metode',
+      agents: [
+        {
+          title: 'Pen X-agenten',
+          lead:
+            'En hackeagent som kan brukes til å teste eller trenge inn utenfra, med normal tilgang.',
+          method: [
+            'Bruker alle tilgjengelige verktøy for å forsøke å få tilgang, eskalere rettigheter eller finne hull i forsvaret. Tester for zero day-sårbarheter og kjente CVE-er.',
+          ],
+        },
+        {
+          title: 'Infrastrukturkartleggingsagenten',
+          lead: 'Kartlegger og dokumenterer miljøet.',
+          method: [
+            'Kartlegger infrastrukturen med en admin-konto og verifiserer at kartet er komplett.',
+            'Tester i henhold til dokumentasjonen for infrastrukturvurdering.',
+            'Leverer en rapport som viser de kartlagte strukturene. Den kan inneholde forslag til omstrukturering, men hovedformålet er å gi grunnlag til Pen I-agenten.',
+          ],
+        },
+        {
+          title: 'Pen I-agenten',
+          lead: 'Intern penetrasjonstesting — inne i nettverket, med admin-tilgang.',
+          method: [
+            'Leser infrastrukturrapporten og tester for sårbarheter.',
+            'Lager en plan for å redusere risikoene som er funnet.',
+            'Vurderer arbeidsmengden for å utbedre sårbarhetene — for eksempel isolering av nettverk og servere og spesifikk herding av utsatte punkter.',
+            'Infrastrukturanalysen vår tester hva som ville skje hvis noen trengte gjennom de ytre lagene. Dette innebærer manuelt arbeid og gir én eller flere rapporter som IT-avdelingen kan bruke som anbefalinger for ulike sikkerhetsnivåer, i prioritert rekkefølge.',
+          ],
+        },
+        {
+          title: 'Triage-agenten',
+          lead:
+            'En verifiseringsagent som startes av penetrasjonsagentene når en skriftlig rapport foreligger.',
+          method: [
+            'Leser rapporten og tester gjennom alle POC-er samt lagrer bevis.',
+            'Kommuniserer med penetrasjonsagenten slik at rapporten bare inneholder reelle, verifiserte funn med sikkerhetsmessig betydning.',
+          ],
+        },
+      ],
+      manualTitle: 'Manuell revisjon',
+      manualText: [
+        'AI har kommet langt, men den kan fortsatt finne på ting — uansett hvor godt promptene er skrevet. Den er også begrenset på områder som fantasi og mangler det vi kaller intuisjon.',
+        'På grunn av disse begrensningene gjør vi alltid en manuell vurdering av hvert funn og sikrer at POC-ene er fullt fungerende. I tillegg følger minst én konsulent AI-en gjennom den innledende vurderingen.',
+      ],
+    },
+    gov: {
+      eyebrow: 'Regjeringsoppdrag og militære systemer',
+      title: 'Regjeringsoppdrag',
+      paragraphs: [
+        'Grunnleggeren av selskapet har i stor grad arbeidet innen svensk regjering og militæret og har designet en rekke klassifiserte systemer i nært samarbeid med militær etterretning og signalspaning.',
+        'I alt sikkerhetsarbeid er de siste fem prosentene de vanskeligste og dyreste å designe og implementere. Dette sikkerhetsnivået er vanligvis forbeholdt klassifiserte systemer. Vi har tjue års erfaring på dette nivået og kan herde systemet deres så godt dere ønsker — så nær 100 prosent som mulig. Vær bare oppmerksom på at kostnaden øker raskt for de aller siste prosentene.',
+      ],
+      militaryTitle: 'Militære systemer',
+      militaryText: [
+        'Vi har arbeidet mange år med militære systemer og har derfor lang erfaring med det nivået av driftssikkerhet og sikkerhet som kreves. Vi kan gi anbefalinger for herding av systemer og også for redundans og driftssikkerhet.',
+      ],
+    },
   },
 
   status: {

@@ -54,6 +54,11 @@ export const es: Dictionary = {
       description:
         'Divulgación coordinada de vulnerabilidades. ¿Encontró una debilidad en nuestros sistemas? Nos lo tomamos en serio.',
     },
+    disclosures: {
+      title: 'Disclosures — Entropic Defence',
+      description:
+        'Nuestro análisis de IA propio, la herramienta Red Flag – Ethical hacker y lo que podemos contar abiertamente sobre encargos gubernamentales y sistemas militares.',
+    },
     status: {
       title: 'Estado de seguridad — Entropic Defence',
       description:
@@ -822,6 +827,86 @@ export const es: Dictionary = {
     activeTitle: 'Advisories activas',
     activeText:
       'Por el momento no hay avisos de seguridad públicos. Cuando una debilidad esté cerrada y coordinada, publicamos aquí un resumen técnico.',
+  },
+
+  // ── Disclosures ──────────────────────────────────────────────────────
+  disclosures: {
+    hero: {
+      eyebrow: 'Disclosures',
+      titleLead: 'Lo que podemos ',
+      titleHighlight: 'contar abiertamente',
+      titleEnd: '.',
+      description:
+        'Una selección de nuestro trabajo que podemos describir abiertamente — nuestro análisis de IA propio y la experiencia que respalda nuestros encargos para el gobierno y la defensa. Todo lo demás permanece clasificado, y nuestro deber de confidencialidad se aplica también aquí.',
+    },
+    ai: {
+      eyebrow: 'Análisis de IA propio',
+      title: 'Red Flag – Ethical hacker',
+      lead:
+        'Red Flag – Ethical hacker es nuestra propia plataforma de análisis para la identificación de riesgos basada en IA. Agentes especializados cartografían el objetivo, detectan desviaciones y las ponen a prueba — de forma automática y continua — mientras que un consultor verifica cada hallazgo antes de que llegue a un informe. Lo que una revisión manual muestrea al ritmo humano, la plataforma lo analiza por completo en minutos.',
+      paragraphs: [
+        'Nuestra herramienta Red Flag – Ethical hacker consta de varios agentes especializados en realizar tareas, pero que pueden usarse en conjunto para alcanzar objetivos que de otro modo son difíciles.',
+        'Nuestras pruebas contra infraestructura real y crítica — principalmente en Suiza — han mostrado una tasa de éxito superior al 90 por ciento, con penetración lograda en grandes empresas (100 sedes o más) en cuestión de minutos.',
+        'Probamos constantemente y a veces añadimos nuevos agentes de capacidad que creemos que encajarán.',
+      ],
+      agentsTitle: 'Los agentes',
+      methodLabel: 'Método',
+      agents: [
+        {
+          title: 'Agente Pen X',
+          lead:
+            'Un agente de hacking que puede usarse para probar o penetrar desde el exterior, con acceso normal.',
+          method: [
+            'Utiliza todas las herramientas disponibles para intentar obtener acceso, elevar privilegios o encontrar fallos en las defensas. Prueba vulnerabilidades zero day y CVE conocidas.',
+          ],
+        },
+        {
+          title: 'Agente de evaluación de infraestructura',
+          lead: 'Cartografía y documenta el entorno.',
+          method: [
+            'Cartografía la infraestructura usando una cuenta de administrador y verifica que el mapa esté completo.',
+            'Prueba conforme a la documentación de evaluación de infraestructura.',
+            'Entrega un informe con las estructuras cartografiadas. Puede incluir recomendaciones de reestructuración, pero su propósito principal es aportar información al agente Pen I.',
+          ],
+        },
+        {
+          title: 'Agente Pen I',
+          lead: 'Pruebas de penetración internas — dentro de la red, con acceso de administrador.',
+          method: [
+            'Lee el informe de infraestructura y prueba las vulnerabilidades.',
+            'Elabora un plan para mitigar los riesgos detectados.',
+            'Evalúa la carga de trabajo necesaria para resolver las vulnerabilidades — por ejemplo, aislar redes y servidores y reforzar puntos débiles concretos.',
+            'Nuestro análisis de infraestructura prueba qué ocurriría si alguien penetrara las capas externas. Esto implica trabajo manual y produce uno o varios informes que el departamento de TI puede usar como recomendaciones para distintos niveles de seguridad, por orden de prioridad.',
+          ],
+        },
+        {
+          title: 'Agente de triaje',
+          lead:
+            'Un agente de verificación que los agentes de penetración inician cuando existe un informe escrito.',
+          method: [
+            'Lee el informe y prueba todos los POC, además de guardar las evidencias.',
+            'Se comunica con el agente de penetración para que el informe contenga únicamente hallazgos reales y verificados con impacto en la seguridad.',
+          ],
+        },
+      ],
+      manualTitle: 'Revisión manual',
+      manualText: [
+        'La IA ha avanzado mucho, pero todavía puede inventarse cosas — por muy bien redactadas que estén las instrucciones. También está limitada en áreas como la imaginación y carece de lo que llamamos intuición.',
+        'Por estas limitaciones, siempre realizamos una evaluación manual de cada hallazgo y nos aseguramos de que los POC funcionen por completo. Además, al menos un consultor acompaña a la IA durante la evaluación inicial.',
+      ],
+    },
+    gov: {
+      eyebrow: 'Encargos gubernamentales y sistemas militares',
+      title: 'Encargos gubernamentales',
+      paragraphs: [
+        'El fundador de la empresa ha trabajado extensamente dentro del gobierno y el ejército suecos y ha diseñado varios sistemas clasificados en estrecha colaboración con inteligencia militar e inteligencia de señales.',
+        'En todo trabajo de seguridad, el último cinco por ciento es lo más difícil y costoso de diseñar e implementar. Ese nivel de seguridad suele reservarse a sistemas clasificados. Tenemos veinte años de experiencia en ese nivel y podemos endurecer su sistema tanto como deseen — lo más cerca posible del 100 por ciento. Solo tengan en cuenta que el coste crece rápidamente en los últimos porcentajes.',
+      ],
+      militaryTitle: 'Sistemas militares',
+      militaryText: [
+        'Llevamos muchos años trabajando con sistemas militares y por ello tenemos una larga experiencia en el nivel de fiabilidad operativa y seguridad que exigen. Podemos ofrecer recomendaciones para el endurecimiento de sistemas, así como para redundancia y fiabilidad operativa.',
+      ],
+    },
   },
 
   status: {
