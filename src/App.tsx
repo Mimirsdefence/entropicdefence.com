@@ -10,7 +10,6 @@ import CheckoutExtern from '@/pages/CheckoutExtern'
 import CheckoutIntern from '@/pages/CheckoutIntern'
 import CheckoutLedning from '@/pages/CheckoutLedning'
 import Success from '@/pages/Success'
-import BusinessProfile from '@/pages/BusinessProfile'
 import Papers from '@/pages/Papers'
 import Legal from '@/pages/Legal'
 import Support from '@/pages/Support'
@@ -31,7 +30,6 @@ function usePageEffects() {
     '/checkout/intern': t.meta.checkoutIntern,
     '/checkout/ledning': t.meta.checkoutLedning,
     '/success': t.meta.success,
-    '/business-profile': t.meta.businessProfile,
     '/papers': t.meta.papers,
     '/legal': t.meta.legal,
     '/support': t.meta.support,
@@ -81,7 +79,6 @@ export default function App() {
           <Route path="/checkout/intern" element={<CheckoutIntern />} />
           <Route path="/checkout/ledning" element={<CheckoutLedning />} />
           <Route path="/success" element={<Success />} />
-          <Route path="/business-profile" element={<BusinessProfile />} />
           <Route path="/papers" element={<Papers />} />
           <Route path="/legal" element={<Legal />} />
           <Route path="/support" element={<Support />} />

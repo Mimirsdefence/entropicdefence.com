@@ -30,7 +30,6 @@ export default function Footer() {
       title: t.footer.columnCompany,
       links: [
         { to: '/checkout', label: t.footer.linkPackages },
-        { to: '/business-profile', label: t.footer.linkBusinessProfile },
         { to: '/support', label: t.footer.linkSupport },
         { to: '/legal', label: t.footer.linkLegal },
       ],
