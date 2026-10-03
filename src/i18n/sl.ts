@@ -17,7 +17,7 @@ export const sl: Dictionary = {
     checkoutExtern: {
       title: 'Neprekinjeni varnostni pregled — Entropic Defence',
       description:
-        'Fiksna cena glede na število izpostavljenih naslovov. Mesečni, tedenski ali dnevni pregled s poročilom, odpravo in prilagojenim svetovalnim časom.',
+        'Fiksna cena glede na število izpostavljenih naslovov. Mesečni, tedenski ali dnevni pregled s poročilom, odpravo in prilagojenim svetovanjem.',
     },
     checkoutIntern: {
       title: 'Notranja varnostna revizija — Entropic Defence',
@@ -207,7 +207,7 @@ export const sl: Dictionary = {
       items: [
         {
           title: 'Neprekinjeni varnostni pregled',
-          text: 'Zunanji pregledi, ki si nikoli ne vzamejo odmora — mesečno, tedensko ali dnevno. Najdemo, kar bi našel napadalec, in to zapremo.',
+          text: 'Zunanji pregledi, ki si nikoli ne vzamejo odmora — mesečno, tedensko ali dnevno. Najdemo, kar bi našel napadalec, in vam povemo, kako to zapreti.',
         },
         {
           title: 'Notranja varnostna revizija',
@@ -227,8 +227,8 @@ export const sl: Dictionary = {
       eyebrow: 'Štiri desetletja',
       title: '40 let na najvišji svetovni varnostni stopnji.',
       paragraphs: [
-        'Entropic Defence je nastal iz spoznanja: evropski varnostni trg se odziva, namesto da bi preprečeval. Podjetje smo zgradili, da bi delali obratno.',
-        'Naši svetovalci prihajajo iz obrambnega in obveščevalnega sveta. Varovali smo vladne sisteme, vojaška omrežja in za družbo kritično infrastrukturo — pred najbolj vztrajnimi nasprotniki, kar jih obstaja.',
+        'Entropic Defence je nastal iz spoznanja: velik del evropske varnosti je reaktiven, ne preventiven. Želimo delati obratno in verjamemo, da je proaktivnost edina pot do resnične varnosti.',
+        'Naši svetovalci prihajajo iz obrambnega in obveščevalnega sveta. Varovali smo vladne sisteme, vojaška omrežja in za družbo kritično infrastrukturo — pred najspretnejšimi in najbolj vztrajnimi nasprotniki, kar jih obstaja.',
       ],
       points: [
         'Izkušnje iz obrambe, obveščevalnih služb in državne uprave',
@@ -288,12 +288,12 @@ export const sl: Dictionary = {
         name: 'Neprekinjeni varnostni pregled',
         period: 'na mesec',
         description:
-          'Zunanji pregledi, ki si nikoli ne vzamejo odmora — mesečno, tedensko ali dnevno. Poročilo, odprava in prilagojen svetovalni čas so vključeni.',
+          'Zunanji pregledi, ki si nikoli ne vzamejo odmora — mesečno, tedensko ali dnevno. Poročilo, odprava in prilagojeno svetovanje so vključena.',
         features: [
           'Mesečni, tedenski ali dnevni pregled',
           'Fiksna cena glede na število izpostavljenih naslovov',
           'Odprava vsake ugotovitve',
-          'Svetovalni čas od 48 h do 24/7',
+          'Svetovanje od 48 h do 24/7',
         ],
       },
       {
@@ -350,7 +350,7 @@ export const sl: Dictionary = {
       titleHighlight: 'nikoli ne počiva',
       titleEnd: '.',
       description:
-        'Zunanji pregledi, ki si nikoli ne vzamejo odmora — mesečno, tedensko ali dnevno. Z vsakim paketom prejmete poročilo, odpravo in prilagojen svetovalni čas, ki vaši IT ekipi pomaga zapreti ugotovitve.',
+        'Zunanji pregledi, ki si nikoli ne vzamejo odmora — mesečno, tedensko ali dnevno. Z vsakim paketom prejmete poročilo, odpravo in prilagojeno svetovanje, ki vaši IT ekipi pomaga zapreti ugotovitve.',
     },
     tierLabel: 'Število izpostavljenih naslovov',
     tierAria: 'Izberite število izpostavljenih naslovov',
@@ -376,11 +376,11 @@ export const sl: Dictionary = {
         name: 'Mesečni pregled',
         cadence: '1 zunanji pregled na mesec',
         description:
-          'Osnova, ki teče ves čas: en celovit zunanji pregled vsak mesec, s predlogi ukrepov in prilagojenim svetovalnim časom za odpravo ugotovitev.',
+          'Osnova, ki teče ves čas: en celovit zunanji pregled vsak mesec, s predlogi ukrepov in prilagojenim svetovanjem za odpravo ugotovitev.',
         features: [
           '1 zunanji varnostni pregled vsak mesec',
           'Pisno poročilo z odpravo za vsako ugotovitev',
-          '48 ur svetovalnega časa, ki vaši IT ekipi pomaga izvesti ukrepe',
+          '48 ur svetovanja, ki vaši IT ekipi pomaga izvesti ukrepe',
           'Sprotno svetovanje vaši IT ekipi',
         ],
       },
@@ -388,11 +388,11 @@ export const sl: Dictionary = {
         name: 'Tedenski pregled',
         cadence: '1 zunanji pregled na teden',
         description:
-          'Za organizacije, ki si ne morejo privoščiti ranljivosti več kot nekaj dni — pogostejši pregledi in prilagojen svetovalni čas za odpravo težav.',
+          'Za organizacije, ki si ne morejo privoščiti ranljivosti več kot nekaj dni — pogostejši pregledi in prilagojeno svetovanje za odpravo težav.',
         features: [
           '1 zunanji varnostni pregled vsak teden',
           'Pisno poročilo z odpravo za vsako ugotovitev',
-          'prilagojen svetovalni čas za odpravo težav',
+          'prilagojeno svetovanje za odpravo težav',
           'Prednostna obravnava kritičnih ugotovitev',
           'Četrtletni pregled za vodstvo',
         ],
@@ -400,13 +400,13 @@ export const sl: Dictionary = {
       dag: {
         name: 'Dnevni pregled',
         cadence: '1 zunanji pregled na dan',
-        consultant: 'Svetovalni čas 24/7 · najvišja prioriteta',
+        consultant: 'Svetovanje 24/7 · najvišja prioriteta',
         description:
           'Uporabljajo ga skoraj izključno obramba in državni organi. Napadalec nikoli ne dobi več kot en dan — pogosto manj.',
         features: [
           '1 zunanji varnostni pregled vsak dan',
           'Pisno poročilo z odpravo za vsako ugotovitev',
-          'Svetovalni čas 24/7 z najvišjo prioriteto',
+          'Svetovanje 24/7 z najvišjo prioriteto',
           'Prilagojeno obrambi, državni upravi in kritični infrastrukturi',
           'Varnostno varovanje in molčečnost najvišje stopnje',
         ],
@@ -425,11 +425,11 @@ export const sl: Dictionary = {
         },
         {
           title: '48 ur po vsakem pregledu',
-          text: 'V mesečnem pregledu je vključenih 48 ur svetovalnega časa, ki vaši IT ekipi pomaga izvesti ukrepe.',
+          text: 'V mesečnem pregledu je vključenih 48 ur svetovanja, ki vaši IT ekipi pomaga izvesti ukrepe.',
         },
         {
           title: '24/7 v dnevnem paketu',
-          text: 'Dnevni pregled vam daje svetovalni čas 24 ur na dan, s prednostjo pri kritičnih ugotovitvah.',
+          text: 'Dnevni pregled vam daje svetovanje 24 ur na dan, s prednostjo pri kritičnih ugotovitvah.',
         },
       ],
     },
@@ -463,7 +463,7 @@ export const sl: Dictionary = {
         'Zunanji pregledi vidijo tisto, kar vidi napadalec. Mi gremo globlje: pravice, beleženje, izolacija in vse, kar odloča, ali se vdor ustavi pri enem računalniku — ali se razširi.',
     },
     rate: {
-      eyebrow: 'Svetovalni čas',
+      eyebrow: 'Svetovanje',
       perHour: '/ uro',
       text: 'Plačate za dejansko delo — ne za to, da se učimo vašega sistema na vaš čas. Obseg in čas potrdimo po kratki analizi potreb.',
     },
@@ -796,7 +796,7 @@ export const sl: Dictionary = {
       },
       {
         q: 'Delate pod molčečnostjo?',
-        a: 'Da. Molčečnost in varnostno varovanje sta standard pri vsakem projektu, ne glede na obseg. Pred prvim sestankom z veseljem podpišemo ločeno pogodbo o zaupnosti.',
+        a: 'Popolna zaupnost je standard pri vsakem projektu, ne glede na obseg. Pred prvim sestankom z veseljem podpišemo ločeno pogodbo o zaupnosti. Naši svetovalci so temeljito preverjeni.',
       },
     ],
     contactTitle: 'Kontaktirajte nas',

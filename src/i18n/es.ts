@@ -15,7 +15,7 @@ export const es: Dictionary = {
     checkoutExtern: {
       title: 'Revisión de seguridad continua — Entropic Defence',
       description:
-        'Precio fijo según el número de direcciones expuestas. Revisión mensual, semanal o diaria: informe, correcciones y tiempo de consultor acordado.',
+        'Precio fijo según el número de direcciones expuestas. Revisión mensual, semanal o diaria: informe, correcciones y consultoría acordada.',
     },
     checkoutIntern: {
       title: 'Auditoría de seguridad interna — Entropic Defence',
@@ -191,7 +191,7 @@ export const es: Dictionary = {
       items: [
         {
           title: 'Revisión de seguridad continua',
-          text: 'Revisiones externas que nunca se detienen — cada mes, cada semana o cada día. Encontramos lo que un atacante encontraría y lo cerramos.',
+          text: 'Revisiones externas que nunca se detienen — cada mes, cada semana o cada día. Encontramos lo que un atacante encontraría y le decimos cómo cerrarlo.',
         },
         {
           title: 'Auditoría de seguridad interna',
@@ -211,8 +211,8 @@ export const es: Dictionary = {
       eyebrow: 'Cuatro décadas',
       title: '40 años al más alto nivel mundial.',
       paragraphs: [
-        'Entropic Defence nació de una constatación: el mercado europeo de seguridad reacciona en lugar de prevenir. Creamos la empresa para hacer lo contrario.',
-        'Nuestros consultores provienen del mundo de la defensa y la inteligencia. Hemos protegido sistemas gubernamentales, redes militares y la infraestructura crítica de la sociedad — contra los adversarios más pacientes que existen.',
+        'Entropic Defence nació de una constatación: gran parte de la seguridad europea es reactiva en lugar de preventiva. Queremos hacer lo contrario y creemos que la proactividad es el único camino hacia una seguridad real.',
+        'Nuestros consultores provienen del mundo de la defensa y la inteligencia. Hemos protegido sistemas gubernamentales, redes militares y la infraestructura crítica de la sociedad — contra los adversarios más hábiles y pacientes que existen.',
       ],
       points: [
         'Experiencia en defensa, inteligencia y administración pública',
@@ -271,12 +271,12 @@ export const es: Dictionary = {
         name: 'Revisión de seguridad continua',
         period: 'al mes',
         description:
-          'Revisiones externas que nunca se detienen — cada mes, cada semana o cada día. Incluye informe, correcciones y tiempo de consultor acordado.',
+          'Revisiones externas que nunca se detienen — cada mes, cada semana o cada día. Incluye informe, correcciones y consultoría acordada.',
         features: [
           'Revisión mensual, semanal o diaria',
           'Precio fijo según el número de direcciones expuestas',
           'Correcciones para cada hallazgo',
-          'Tiempo de consultor de 48 h a 24/7',
+          'Consultoría de 48 h a 24/7',
         ],
       },
       {
@@ -332,7 +332,7 @@ export const es: Dictionary = {
       titleHighlight: 'nunca se detiene',
       titleEnd: '.',
       description:
-        'Revisiones externas que nunca se detienen — cada mes, cada semana o cada día. Cada paquete incluye informe, correcciones y tiempo de consultor acordado para ayudar a su IT a cerrar los hallazgos.',
+        'Revisiones externas que nunca se detienen — cada mes, cada semana o cada día. Cada paquete incluye informe, correcciones y consultoría acordada para ayudar a su IT a cerrar los hallazgos.',
     },
     tierLabel: 'Número de direcciones expuestas',
     tierAria: 'Elija el número de direcciones expuestas',
@@ -358,11 +358,11 @@ export const es: Dictionary = {
         name: 'Revisión mensual',
         cadence: '1 revisión externa al mes',
         description:
-          'Una base continua: una revisión externa completa cada mes, propuestas de corrección y tiempo de consultor acordado para cerrar los hallazgos.',
+          'Una base continua: una revisión externa completa cada mes, propuestas de corrección y consultoría acordada para cerrar los hallazgos.',
         features: [
           '1 revisión de seguridad externa al mes',
           'Informe escrito y correcciones para cada hallazgo',
-          '48 horas de consultor para ayudar a su IT a implementar las correcciones',
+          '48 horas de consultoría para ayudar a su IT a implementar las correcciones',
           'Asesoramiento continuo para su equipo de IT',
         ],
       },
@@ -370,11 +370,11 @@ export const es: Dictionary = {
         name: 'Revisión semanal',
         cadence: '1 revisión externa a la semana',
         description:
-          'Para empresas que no pueden permitirse una vulnerabilidad más de unos días — revisiones más frecuentes y tiempo de consultor acordado para cerrar hallazgos.',
+          'Para empresas que no pueden permitirse una vulnerabilidad más de unos días — revisiones más frecuentes y consultoría acordada para cerrar hallazgos.',
         features: [
           '1 revisión de seguridad externa a la semana',
           'Informe escrito y correcciones para cada hallazgo',
-          'tiempo de consultor acordado para cerrar hallazgos',
+          'consultoría acordada para cerrar hallazgos',
           'Tratamiento prioritario de hallazgos críticos',
           'Revisión trimestral con la dirección de seguridad',
         ],
@@ -382,13 +382,13 @@ export const es: Dictionary = {
       dag: {
         name: 'Revisión diaria',
         cadence: '1 revisión externa al día',
-        consultant: 'Tiempo de consultor 24/7 · máxima prioridad',
+        consultant: 'Consultoría 24/7 · máxima prioridad',
         description:
           'Casi exclusivamente utilizado por fuerzas armadas y autoridades. Un atacante nunca obtiene más de un día — a menudo menos.',
         features: [
           '1 revisión de seguridad externa al día',
           'Informe escrito y correcciones para cada hallazgo',
-          'Tiempo de consultor 24/7 con máxima prioridad',
+          'Consultoría 24/7 con máxima prioridad',
           'Adaptado a fuerzas armadas, autoridades e infraestructuras críticas',
           'Habilitación de seguridad y confidencialidad al más alto nivel',
         ],
@@ -407,11 +407,11 @@ export const es: Dictionary = {
         },
         {
           title: '48 horas tras cada revisión',
-          text: 'La revisión mensual incluye 48 horas de consultor para ayudar a su IT a implementar las correcciones.',
+          text: 'La revisión mensual incluye 48 horas de consultoría para ayudar a su IT a implementar las correcciones.',
         },
         {
           title: '24/7 en el paquete día',
-          text: 'La revisión diaria ofrece tiempo de consultor a todas horas, con hallazgos críticos en prioridad.',
+          text: 'La revisión diaria ofrece consultoría a todas horas, con hallazgos críticos en prioridad.',
         },
       ],
     },
@@ -444,7 +444,7 @@ export const es: Dictionary = {
         'Las revisiones externas ven lo que ve un atacante. Nosotros vamos más profundo: accesos, registro, segmentación y todo lo que decide si una intrusión se queda en una máquina — o se propaga.',
     },
     rate: {
-      eyebrow: 'Tiempo de consultor',
+      eyebrow: 'Consultoría',
       perHour: '/ hora',
       text: 'Paga por el trabajo realizado — no por que aprendamos su sistema lentamente. El alcance y el tiempo se confirman tras un breve análisis de necesidades.',
     },
@@ -767,7 +767,7 @@ export const es: Dictionary = {
       },
       {
         q: '¿Trabajan de forma confidencial?',
-        a: 'Sí. La confidencialidad y la habilitación de seguridad son la norma en cada encargo, sin importar el tamaño. Con gusto firmamos un NDA aparte antes de la primera reunión.',
+        a: 'La confidencialidad absoluta es la norma en cada encargo, sin importar el tamaño. Con gusto firmamos un NDA aparte antes de la primera reunión. Nuestros consultores están rigurosamente verificados.',
       },
     ],
     contactTitle: 'Póngase en contacto',

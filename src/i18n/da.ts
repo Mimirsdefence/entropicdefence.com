@@ -15,7 +15,7 @@ export const da: Dictionary = {
     checkoutExtern: {
       title: 'Kontinuerlig sikkerhedsgennemgang — Entropic Defence',
       description:
-        'Fast pris efter antal eksponerede adresser. Månedlig, ugentlig eller daglig gennemgang: rapport, udbedringer og aftalt konsulenttid.',
+        'Fast pris efter antal eksponerede adresser. Månedlig, ugentlig eller daglig gennemgang: rapport, udbedringer og aftalt konsulentbistand.',
     },
     checkoutIntern: {
       title: 'Intern sikkerhedsrevision — Entropic Defence',
@@ -191,7 +191,7 @@ export const da: Dictionary = {
       items: [
         {
           title: 'Kontinuerlig sikkerhedsgennemgang',
-          text: 'Eksterne gennemgange, der aldrig stopper — månedligt, ugentligt eller dagligt. Vi finder det, angriberen ville finde, og lukker det.',
+          text: 'Eksterne gennemgange, der aldrig stopper — månedligt, ugentligt eller dagligt. Vi finder det, angriberen ville finde, og fortæller jer, hvordan I lukker det.',
         },
         {
           title: 'Intern sikkerhedsrevision',
@@ -211,8 +211,8 @@ export const da: Dictionary = {
       eyebrow: 'Fire årtier',
       title: '40 år på verdens højeste sikkerhedsniveau.',
       paragraphs: [
-        'Entropic Defence blev født af en erkendelse: det europæiske sikkerhedsmarked reagerer i stedet for at forebygge. Vi byggede virksomheden for at gøre det modsatte.',
-        'Vores konsulenter kommer fra forsvars- og efterretningsverdenen. Vi har beskyttet regeringssystemer, militære netværk og samfundets kritiske infrastruktur — mod de mest tålmodige modstandere, der findes.',
+        'Entropic Defence blev født af en erkendelse: en stor del af europæisk sikkerhed er reaktiv i stedet for forebyggende. Vi vil gøre det modsatte og mener, at proaktivitet er den eneste vej til reel sikkerhed.',
+        'Vores konsulenter kommer fra forsvars- og efterretningsverdenen. Vi har beskyttet regeringssystemer, militære netværk og samfundets kritiske infrastruktur — mod de mest dygtige og tålmodige modstandere, der findes.',
       ],
       points: [
         'Erfaring fra forsvar, efterretning og myndigheder',
@@ -271,12 +271,12 @@ export const da: Dictionary = {
         name: 'Kontinuerlig sikkerhedsgennemgang',
         period: 'pr. måned',
         description:
-          'Eksterne gennemgange, der aldrig stopper — månedligt, ugentligt eller dagligt. Rapport, udbedringer og aftalt konsulenttid er inkluderet.',
+          'Eksterne gennemgange, der aldrig stopper — månedligt, ugentligt eller dagligt. Rapport, udbedringer og aftalt konsulentbistand er inkluderet.',
         features: [
           'Månedlig, ugentlig eller daglig gennemgang',
           'Fast pris efter antal eksponerede adresser',
           'Udbedringer til hvert fund',
-          'Konsulenttid fra 48 t til 24/7',
+          'Konsulentbistand fra 48 t til 24/7',
         ],
       },
       {
@@ -332,7 +332,7 @@ export const da: Dictionary = {
       titleHighlight: 'aldrig stopper',
       titleEnd: '.',
       description:
-        'Eksterne gennemgange, der aldrig stopper — månedligt, ugentligt eller dagligt. Hver pakke inkluderer rapport, udbedringer og aftalt konsulenttid, der hjælper jeres IT med at lukke fundene.',
+        'Eksterne gennemgange, der aldrig stopper — månedligt, ugentligt eller dagligt. Hver pakke inkluderer rapport, udbedringer og aftalt konsulentbistand, der hjælper jeres IT med at lukke fundene.',
     },
     tierLabel: 'Antal eksponerede adresser',
     tierAria: 'Vælg antal eksponerede adresser',
@@ -358,11 +358,11 @@ export const da: Dictionary = {
         name: 'Månedlig gennemgang',
         cadence: '1 ekstern gennemgang pr. måned',
         description:
-          'Det kontinuerlige fundament: én fuld ekstern gennemgang hver måned, udbedringsforslag og aftalt konsulenttid til at lukke fundene.',
+          'Det kontinuerlige fundament: én fuld ekstern gennemgang hver måned, udbedringsforslag og aftalt konsulentbistand til at lukke fundene.',
         features: [
           '1 ekstern sikkerhedsgennemgang hver måned',
           'Skriftlig rapport og udbedringer til hvert fund',
-          '48 timers konsulenttid til at hjælpe jeres IT med at udføre rettelserne',
+          '48 timers konsulentbistand til at hjælpe jeres IT med at udføre rettelserne',
           'Løbende rådgivning til jeres IT-team',
         ],
       },
@@ -370,11 +370,11 @@ export const da: Dictionary = {
         name: 'Ugentlig gennemgang',
         cadence: '1 ekstern gennemgang pr. uge',
         description:
-          'Til virksomheder, der ikke har råd til at være sårbare i mere end få dage — tættere gennemgange og aftalt konsulenttid til at lukke problemer.',
+          'Til virksomheder, der ikke har råd til at være sårbare i mere end få dage — tættere gennemgange og aftalt konsulentbistand til at lukke problemer.',
         features: [
           '1 ekstern sikkerhedsgennemgang hver uge',
           'Skriftlig rapport og udbedringer til hvert fund',
-          'aftalt konsulenttid til at lukke problemer',
+          'aftalt konsulentbistand til at lukke problemer',
           'Prioriteret håndtering af kritiske fund',
           'Kvartalsvis gennemgang for sikkerhedsledelsen',
         ],
@@ -382,13 +382,13 @@ export const da: Dictionary = {
       dag: {
         name: 'Daglig gennemgang',
         cadence: '1 ekstern gennemgang pr. dag',
-        consultant: '24/7-konsulenttid · højeste prioritet',
+        consultant: '24/7-konsulentbistand · højeste prioritet',
         description:
           'Næsten udelukkende brugt af forsvar og myndigheder. Angriberen får aldrig mere end et døgn — ofte mindre.',
         features: [
           '1 ekstern sikkerhedsgennemgang hver dag',
           'Skriftlig rapport og udbedringer til hvert fund',
-          '24/7-konsulenttid med højeste prioritet',
+          '24/7-konsulentbistand med højeste prioritet',
           'Skræddersyet til forsvar, myndigheder og kritisk infrastruktur',
           'Sikkerhedsbeskyttelse og tavshedspligt på højeste niveau',
         ],
@@ -407,11 +407,11 @@ export const da: Dictionary = {
         },
         {
           title: '48 timer efter hver gennemgang',
-          text: 'I månedlig gennemgang er der 48 timers konsulenttid inkluderet til at hjælpe jeres IT med at udføre rettelserne.',
+          text: 'I månedlig gennemgang er der 48 timers konsulentbistand inkluderet til at hjælpe jeres IT med at udføre rettelserne.',
         },
         {
           title: '24/7 i dagspakken',
-          text: 'Daglig gennemgang giver konsulenttid døgnet rundt, med kritiske fund prioriteret.',
+          text: 'Daglig gennemgang giver konsulentbistand døgnet rundt, med kritiske fund prioriteret.',
         },
       ],
     },
@@ -444,7 +444,7 @@ export const da: Dictionary = {
         'Eksterne gennemgange ser det, angriberen ser. Vi går dybere: adgange, logning, segmentering og alt det, der afgør, om et indbrud bliver til én maskine — eller spreder sig.',
     },
     rate: {
-      eyebrow: 'Konsulenttid',
+      eyebrow: 'Konsulentbistand',
       perHour: '/ time',
       text: 'I betaler for udført arbejde — ikke for, at vi langsomt lærer jeres system at kende. Omfang og tid bekræftes efter en kort behovsanalyse.',
     },
@@ -767,7 +767,7 @@ export const da: Dictionary = {
       },
       {
         q: 'Arbejder I under tavshedspligt?',
-        a: 'Ja. Tavshedspligt og sikkerhedsbeskyttelse er standard i enhver opgave, uanset størrelse. Vi underskriver gerne særskilte NDA’er inden første møde.',
+        a: 'Absolut fortrolighed er standard i enhver opgave, uanset størrelse. Vi underskriver gerne særskilte NDA’er inden første møde. Vores konsulenter er grundigt sikkerhedsgodkendt.',
       },
     ],
     contactTitle: 'Kontakt os',

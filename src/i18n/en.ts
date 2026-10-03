@@ -15,7 +15,7 @@ export const en: Dictionary = {
     checkoutExtern: {
       title: 'Continuous security review — Entropic Defence',
       description:
-        'Fixed price based on the number of exposed addresses. Monthly, weekly or daily reviews with reporting, remediation and dedicated consultant time.',
+        'Fixed price based on the number of exposed addresses. Monthly, weekly or daily reviews with reporting, remediation and dedicated consulting.',
     },
     checkoutIntern: {
       title: 'Internal security audit — Entropic Defence',
@@ -200,7 +200,7 @@ export const en: Dictionary = {
       items: [
         {
           title: 'Continuous security review',
-          text: 'External reviews that never pause — monthly, weekly or daily. We find what an attacker would find, and we close it.',
+          text: 'External reviews that never pause — monthly, weekly or daily. We find what an attacker would find, and we tell you how to close it.',
         },
         {
           title: 'Internal security audit',
@@ -220,8 +220,8 @@ export const en: Dictionary = {
       eyebrow: 'Four decades',
       title: '40 years at the world’s highest security classification.',
       paragraphs: [
-        'Entropic Defence was founded on one insight: the European security market reacts instead of preventing. We built the company to do the opposite.',
-        'Our consultants come from the defence and intelligence community. We have protected government systems, military networks and critical national infrastructure — against the most patient adversaries there are.',
+        'Entropic Defence was founded on one insight: much of European security is reactive instead of preventive. We want to do the opposite and believe being proactive is the only way to get to real security.',
+        'Our consultants come from the defence and intelligence community. We have protected government systems, military networks and critical national infrastructure — against the most skilled and patient adversaries there are.',
       ],
       points: [
         'Experience from defence, intelligence and government',
@@ -281,12 +281,12 @@ export const en: Dictionary = {
         name: 'Continuous security review',
         period: 'per month',
         description:
-          'External reviews that never pause — monthly, weekly or daily. Reporting, remediation and dedicated consultant time included.',
+          'External reviews that never pause — monthly, weekly or daily. Reporting, remediation and dedicated consulting included.',
         features: [
           'Monthly, weekly or daily review',
           'Fixed price based on the number of exposed addresses',
           'Remediation of every finding',
-          'Consultant time 48h to 24/7',
+          'Consulting 48h to 24/7',
         ],
       },
       {
@@ -343,7 +343,7 @@ export const en: Dictionary = {
       titleHighlight: 'never pauses',
       titleEnd: '.',
       description:
-        'External reviews that never pause — monthly, weekly or daily. Every package includes reporting, remediation and dedicated consultant time that helps your IT staff close the findings.',
+        'External reviews that never pause — monthly, weekly or daily. Every package includes reporting, remediation and dedicated consulting that helps your IT staff close the findings.',
     },
     tierLabel: 'Number of exposed addresses',
     tierAria: 'Choose the number of exposed addresses',
@@ -369,11 +369,11 @@ export const en: Dictionary = {
         name: 'Monthly review',
         cadence: '1 external review per month',
         description:
-          'The ongoing baseline: one complete external review every month, with recommended actions and dedicated consultant time to close the findings.',
+          'The ongoing baseline: one complete external review every month, with recommended actions and dedicated consulting to close the findings.',
         features: [
           '1 external security review every month',
           'Written report with remediation per finding',
-          '48 hours of consultant time helping your IT carry out the actions',
+          '48 hours of consulting helping your IT carry out the actions',
           'Ongoing advisory for your IT staff',
         ],
       },
@@ -381,11 +381,11 @@ export const en: Dictionary = {
         name: 'Weekly review',
         cadence: '1 external review per week',
         description:
-          'For businesses that cannot afford to be vulnerable for more than a few days — more frequent reviews and dedicated consultant time to close the issues.',
+          'For businesses that cannot afford to be vulnerable for more than a few days — more frequent reviews and dedicated consulting to close the issues.',
         features: [
           '1 external security review every week',
           'Written report with remediation per finding',
-          'dedicated consultant time to close the issues',
+          'dedicated consulting to close the issues',
           'Priority handling of critical findings',
           'Quarterly review for the security management',
         ],
@@ -393,13 +393,13 @@ export const en: Dictionary = {
       dag: {
         name: 'Daily review',
         cadence: '1 external review per day',
-        consultant: '24/7 consultant time · highest priority',
+        consultant: '24/7 consulting · highest priority',
         description:
           'Used almost exclusively by defence and government. The attacker never gets more than a day — often less.',
         features: [
           '1 external security review every day',
           'Written report with remediation per finding',
-          '24/7 consultant time with the highest priority',
+          '24/7 consulting with the highest priority',
           'Tailored for defence, government and critical infrastructure',
           'Security vetting and confidentiality at the highest classification',
         ],
@@ -418,11 +418,11 @@ export const en: Dictionary = {
         },
         {
           title: '48 hours after every review',
-          text: 'The Monthly review includes 48 hours of consultant time that helps your IT carry out the actions.',
+          text: 'The Monthly review includes 48 hours of consulting that helps your IT carry out the actions.',
         },
         {
           title: '24/7 in the daily package',
-          text: 'Daily review gives you consultant time around the clock, with priority on critical findings.',
+          text: 'Daily review gives you consulting around the clock, with priority on critical findings.',
         },
       ],
     },
@@ -456,7 +456,7 @@ export const en: Dictionary = {
         'External reviews see what an attacker sees. We go deeper: permissions, logging, isolation and everything that decides whether a breach stops at one computer — or spreads.',
     },
     rate: {
-      eyebrow: 'Consultant time',
+      eyebrow: 'Consulting',
       perHour: '/ hour',
       text: 'You pay for actual work — not for us learning your system on your time. Scope and hours are confirmed after a short needs analysis.',
     },
@@ -789,7 +789,7 @@ export const en: Dictionary = {
       },
       {
         q: 'Do you work under confidentiality?',
-        a: 'Yes. Confidentiality and security vetting are standard in every engagement, whatever its size. We are happy to sign a separate non-disclosure agreement before the first meeting.',
+        a: 'Absolute confidentiality is standard in every engagement, whatever its size. We are happy to sign a separate non-disclosure agreement before the first meeting. Our consultants are thoroughly vetted.',
       },
     ],
     contactTitle: 'Contact us',

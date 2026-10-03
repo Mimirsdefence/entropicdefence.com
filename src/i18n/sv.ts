@@ -19,7 +19,7 @@ export const sv = {
     checkoutExtern: {
       title: 'Kontinuerlig säkerhetskontroll — Entropic Defence',
       description:
-        'Fast pris efter antal exponerade adresser. Månads-, vecko- eller dagskontroll med rapport, remediering och anpassad konsulttid.',
+        'Fast pris efter antal exponerade adresser. Månads-, vecko- eller dagskontroll med rapport, remediering och anpassad konsultering.',
     },
     checkoutIntern: {
       title: 'Intern säkerhetsrevision — Entropic Defence',
@@ -202,7 +202,7 @@ export const sv = {
       items: [
         {
           title: 'Kontinuerlig säkerhetskontroll',
-          text: 'Externa kontroller som aldrig tar paus — månadsvis, veckovis eller dagligen. Vi hittar det en angripare skulle hitta, och stänger det.',
+          text: 'Externa kontroller som aldrig tar paus — månadsvis, veckovis eller dagligen. Vi hittar det en angripare skulle hitta, och berättar hur ni stänger det.',
         },
         {
           title: 'Intern säkerhetsrevision',
@@ -222,8 +222,8 @@ export const sv = {
       eyebrow: 'Fyra decennier',
       title: '40 år i världens högsta säkerhetsklass.',
       paragraphs: [
-        'Entropic Defence grundades ur en insikt: den europeiska säkerhetsmarknaden reagerar i stället för att förebygga. Vi byggde företaget för att göra tvärtom.',
-        'Våra konsulter kommer från försvars- och underrättelsevärlden. Vi har skyddat regeringssystem, militära nätverk och samhällskritisk infrastruktur — mot de mest tålmodiga motståndare som finns.',
+        'Entropic Defence grundades ur en insikt: mycket av europeisk säkerhet är reaktivt i stället för förebyggande. Vi vill göra tvärtom och tror att proaktivitet är enda vägen till verklig säkerhet.',
+        'Våra konsulter kommer från försvars- och underrättelsevärlden. Vi har skyddat regeringssystem, militära nätverk och samhällskritisk infrastruktur — mot de mest skickliga och tålmodiga motståndare som finns.',
       ],
       points: [
         'Erfarenhet från försvar, underrättelse och myndigheter',
@@ -283,12 +283,12 @@ export const sv = {
         name: 'Kontinuerlig säkerhetskontroll',
         period: 'per månad',
         description:
-          'Externa kontroller som aldrig tar paus — månadsvis, veckovis eller dagligen. Rapport, remediering och anpassad konsulttid ingår.',
+          'Externa kontroller som aldrig tar paus — månadsvis, veckovis eller dagligen. Rapport, remediering och anpassad konsultering ingår.',
         features: [
           'Månads-, vecko- eller dagskontroll',
           'Fast pris efter antal exponerade adresser',
           'Remediering av varje fynd',
-          'Konsulttid 48h till 24/7',
+          'Konsultering 48h till 24/7',
         ],
       },
       {
@@ -345,7 +345,7 @@ export const sv = {
       titleHighlight: 'aldrig tar paus',
       titleEnd: '.',
       description:
-        'Externa kontroller som aldrig tar paus — månadsvis, veckovis eller dagligen. Med varje paket får ni rapport, remediering och en anpassad konsulttid som hjälper er IT-personal att stänga fynden.',
+        'Externa kontroller som aldrig tar paus — månadsvis, veckovis eller dagligen. Med varje paket får ni rapport, remediering och en anpassad konsultering som hjälper er IT-personal att stänga fynden.',
     },
     tierLabel: 'Antal exponerade adresser',
     tierAria: 'Välj antal exponerade adresser',
@@ -371,11 +371,11 @@ export const sv = {
         name: 'Månadskontroll',
         cadence: '1 extern kontroll per månad',
         description:
-          'Den löpande basen: en fullständig extern kontroll varje månad, med åtgärdsförslag och anpassad konsulttid för att stänga fynden.',
+          'Den löpande basen: en fullständig extern kontroll varje månad, med åtgärdsförslag och anpassad konsultering för att stänga fynden.',
         features: [
           '1 extern säkerhetskontroll varje månad',
           'Skriftlig rapport med remediering per fynd',
-          '48 timmars konsulttid som hjälper er IT att genomföra åtgärderna',
+          '48 timmars konsultering som hjälper er IT att genomföra åtgärderna',
           'Löpande rådgivning till er IT-personal',
         ],
       },
@@ -383,11 +383,11 @@ export const sv = {
         name: 'Veckokontroll',
         cadence: '1 extern kontroll per vecka',
         description:
-          'För verksamheter som inte har råd att vara sårbara i mer än några dagar — tätare kontroller och anpassad konsulttid för att stänga problemen.',
+          'För verksamheter som inte har råd att vara sårbara i mer än några dagar — tätare kontroller och anpassad konsultering för att stänga problemen.',
         features: [
           '1 extern säkerhetskontroll varje vecka',
           'Skriftlig rapport med remediering per fynd',
-          'anpassad konsulttid för att stänga problemen',
+          'anpassad konsultering för att stänga problemen',
           'Prioriterad hantering av kritiska fynd',
           'Kvartalsvis genomgång för säkerhetsledningen',
         ],
@@ -395,13 +395,13 @@ export const sv = {
       dag: {
         name: 'Daglig kontroll',
         cadence: '1 extern kontroll per dag',
-        consultant: '24/7 konsulttid · högsta prioritet',
+        consultant: '24/7 konsultering · högsta prioritet',
         description:
           'Används nästan uteslutande av försvar och myndigheter. Angriparen får aldrig mer än ett dygn på sig — ofta mindre.',
         features: [
           '1 extern säkerhetskontroll varje dag',
           'Skriftlig rapport med remediering per fynd',
-          '24/7 konsulttid med högsta prioritet',
+          '24/7 konsultering med högsta prioritet',
           'Anpassad för försvar, myndighet och kritisk infrastruktur',
           'Säkerhetsskydd och tystnadsplikt enligt högsta klass',
         ],
@@ -420,11 +420,11 @@ export const sv = {
         },
         {
           title: '48 timmar efter varje kontroll',
-          text: 'I Månadskontrollen ingår 48 timmars konsulttid som hjälper er IT att genomföra åtgärderna.',
+          text: 'I Månadskontrollen ingår 48 timmars konsultering som hjälper er IT att genomföra åtgärderna.',
         },
         {
           title: '24/7 i dagspaketet',
-          text: 'Daglig kontroll ger er konsulttid dygnet runt, med prioritet på kritiska fynd.',
+          text: 'Daglig kontroll ger er konsultering dygnet runt, med prioritet på kritiska fynd.',
         },
       ],
     },
@@ -458,7 +458,7 @@ export const sv = {
         'Externa kontroller ser det en angripare ser. Vi går djupare: behörigheter, loggning, isolation och allt det som avgör om ett intrång stannar vid en dator — eller sprider sig.',
     },
     rate: {
-      eyebrow: 'Konsulttid',
+      eyebrow: 'Konsultering',
       perHour: '/ timme',
       text: 'Ni betalar för faktiskt arbete — inte för att vi ska lära oss ert system på er tid. Omfattning och tid bekräftas efter en kort behovsanalys.',
     },
@@ -787,7 +787,7 @@ export const sv = {
       },
       {
         q: 'Arbetar ni under tystnadsplikt?',
-        a: 'Ja. Tystnadsplikt och säkerhetsskydd är standard i varje uppdrag, oavsett storlek. Vi tecknar gärna separata sekretessavtal innan första mötet.',
+        a: 'Absolut konfidentialitet är standard i varje uppdrag, oavsett storlek. Vi tecknar gärna separata sekretessavtal innan första mötet. Våra konsulter är noggrant säkerhetsprövade.',
       },
     ],
     contactTitle: 'Kontakta oss',

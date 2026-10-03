@@ -15,7 +15,7 @@ export const fi: Dictionary = {
     checkoutExtern: {
       title: 'Jatkuva turvallisuustarkastus — Entropic Defence',
       description:
-        'Kiinteä hinta altistuneiden osoitteiden määrän mukaan. Kuukausi-, viikko- tai päivätarkastus: raportti, korjaustoimet ja sovitettu konsulttiaika.',
+        'Kiinteä hinta altistuneiden osoitteiden määrän mukaan. Kuukausi-, viikko- tai päivätarkastus: raportti, korjaustoimet ja sovitettu konsultointi.',
     },
     checkoutIntern: {
       title: 'Sisäinen turvallisuusauditointi — Entropic Defence',
@@ -191,7 +191,7 @@ export const fi: Dictionary = {
       items: [
         {
           title: 'Jatkuva turvallisuustarkastus',
-          text: 'Ulkoisia tarkastuksia, jotka eivät koskaan pysähdy — kuukausittain, viikoittain tai päivittäin. Löydämme sen, minkä hyökkääjä löytäisi, ja suljemme sen.',
+          text: 'Ulkoisia tarkastuksia, jotka eivät koskaan pysähdy — kuukausittain, viikoittain tai päivittäin. Löydämme sen, minkä hyökkääjä löytäisi, ja kerromme, miten suljette sen.',
         },
         {
           title: 'Sisäinen turvallisuusauditointi',
@@ -211,8 +211,8 @@ export const fi: Dictionary = {
       eyebrow: 'Neljä vuosikymmentä',
       title: '40 vuotta maailman korkeimmalla turvaluokituksella.',
       paragraphs: [
-        'Entropic Defence syntyi oivalluksesta: Euroopan turvallisuusmarkkinat reagoivat sen sijaan että ennaltaehkäisisivät. Rakensimme yrityksen tekemään päinvastoin.',
-        'Konsulttimme tulevat puolustus- ja tiedustelumaailmasta. Olemme suojanneet hallitusjärjestelmiä, sotilaallisia verkkoja ja yhteiskunnan kriittistä infrastruktuuria — kärsivällisimpiä vastustajia vastaan, joita on olemassa.',
+        'Entropic Defence syntyi oivalluksesta: suuri osa Euroopan turvallisuudesta on reaktiivista ennaltaehkäisyn sijaan. Haluamme tehdä päinvastoin ja uskomme, että ennakoivuus on ainoa tie todelliseen turvallisuuteen.',
+        'Konsulttimme tulevat puolustus- ja tiedustelumaailmasta. Olemme suojanneet hallitusjärjestelmiä, sotilaallisia verkkoja ja yhteiskunnan kriittistä infrastruktuuria — taitavimpia ja kärsivällisimpiä vastustajia vastaan, joita on olemassa.',
       ],
       points: [
         'Kokemusta puolustuksesta, tiedustelusta ja viranomaistoiminnasta',
@@ -271,12 +271,12 @@ export const fi: Dictionary = {
         name: 'Jatkuva turvallisuustarkastus',
         period: 'kuukaudessa',
         description:
-          'Ulkoisia tarkastuksia, jotka eivät koskaan pysähdy — kuukausittain, viikoittain tai päivittäin. Raportti, korjaustoimet ja sovitettu konsulttiaika sisältyvät.',
+          'Ulkoisia tarkastuksia, jotka eivät koskaan pysähdy — kuukausittain, viikoittain tai päivittäin. Raportti, korjaustoimet ja sovitettu konsultointi sisältyvät.',
         features: [
           'Kuukausi-, viikko- tai päivätarkastus',
           'Kiinteä hinta altistuneiden osoitteiden määrän mukaan',
           'Jokaisen löydöksen korjaustoimet',
-          'Konsulttiaikaa 48 h:sta 24/7:ään',
+          'Konsultointia 48 h:sta 24/7:ään',
         ],
       },
       {
@@ -332,7 +332,7 @@ export const fi: Dictionary = {
       titleHighlight: 'ei koskaan pysähdy',
       titleEnd: '.',
       description:
-        'Ulkoisia tarkastuksia, jotka eivät koskaan pysähdy — kuukausittain, viikoittain tai päivittäin. Jokaiseen pakettiin kuuluu raportti, korjaustoimet ja sovitettu konsulttiaika, joka auttaa IT-henkilöstöänne sulkemaan löydökset.',
+        'Ulkoisia tarkastuksia, jotka eivät koskaan pysähdy — kuukausittain, viikoittain tai päivittäin. Jokaiseen pakettiin kuuluu raportti, korjaustoimet ja sovitettu konsultointi, joka auttaa IT-henkilöstöänne sulkemaan löydökset.',
     },
     tierLabel: 'Altistuneiden osoitteiden määrä',
     tierAria: 'Valitse altistuneiden osoitteiden määrä',
@@ -358,11 +358,11 @@ export const fi: Dictionary = {
         name: 'Kuukausitarkastus',
         cadence: '1 ulkoinen tarkastus kuukaudessa',
         description:
-          'Jatkuva perusta: yksi täydellinen ulkoinen tarkastus joka kuukausi, korjausehdotukset ja sovitettu konsulttiaika löydösten sulkemiseen.',
+          'Jatkuva perusta: yksi täydellinen ulkoinen tarkastus joka kuukausi, korjausehdotukset ja sovitettu konsultointi löydösten sulkemiseen.',
         features: [
           '1 ulkoinen turvallisuustarkastus joka kuukausi',
           'Kirjallinen raportti ja korjaustoimet jokaiseen löydökseen',
-          '48 tunnin konsulttiaika, joka auttaa IT:tänne toteuttamaan korjaukset',
+          '48 tunnin konsultointi, joka auttaa IT:tänne toteuttamaan korjaukset',
           'Jatkuvaa neuvontaa IT-henkilöstöllenne',
         ],
       },
@@ -370,11 +370,11 @@ export const fi: Dictionary = {
         name: 'Viikkotarkastus',
         cadence: '1 ulkoinen tarkastus viikossa',
         description:
-          'Yrityksille, joilla ei ole varaa olla haavoittuvia muutamaa päivää kauempaa — tiheämpiä tarkastuksia ja sovitettu konsulttiaika ongelmien sulkemiseen.',
+          'Yrityksille, joilla ei ole varaa olla haavoittuvia muutamaa päivää kauempaa — tiheämpiä tarkastuksia ja sovitettu konsultointi ongelmien sulkemiseen.',
         features: [
           '1 ulkoinen turvallisuustarkastus joka viikko',
           'Kirjallinen raportti ja korjaustoimet jokaiseen löydökseen',
-          'sovitettu konsulttiaika ongelmien sulkemiseen',
+          'sovitettu konsultointi ongelmien sulkemiseen',
           'Kriittisten löydösten priorisoitu käsittely',
           'Neljännesvuosittainen katsaus turvallisuusjohdolle',
         ],
@@ -382,13 +382,13 @@ export const fi: Dictionary = {
       dag: {
         name: 'Päivätarkastus',
         cadence: '1 ulkoinen tarkastus päivässä',
-        consultant: '24/7-konsulttiaika · korkein prioriteetti',
+        consultant: '24/7-konsultointi · korkein prioriteetti',
         description:
           'Lähes yksinomaan puolustuksen ja viranomaisten käytössä. Hyökkääjä ei koskaan saa vuorokautta enempää aikaa — usein vähemmän.',
         features: [
           '1 ulkoinen turvallisuustarkastus joka päivä',
           'Kirjallinen raportti ja korjaustoimet jokaiseen löydökseen',
-          '24/7-konsulttiaika korkeimmalla prioriteetilla',
+          '24/7-konsultointi korkeimmalla prioriteetilla',
           'Räätälöity puolustukselle, viranomaisille ja kriittiselle infrastruktuurille',
           'Turvallisuussuojaus ja vaitiolovelvollisuus korkeimman luokan mukaan',
         ],
@@ -407,11 +407,11 @@ export const fi: Dictionary = {
         },
         {
           title: '48 tuntia jokaisen tarkastuksen jälkeen',
-          text: 'Kuukausitarkastukseen sisältyy 48 tunnin konsulttiaika, joka auttaa IT:tänne toteuttamaan korjaukset.',
+          text: 'Kuukausitarkastukseen sisältyy 48 tunnin konsultointi, joka auttaa IT:tänne toteuttamaan korjaukset.',
         },
         {
           title: '24/7 päiväpaketissa',
-          text: 'Päivätarkastus antaa konsulttiaikaa ympäri vuorokauden, kriittiset löydökset priorisoituna.',
+          text: 'Päivätarkastus antaa konsultointia ympäri vuorokauden, kriittiset löydökset priorisoituna.',
         },
       ],
     },
@@ -444,7 +444,7 @@ export const fi: Dictionary = {
         'Ulkoiset tarkastukset näkevät sen, minkä hyökkääjä näkee. Me menemme syvemmälle: käyttöoikeudet, lokitus, eristys ja kaikki se, mikä ratkaisee, jääkö murto yhteen koneeseen — vai leviääkö se.',
     },
     rate: {
-      eyebrow: 'Konsulttiaika',
+      eyebrow: 'Konsultointi',
       perHour: '/ tunti',
       text: 'Maksatte tehdystä työstä — ette siitä, että opettelemme järjestelmäänne hitaasti. Laajuus ja aika vahvistetaan lyhyen tarveanalyysin jälkeen.',
     },
@@ -767,7 +767,7 @@ export const fi: Dictionary = {
       },
       {
         q: 'Työskentelettekö vaitiolovelvollisuuden alaisena?',
-        a: 'Kyllä. Vaitiolovelvollisuus ja turvallisuussuojaus ovat vakiona jokaisessa toimeksiannossa koosta riippumatta. Teemme mielellämme erilliset salassapitosopimukset ennen ensimmäistä tapaamista.',
+        a: 'Ehdoton luottamuksellisuus on vakiona jokaisessa toimeksiannossa koosta riippumatta. Teemme mielellämme erilliset salassapitosopimukset ennen ensimmäistä tapaamista. Konsulttimme on perusteellisesti taustatarkistettu.',
       },
     ],
     contactTitle: 'Ota yhteyttä',

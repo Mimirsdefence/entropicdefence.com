@@ -15,7 +15,7 @@ export const lt: Dictionary = {
     checkoutExtern: {
       title: 'Nuolatinė saugumo patikra — Entropic Defence',
       description:
-        'Fiksuota kaina pagal atvirų adresų skaičių. Mėnesio, savaitės ar dienos patikra: ataskaita, ištaisymai ir sutartas konsultanto laikas.',
+        'Fiksuota kaina pagal atvirų adresų skaičių. Mėnesio, savaitės ar dienos patikra: ataskaita, ištaisymai ir sutartos konsultacijos.',
     },
     checkoutIntern: {
       title: 'Vidinis saugumo auditas — Entropic Defence',
@@ -191,7 +191,7 @@ export const lt: Dictionary = {
       items: [
         {
           title: 'Nuolatinė saugumo patikra',
-          text: 'Išorinės patikros, kurios niekada nesustoja — kas mėnesį, kas savaitę ar kasdien. Randame tai, ką rastų užpuolikas, ir uždarome.',
+          text: 'Išorinės patikros, kurios niekada nesustoja — kas mėnesį, kas savaitę ar kasdien. Randame tai, ką rastų užpuolikas, ir pasakome, kaip tai uždaryti.',
         },
         {
           title: 'Vidinis saugumo auditas',
@@ -211,8 +211,8 @@ export const lt: Dictionary = {
       eyebrow: 'Keturi dešimtmečiai',
       title: '40 metų aukščiausiu pasauliniu lygiu.',
       paragraphs: [
-        'Entropic Defence gimė iš įžvalgos: Europos saugumo rinka reaguoja, užuot užkirtusi kelią. Įmonę kūrėme tam, kad darytume priešingai.',
-        'Mūsų konsultantai kilę iš gynybos ir žvalgybos pasaulio. Saugojome valdžios sistemas, karinius tinklus ir visuomenės ypatingos svarbos infrastruktūrą — nuo kantriausių egzistuojančių priešininkų.',
+        'Entropic Defence gimė iš įžvalgos: didelė dalis Europos saugumo yra reaktyvi, o ne prevencinė. Norime daryti priešingai ir tikime, kad proaktyvumas yra vienintelis kelias į tikrą saugumą.',
+        'Mūsų konsultantai kilę iš gynybos ir žvalgybos pasaulio. Saugojome valdžios sistemas, karinius tinklus ir visuomenės ypatingos svarbos infrastruktūrą — nuo sumaniausių ir kantriausių egzistuojančių priešininkų.',
       ],
       points: [
         'Gynybos, žvalgybos ir valdžios patirtis',
@@ -271,12 +271,12 @@ export const lt: Dictionary = {
         name: 'Nuolatinė saugumo patikra',
         period: 'per mėnesį',
         description:
-          'Išorinės patikros, kurios niekada nesustoja — kas mėnesį, kas savaitę ar kasdien. Ataskaita, ištaisymai ir sutartas konsultanto laikas įeina.',
+          'Išorinės patikros, kurios niekada nesustoja — kas mėnesį, kas savaitę ar kasdien. Ataskaita, ištaisymai ir sutartos konsultacijos įeina.',
         features: [
           'Mėnesio, savaitės ar dienos patikra',
           'Fiksuota kaina pagal atvirų adresų skaičių',
           'Kiekvieno radinio ištaisymai',
-          'Konsultanto laikas nuo 48 val. iki 24/7',
+          'Konsultacijos nuo 48 val. iki 24/7',
         ],
       },
       {
@@ -332,7 +332,7 @@ export const lt: Dictionary = {
       titleHighlight: 'niekada nesustoja',
       titleEnd: '.',
       description:
-        'Išorinės patikros, kurios niekada nesustoja — kas mėnesį, kas savaitę ar kasdien. Į kiekvieną paketą įeina ataskaita, ištaisymai ir sutartas konsultanto laikas, padedantis jūsų IT užbaigti radinius.',
+        'Išorinės patikros, kurios niekada nesustoja — kas mėnesį, kas savaitę ar kasdien. Į kiekvieną paketą įeina ataskaita, ištaisymai ir sutartos konsultacijos, padedančios jūsų IT užbaigti radinius.',
     },
     tierLabel: 'Atvirų adresų skaičius',
     tierAria: 'Pasirinkite atvirų adresų skaičių',
@@ -358,11 +358,11 @@ export const lt: Dictionary = {
         name: 'Mėnesio patikra',
         cadence: '1 išorinė patikra per mėnesį',
         description:
-          'Nuolatinis pagrindas: viena pilna išorinė patikra kas mėnesį, ištaisymų pasiūlymai ir sutartas konsultanto laikas radiniams užbaigti.',
+          'Nuolatinis pagrindas: viena pilna išorinė patikra kas mėnesį, ištaisymų pasiūlymai ir sutartos konsultacijos radiniams užbaigti.',
         features: [
           '1 išorinė saugumo patikra kas mėnesį',
           'Rašytinė ataskaita ir kiekvieno radinio ištaisymai',
-          '48 val. konsultanto laiko, padedančio jūsų IT įgyvendinti pataisas',
+          '48 val. konsultacijų, padedančių jūsų IT įgyvendinti pataisas',
           'Nuolatinės konsultacijos jūsų IT komandai',
         ],
       },
@@ -370,11 +370,11 @@ export const lt: Dictionary = {
         name: 'Savaitės patikra',
         cadence: '1 išorinė patikra per savaitę',
         description:
-          'Įmonėms, kurios negali būti pažeidžiamos ilgiau nei kelias dienas — tankesnės patikros ir sutartas konsultanto laikas problemoms užbaigti.',
+          'Įmonėms, kurios negali būti pažeidžiamos ilgiau nei kelias dienas — tankesnės patikros ir sutartos konsultacijos problemoms užbaigti.',
         features: [
           '1 išorinė saugumo patikra kas savaitę',
           'Rašytinė ataskaita ir kiekvieno radinio ištaisymai',
-          'sutartas konsultanto laikas problemoms užbaigti',
+          'sutartos konsultacijos problemoms užbaigti',
           'Prioritetinis kritinių radinių tvarkymas',
           'Ketvirtinė saugumo vadovybės apžvalga',
         ],
@@ -382,13 +382,13 @@ export const lt: Dictionary = {
       dag: {
         name: 'Dienos patikra',
         cadence: '1 išorinė patikra per dieną',
-        consultant: '24/7 konsultanto laikas · aukščiausias prioritetas',
+        consultant: '24/7 konsultacijos · aukščiausias prioritetas',
         description:
           'Beveik išimtinai naudojama gynybos ir valdžios institucijų. Užpuolikas niekada negauna daugiau nei paros — dažnai mažiau.',
         features: [
           '1 išorinė saugumo patikra kasdien',
           'Rašytinė ataskaita ir kiekvieno radinio ištaisymai',
-          '24/7 konsultanto laikas aukščiausiu prioritetu',
+          '24/7 konsultacijos aukščiausiu prioritetu',
           'Pritaikyta gynybai, institucijoms ir ypatingos svarbos infrastruktūrai',
           'Saugumo apsauga ir konfidencialumas aukščiausiu lygiu',
         ],
@@ -407,11 +407,11 @@ export const lt: Dictionary = {
         },
         {
           title: '48 val. po kiekvienos patikros',
-          text: 'Į mėnesio patikrą įeina 48 val. konsultanto laiko, padedančio jūsų IT įgyvendinti pataisas.',
+          text: 'Į mėnesio patikrą įeina 48 val. konsultacijų, padedančių jūsų IT įgyvendinti pataisas.',
         },
         {
           title: '24/7 dienos pakete',
-          text: 'Dienos patikra suteikia konsultanto laiko visą parą, kritinius radinius prioritizuojant.',
+          text: 'Dienos patikra suteikia konsultacijų visą parą, kritinius radinius prioritizuojant.',
         },
       ],
     },
@@ -444,7 +444,7 @@ export const lt: Dictionary = {
         'Išorinės patikros mato tai, ką mato užpuolikas. Mes einame giliau: prieigos, registravimas, atskyrimas ir viskas, kas lemia, ar įsilaužimas liks viename įrenginyje — ar išplis.',
     },
     rate: {
-      eyebrow: 'Konsultanto laikas',
+      eyebrow: 'Konsultacijos',
       perHour: '/ val.',
       text: 'Mokate už atliktą darbą — ne už tai, kad lėtai mokomės jūsų sistemos. Apimtis ir laikas patvirtinami po trumpos poreikių analizės.',
     },
@@ -767,7 +767,7 @@ export const lt: Dictionary = {
       },
       {
         q: 'Ar dirbate konfidencialiai?',
-        a: 'Taip. Konfidencialumas ir saugumo apsauga yra standartas kiekvienoje užduotyje, nepriklausomai nuo dydžio. Mielai pasirašome atskiras NDA prieš pirmąjį susitikimą.',
+        a: 'Absoliutus konfidencialumas yra standartas kiekvienoje užduotyje, nepriklausomai nuo dydžio. Mielai pasirašome atskiras NDA prieš pirmąjį susitikimą. Mūsų konsultantai yra kruopščiai patikrinti.',
       },
     ],
     contactTitle: 'Susisiekite',

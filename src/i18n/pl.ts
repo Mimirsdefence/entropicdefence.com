@@ -16,7 +16,7 @@ export const pl: Dictionary = {
     checkoutExtern: {
       title: 'Ciągła kontrola bezpieczeństwa — Entropic Defence',
       description:
-        'Stała cena zależna od liczby ujawnionych adresów. Kontrole miesięczne, tygodniowe lub dzienne z raportem, usuwaniem usterek i dopasowanym czasem konsultanta.',
+        'Stała cena zależna od liczby ujawnionych adresów. Kontrole miesięczne, tygodniowe lub dzienne z raportem, usuwaniem usterek i dopasowanymi konsultacjami.',
     },
     checkoutIntern: {
       title: 'Wewnętrzny audyt bezpieczeństwa — Entropic Defence',
@@ -208,7 +208,7 @@ export const pl: Dictionary = {
       items: [
         {
           title: 'Ciągła kontrola bezpieczeństwa',
-          text: 'Zewnętrzne kontrole, które nigdy nie robią przerwy — miesięczne, tygodniowe lub dzienne. Znajdujemy to, co znalazłby napastnik, i zamykamy to.',
+          text: 'Zewnętrzne kontrole, które nigdy nie robią przerwy — miesięczne, tygodniowe lub dzienne. Znajdujemy to, co znalazłby napastnik, i powiemy Państwu, jak to zamknąć.',
         },
         {
           title: 'Wewnętrzny audyt bezpieczeństwa',
@@ -229,8 +229,8 @@ export const pl: Dictionary = {
       eyebrow: 'Cztery dekady',
       title: '40 lat na najwyższym światowym poziomie klasyfikacji.',
       paragraphs: [
-        'Entropic Defence powstała z jednego wniosku: europejski rynek bezpieczeństwa reaguje, zamiast zapobiegać. Zbudowaliśmy firmę, aby robić dokładnie odwrotnie.',
-        'Nasi konsultanci pochodzą ze świata obrony i służb. Chroniliśmy systemy rządowe, sieci wojskowe i infrastrukturę krytyczną — przed najcierpliwszymi przeciwnikami, jacy istnieją.',
+        'Entropic Defence powstała z jednego wniosku: duża część europejskiego bezpieczeństwa jest reaktywna, a nie prewencyjna. Chcemy robić odwrotnie i wierzymy, że proaktywność to jedyna droga do prawdziwego bezpieczeństwa.',
+        'Nasi konsultanci pochodzą ze świata obrony i służb. Chroniliśmy systemy rządowe, sieci wojskowe i infrastrukturę krytyczną — przed najzdolniejszymi i najcierpliwszymi przeciwnikami, jacy istnieją.',
       ],
       points: [
         'Doświadczenie z obrony, służb i administracji',
@@ -294,12 +294,12 @@ export const pl: Dictionary = {
         name: 'Ciągła kontrola bezpieczeństwa',
         period: 'miesięcznie',
         description:
-          'Zewnętrzne kontrole, które nigdy nie robią przerwy — miesięczne, tygodniowe lub dzienne. Raport, usuwanie usterek i dopasowany czas konsultanta w cenie.',
+          'Zewnętrzne kontrole, które nigdy nie robią przerwy — miesięczne, tygodniowe lub dzienne. Raport, usuwanie usterek i dopasowane konsultacje w cenie.',
         features: [
           'Kontrola miesięczna, tygodniowa lub dzienna',
           'Stała cena zależna od liczby ujawnionych adresów',
           'Usuwanie każdej usterki',
-          'Czas konsultanta od 48 h do 24/7',
+          'Konsultacje od 48 h do 24/7',
         ],
       },
       {
@@ -358,7 +358,7 @@ export const pl: Dictionary = {
       titleHighlight: 'nigdy nie robi przerwy',
       titleEnd: '.',
       description:
-        'Zewnętrzne kontrole, które nigdy nie robią przerwy — miesięczne, tygodniowe lub dzienne. Każdy pakiet obejmuje raport, usuwanie usterek i dopasowany czas konsultanta, który pomaga Państwa działowi IT zamknąć ustalenia.',
+        'Zewnętrzne kontrole, które nigdy nie robią przerwy — miesięczne, tygodniowe lub dzienne. Każdy pakiet obejmuje raport, usuwanie usterek i dopasowane konsultacje, które pomagają Państwa działowi IT zamknąć ustalenia.',
     },
 
     tierLabel: 'Liczba ujawnionych adresów',
@@ -387,11 +387,11 @@ export const pl: Dictionary = {
         name: 'Kontrola miesięczna',
         cadence: '1 kontrola zewnętrzna miesięcznie',
         description:
-          'Stała podstawa: jedna pełna kontrola zewnętrzna każdego miesiąca, z propozycjami działań i dopasowanym czasem konsultanta na zamknięcie ustaleń.',
+          'Stała podstawa: jedna pełna kontrola zewnętrzna każdego miesiąca, z propozycjami działań i dopasowanymi konsultacjami na zamknięcie ustaleń.',
         features: [
           '1 zewnętrzna kontrola bezpieczeństwa co miesiąc',
           'Raport pisemny z usuwaniem każdej usterki',
-          '48 godzin czasu konsultanta, który pomaga Państwa działowi IT wdrożyć działania',
+          '48 godzin konsultacji, które pomagają Państwa działowi IT wdrożyć działania',
           'Bieżące doradztwo dla Państwa działu IT',
         ],
       },
@@ -399,11 +399,11 @@ export const pl: Dictionary = {
         name: 'Kontrola tygodniowa',
         cadence: '1 kontrola zewnętrzna tygodniowo',
         description:
-          'Dla firm, których nie stać na narażenie dłużej niż kilka dni — częstsze kontrole i dopasowany czas konsultanta na zamknięcie problemów.',
+          'Dla firm, których nie stać na narażenie dłużej niż kilka dni — częstsze kontrole i dopasowane konsultacje na zamknięcie problemów.',
         features: [
           '1 zewnętrzna kontrola bezpieczeństwa co tydzień',
           'Raport pisemny z usuwaniem każdej usterki',
-          'Dopasowany czas konsultanta na zamknięcie problemów',
+          'Dopasowane konsultacje na zamknięcie problemów',
           'Priorytetowa obsługa krytycznych ustaleń',
           'Przegląd kwartalny dla osób odpowiedzialnych za bezpieczeństwo',
         ],
@@ -411,13 +411,13 @@ export const pl: Dictionary = {
       dag: {
         name: 'Kontrola dzienna',
         cadence: '1 kontrola zewnętrzna dziennie',
-        consultant: 'Czas konsultanta 24/7 · najwyższy priorytet',
+        consultant: 'Konsultacje 24/7 · najwyższy priorytet',
         description:
           'Stosowana niemal wyłącznie przez wojsko i administrację. Napastnik nigdy nie ma więcej niż dobę — często mniej.',
         features: [
           '1 zewnętrzna kontrola bezpieczeństwa każdego dnia',
           'Raport pisemny z usuwaniem każdej usterki',
-          'Czas konsultanta 24/7 z najwyższym priorytetem',
+          'Konsultacje 24/7 z najwyższym priorytetem',
           'Dopasowana do obrony, administracji i infrastruktury krytycznej',
           'Ochrona bezpieczeństwa i poufność najwyższej klasy',
         ],
@@ -438,11 +438,11 @@ export const pl: Dictionary = {
         },
         {
           title: '48 godzin po każdej kontroli',
-          text: 'W Kontroli miesięcznej zawarto 48 godzin czasu konsultanta, który pomaga Państwa działowi IT wdrożyć działania.',
+          text: 'W Kontroli miesięcznej zawarto 48 godzin konsultacji, które pomagają Państwa działowi IT wdrożyć działania.',
         },
         {
           title: '24/7 w pakiecie dziennym',
-          text: 'Kontrola dzienna daje czas konsultanta przez całą dobę, z priorytetem dla krytycznych ustaleń.',
+          text: 'Kontrola dzienna daje konsultacje przez całą dobę, z priorytetem dla krytycznych ustaleń.',
         },
       ],
     },
@@ -478,7 +478,7 @@ export const pl: Dictionary = {
     },
 
     rate: {
-      eyebrow: 'Czas konsultanta',
+      eyebrow: 'Konsultacje',
       perHour: '/ godzina',
       text: 'Płacą Państwo za rzeczywistą pracę — nie za to, żebyśmy uczyli się Państwa systemu na Państwa koszt. Zakres i czas potwierdzamy po krótkiej analizie potrzeb.',
     },
@@ -811,7 +811,7 @@ export const pl: Dictionary = {
       },
       {
         q: 'Pracujecie na zasadzie poufności?',
-        a: 'Tak. Poufność i ochrona bezpieczeństwa są standardem w każdym zleceniu, niezależnie od jego rozmiaru. Chętnie podpiszemy odrębne umowy o zachowaniu poufności przed pierwszym spotkaniem.',
+        a: 'Absolutna poufność jest standardem w każdym zleceniu, niezależnie od jego rozmiaru. Chętnie podpiszemy odrębne umowy o zachowaniu poufności przed pierwszym spotkaniem. Nasi konsultanci są dokładnie sprawdzeni.',
       },
     ],
     contactTitle: 'Kontakt',

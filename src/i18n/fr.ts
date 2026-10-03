@@ -15,7 +15,7 @@ export const fr: Dictionary = {
     checkoutExtern: {
       title: 'Revue de sécurité continue — Entropic Defence',
       description:
-        'Tarif fixe selon le nombre d\'adresses exposées. Revue mensuelle, hebdomadaire ou quotidienne : rapport, corrections et temps de consultant convenu.',
+        'Tarif fixe selon le nombre d\'adresses exposées. Revue mensuelle, hebdomadaire ou quotidienne : rapport, corrections et conseil convenu.',
     },
     checkoutIntern: {
       title: 'Audit de sécurité interne — Entropic Defence',
@@ -191,7 +191,7 @@ export const fr: Dictionary = {
       items: [
         {
           title: 'Revue de sécurité continue',
-          text: 'Des revues externes qui ne s\'arrêtent jamais — chaque mois, chaque semaine ou chaque jour. Nous trouvons ce qu\'un attaquant trouverait et nous le refermons.',
+          text: 'Des revues externes qui ne s\'arrêtent jamais — chaque mois, chaque semaine ou chaque jour. Nous trouvons ce qu\'un attaquant trouverait et nous vous disons comment le refermer.',
         },
         {
           title: 'Audit de sécurité interne',
@@ -211,8 +211,8 @@ export const fr: Dictionary = {
       eyebrow: 'Quatre décennies',
       title: '40 ans au plus haut niveau mondial.',
       paragraphs: [
-        'Entropic Defence est né d\'un constat : le marché européen de la sécurité réagit au lieu de prévenir. Nous avons créé l\'entreprise pour faire l\'inverse.',
-        'Nos consultants viennent du monde de la défense et du renseignement. Nous avons protégé des systèmes gouvernementaux, des réseaux militaires et l\'infrastructure critique de la société — contre les adversaires les plus patients qui existent.',
+        'Entropic Defence est né d\'un constat : une grande partie de la sécurité européenne est réactive au lieu d\'être préventive. Nous voulons faire l\'inverse et croyons que la proactivité est le seul chemin vers une véritable sécurité.',
+        'Nos consultants viennent du monde de la défense et du renseignement. Nous avons protégé des systèmes gouvernementaux, des réseaux militaires et l\'infrastructure critique de la société — contre les adversaires les plus compétents et les plus patients qui existent.',
       ],
       points: [
         'Expérience de la défense, du renseignement et des autorités publiques',
@@ -271,12 +271,12 @@ export const fr: Dictionary = {
         name: 'Revue de sécurité continue',
         period: 'par mois',
         description:
-          'Des revues externes qui ne s\'arrêtent jamais — chaque mois, chaque semaine ou chaque jour. Rapport, corrections et temps de consultant convenu inclus.',
+          'Des revues externes qui ne s\'arrêtent jamais — chaque mois, chaque semaine ou chaque jour. Rapport, corrections et conseil convenu inclus.',
         features: [
           'Revue mensuelle, hebdomadaire ou quotidienne',
           'Tarif fixe selon le nombre d\'adresses exposées',
           'Corrections pour chaque constat',
-          'Temps de consultant de 48 h à 24/7',
+          'Conseil de 48 h à 24/7',
         ],
       },
       {
@@ -332,7 +332,7 @@ export const fr: Dictionary = {
       titleHighlight: 'ne s\'arrête jamais',
       titleEnd: '.',
       description:
-        'Des revues externes qui ne s\'arrêtent jamais — chaque mois, chaque semaine ou chaque jour. Chaque pack inclut un rapport, des corrections et un temps de consultant convenu pour aider votre IT à refermer les constats.',
+        'Des revues externes qui ne s\'arrêtent jamais — chaque mois, chaque semaine ou chaque jour. Chaque pack inclut un rapport, des corrections et un conseil convenu pour aider votre IT à refermer les constats.',
     },
     tierLabel: 'Nombre d\'adresses exposées',
     tierAria: 'Choisissez le nombre d\'adresses exposées',
@@ -358,11 +358,11 @@ export const fr: Dictionary = {
         name: 'Revue mensuelle',
         cadence: '1 revue externe par mois',
         description:
-          'Un socle continu : une revue externe complète chaque mois, des propositions de correction et un temps de consultant convenu pour refermer les constats.',
+          'Un socle continu : une revue externe complète chaque mois, des propositions de correction et un conseil convenu pour refermer les constats.',
         features: [
           '1 revue de sécurité externe par mois',
           'Rapport écrit et corrections pour chaque constat',
-          '48 h de temps de consultant pour aider votre IT à mettre en œuvre les corrections',
+          '48 h de conseil pour aider votre IT à mettre en œuvre les corrections',
           'Conseil continu pour votre équipe IT',
         ],
       },
@@ -370,11 +370,11 @@ export const fr: Dictionary = {
         name: 'Revue hebdomadaire',
         cadence: '1 revue externe par semaine',
         description:
-          'Pour les entreprises qui ne peuvent pas se permettre une vulnérabilité plus de quelques jours — des revues plus fréquentes et un temps de consultant convenu pour refermer les constats.',
+          'Pour les entreprises qui ne peuvent pas se permettre une vulnérabilité plus de quelques jours — des revues plus fréquentes et un conseil convenu pour refermer les constats.',
         features: [
           '1 revue de sécurité externe par semaine',
           'Rapport écrit et corrections pour chaque constat',
-          'un temps de consultant convenu pour refermer les constats',
+          'un conseil convenu pour refermer les constats',
           'Traitement prioritaire des constats critiques',
           'Point trimestriel avec la direction sécurité',
         ],
@@ -382,13 +382,13 @@ export const fr: Dictionary = {
       dag: {
         name: 'Revue quotidienne',
         cadence: '1 revue externe par jour',
-        consultant: 'Temps de consultant 24/7 · priorité maximale',
+        consultant: 'Conseil 24/7 · priorité maximale',
         description:
           'Presque exclusivement utilisé par les forces armées et les autorités. Un attaquant n\'obtient jamais plus d\'une journée — souvent moins.',
         features: [
           '1 revue de sécurité externe par jour',
           'Rapport écrit et corrections pour chaque constat',
-          'Temps de consultant 24/7 en priorité maximale',
+          'Conseil 24/7 en priorité maximale',
           'Adapté aux forces armées, aux autorités et aux infrastructures critiques',
           'Habilitation de sécurité et confidentialité au plus haut niveau',
         ],
@@ -407,11 +407,11 @@ export const fr: Dictionary = {
         },
         {
           title: '48 h après chaque revue',
-          text: 'La revue mensuelle inclut 48 h de temps de consultant pour aider votre IT à mettre en œuvre les corrections.',
+          text: 'La revue mensuelle inclut 48 h de conseil pour aider votre IT à mettre en œuvre les corrections.',
         },
         {
           title: '24/7 dans le pack jour',
-          text: 'La revue quotidienne offre du temps de consultant 24h/24, constats critiques en priorité.',
+          text: 'La revue quotidienne offre du conseil 24h/24, constats critiques en priorité.',
         },
       ],
     },
@@ -444,7 +444,7 @@ export const fr: Dictionary = {
         'Les revues externes voient ce qu\'un attaquant voit. Nous allons plus loin : accès, journalisation, segmentation et tout ce qui décide si une intrusion reste sur une machine — ou se propage.',
     },
     rate: {
-      eyebrow: 'Temps de consultant',
+      eyebrow: 'Conseil',
       perHour: '/ heure',
       text: 'Vous payez le travail effectué — pas le temps que nous passons à apprendre lentement votre système. Le volume et la durée sont confirmés après une brève analyse des besoins.',
     },
@@ -767,7 +767,7 @@ export const fr: Dictionary = {
       },
       {
         q: 'Travaillez-vous de manière confidentielle ?',
-        a: 'Oui. La confidentialité et l\'habilitation de sécurité sont la norme sur chaque mission, quelle que soit sa taille. Nous signons volontiers un NDA séparé avant la première réunion.',
+        a: 'Une confidentialité absolue est la norme sur chaque mission, quelle que soit sa taille. Nous signons volontiers un NDA séparé avant la première réunion. Nos consultants sont rigoureusement vérifiés.',
       },
     ],
     contactTitle: 'Contactez-nous',

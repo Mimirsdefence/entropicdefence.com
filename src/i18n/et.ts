@@ -15,7 +15,7 @@ export const et: Dictionary = {
     checkoutExtern: {
       title: 'Pidev turbeülevaatus — Entropic Defence',
       description:
-        'Fikseeritud hind avatud aadresside arvu järgi. Igakuine, iganädalane või igapäevane ülevaatus: aruanne, parandused ja kokkulepitud konsulendiaeg.',
+        'Fikseeritud hind avatud aadresside arvu järgi. Igakuine, iganädalane või igapäevane ülevaatus: aruanne, parandused ja kokkulepitud konsultatsioon.',
     },
     checkoutIntern: {
       title: 'Sisemine turbeaudit — Entropic Defence',
@@ -191,7 +191,7 @@ export const et: Dictionary = {
       items: [
         {
           title: 'Pidev turbeülevaatus',
-          text: 'Välised ülevaatused, mis ei peatu kunagi — iga kuu, iga nädal või iga päev. Leiame selle, mida ründaja leiaks, ja suleme selle.',
+          text: 'Välised ülevaatused, mis ei peatu kunagi — iga kuu, iga nädal või iga päev. Leiame selle, mida ründaja leiaks, ja ütleme teile, kuidas see sulgeda.',
         },
         {
           title: 'Sisemine turbeaudit',
@@ -211,8 +211,8 @@ export const et: Dictionary = {
       eyebrow: 'Neli aastakümmet',
       title: '40 aastat maailma kõrgeimal tasemel.',
       paragraphs: [
-        'Entropic Defence sündis tõdemusest: Euroopa turbeturg reageerib selle asemel, et ennetada. Ehitasime ettevõtte, et teha vastupidist.',
-        'Meie konsulendid tulevad kaitse- ja luuremaailmast. Oleme kaitsnud valitsussüsteeme, sõjaväevõrke ja ühiskonna elutähtsat taristut — kõige kannatlikumate olemasolevate vastaste eest.',
+        'Entropic Defence sündis tõdemusest: suur osa Euroopa turvalisusest on reaktiivne, mitte ennetav. Tahame teha vastupidist ja usume, et ennetav tegutsemine on ainus tee tõelise turvalisuseni.',
+        'Meie konsulendid tulevad kaitse- ja luuremaailmast. Oleme kaitsnud valitsussüsteeme, sõjaväevõrke ja ühiskonna elutähtsat taristut — kõige oskuslikumate ja kannatlikumate olemasolevate vastaste eest.',
       ],
       points: [
         'Kogemus kaitse, luure ja riigiasutuste valdkonnast',
@@ -271,12 +271,12 @@ export const et: Dictionary = {
         name: 'Pidev turbeülevaatus',
         period: 'kuus',
         description:
-          'Välised ülevaatused, mis ei peatu kunagi — iga kuu, iga nädal või iga päev. Aruanne, parandused ja kokkulepitud konsulendiaeg sisalduvad.',
+          'Välised ülevaatused, mis ei peatu kunagi — iga kuu, iga nädal või iga päev. Aruanne, parandused ja kokkulepitud konsultatsioon sisalduvad.',
         features: [
           'Igakuine, iganädalane või igapäevane ülevaatus',
           'Fikseeritud hind avatud aadresside arvu järgi',
           'Parandused igale leiule',
-          'Konsulendiaeg 48 tunnist kuni 24/7',
+          'Konsultatsioon 48 tunnist kuni 24/7',
         ],
       },
       {
@@ -332,7 +332,7 @@ export const et: Dictionary = {
       titleHighlight: 'ei peatu kunagi',
       titleEnd: '.',
       description:
-        'Välised ülevaatused, mis ei peatu kunagi — iga kuu, iga nädal või iga päev. Iga pakett sisaldab aruannet, parandusi ja kokkulepitud konsulendiaega, mis aitab teie IT-l leiud sulgeda.',
+        'Välised ülevaatused, mis ei peatu kunagi — iga kuu, iga nädal või iga päev. Iga pakett sisaldab aruannet, parandusi ja kokkulepitud konsultatsiooni, mis aitab teie IT-l leiud sulgeda.',
     },
     tierLabel: 'Avatud aadresside arv',
     tierAria: 'Vali avatud aadresside arv',
@@ -358,11 +358,11 @@ export const et: Dictionary = {
         name: 'Igakuine ülevaatus',
         cadence: '1 väline ülevaatus kuus',
         description:
-          'Pidev vundament: üks täielik väline ülevaatus iga kuu, parandusettepanekud ja kokkulepitud konsulendiaeg leidude sulgemiseks.',
+          'Pidev vundament: üks täielik väline ülevaatus iga kuu, parandusettepanekud ja kokkulepitud konsultatsioon leidude sulgemiseks.',
         features: [
           '1 väline turbeülevaatus iga kuu',
           'Kirjalik aruanne ja parandused igale leiule',
-          '48 tundi konsulendiaega, mis aitab teie IT-l parandused ellu viia',
+          '48 tundi konsultatsiooni, mis aitab teie IT-l parandused ellu viia',
           'Pidev nõustamine teie IT-meeskonnale',
         ],
       },
@@ -370,11 +370,11 @@ export const et: Dictionary = {
         name: 'Iganädalane ülevaatus',
         cadence: '1 väline ülevaatus nädalas',
         description:
-          'Ettevõtetele, kes ei saa endale lubada haavatavust kauemaks kui mõneks päevaks — tihedamad ülevaatused ja kokkulepitud konsulendiaeg probleemide sulgemiseks.',
+          'Ettevõtetele, kes ei saa endale lubada haavatavust kauemaks kui mõneks päevaks — tihedamad ülevaatused ja kokkulepitud konsultatsioon probleemide sulgemiseks.',
         features: [
           '1 väline turbeülevaatus iga nädal',
           'Kirjalik aruanne ja parandused igale leiule',
-          'kokkulepitud konsulendiaeg probleemide sulgemiseks',
+          'kokkulepitud konsultatsioon probleemide sulgemiseks',
           'Kriitiliste leidude eeliskäsitlus',
           'Kord kvartalis ülevaade turbejuhtkonnale',
         ],
@@ -382,13 +382,13 @@ export const et: Dictionary = {
       dag: {
         name: 'Igapäevane ülevaatus',
         cadence: '1 väline ülevaatus päevas',
-        consultant: '24/7 konsulendiaeg · kõrgeim prioriteet',
+        consultant: '24/7 konsultatsioon · kõrgeim prioriteet',
         description:
           'Peaaegu eranditult kaitseväe ja ametiasutuste kasutuses. Ründaja ei saa kunagi rohkem kui ööpäeva — sageli vähem.',
         features: [
           '1 väline turbeülevaatus iga päev',
           'Kirjalik aruanne ja parandused igale leiule',
-          '24/7 konsulendiaeg kõrgeima prioriteediga',
+          '24/7 konsultatsioon kõrgeima prioriteediga',
           'Kohandatud kaitseväele, ametiasutustele ja elutähtsale taristule',
           'Turbekaitse ja konfidentsiaalsus kõrgeimal tasemel',
         ],
@@ -407,11 +407,11 @@ export const et: Dictionary = {
         },
         {
           title: '48 tundi pärast iga ülevaatust',
-          text: 'Igakuises ülevaatuses sisaldub 48 tundi konsulendiaega, mis aitab teie IT-l parandused ellu viia.',
+          text: 'Igakuises ülevaatuses sisaldub 48 tundi konsultatsiooni, mis aitab teie IT-l parandused ellu viia.',
         },
         {
           title: '24/7 päevapaketis',
-          text: 'Igapäevane ülevaatus annab konsulendiaega ööpäev läbi, kriitilised leiud eelisjärjekorras.',
+          text: 'Igapäevane ülevaatus annab konsultatsiooni ööpäev läbi, kriitilised leiud eelisjärjekorras.',
         },
       ],
     },
@@ -444,7 +444,7 @@ export const et: Dictionary = {
         'Välised ülevaatused näevad seda, mida ründaja näeb. Meie läheme sügavamale: juurdepääsud, logimine, segmenteerimine ja kõik, mis otsustab, kas sissemurre jääb ühe masina juurde — või levib.',
     },
     rate: {
-      eyebrow: 'Konsulendiaeg',
+      eyebrow: 'Konsultatsioon',
       perHour: '/ tund',
       text: 'Maksate tehtud töö eest — mitte selle eest, et me aeglaselt teie süsteemi õpime. Maht ja aeg kinnitatakse pärast lühikest vajaduste analüüsi.',
     },
@@ -767,7 +767,7 @@ export const et: Dictionary = {
       },
       {
         q: 'Kas töötate konfidentsiaalselt?',
-        a: 'Jah. Konfidentsiaalsus ja turbekaitse on standard igas ülesandes, olenemata suurusest. Allkirjastame hea meelega eraldi NDA-d enne esimest kohtumist.',
+        a: 'Absoluutne konfidentsiaalsus on standard igas ülesandes, olenemata suurusest. Allkirjastame hea meelega eraldi NDA-d enne esimest kohtumist. Meie konsulendid on põhjalikult taustakontrollitud.',
       },
     ],
     contactTitle: 'Võtke ühendust',

@@ -15,7 +15,7 @@ export const lv: Dictionary = {
     checkoutExtern: {
       title: 'Nepārtraukta drošības pārbaude — Entropic Defence',
       description:
-        'Fiksēta cena pēc atvērto adrešu skaita. Ikmēneša, iknedēļas vai ikdienas pārbaude: ziņojums, labojumi un saskaņots konsultanta laiks.',
+        'Fiksēta cena pēc atvērto adrešu skaita. Ikmēneša, iknedēļas vai ikdienas pārbaude: ziņojums, labojumi un saskaņotas konsultācijas.',
     },
     checkoutIntern: {
       title: 'Iekšējais drošības audits — Entropic Defence',
@@ -191,7 +191,7 @@ export const lv: Dictionary = {
       items: [
         {
           title: 'Nepārtraukta drošības pārbaude',
-          text: 'Ārējās pārbaudes, kas nekad neapstājas — katru mēnesi, katru nedēļu vai katru dienu. Atrodam to, ko atrastu uzbrucējs, un aizveram to.',
+          text: 'Ārējās pārbaudes, kas nekad neapstājas — katru mēnesi, katru nedēļu vai katru dienu. Atrodam to, ko atrastu uzbrucējs, un pastāstām, kā to aizvērt.',
         },
         {
           title: 'Iekšējais drošības audits',
@@ -211,8 +211,8 @@ export const lv: Dictionary = {
       eyebrow: 'Četras desmitgades',
       title: '40 gadi pasaules augstākajā līmenī.',
       paragraphs: [
-        'Entropic Defence dzimis no atziņas: Eiropas drošības tirgus reaģē, nevis novērš. Mēs izveidojām uzņēmumu, lai darītu pretējo.',
-        'Mūsu konsultanti nāk no aizsardzības un izlūkošanas pasaules. Esam aizsargājuši valdības sistēmas, militāros tīklus un sabiedrības kritisko infrastruktūru — pret pacietīgākajiem pretiniekiem, kādi pastāv.',
+        'Entropic Defence dzimis no atziņas: liela daļa Eiropas drošības ir reaktīva, nevis preventīva. Mēs vēlamies darīt pretējo un uzskatām, ka proaktivitāte ir vienīgais ceļš uz patiesu drošību.',
+        'Mūsu konsultanti nāk no aizsardzības un izlūkošanas pasaules. Esam aizsargājuši valdības sistēmas, militāros tīklus un sabiedrības kritisko infrastruktūru — pret prasmīgākajiem un pacietīgākajiem pretiniekiem, kādi pastāv.',
       ],
       points: [
         'Pieredze aizsardzībā, izlūkošanā un valsts pārvaldē',
@@ -271,12 +271,12 @@ export const lv: Dictionary = {
         name: 'Nepārtraukta drošības pārbaude',
         period: 'mēnesī',
         description:
-          'Ārējās pārbaudes, kas nekad neapstājas — katru mēnesi, katru nedēļu vai katru dienu. Ziņojums, labojumi un saskaņots konsultanta laiks ir iekļauti.',
+          'Ārējās pārbaudes, kas nekad neapstājas — katru mēnesi, katru nedēļu vai katru dienu. Ziņojums, labojumi un saskaņotas konsultācijas ir iekļauti.',
         features: [
           'Ikmēneša, iknedēļas vai ikdienas pārbaude',
           'Fiksēta cena pēc atvērto adrešu skaita',
           'Labojumi katram atradumam',
-          'Konsultanta laiks no 48 h līdz 24/7',
+          'Konsultācijas no 48 h līdz 24/7',
         ],
       },
       {
@@ -332,7 +332,7 @@ export const lv: Dictionary = {
       titleHighlight: 'nekad neapstājas',
       titleEnd: '.',
       description:
-        'Ārējās pārbaudes, kas nekad neapstājas — katru mēnesi, katru nedēļu vai katru dienu. Katrā pakotnē iekļauts ziņojums, labojumi un saskaņots konsultanta laiks, kas palīdz jūsu IT aizvērt atradumus.',
+        'Ārējās pārbaudes, kas nekad neapstājas — katru mēnesi, katru nedēļu vai katru dienu. Katrā pakotnē iekļauts ziņojums, labojumi un saskaņotas konsultācijas, kas palīdz jūsu IT aizvērt atradumus.',
     },
     tierLabel: 'Atvērto adrešu skaits',
     tierAria: 'Izvēlieties atvērto adrešu skaitu',
@@ -358,11 +358,11 @@ export const lv: Dictionary = {
         name: 'Ikmēneša pārbaude',
         cadence: '1 ārējā pārbaude mēnesī',
         description:
-          'Nepārtraukts pamats: viena pilnīga ārējā pārbaude katru mēnesi, labojumu priekšlikumi un saskaņots konsultanta laiks atradumu aizvēršanai.',
+          'Nepārtraukts pamats: viena pilnīga ārējā pārbaude katru mēnesi, labojumu priekšlikumi un saskaņotas konsultācijas atradumu aizvēršanai.',
         features: [
           '1 ārējā drošības pārbaude katru mēnesi',
           'Rakstisks ziņojums un labojumi katram atradumam',
-          '48 stundas konsultanta laika, lai palīdzētu jūsu IT ieviest labojumus',
+          '48 stundas konsultāciju, lai palīdzētu jūsu IT ieviest labojumus',
           'Nepārtraukta konsultēšana jūsu IT komandai',
         ],
       },
@@ -370,11 +370,11 @@ export const lv: Dictionary = {
         name: 'Iknedēļas pārbaude',
         cadence: '1 ārējā pārbaude nedēļā',
         description:
-          'Uzņēmumiem, kas nevar atļauties ievainojamību ilgāk par dažām dienām — biežākas pārbaudes un saskaņots konsultanta laiks atradumu aizvēršanai.',
+          'Uzņēmumiem, kas nevar atļauties ievainojamību ilgāk par dažām dienām — biežākas pārbaudes un saskaņotas konsultācijas atradumu aizvēršanai.',
         features: [
           '1 ārējā drošības pārbaude katru nedēļu',
           'Rakstisks ziņojums un labojumi katram atradumam',
-          'saskaņots konsultanta laiks atradumu aizvēršanai',
+          'saskaņotas konsultācijas atradumu aizvēršanai',
           'Prioritāra kritisko atradumu apstrāde',
           'Ceturksnī pārskats drošības vadībai',
         ],
@@ -382,13 +382,13 @@ export const lv: Dictionary = {
       dag: {
         name: 'Ikdienas pārbaude',
         cadence: '1 ārējā pārbaude dienā',
-        consultant: '24/7 konsultanta laiks · augstākā prioritāte',
+        consultant: '24/7 konsultācijas · augstākā prioritāte',
         description:
           'Gandrīz tikai aizsardzības spēku un iestāžu lietošanā. Uzbrucējs nekad neiegūst vairāk par diennakti — bieži mazāk.',
         features: [
           '1 ārējā drošības pārbaude katru dienu',
           'Rakstisks ziņojums un labojumi katram atradumam',
-          '24/7 konsultanta laiks ar augstāko prioritāti',
+          '24/7 konsultācijas ar augstāko prioritāti',
           'Pielāgots aizsardzības spēkiem, iestādēm un kritiskajai infrastruktūrai',
           'Drošības aizsardzība un konfidencialitāte augstākajā līmenī',
         ],
@@ -407,11 +407,11 @@ export const lv: Dictionary = {
         },
         {
           title: '48 stundas pēc katras pārbaudes',
-          text: 'Ikmēneša pārbaudē iekļautas 48 stundas konsultanta laika, lai palīdzētu jūsu IT ieviest labojumus.',
+          text: 'Ikmēneša pārbaudē iekļautas 48 stundas konsultāciju, lai palīdzētu jūsu IT ieviest labojumus.',
         },
         {
           title: '24/7 dienas pakotnē',
-          text: 'Ikdienas pārbaude sniedz konsultanta laiku visu diennakti, kritiskie atradumi ir prioritārā kārtā.',
+          text: 'Ikdienas pārbaude sniedz konsultācijas visu diennakti, kritiskie atradumi ir prioritārā kārtā.',
         },
       ],
     },
@@ -444,7 +444,7 @@ export const lv: Dictionary = {
         'Ārējās pārbaudes redz to, ko redz uzbrucējs. Mēs ejam dziļāk: piekļuves, reģistrēšana, segmentēšana un viss, kas izšķir, vai ielaušanās paliek pie vienas iekārtas — vai izplatās.',
     },
     rate: {
-      eyebrow: 'Konsultanta laiks',
+      eyebrow: 'Konsultācijas',
       perHour: '/ stundā',
       text: 'Maksājat par paveikto darbu — nevis par to, ka mēs lēni apgūstam jūsu sistēmu. Apjoms un laiks tiek apstiprināti pēc īsas vajadzību analīzes.',
     },
@@ -767,7 +767,7 @@ export const lv: Dictionary = {
       },
       {
         q: 'Vai strādājat konfidenciāli?',
-        a: 'Jā. Konfidencialitāte un drošības aizsardzība ir standarts katrā uzdevumā neatkarīgi no apjoma. Pirms pirmās tikšanās labprāt parakstām atsevišķu NDA.',
+        a: 'Absolūta konfidencialitāte ir standarts katrā uzdevumā neatkarīgi no apjoma. Pirms pirmās tikšanās labprāt parakstām atsevišķu NDA. Mūsu konsultanti ir rūpīgi pārbaudīti.',
       },
     ],
     contactTitle: 'Sazinieties ar mums',
