@@ -30,16 +30,19 @@ export default function Home() {
       icon: Radar,
       title: t.home.services.items[0].title,
       text: t.home.services.items[0].text,
+      to: '/checkout/extern',
     },
     {
       icon: ShieldCheck,
       title: t.home.services.items[1].title,
       text: t.home.services.items[1].text,
+      to: '/checkout/intern',
     },
     {
       icon: Network,
       title: t.home.services.items[2].title,
       text: t.home.services.items[2].text,
+      to: '/checkout/ledning',
     },
     {
       icon: FileText,
@@ -119,9 +122,9 @@ export default function Home() {
             const to = trustLinks[i]
             const label = (
               <span
-                className={`font-mono text-[11px] uppercase tracking-[0.28em] ${
-                  i === 0 ? 'text-signal' : 'text-fog'
-                }${to ? ' transition-colors hover:text-frost' : ''}`}
+                className={`font-mono text-[11px] uppercase tracking-[0.28em] text-fog${
+                  to ? ' transition-colors hover:text-signal' : ''
+                }`}
               >
                 {item}
               </span>
