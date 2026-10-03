@@ -840,7 +840,7 @@ export const da: Dictionary = {
       titleHighlight: 'fortælle åbent',
       titleEnd: '.',
       description:
-        'Udvalgte dele af vores arbejde, som vi kan beskrive åbent — vores proprietære AI-analyse og erfaringen bag vores opgaver for regering og forsvar. Alt andet forbliver klassificeret, og vores tavshedspligt gælder også her.',
+        'Udvalgte dele af vores arbejde, som vi kan beskrive åbent — vores proprietære AI-analyse og erfaringen bag vores opgaver for regering og forsvar. Alt andet forbliver klassificeret.',
     },
     ai: {
       eyebrow: 'Proprietær AI-analyse',

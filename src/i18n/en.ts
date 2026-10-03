@@ -864,7 +864,7 @@ export const en: Dictionary = {
       titleHighlight: 'say publicly',
       titleEnd: '.',
       description:
-        'Selected parts of our work that we are able to describe openly — our proprietary AI analysis and the experience behind our government and military assignments. Everything else remains classified, and our duty of confidentiality applies here too.',
+        'Selected parts of our work that we are able to describe openly — our proprietary AI analysis and the experience behind our government and military assignments. Everything else remains classified.',
     },
     ai: {
       eyebrow: 'Proprietary AI analysis',

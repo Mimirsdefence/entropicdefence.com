@@ -840,7 +840,7 @@ export const lv: Dictionary = {
       titleHighlight: 'pastāstīt atklāti',
       titleEnd: '.',
       description:
-        'Atlasītas mūsu darba daļas, ko varam aprakstīt atklāti — mūsu pašu AI analīze un pieredze aiz valdības un aizsardzības uzdevumiem. Viss pārējais paliek klasificēts, un konfidencialitātes pienākums attiecas arī uz šo lapu.',
+        'Atlasītas mūsu darba daļas, ko varam aprakstīt atklāti — mūsu pašu AI analīze un pieredze aiz valdības un aizsardzības uzdevumiem. Viss pārējais paliek klasificēts.',
     },
     ai: {
       eyebrow: 'Mūsu pašu AI analīze',

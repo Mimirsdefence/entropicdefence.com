@@ -840,7 +840,7 @@ export const et: Dictionary = {
       titleHighlight: 'avalikult öelda',
       titleEnd: '.',
       description:
-        'Valitud osad meie tööst, mida saame avalikult kirjeldada — meie oma AI-analüüs ja kogemus valitsuse ning kaitseväe tellimuste taga. Kõik muu jääb salastatuks ja konfidentsiaalsuskohustus kehtib ka siin.',
+        'Valitud osad meie tööst, mida saame avalikult kirjeldada — meie oma AI-analüüs ja kogemus valitsuse ning kaitseväe tellimuste taga. Kõik muu jääb salastatuks.',
     },
     ai: {
       eyebrow: 'Oma AI-analüüs',

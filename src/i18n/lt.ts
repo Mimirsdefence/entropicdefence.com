@@ -840,7 +840,7 @@ export const lt: Dictionary = {
       titleHighlight: 'pasakyti atvirai',
       titleEnd: '.',
       description:
-        'Atrinktos mūsų darbo dalys, kurias galime aprašyti atvirai — mūsų patentuota AI analizė ir patirtis, slypinti už vyriausybės bei kariuomenės užsakymų. Visa kita lieka įslaptinta, o konfidencialumo pareiga galioja ir čia.',
+        'Atrinktos mūsų darbo dalys, kurias galime aprašyti atvirai — mūsų patentuota AI analizė ir patirtis, slypinti už vyriausybės bei kariuomenės užsakymų. Visa kita lieka įslaptinta.',
     },
     ai: {
       eyebrow: 'Patentuota AI analizė',

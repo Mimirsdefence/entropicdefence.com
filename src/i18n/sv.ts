@@ -862,7 +862,7 @@ export const sv = {
       titleHighlight: 'berätta öppet',
       titleEnd: '.',
       description:
-        'Utvalda delar av vårt arbete som vi kan beskriva öppet — vår proprietära AI-analys och erfarenheten bakom våra uppdrag för regering och försvar. Allt annat förblir klassificerat, och tystnadsplikten gäller även här.',
+        'Utvalda delar av vårt arbete som vi kan beskriva öppet — vår proprietära AI-analys och erfarenheten bakom våra uppdrag för regering och försvar. Allt annat förblir klassificerat.',
     },
     ai: {
       eyebrow: 'Proprietär AI-analys',

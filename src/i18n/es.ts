@@ -840,7 +840,7 @@ export const es: Dictionary = {
       titleHighlight: 'contar abiertamente',
       titleEnd: '.',
       description:
-        'Una selección de nuestro trabajo que podemos describir abiertamente — nuestro análisis de IA propio y la experiencia que respalda nuestros encargos para el gobierno y la defensa. Todo lo demás permanece clasificado, y nuestro deber de confidencialidad se aplica también aquí.',
+        'Una selección de nuestro trabajo que podemos describir abiertamente — nuestro análisis de IA propio y la experiencia que respalda nuestros encargos para el gobierno y la defensa. Todo lo demás permanece clasificado.',
     },
     ai: {
       eyebrow: 'Análisis de IA propio',

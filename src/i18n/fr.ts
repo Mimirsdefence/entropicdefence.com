@@ -840,7 +840,7 @@ export const fr: Dictionary = {
       titleHighlight: 'dire ouvertement',
       titleEnd: '.',
       description:
-        'Une sélection de notre travail que nous pouvons décrire ouvertement — notre analyse IA propriétaire et l’expérience qui sous-tend nos missions pour le gouvernement et la défense. Tout le reste demeure classifié, et notre obligation de confidentialité s’applique ici aussi.',
+        'Une sélection de notre travail que nous pouvons décrire ouvertement — notre analyse IA propriétaire et l’expérience qui sous-tend nos missions pour le gouvernement et la défense. Tout le reste demeure classifié.',
     },
     ai: {
       eyebrow: 'Analyse IA propriétaire',

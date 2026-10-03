@@ -886,7 +886,7 @@ export const pl: Dictionary = {
       titleHighlight: 'powiedzieć otwarcie',
       titleEnd: '.',
       description:
-        'Wybrane części naszej pracy, które możemy opisać otwarcie — nasza własna analiza AI i doświadczenie stojące za zleceniami dla rządu i sił zbrojnych. Wszystko inne pozostaje niejawne, a obowiązek zachowania tajemnicy dotyczy również tej strony.',
+        'Wybrane części naszej pracy, które możemy opisać otwarcie — nasza własna analiza AI i doświadczenie stojące za zleceniami dla rządu i sił zbrojnych. Wszystko inne pozostaje niejawne.',
     },
     ai: {
       eyebrow: 'Własna analiza AI',

@@ -840,7 +840,7 @@ export const fi: Dictionary = {
       titleHighlight: 'kertoa avoimesti',
       titleEnd: '.',
       description:
-        'Valikoituja osia työstämme, joista voimme kertoa avoimesti — oma tekoälyanalyysimme ja kokemus valtionhallinnon ja puolustuksen toimeksiannoista. Kaikki muu pysyy salassa, ja salassapitovelvollisuus koskee myös tätä sivua.',
+        'Valikoituja osia työstämme, joista voimme kertoa avoimesti — oma tekoälyanalyysimme ja kokemus valtionhallinnon ja puolustuksen toimeksiannoista. Kaikki muu pysyy salassa.',
     },
     ai: {
       eyebrow: 'Oma tekoälyanalyysi',

@@ -872,7 +872,7 @@ export const sl: Dictionary = {
       titleHighlight: 'povemo odkrito',
       titleEnd: '.',
       description:
-        'Izbrani deli našega dela, ki jih lahko opisujemo odkrito — naša lastna analiza AI in izkušnje za naročili vlade in obrambe. Vse ostalo ostaja zaupno, dolžnost varovanja zaupnosti pa velja tudi tukaj.',
+        'Izbrani deli našega dela, ki jih lahko opisujemo odkrito — naša lastna analiza AI in izkušnje za naročili vlade in obrambe. Vse ostalo ostaja zaupno.',
     },
     ai: {
       eyebrow: 'Lastna analiza AI',
