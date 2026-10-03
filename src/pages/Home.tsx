@@ -25,39 +25,27 @@ function Stat({ value, label }: { value: string; label: string }) {
 export default function Home() {
   const { t } = useI18n()
 
-  const services: { icon: LucideIcon; title: string; text: string; to: string }[] = [
+  const services: { icon: LucideIcon; title: string; text: string }[] = [
     {
       icon: Radar,
       title: t.home.services.items[0].title,
       text: t.home.services.items[0].text,
-      to: '/checkout/extern',
     },
     {
       icon: ShieldCheck,
       title: t.home.services.items[1].title,
       text: t.home.services.items[1].text,
-      to: '/checkout/intern',
     },
     {
       icon: Network,
       title: t.home.services.items[2].title,
       text: t.home.services.items[2].text,
-      to: '/checkout/ledning',
     },
     {
       icon: FileText,
       title: t.home.services.items[3].title,
       text: t.home.services.items[3].text,
-      to: '/disclosures#red-flag',
     },
-  ]
-
-  const trustLinks: (string | undefined)[] = [
-    undefined,
-    '/disclosures#regeringsuppdrag',
-    '/disclosures#militara-system',
-    '/disclosures#kritisk-infrastruktur',
-    '/legal#tystnadsplikt',
   ]
 
   const steps = t.home.process.steps.map((s, i) => ({
@@ -71,14 +59,14 @@ export default function Home() {
       {/* HERO */}
       <section className="relative flex min-h-svh items-center overflow-hidden">
         <div className="mx-auto w-full max-w-7xl px-5 py-28 lg:px-8">
-          <Reveal repeat>
+          <Reveal>
             <p className="mb-6 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-signal">
               <span className="h-px w-10 bg-signal/60" aria-hidden="true" />
               {t.home.hero.eyebrow}
             </p>
           </Reveal>
 
-          <Reveal repeat delay={100}>
+          <Reveal delay={100}>
             <h1 className="max-w-4xl font-display text-5xl font-bold leading-[1.02] tracking-tight sm:text-6xl lg:text-7xl">
               {t.home.hero.titleLead}
               <span className="text-gradient">{t.home.hero.titleHighlight}</span>
@@ -86,13 +74,13 @@ export default function Home() {
             </h1>
           </Reveal>
 
-          <Reveal repeat delay={200}>
+          <Reveal delay={200}>
             <p className="mt-7 max-w-2xl text-lg leading-relaxed text-fog sm:text-xl">
               {t.home.hero.description}
             </p>
           </Reveal>
 
-          <Reveal repeat delay={300}>
+          <Reveal delay={300}>
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <Button href="#contact">
                 {t.home.hero.ctaPrimary}
@@ -104,7 +92,7 @@ export default function Home() {
             </div>
           </Reveal>
 
-          <Reveal repeat delay={400}>
+          <Reveal delay={400}>
             <div className="mt-16 grid max-w-2xl grid-cols-3 gap-6 border-t border-line pt-8">
               {t.home.stats.map((s) => (
                 <Stat key={s.value} value={s.value} label={s.label} />
@@ -117,33 +105,27 @@ export default function Home() {
       {/* TRUST STRIP */}
       <section className="border-y border-line/70 bg-abyss/60">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-10 gap-y-3 px-5 py-6 lg:px-8">
-          {t.home.trustStrip.map((item, i) => {
-            const href = trustLinks[i]
-            const cls = `font-mono text-[11px] uppercase tracking-[0.28em] ${
-              i === 0 ? 'text-signal' : 'text-fog'
-            }`
-            return (
-              <Fragment key={item}>
-                {href ? (
-                  <Link to={href} className={`${cls} transition-colors hover:text-signal`}>
-                    {item}
-                  </Link>
-                ) : (
-                  <span className={cls}>{item}</span>
-                )}
-                {i < t.home.trustStrip.length - 1 && (
-                  <span className="hidden h-4 w-px bg-line sm:block" aria-hidden="true" />
-                )}
-              </Fragment>
-            )
-          })}
+          {t.home.trustStrip.map((item, i) => (
+            <Fragment key={item}>
+              <span
+                className={`font-mono text-[11px] uppercase tracking-[0.28em] ${
+                  i === 0 ? 'text-signal' : 'text-fog'
+                }`}
+              >
+                {item}
+              </span>
+              {i < t.home.trustStrip.length - 1 && (
+                <span className="hidden h-4 w-px bg-line sm:block" aria-hidden="true" />
+              )}
+            </Fragment>
+          ))}
         </div>
       </section>
 
       {/* HOTBILD */}
       <section id="hotbild" className="mx-auto max-w-7xl px-5 py-24 lg:px-8 lg:py-32">
         <div className="grid items-center gap-12 lg:grid-cols-2">
-          <Reveal repeat>
+          <Reveal>
             <p className="mb-5 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-signal">
               <span className="h-px w-10 bg-signal/60" aria-hidden="true" />
               {t.home.hotbild.eyebrow}
@@ -160,7 +142,7 @@ export default function Home() {
             </p>
           </Reveal>
 
-          <Reveal repeat delay={150}>
+          <Reveal delay={150}>
             <div className="panel overflow-hidden font-mono text-sm">
               <div className="flex items-center gap-2 border-b border-line px-5 py-3">
                 <span className="h-2.5 w-2.5 rounded-full bg-danger/70" aria-hidden="true" />
@@ -191,7 +173,7 @@ export default function Home() {
       {/* TJÄNSTER */}
       <section id="tjanster" className="border-t border-line/70 bg-abyss/50">
         <div className="mx-auto max-w-7xl px-5 py-24 lg:px-8 lg:py-32">
-          <Reveal repeat>
+          <Reveal>
             <p className="mb-5 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-signal">
               <span className="h-px w-10 bg-signal/60" aria-hidden="true" />
               {t.home.services.eyebrow}
@@ -203,19 +185,14 @@ export default function Home() {
 
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {services.map((s, i) => (
-              <Reveal key={s.title} delay={i * 90} repeat>
-                <Link
-                  to={s.to}
-                  className="block h-full rounded-2xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-signal"
-                >
-                  <article className="panel group h-full p-6 transition-colors duration-300 hover:border-signal/50">
-                    <s.icon className="h-7 w-7 text-signal" aria-hidden="true" />
-                    <h3 className="mt-5 font-display text-lg font-semibold leading-snug">
-                      {s.title}
-                    </h3>
-                    <p className="mt-3 text-sm leading-relaxed text-fog">{s.text}</p>
-                  </article>
-                </Link>
+              <Reveal key={s.title} delay={i * 90}>
+                <article className="panel group h-full p-6 transition-colors duration-300 hover:border-signal/50">
+                  <s.icon className="h-7 w-7 text-signal" aria-hidden="true" />
+                  <h3 className="mt-5 font-display text-lg font-semibold leading-snug">
+                    {s.title}
+                  </h3>
+                  <p className="mt-3 text-sm leading-relaxed text-fog">{s.text}</p>
+                </article>
               </Reveal>
             ))}
           </div>
@@ -225,7 +202,7 @@ export default function Home() {
       {/* 40 ÅR */}
       <section id="bakgrund" className="mx-auto max-w-7xl px-5 py-24 lg:px-8 lg:py-32">
         <div className="grid items-center gap-12 lg:grid-cols-2">
-          <Reveal repeat>
+          <Reveal>
             <p className="mb-5 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-signal">
               <span className="h-px w-10 bg-signal/60" aria-hidden="true" />
               {t.home.background.eyebrow}
@@ -240,7 +217,7 @@ export default function Home() {
             ))}
           </Reveal>
 
-          <Reveal repeat delay={150}>
+          <Reveal delay={150}>
             <ul className="space-y-4">
               {t.home.background.points.map((item) => (
                 <li key={item} className="panel flex items-start gap-4 p-5">
@@ -256,7 +233,7 @@ export default function Home() {
       {/* PROCESS */}
       <section id="process" className="border-t border-line/70 bg-abyss/50">
         <div className="mx-auto max-w-7xl px-5 py-24 lg:px-8 lg:py-32">
-          <Reveal repeat>
+          <Reveal>
             <p className="mb-5 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-signal">
               <span className="h-px w-10 bg-signal/60" aria-hidden="true" />
               {t.home.process.eyebrow}
@@ -268,7 +245,7 @@ export default function Home() {
 
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {steps.map((s, i) => (
-              <Reveal key={s.nr} delay={i * 90} repeat>
+              <Reveal key={s.nr} delay={i * 90}>
                 <div className="h-full border-t border-signal/60 pt-5">
                   <p className="font-mono text-sm text-signal">{s.nr}</p>
                   <h3 className="mt-3 font-display text-lg font-semibold">{s.title}</h3>
@@ -282,7 +259,7 @@ export default function Home() {
 
       {/* CTA BAND */}
       <section id="contact" className="mx-auto max-w-7xl px-5 py-24 lg:px-8 lg:py-32">
-        <Reveal repeat>
+        <Reveal>
           <div className="panel relative overflow-hidden px-6 py-16 text-center sm:px-12 lg:py-20">
             <div
               className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(56,189,248,0.14),transparent_60%)]"

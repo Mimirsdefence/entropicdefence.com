@@ -4,36 +4,29 @@ type Props = {
   children: ReactNode
   className?: string
   delay?: number
-  /** Re-trigger the animation every time the element scrolls in or out of view. */
-  repeat?: boolean
 }
 
-export default function Reveal({ children, className = '', delay = 0, repeat = false }: Props) {
+export default function Reveal({ children, className = '', delay = 0 }: Props) {
   const ref = useRef<HTMLDivElement>(null)
-  const [reduced] = useState(
-    () =>
-      typeof window !== 'undefined' &&
-      window.matchMedia('(prefers-reduced-motion: reduce)').matches,
+  const [visible, setVisible] = useState(
+    () => window.matchMedia('(prefers-reduced-motion: reduce)').matches,
   )
-  const [visible, setVisible] = useState(reduced)
 
   useEffect(() => {
     const el = ref.current
-    if (!el || reduced) return
+    if (!el || visible) return
     const obs = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           setVisible(true)
-          if (!repeat) obs.disconnect()
-        } else if (repeat) {
-          setVisible(false)
+          obs.disconnect()
         }
       },
       { threshold: 0.12 },
     )
     obs.observe(el)
     return () => obs.disconnect()
-  }, [repeat, reduced])
+  }, [visible])
 
   return (
     <div
