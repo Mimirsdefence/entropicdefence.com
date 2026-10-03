@@ -57,7 +57,7 @@ export const da: Dictionary = {
     status: {
       title: 'Sikkerhedsstatus — Entropic Defence',
       description:
-        'Følg din sikkerhedsgennemgang i realtid. Rapporter leveres PGP-krypteret.',
+        'Følg din sikkerhedsgennemgang trin for trin. Opdateringer og rapporter sendes på e-mail til jeres ansvarlige.',
     },
     notFound: {
       title: 'Siden findes ikke — Entropic Defence',
@@ -819,10 +819,10 @@ export const da: Dictionary = {
     hero: {
       eyebrow: 'Sikkerhedsstatus',
       titleLead: 'Følg din gennemgang ',
-      titleHighlight: 'i realtid',
+      titleHighlight: 'trin for trin',
       titleEnd: '.',
       description:
-        'Her ser du præcis, hvor langt din sikkerhedsgennemgang er. Rapporter leveres PGP-krypteret til din IT-ansvarlige.',
+        'Her ser du præcis, hvor langt din sikkerhedsgennemgang er. Opdateringer og rapporter kommer til jer via e-mail — til jeres IT-ansvarlige, ansvarlige chef eller sikkerhedschef.',
     },
     assignment: 'Opgave ED-2026-014',
     assignmentTitle: 'Kontinuerlig sikkerhed — eksempelkunde',
@@ -832,12 +832,12 @@ export const da: Dictionary = {
       { title: 'Teknisk gennemgang', text: 'Penetrationstest og sårbarhedsanalyse af infrastruktur og applikationer.' },
       { title: 'Menneskelig gennemgang', text: 'Interviews, rutiner og medarbejderbevidsthed.' },
       { title: 'Leverandørgennemgang', text: 'Gennemgang af forsyningskæde og tredjepartsafhængigheder.' },
-      { title: 'Rapport og handleplan', text: 'Slutrapport PGP-krypteret til din IT-ansvarlige.' },
+      { title: 'Rapport og handleplan', text: 'Slutrapport PGP-krypteret til de modtagere, I udpeger.' },
     ],
     pgpDelivery: 'PGP-levering',
     pgpDeliveryText:
-      'Slutrapporter leveres krypteret til din IT-ansvarlige. Tilføj modtagere og nøgler i Business Profile.',
-    manageRecipients: 'Administrer modtagere',
+      'Slutrapporter og løbende opdateringer sendes til de e-mailadresser, I udpeger — IT-ansvarlig, ansvarlig chef eller sikkerhedschef. Ønsker I dem PGP-krypteret, aftaler vi en nøgle over en sikker kanal. Der er ikke brug for konti.',
+    manageRecipients: 'Skriv til os om modtagere',
   },
 
   notFound: {

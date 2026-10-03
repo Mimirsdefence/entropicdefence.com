@@ -57,7 +57,7 @@ export const lv: Dictionary = {
     status: {
       title: 'Drošības statuss — Entropic Defence',
       description:
-        'Sekojiet savai drošības pārbaudei reāllaikā. Ziņojumi tiek piegādāti PGP šifrēti.',
+        'Sekojiet savai drošības pārbaudei soli pa solim. Atjauninājumi un ziņojumi tiek sūtīti pa e-pastu jūsu atbildīgajiem darbiniekiem.',
     },
     notFound: {
       title: 'Lapa nav atrasta — Entropic Defence',
@@ -819,10 +819,10 @@ export const lv: Dictionary = {
     hero: {
       eyebrow: 'Drošības statuss',
       titleLead: 'Sekojiet savai pārbaudei ',
-      titleHighlight: 'reāllaikā',
+      titleHighlight: 'soli pa solim',
       titleEnd: '.',
       description:
-        'Šeit redzat precīzi, cik tālu ir jūsu drošības pārbaude. Ziņojumi tiek piegādāti PGP šifrēti jūsu IT atbildīgajam.',
+        'Šeit redzat precīzi, cik tālu ir jūsu drošības pārbaude. Atjauninājumi un ziņojumi nonāk pie jums pa e-pastu — jūsu IT atbildīgajam, atbildīgajam vadītājam vai drošības vadītājam.',
     },
     assignment: 'Uzdevums ED-2026-014',
     assignmentTitle: 'Nepārtraukta drošība — demonstrācijas klients',
@@ -832,12 +832,12 @@ export const lv: Dictionary = {
       { title: 'Tehniskā pārbaude', text: 'Iespiešanās testi un infrastruktūras un lietotņu ievainojamību analīze.' },
       { title: 'Cilvēciskā pārbaude', text: 'Intervijas, rutīnas un darbinieku informētība.' },
       { title: 'Piegādātāju pārbaude', text: 'Piegādes ķēdes un trešo pušu atkarību pārbaude.' },
-      { title: 'Ziņojums un rīcības plāns', text: 'Galīgais ziņojums PGP šifrēti jūsu IT atbildīgajam.' },
+      { title: 'Ziņojums un rīcības plāns', text: 'Galīgais ziņojums PGP šifrēti jūsu norādītajiem saņēmējiem.' },
     ],
     pgpDelivery: 'PGP piegāde',
     pgpDeliveryText:
-      'Galīgie ziņojumi tiek piegādāti šifrēti jūsu IT atbildīgajam. Pievienojiet saņēmējus un atslēgas Business Profile.',
-    manageRecipients: 'Pārvaldīt saņēmējus',
+      'Galīgie ziņojumi un regulāri atjauninājumi tiek sūtīti uz jūsu norādītajām e-pasta adresēm — IT atbildīgajam, atbildīgajam vadītājam vai drošības vadītājam. Ja vēlaties tos PGP šifrētus, par atslēgu vienojamies drošā kanālā. Konti nav nepieciešami.',
+    manageRecipients: 'Rakstiet mums par saņēmējiem',
   },
 
   notFound: {

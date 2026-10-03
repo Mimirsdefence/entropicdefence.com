@@ -57,7 +57,7 @@ export const fi: Dictionary = {
     status: {
       title: 'Turvallisuustilanne — Entropic Defence',
       description:
-        'Seuraa turvallisuustarkastustanne reaaliajassa. Raportit toimitetaan PGP-salattuna.',
+        'Seuraa turvallisuustarkastustanne vaihe vaiheelta. Päivitykset ja raportit lähetetään sähköpostitse vastuuhenkilöillenne.',
     },
     notFound: {
       title: 'Sivua ei löydy — Entropic Defence',
@@ -819,10 +819,10 @@ export const fi: Dictionary = {
     hero: {
       eyebrow: 'Turvallisuustilanne',
       titleLead: 'Seuraa tarkastustanne ',
-      titleHighlight: 'reaaliajassa',
+      titleHighlight: 'vaihe vaiheelta',
       titleEnd: '.',
       description:
-        'Täältä näette tarkalleen, missä vaiheessa turvallisuustarkastuksenne on. Raportit toimitetaan PGP-salattuna IT-vastaavallenne.',
+        'Täältä näette tarkalleen, missä vaiheessa turvallisuustarkastuksenne on. Päivitykset ja raportit tulevat teille sähköpostitse — IT-vastaavallenne, vastuulliselle esihenkilölle tai turvallisuuspäällikölle.',
     },
     assignment: 'Toimeksianto ED-2026-014',
     assignmentTitle: 'Jatkuva turvallisuus — esimerkkiasiakas',
@@ -832,12 +832,12 @@ export const fi: Dictionary = {
       { title: 'Tekninen tarkastus', text: 'Penetraatiotestit ja haavoittuvuusanalyysi infrastruktuurista ja sovelluksista.' },
       { title: 'Inhimillinen tarkastus', text: 'Haastattelut, rutiinit ja henkilöstön tietoisuus.' },
       { title: 'Toimittajatarkastus', text: 'Toimitusketjun ja kolmannen osapuolen riippuvuuksien läpikäynti.' },
-      { title: 'Raportti ja toimenpidesuunnitelma', text: 'Loppuraportti PGP-salattuna IT-vastaavallenne.' },
+      { title: 'Raportti ja toimenpidesuunnitelma', text: 'Loppuraportti PGP-salattuna nimeämillenne vastaanottajille.' },
     ],
     pgpDelivery: 'PGP-toimitus',
     pgpDeliveryText:
-      'Loppuraportit toimitetaan salattuna IT-vastaavallenne. Lisää vastaanottajia ja avaimia Business Profilessa.',
-    manageRecipients: 'Hallitse vastaanottajia',
+      'Loppuraportit ja säännölliset päivitykset lähetetään nimeämiinne sähköpostiosoitteisiin — IT-vastaavalle, vastuulliselle esihenkilölle tai turvallisuuspäällikölle. Jos haluatte ne PGP-salattuina, sovimme avaimesta turvallista kanavaa pitkin. Tunnuksia ei tarvita.',
+    manageRecipients: 'Kerro vastaanottajista sähköpostitse',
   },
 
   notFound: {

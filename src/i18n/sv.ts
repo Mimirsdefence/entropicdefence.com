@@ -61,7 +61,7 @@ export const sv = {
     status: {
       title: 'Säkerhetsstatus — Entropic Defence',
       description:
-        'Följ er säkerhetskontroll i realtid. Rapporter levereras krypterat med PGP.',
+        'Följ er säkerhetskontroll steg för steg. Uppdateringar och rapporter skickas via mejl till era ansvariga.',
     },
     notFound: {
       title: 'Sidan hittades inte — Entropic Defence',
@@ -841,10 +841,10 @@ export const sv = {
     hero: {
       eyebrow: 'Säkerhetsstatus',
       titleLead: 'Följ er kontroll ',
-      titleHighlight: 'i realtid',
+      titleHighlight: 'steg för steg',
       titleEnd: '.',
       description:
-        'Här ser ni exakt var i processen er säkerhetskontroll befinner sig. Rapporter levereras krypterat med PGP till er IT-ansvarige.',
+        'Här ser ni exakt var i processen er säkerhetskontroll befinner sig. Uppdateringar och rapporter når er via mejl — till er IT-ansvarige, ansvarige chef eller säkerhetschef.',
     },
     assignment: 'Uppdrag ED-2026-014',
     assignmentTitle: 'Kontinuerlig säkerhet — exempelkund',
@@ -854,12 +854,12 @@ export const sv = {
       { title: 'Teknisk granskning', text: 'Penetrationstester och sårbarhetsanalys av infrastruktur och applikationer.' },
       { title: 'Mänsklig granskning', text: 'Intervjuer, rutiner och medvetenhet hos personalen.' },
       { title: 'Leverantörsgranskning', text: 'Genomgång av supply chain och tredjepartsberoenden.' },
-      { title: 'Rapport och åtgärdsplan', text: 'Slutrapport krypterad med PGP till er IT-ansvarige.' },
+      { title: 'Rapport och åtgärdsplan', text: 'Slutrapport krypterad med PGP till utsedda mottagare.' },
     ],
     pgpDelivery: 'PGP-leverans',
     pgpDeliveryText:
-      'Slutrapporter skickas krypterat till er IT-ansvarige. Lägg till mottagare och nycklar i Business Profile.',
-    manageRecipients: 'Hantera mottagare',
+      'Slutrapporter och löpande uppdateringar skickas till de mejladresser ni utser — IT-ansvarig, ansvarig chef eller säkerhetschef. Vill ni ha dem PGP-krypterade kommer vi överens om nyckel över säker kanal. Inga konton behövs.',
+    manageRecipients: 'Mejla oss om mottagare',
   },
 
   // ── 404 ──────────────────────────────────────────────────────────────

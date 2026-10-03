@@ -57,7 +57,7 @@ export const et: Dictionary = {
     status: {
       title: 'Turbeolek — Entropic Defence',
       description:
-        'Jälgige oma turbeülevaatust reaalajas. Aruanded tarnitakse PGP-krüpteeritult.',
+        'Jälgige oma turbeülevaatust samm-sammult. Uuendused ja aruanded saadetakse e-postiga teie vastutavatele töötajatele.',
     },
     notFound: {
       title: 'Lehte ei leitud — Entropic Defence',
@@ -819,10 +819,10 @@ export const et: Dictionary = {
     hero: {
       eyebrow: 'Turbeolek',
       titleLead: 'Jälgi oma ülevaatust ',
-      titleHighlight: 'reaalajas',
+      titleHighlight: 'samm-sammult',
       titleEnd: '.',
       description:
-        'Siin näete täpselt, kui kaugel teie turbeülevaatus on. Aruanded tarnitakse PGP-krüpteeritult teie IT-vastutajale.',
+        'Siin näete täpselt, kui kaugel teie turbeülevaatus on. Uuendused ja aruanded jõuavad teieni e-posti teel — teie IT-vastutajale, vastutavale juhile või turvajuhile.',
     },
     assignment: 'Ülesanne ED-2026-014',
     assignmentTitle: 'Pidev turve — näidiskliendid',
@@ -832,12 +832,12 @@ export const et: Dictionary = {
       { title: 'Tehniline ülevaatus', text: 'Läbistustestid ja taristu ning rakenduste haavatavusanalüüs.' },
       { title: 'Inimlik ülevaatus', text: 'Intervjuud, rutiinid ja töötajate teadlikkus.' },
       { title: 'Tarnijate ülevaatus', text: 'Tarneahela ja kolmandate osapoolte sõltuvuste ülevaatus.' },
-      { title: 'Aruanne ja tegevuskava', text: 'Lõpparuanne PGP-krüpteeritult teie IT-vastutajale.' },
+      { title: 'Aruanne ja tegevuskava', text: 'Lõpparuanne PGP-krüpteeritult teie määratud saajatele.' },
     ],
     pgpDelivery: 'PGP-tarne',
     pgpDeliveryText:
-      'Lõpparuanded tarnitakse krüpteeritult teie IT-vastutajale. Lisage saajad ja võtmed Business Profile\'is.',
-    manageRecipients: 'Halda saajaid',
+      'Lõpparuanded ja jooksvad uuendused saadetakse teie määratud e-posti aadressidele — IT-vastutajale, vastutavale juhile või turvajuhile. Kui soovite need PGP-krüpteeritult, lepime võtme kokku turvalise kanali kaudu. Kontosid pole vaja.',
+    manageRecipients: 'Kirjutage meile saajate kohta',
   },
 
   notFound: {

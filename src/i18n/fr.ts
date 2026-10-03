@@ -57,7 +57,7 @@ export const fr: Dictionary = {
     status: {
       title: 'Statut de sécurité — Entropic Defence',
       description:
-        'Suivez votre revue de sécurité en temps réel. Les rapports sont livrés chiffrés en PGP.',
+        'Suivez votre revue de sécurité étape par étape. Les mises à jour et les rapports sont envoyés par e-mail à vos responsables.',
     },
     notFound: {
       title: 'Page introuvable — Entropic Defence',
@@ -819,10 +819,10 @@ export const fr: Dictionary = {
     hero: {
       eyebrow: 'Statut de sécurité',
       titleLead: 'Suivez votre revue ',
-      titleHighlight: 'en temps réel',
+      titleHighlight: 'étape par étape',
       titleEnd: '.',
       description:
-        'Ici, vous voyez exactement où en est votre revue de sécurité. Les rapports sont livrés chiffrés en PGP à votre responsable IT.',
+        'Ici, vous voyez exactement où en est votre revue de sécurité. Les mises à jour et les rapports vous parviennent par e-mail — à votre responsable IT, à votre responsable hiérarchique ou à votre responsable sécurité.',
     },
     assignment: 'Mission ED-2026-014',
     assignmentTitle: 'Sécurité continue — client de démonstration',
@@ -832,12 +832,12 @@ export const fr: Dictionary = {
       { title: 'Revue technique', text: 'Tests d\'intrusion et analyse des vulnérabilités de l\'infrastructure et des applications.' },
       { title: 'Revue humaine', text: 'Entretiens, routines et sensibilisation du personnel.' },
       { title: 'Revue des fournisseurs', text: 'Revue de la chaîne d\'approvisionnement et des dépendances tierces.' },
-      { title: 'Rapport et plan d\'action', text: 'Rapport final chiffré en PGP à votre responsable IT.' },
+      { title: 'Rapport et plan d\'action', text: 'Rapport final chiffré en PGP aux destinataires que vous désignez.' },
     ],
     pgpDelivery: 'Livraison PGP',
     pgpDeliveryText:
-      'Les rapports finaux sont livrés chiffrés à votre responsable IT. Ajoutez des destinataires et des clés dans Business Profile.',
-    manageRecipients: 'Gérer les destinataires',
+      'Les rapports finaux et les mises à jour régulières sont envoyés aux adresses e-mail que vous désignez — responsable IT, responsable hiérarchique ou responsable sécurité. Si vous les souhaitez chiffrés en PGP, nous convenons d\'une clé par un canal sûr. Aucun compte n\'est nécessaire.',
+    manageRecipients: 'Écrivez-nous pour les destinataires',
   },
 
   notFound: {

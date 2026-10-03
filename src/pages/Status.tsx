@@ -104,7 +104,7 @@ export default function Status() {
                 </p>
               </div>
             </div>
-            <Button to="/business-profile" variant="ghost">
+            <Button href="mailto:consultant@entropicdefence.com" variant="ghost">
               {t.status.manageRecipients}
             </Button>
           </div>

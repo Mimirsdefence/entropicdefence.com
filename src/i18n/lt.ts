@@ -57,7 +57,7 @@ export const lt: Dictionary = {
     status: {
       title: 'Saugumo būsena — Entropic Defence',
       description:
-        'Stebėkite saugumo patikrą realiuoju laiku. Ataskaitos siunčiamos PGP šifravimu.',
+        'Stebėkite saugumo patikrą žingsnis po žingsnio. Atnaujinimai ir ataskaitos siunčiami el. paštu jūsų atsakingiems darbuotojams.',
     },
     notFound: {
       title: 'Puslapis nerastas — Entropic Defence',
@@ -819,10 +819,10 @@ export const lt: Dictionary = {
     hero: {
       eyebrow: 'Saugumo būsena',
       titleLead: 'Stebėkite patikrą ',
-      titleHighlight: 'realiuoju laiku',
+      titleHighlight: 'žingsnis po žingsnio',
       titleEnd: '.',
       description:
-        'Čia matote tiksliai, kuriame etape yra jūsų saugumo patikra. Ataskaitos siunčiamos PGP šifravimu jūsų IT atsakingam asmeniui.',
+        'Čia matote tiksliai, kuriame etape yra jūsų saugumo patikra. Atnaujinimai ir ataskaitos pasiekia jus el. paštu — jūsų IT atsakingam asmeniui, atsakingam vadovui arba saugumo vadovui.',
     },
     assignment: 'Užduotis ED-2026-014',
     assignmentTitle: 'Nuolatinė sauga — pavyzdinis klientas',
@@ -832,12 +832,12 @@ export const lt: Dictionary = {
       { title: 'Techninė patikra', text: 'Skverbties testai ir infrastruktūros bei programų pažeidžiamumų analizė.' },
       { title: 'Žmogiškoji patikra', text: 'Interviu, rutinos ir darbuotojų sąmoningumas.' },
       { title: 'Tiekėjų patikra', text: 'Tiekimo grandinės ir trečiųjų šalių priklausomybių peržiūra.' },
-      { title: 'Ataskaita ir veiksmų planas', text: 'Galutinė ataskaita PGP šifravimu jūsų IT atsakingam asmeniui.' },
+      { title: 'Ataskaita ir veiksmų planas', text: 'Galutinė ataskaita PGP šifravimu jūsų paskirtiems gavėjams.' },
     ],
     pgpDelivery: 'PGP pristatymas',
     pgpDeliveryText:
-      'Galutinės ataskaitos siunčiamos šifruotai jūsų IT atsakingam asmeniui. Pridėkite gavėjus ir raktus Business Profile.',
-    manageRecipients: 'Tvarkyti gavėjus',
+      'Galutinės ataskaitos ir nuolatiniai atnaujinimai siunčiami jūsų nurodytais el. pašto adresais — IT atsakingam asmeniui, atsakingam vadovui arba saugumo vadovui. Jei norite PGP šifravimo, dėl rakto susitariame saugiu kanalu. Paskyrų nereikia.',
+    manageRecipients: 'Rašykite mums dėl gavėjų',
   },
 
   notFound: {

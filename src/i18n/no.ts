@@ -57,7 +57,7 @@ export const no: Dictionary = {
     status: {
       title: 'Sikkerhetsstatus — Entropic Defence',
       description:
-        'Følg sikkerhetsgjennomgangen din i sanntid. Rapporter leveres PGP-kryptert.',
+        'Følg sikkerhetsgjennomgangen din steg for steg. Oppdateringer og rapporter sendes på e-post til deres ansvarlige.',
     },
     notFound: {
       title: 'Siden finnes ikke — Entropic Defence',
@@ -819,10 +819,10 @@ export const no: Dictionary = {
     hero: {
       eyebrow: 'Sikkerhetsstatus',
       titleLead: 'Følg gjennomgangen din ',
-      titleHighlight: 'i sanntid',
+      titleHighlight: 'steg for steg',
       titleEnd: '.',
       description:
-        'Her ser du nøyaktig hvor langt sikkerhetsgjennomgangen din er kommet. Rapporter leveres PGP-kryptert til din IT-ansvarlige.',
+        'Her ser du nøyaktig hvor langt sikkerhetsgjennomgangen din er kommet. Oppdateringer og rapporter kommer til dere på e-post — til deres IT-ansvarlige, ansvarlige leder eller sikkerhetssjef.',
     },
     assignment: 'Oppdrag ED-2026-014',
     assignmentTitle: 'Kontinuerlig sikkerhet — eksempelkunde',
@@ -832,12 +832,12 @@ export const no: Dictionary = {
       { title: 'Teknisk gjennomgang', text: 'Penetrasjonstester og sårbarhetsanalyse av infrastruktur og applikasjoner.' },
       { title: 'Menneskelig gjennomgang', text: 'Intervjuer, rutiner og ansattbevissthet.' },
       { title: 'Leverandørgjennomgang', text: 'Gjennomgang av leverandørkjede og tredjepartsavhengigheter.' },
-      { title: 'Rapport og tiltaksplan', text: 'Sluttrapport PGP-kryptert til din IT-ansvarlige.' },
+      { title: 'Rapport og tiltaksplan', text: 'Sluttrapport PGP-kryptert til mottakerne dere utpeker.' },
     ],
     pgpDelivery: 'PGP-levering',
     pgpDeliveryText:
-      'Sluttrapporter leveres kryptert til din IT-ansvarlige. Legg til mottakere og nøkler i Business Profile.',
-    manageRecipients: 'Administrer mottakere',
+      'Sluttrapporter og løpende oppdateringer sendes til e-postadressene dere oppgir — IT-ansvarlig, ansvarlig leder eller sikkerhetssjef. Vil dere ha dem PGP-kryptert, avtaler vi en nøkkel over en sikker kanal. Ingen kontoer trengs.',
+    manageRecipients: 'Skriv til oss om mottakere',
   },
 
   notFound: {

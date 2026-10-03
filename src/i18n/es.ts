@@ -57,7 +57,7 @@ export const es: Dictionary = {
     status: {
       title: 'Estado de seguridad — Entropic Defence',
       description:
-        'Siga su revisión de seguridad en tiempo real. Los informes se entregan cifrados con PGP.',
+        'Siga su revisión de seguridad paso a paso. Las actualizaciones y los informes se envían por correo electrónico a sus responsables.',
     },
     notFound: {
       title: 'Página no encontrada — Entropic Defence',
@@ -819,10 +819,10 @@ export const es: Dictionary = {
     hero: {
       eyebrow: 'Estado de seguridad',
       titleLead: 'Siga su revisión ',
-      titleHighlight: 'en tiempo real',
+      titleHighlight: 'paso a paso',
       titleEnd: '.',
       description:
-        'Aquí ve exactamente cuánto ha avanzado su revisión de seguridad. Los informes se entregan cifrados con PGP a su responsable de IT.',
+        'Aquí ve exactamente cuánto ha avanzado su revisión de seguridad. Las actualizaciones y los informes le llegan por correo electrónico — a su responsable de IT, a su responsable directo o a su responsable de seguridad.',
     },
     assignment: 'Encargo ED-2026-014',
     assignmentTitle: 'Seguridad continua — cliente de demostración',
@@ -832,12 +832,12 @@ export const es: Dictionary = {
       { title: 'Revisión técnica', text: 'Pruebas de intrusión y análisis de vulnerabilidades de infraestructura y aplicaciones.' },
       { title: 'Revisión humana', text: 'Entrevistas, rutinas y concienciación del personal.' },
       { title: 'Revisión de proveedores', text: 'Revisión de la cadena de suministro y dependencias de terceros.' },
-      { title: 'Informe y plan de acción', text: 'Informe final cifrado con PGP a su responsable de IT.' },
+      { title: 'Informe y plan de acción', text: 'Informe final cifrado con PGP a los destinatarios que designen.' },
     ],
     pgpDelivery: 'Entrega PGP',
     pgpDeliveryText:
-      'Los informes finales se entregan cifrados a su responsable de IT. Añada destinatarios y claves en Business Profile.',
-    manageRecipients: 'Gestionar destinatarios',
+      'Los informes finales y las actualizaciones periódicas se envían a las direcciones de correo que designen — responsable de IT, responsable directo o responsable de seguridad. Si los prefieren cifrados con PGP, acordamos una clave por un canal seguro. No hacen falta cuentas.',
+    manageRecipients: 'Escríbanos sobre los destinatarios',
   },
 
   notFound: {

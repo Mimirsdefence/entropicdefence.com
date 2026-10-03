@@ -57,7 +57,7 @@ export const en: Dictionary = {
     status: {
       title: 'Security status — Entropic Defence',
       description:
-        'Follow your security review in real time. Reports are delivered encrypted with PGP.',
+        'Follow your security review step by step. Updates and reports are sent by email to your responsible staff.',
     },
     notFound: {
       title: 'Page not found — Entropic Defence',
@@ -843,10 +843,10 @@ export const en: Dictionary = {
     hero: {
       eyebrow: 'Security status',
       titleLead: 'Follow your review ',
-      titleHighlight: 'in real time',
+      titleHighlight: 'step by step',
       titleEnd: '.',
       description:
-        'Here you see exactly where in the process your security review stands. Reports are delivered encrypted with PGP to your IT manager.',
+        'Here you see exactly where in the process your security review stands. Updates and reports reach you by email — to your IT manager, responsible manager or security officer.',
     },
     assignment: 'Engagement ED-2026-014',
     assignmentTitle: 'Continuous security — sample client',
@@ -859,12 +859,12 @@ export const en: Dictionary = {
       },
       { title: 'Human review', text: 'Interviews, routines and awareness among your staff.' },
       { title: 'Supplier review', text: 'Review of supply chain and third-party dependencies.' },
-      { title: 'Report and action plan', text: 'Final report encrypted with PGP to your IT manager.' },
+      { title: 'Report and action plan', text: 'Final report encrypted with PGP to the recipients you designate.' },
     ],
     pgpDelivery: 'PGP delivery',
     pgpDeliveryText:
-      'Final reports are sent encrypted to your IT manager. Add recipients and keys in Business Profile.',
-    manageRecipients: 'Manage recipients',
+      'Final reports and ongoing updates are sent to the email addresses you designate — IT manager, responsible manager or security officer. If you prefer PGP encryption, we agree on a key over a secure channel. No accounts needed.',
+    manageRecipients: 'Email us about recipients',
   },
 
   // ── 404 ──────────────────────────────────────────────────────────────

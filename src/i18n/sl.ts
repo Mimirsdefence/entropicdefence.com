@@ -59,7 +59,7 @@ export const sl: Dictionary = {
     status: {
       title: 'Varnostni status — Entropic Defence',
       description:
-        'Spremljajte svoj varnostni pregled v realnem času. Poročila se dostavijo šifrirano s PGP.',
+        'Spremljajte svoj varnostni pregled korak za korakom. Posodobitve in poročila pošljemo po e-pošti vašim odgovornim osebam.',
     },
     notFound: {
       title: 'Strani ni mogoče najti — Entropic Defence',
@@ -851,10 +851,10 @@ export const sl: Dictionary = {
     hero: {
       eyebrow: 'Varnostni status',
       titleLead: 'Spremljajte svoj pregled ',
-      titleHighlight: 'v realnem času',
+      titleHighlight: 'korak za korakom',
       titleEnd: '.',
       description:
-        'Tukaj vidite, kje v procesu je vaš varnostni pregled. Poročila se dostavijo šifrirano s PGP vašemu odgovornemu za IT.',
+        'Tukaj vidite, kje v procesu je vaš varnostni pregled. Posodobitve in poročila prejmete po e-pošti — vašemu odgovornemu za IT, odgovornemu vodji ali varnostnemu vodji.',
     },
     assignment: 'Projekt ED-2026-014',
     assignmentTitle: 'Neprekinjeno varovanje — vzorčna stranka',
@@ -872,13 +872,13 @@ export const sl: Dictionary = {
       },
       {
         title: 'Poročilo in načrt ukrepov',
-        text: 'Končno poročilo, šifrirano s PGP, vašemu odgovornemu za IT.',
+        text: 'Končno poročilo, šifrirano s PGP, vašim izbranim prejemnikom.',
       },
     ],
     pgpDelivery: 'Dostava prek PGP',
     pgpDeliveryText:
-      'Končna poročila se pošljejo šifrirano vašemu odgovornemu za IT. Prejemnike in ključe dodajte v Business Profile.',
-    manageRecipients: 'Upravljaj prejemnike',
+      'Končna poročila in sprotne posodobitve pošljemo na e-poštne naslove, ki jih določite — odgovornemu za IT, odgovornemu vodji ali varnostnemu vodji. Če jih želite šifrirane s PGP, se o ključu dogovorimo po varnem kanalu. Računi niso potrebni.',
+    manageRecipients: 'Pišite nam glede prejemnikov',
   },
 
   // ── 404 ──────────────────────────────────────────────────────────────

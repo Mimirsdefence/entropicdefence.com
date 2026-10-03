@@ -57,7 +57,7 @@ export const pl: Dictionary = {
     },
     status: {
       title: 'Status bezpieczeństwa — Entropic Defence',
-      description: 'Śledź kontrolę bezpieczeństwa w czasie rzeczywistym. Raporty dostarczamy zaszyfrowane za pomocą PGP.',
+      description: 'Śledźcie kontrolę bezpieczeństwa krok po kroku. Aktualizacje i raporty wysyłamy e-mailem do osób odpowiedzialnych.',
     },
     notFound: {
       title: 'Nie znaleziono strony — Entropic Defence',
@@ -865,10 +865,10 @@ export const pl: Dictionary = {
     hero: {
       eyebrow: 'Status bezpieczeństwa',
       titleLead: 'Śledźcie kontrolę ',
-      titleHighlight: 'w czasie rzeczywistym',
+      titleHighlight: 'krok po kroku',
       titleEnd: '.',
       description:
-        'Tutaj widzą Państwo dokładnie, na jakim etapie jest kontrola bezpieczeństwa. Raporty dostarczamy zaszyfrowane PGP do osoby odpowiedzialnej za IT.',
+        'Tutaj widzą Państwo dokładnie, na jakim etapie jest kontrola bezpieczeństwa. Aktualizacje i raporty docierają do Państwa e-mailem — do osoby odpowiedzialnej za IT, odpowiedzialnego kierownika lub szefa bezpieczeństwa.',
     },
     assignment: 'Zlecenie ED-2026-014',
     assignmentTitle: 'Ciągłe bezpieczeństwo — klient przykładowy',
@@ -878,12 +878,12 @@ export const pl: Dictionary = {
       { title: 'Przegląd techniczny', text: 'Testy penetracyjne i analiza podatności infrastruktury oraz aplikacji.' },
       { title: 'Przegląd ludzki', text: 'Rozmowy, procedury i świadomość personelu.' },
       { title: 'Przegląd dostawców', text: 'Analiza łańcucha dostaw i zależności od podmiotów trzecich.' },
-      { title: 'Raport i plan działań', text: 'Raport końcowy zaszyfrowany PGP do osoby odpowiedzialnej za IT.' },
+      { title: 'Raport i plan działań', text: 'Raport końcowy zaszyfrowany PGP do wskazanych odbiorców.' },
     ],
     pgpDelivery: 'Dostawa PGP',
     pgpDeliveryText:
-      'Raporty końcowe wysyłamy zaszyfrowane do osoby odpowiedzialnej za IT. Odbiorców i klucze dodaje się w Business Profile.',
-    manageRecipients: 'Zarządzaj odbiorcami',
+      'Raporty końcowe i bieżące aktualizacje wysyłamy na wskazane adresy e-mail — do osoby odpowiedzialnej za IT, odpowiedzialnego kierownika lub szefa bezpieczeństwa. Jeśli chcą Państwo otrzymać je zaszyfrowane PGP, ustalimy klucz bezpiecznym kanałem. Konta nie są potrzebne.',
+    manageRecipients: 'Napiszcie do nas o odbiorcach',
   },
 
   // ── 404 ───────────────────────────────────────────────────────────────
