@@ -833,7 +833,7 @@ export const sv = {
         'Red Flag – Ethical hacker är vår egen analysplattform för AI-driven riskidentifiering. Specialiserade agenter kartlägger målet, hittar avvikelser och testar dem — automatiskt och kontinuerligt — medan varje fynd verifieras av en konsult innan det når en rapport. Det som en manuell granskning stickprovstestar i mänsklig takt analyserar plattformen i sin helhet på minuter.',
       paragraphs: [
         'Vårt verktyg Red Flag – Ethical hacker består av ett antal agenter som är specialiserade på olika uppgifter, men som kan användas tillsammans för att nå mål som annars är svåra.',
-        'Våra tester mot levande, viktig infrastruktur — framför allt i Schweiz — har visat en träffsäkerhet över 90 procent, och med intrång hos stora företag (100 platser eller fler) inom minuter.',
+        'Våra tester mot levande, viktig infrastruktur — framför allt i Schweiz — har visat en träffsäkerhet över 90 procent, med intrång hos stora företag (100 platser eller fler) inom minuter.',
         'Vi testar ständigt och lägger ibland till nya agenter med nya kapaciteter som vi tror passar.',
       ],
       agentsTitle: 'Agenterna',
