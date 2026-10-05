@@ -64,7 +64,7 @@ export default function Home() {
     null,
     '/disclosures#government',
     '/disclosures#military',
-    null,
+    '/disclosures#kritisk-infrastruktur',
     '/legal#tystnadsplikt',
   ]
 

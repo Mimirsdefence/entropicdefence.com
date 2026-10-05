@@ -872,6 +872,15 @@ export const da: Dictionary = {
         'Vi har arbejdet mange år med militære systemer og har derfor lang erfaring med det niveau af driftssikkerhed og sikkerhed, de kræver. Vi kan give anbefalinger til hærdning af systemer og også til redundans og driftssikkerhed.',
       ],
     },
+    critical: {
+      eyebrow: 'Kritisk infrastruktur',
+      title: 'Kritisk infrastruktur',
+      paragraphs: [
+        'Vi har brugt seks måneder på at teste vores platform mod hovedsageligt kritisk infrastruktur i Schweiz. Valget skyldes to ting: Schweiz har en meget velstruktureret infrastruktur, og der findes et bug bounty-program i samarbejde med NSC.',
+        '97 procent af de virksomheder og myndigheder, vi testede, havde sårbarheder, som vi fandt. Omkring 15 procent havde alvorlige eller kritiske sårbarheder.',
+        'Vi testede blandt andet banker, det schweiziske postvæsen (online-afstemning), en elektronisk ID-tjeneste, forsikringsselskaber og vandforsyning.',
+      ],
+    },
   },
 
   status: {

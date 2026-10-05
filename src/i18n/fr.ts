@@ -873,6 +873,15 @@ export const fr: Dictionary = {
         'Nous travaillons depuis de nombreuses années avec des systèmes militaires et disposons donc d’une longue expérience du niveau de fiabilité opérationnelle et de sécurité qu’ils exigent. Nous pouvons fournir des recommandations pour le durcissement des systèmes, ainsi que pour la redondance et la fiabilité opérationnelle.',
       ],
     },
+    critical: {
+      eyebrow: 'Infrastructure critique',
+      title: 'Infrastructure critique',
+      paragraphs: [
+        'Nous avons consacré six mois à tester notre plateforme principalement contre des infrastructures critiques en Suisse. Ce choix tient à deux raisons : la Suisse dispose d’une infrastructure très bien structurée et il existe un programme de bug bounty en collaboration avec le NSC.',
+        '97 pour cent des entreprises et autorités que nous avons testées présentaient des vulnérabilités que nous avons trouvées. Environ 15 pour cent présentaient des vulnérabilités graves ou critiques.',
+        'Nous avons notamment testé des banques, la poste suisse (vote en ligne), un service d’identité électronique, des compagnies d’assurance et l’approvisionnement en eau.',
+      ],
+    },
   },
 
   status: {

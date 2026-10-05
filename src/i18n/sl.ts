@@ -904,6 +904,15 @@ export const sl: Dictionary = {
         'Veliko let smo delali z vojaškimi sistemi, zato imamo dolgoletne izkušnje z ravnijo obratovalne zanesljivosti in varnosti, ki jo zahtevajo. Lahko podamo priporočila za utrjevanje sistemov ter za redundanco in obratovalno zanesljivost.',
       ],
     },
+    critical: {
+      eyebrow: 'Kritična infrastruktura',
+      title: 'Kritična infrastruktura',
+      paragraphs: [
+        'Šest mesecev smo porabili za testiranje naše platforme predvsem proti kritični infrastrukturi v Švici. Izbira temelji na dveh stvareh: Švica ima zelo dobro strukturirano infrastrukturo in v sodelovanju z NSC deluje program bug bounty.',
+        '97 odstotkov podjetij in organov, ki smo jih testirali, je imelo ranljivosti, ki smo jih našli. Približno 15 odstotkov jih je imelo hude ali kritične ranljivosti.',
+        'Med drugim smo testirali banke, švicarsko pošto (glasovanje prek spleta), storitev elektronske identitete, zavarovalnice in oskrbo z vodo.',
+      ],
+    },
   },
 
   status: {

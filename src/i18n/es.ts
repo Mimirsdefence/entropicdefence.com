@@ -872,6 +872,15 @@ export const es: Dictionary = {
         'Llevamos muchos años trabajando con sistemas militares y por ello tenemos una larga experiencia en el nivel de fiabilidad operativa y seguridad que exigen. Podemos ofrecer recomendaciones para el endurecimiento de sistemas, así como para redundancia y fiabilidad operativa.',
       ],
     },
+    critical: {
+      eyebrow: 'Infraestructura crítica',
+      title: 'Infraestructura crítica',
+      paragraphs: [
+        'Hemos dedicado seis meses a probar nuestra plataforma principalmente contra infraestructura crítica en Suiza. La elección se debe a dos motivos: Suiza tiene una infraestructura muy bien estructurada y existe un programa de bug bounty en colaboración con el NSC.',
+        'El 97 por ciento de las empresas y autoridades que probamos tenían vulnerabilidades que encontramos. Alrededor del 15 por ciento tenían vulnerabilidades graves o críticas.',
+        'Probamos, entre otros, bancos, el servicio postal suizo (voto en línea), un servicio de identidad electrónica, aseguradoras y el suministro de agua.',
+      ],
+    },
   },
 
   status: {

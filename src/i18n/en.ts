@@ -896,6 +896,15 @@ export const en: Dictionary = {
         'We have worked with military systems for many years and therefore have long experience of the level of operational reliability and security they demand. We can provide recommendations for hardening systems, and for redundancy and operational reliability.',
       ],
     },
+    critical: {
+      eyebrow: 'Critical infrastructure',
+      title: 'Critical infrastructure',
+      paragraphs: [
+        'We spent six months testing our platform mainly against critical infrastructure in Switzerland. The choice came down to two things: Switzerland has a very well structured infrastructure, and it runs a bug bounty programme in cooperation with the NSC.',
+        '97 per cent of the companies and authorities we tested had vulnerabilities that we found. Around 15 per cent had severe or critical vulnerabilities.',
+        'Among others, we tested banks, the Swiss postal service (online voting), an electronic ID service, insurance companies and water supply.',
+      ],
+    },
   },
 
   status: {

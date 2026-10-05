@@ -872,6 +872,15 @@ export const lt: Dictionary = {
         'Daug metų dirbome su karinėmis sistemomis, todėl turime ilgą patirtį to patikimumo ir saugumo lygio, kurio jos reikalauja. Galime pateikti rekomendacijų sistemų sutvirtinimui, taip pat dėl pertekliškumo ir veikimo patikimumo.',
       ],
     },
+    critical: {
+      eyebrow: 'Ypatingos svarbos infrastruktūra',
+      title: 'Ypatingos svarbos infrastruktūra',
+      paragraphs: [
+        'Šešis mėnesius testavome savo platformą daugiausia prieš Šveicarijos ypatingos svarbos infrastruktūrą. Pasirinkimą lėmė dvi priežastys: Šveicarijos infrastruktūra yra labai gerai struktūrizuota, o šalyje veikia bug bounty programa bendradarbiaujant su NSC.',
+        '97 procentai mūsų testuotų įmonių ir institucijų turėjo pažeidžiamumų, kuriuos radome. Apie 15 procentų turėjo sunkių arba kritinių pažeidžiamumų.',
+        'Be kita ko, testavome bankus, Šveicarijos paštą (balsavimas internetu), elektroninio ID paslaugą, draudimo bendroves ir vandens tiekimą.',
+      ],
+    },
   },
 
   status: {

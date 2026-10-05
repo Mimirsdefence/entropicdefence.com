@@ -830,11 +830,11 @@ export const sv = {
       eyebrow: 'Proprietär AI-analys',
       title: 'Red Flag – Ethical hacker',
       lead:
-        'Red Flag – Ethical hacker är vår egen analysplattform för AI-driven riskidentifiering. Specialiserade agenter kartlägger målet, hittar avvikelser och testar dem — automatiskt och kontinuerligt — medan varje fynd verifieras av en konsult innan det når en rapport. Det en manuell granskning stickprovstestar i mänsklig takt analyserar plattformen i sin helhet på minuter.',
+        'Red Flag – Ethical hacker är vår egen analysplattform för AI-driven riskidentifiering. Specialiserade agenter kartlägger målet, hittar avvikelser och testar dem — automatiskt och kontinuerligt — medan varje fynd verifieras av en konsult innan det når en rapport. Det som en manuell granskning stickprovstestar i mänsklig takt analyserar plattformen i sin helhet på minuter.',
       paragraphs: [
         'Vårt verktyg Red Flag – Ethical hacker består av ett antal agenter som är specialiserade på olika uppgifter, men som kan användas tillsammans för att nå mål som annars är svåra.',
-        'Våra tester mot levande, viktig infrastruktur — framför allt i Schweiz — har visat en träffsäkerhet över 90 procent, med intrång uppnått hos stora företag (100 platser eller fler) inom minuter.',
-        'Vi testar ständigt och lägger ibland till nya kapacitetsagenter som vi tror passar.',
+        'Våra tester mot levande, viktig infrastruktur — framför allt i Schweiz — har visat en träffsäkerhet över 90 procent, och med intrång hos stora företag (100 platser eller fler) inom minuter.',
+        'Vi testar ständigt och lägger ibland till nya agenter med nya kapaciteter som vi tror passar.',
       ],
       agentsTitle: 'Agenterna',
       methodLabel: 'Metod',
@@ -892,6 +892,15 @@ export const sv = {
       militaryTitle: 'Militära system',
       militaryText: [
         'Vi har arbetat många år med militära system och har därför lång erfarenhet av den nivå av driftsäkerhet och säkerhet som krävs för dessa. Vi kan ge rekommendationer för härdning av system och även för redundans och driftsäkerhet.',
+      ],
+    },
+    critical: {
+      eyebrow: 'Kritisk infrastruktur',
+      title: 'Kritisk infrastruktur',
+      paragraphs: [
+        'Vi har ägnat sex månader åt att testa vår plattform mot i huvudsak kritisk infrastruktur i Schweiz. Valet föll på Schweiz av två skäl: landet har en mycket väl strukturerad infrastruktur, och det finns ett bug bounty-program i samarbete med NSC.',
+        '97 procent av de företag och myndigheter vi testade hade sårbarheter som vi hittade. Runt 15 procent hade svåra eller kritiska sårbarheter.',
+        'Bland annat testade vi banker, schweiziska posten (online-röstning), en elektronisk identitetstjänst, försäkringsbolag och vattenförsörjning.',
       ],
     },
   },

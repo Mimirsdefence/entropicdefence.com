@@ -872,6 +872,15 @@ export const lv: Dictionary = {
         'Mēs daudzus gadus esam strādājuši ar militārajām sistēmām, tāpēc mums ir ilga pieredze ar šīm sistēmām nepieciešamo darbības drošumu un drošību. Varam sniegt ieteikumus sistēmu stiprināšanai, kā arī dublēšanai un darbības drošumam.',
       ],
     },
+    critical: {
+      eyebrow: 'Kritiskā infrastruktūra',
+      title: 'Kritiskā infrastruktūra',
+      paragraphs: [
+        'Sešus mēnešus mēs testējām savu platformu galvenokārt pret Šveices kritiskās infrastruktūras objektiem. Izvēli noteica divi iemesli: Šveices infrastruktūra ir ļoti labi strukturēta, un tur darbojas bug bounty programma sadarbībā ar NSC.',
+        '97 procentiem mūsu testēto uzņēmumu un iestāžu bija ievainojamības, kuras mēs atradām. Aptuveni 15 procentiem bija smagas vai kritiskas ievainojamības.',
+        'Mēs cita starpā testējām bankas, Šveices pastu (tiešsaistes balsošana), elektronisko ID pakalpojumu, apdrošināšanas sabiedrības un ūdensapgādi.',
+      ],
+    },
   },
 
   status: {

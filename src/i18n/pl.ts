@@ -918,6 +918,15 @@ export const pl: Dictionary = {
         'Od wielu lat pracujemy z systemami wojskowymi, dlatego mamy długie doświadczenie w zakresie wymaganego przez nie poziomu niezawodności działania i bezpieczeństwa. Możemy przedstawić zalecenia dotyczące wzmocnienia systemów, a także redundancji i niezawodności działania.',
       ],
     },
+    critical: {
+      eyebrow: 'Infrastruktura krytyczna',
+      title: 'Infrastruktura krytyczna',
+      paragraphs: [
+        'Poświęciliśmy sześć miesięcy na testowanie naszej platformy głównie przeciwko infrastrukturze krytycznej w Szwajcarii. Wybór wynika z dwóch rzeczy: Szwajcaria ma bardzo dobrze zorganizowaną infrastrukturę, a także program bug bounty we współpracy z NSC.',
+        '97 procent testowanych firm i instytucji miało podatności, które znaleźliśmy. Około 15 procent miało poważne lub krytyczne podatności.',
+        'Testowaliśmy między innymi banki, szwajcarską pocztę (głosowanie online), elektroniczny dowód tożsamości, firmy ubezpieczeniowe i zaopatrzenie w wodę.',
+      ],
+    },
   },
 
   status: {

@@ -871,6 +871,15 @@ export const et: Dictionary = {
         'Oleme palju aastaid töötanud sõjaliste süsteemidega ja omame seetõttu pikaajalist kogemust nende nõutava töökindluse ja turvalisuse tasemega. Saame anda soovitusi süsteemide karastamiseks ning ka liiasuse ja töökindluse kohta.',
       ],
     },
+    critical: {
+      eyebrow: 'Kriitiline infrastruktuur',
+      title: 'Kriitiline infrastruktuur',
+      paragraphs: [
+        'Oleme kuus kuud testinud oma platvormi peamiselt Šveitsi kriitilise infrastruktuuri vastu. Valiku tingisid kaks asja: Šveitsil on väga hästi struktureeritud infrastruktuur ja seal on NSC-ga koostöös bug bounty programm.',
+        '97 protsendil testitud ettevõtetest ja asutustest leidsime turvaauke. Umbes 15 protsendil olid rasked või kriitilised turvaaugud.',
+        'Testisime muu hulgas panku, Šveitsi postiteenust (e-hääletamine), elektroonilist ID-teenust, kindlustusfirmasid ja veevarustust.',
+      ],
+    },
   },
 
   status: {

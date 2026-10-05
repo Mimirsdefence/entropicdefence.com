@@ -1,4 +1,4 @@
-import { Bot, Landmark } from 'lucide-react'
+import { Bot, Landmark, ShieldAlert } from 'lucide-react'
 import PageHero from '@/components/PageHero'
 import Reveal from '@/components/Reveal'
 import { useI18n } from '@/i18n'
@@ -98,6 +98,25 @@ export default function Disclosures() {
                   </p>
                 ))}
               </div>
+            </div>
+          </article>
+        </Reveal>
+
+        <Reveal delay={240}>
+          <article id="kritisk-infrastruktur" className="panel mt-5 scroll-mt-24 p-7">
+            <div className="flex items-center gap-3">
+              <ShieldAlert className="h-5 w-5 text-signal" aria-hidden="true" />
+              <h2 className="font-display text-xl font-semibold">{t.disclosures.critical.title}</h2>
+            </div>
+            <p className="mt-1 font-mono text-[11px] uppercase tracking-[0.2em] text-fog">
+              {t.disclosures.critical.eyebrow}
+            </p>
+            <div className="mt-5 space-y-4">
+              {t.disclosures.critical.paragraphs.map((p) => (
+                <p key={p.slice(0, 24)} className="text-sm leading-relaxed text-fog">
+                  {p}
+                </p>
+              ))}
             </div>
           </article>
         </Reveal>

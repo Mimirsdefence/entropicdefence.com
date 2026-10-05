@@ -872,6 +872,15 @@ export const fi: Dictionary = {
         'Olemme työskennelleet monia vuosia sotilasjärjestelmien parissa ja meillä on siksi pitkä kokemus niiden vaatimasta käyttövarmuuden ja turvallisuuden tasosta. Voimme antaa suosituksia järjestelmien koventamiseksi sekä redundanssista ja käyttövarmuudesta.',
       ],
     },
+    critical: {
+      eyebrow: 'Kriittinen infrastruktuuri',
+      title: 'Kriittinen infrastruktuuri',
+      paragraphs: [
+        'Olemme käyttäneet kuusi kuukautta alustamme testaamiseen pääasiassa Sveitsin kriittistä infrastruktuuria vastaan. Valinta johtuu kahdesta asiasta: Sveitsin infrastruktuuri on erittäin hyvin jäsennelty, ja maassa on NSC:n kanssa yhteistyössä toimiva bug bounty -ohjelma.',
+        '97 prosentilla testaamistamme yrityksistä ja viranomaisista oli haavoittuvuuksia, jotka löysimme. Noin 15 prosentilla oli vakavia tai kriittisiä haavoittuvuuksia.',
+        'Testasimme muun muassa pankkeja, Sveitsin postia (verkkoäänestys), sähköistä tunnistuspalvelua, vakuutusyhtiöitä ja vesihuoltoa.',
+      ],
+    },
   },
 
   status: {
