@@ -5,7 +5,7 @@ export const da: Dictionary = {
     home: {
       title: 'Entropic Defence — Kontinuerlig sikkerhed mod udenlandske aktører',
       description:
-        'Entropic Defence AB. Over 40 års sikkerhedsarbejde på verdens højeste sikkerhedsniveau. Kontinuerlig sikkerhed, eksterne gennemgange og rådgivning til virksomheder, myndigheder og kritisk infrastruktur.',
+        'Entropic Defence. Over 40 års sikkerhedsarbejde på verdens højeste sikkerhedsniveau. Kontinuerlig sikkerhed, eksterne gennemgange og rådgivning til virksomheder, myndigheder og kritisk infrastruktur.',
     },
     checkout: {
       title: 'Vælg pakke — Entropic Defence',
@@ -131,7 +131,7 @@ export const da: Dictionary = {
 
   forms: {
     company: 'Virksomhed *',
-    companyPlaceholder: 'Entropic Defence AB',
+    companyPlaceholder: 'Entropic Defence',
     orgNumber: 'CVR-nummer',
     orgNumberPlaceholder: '559999-9999',
     contactPerson: 'Kontaktperson *',
@@ -370,7 +370,7 @@ export const da: Dictionary = {
         name: 'Ugentlig gennemgang',
         cadence: '1 ekstern gennemgang pr. uge',
         description:
-          'Til virksomheder, der ikke har råd til at være sårbare i mere end få dage — tættere gennemgange og aftalt konsulentbistand til at lukke problemer.',
+          'Til virksomheder, hvis nedbrud kan påvirke kritiske samfundsfunktioner — tættere gennemgange og aftalt konsulentbistand til at lukke problemer.',
         features: [
           '1 ekstern sikkerhedsgennemgang hver uge',
           'Skriftlig rapport og udbedringer til hvert fund',
@@ -478,7 +478,7 @@ export const da: Dictionary = {
       militar: {
         name: 'Militært niveau',
         level: 'Niveau 3',
-        tagline: 'Systemerne er ikke engang synlige, når nogen pinger dem.',
+        tagline: 'Ingen signatur. Intet svar. Ingen rytme.',
         description:
           'Det højeste interne niveau, vi leverer. Systemet eksisterer, men afgiver intet svar, intet fingeraftryk og ingen regelmæssighed. Forbeholdt forsvar, myndigheder og kritisk infrastruktur.',
         features: [
@@ -670,7 +670,7 @@ export const da: Dictionary = {
       {
         title: 'Privatlivspolitik',
         body: [
-          'Entropic Defence AB ("vi", "os") værner om dit privatliv. Denne politik beskriver, hvordan vi behandler personoplysninger, når du besøger entropicdefence.com, kontakter os eller bruger vores ydelser.',
+          'Entropic Defence ("vi", "os") værner om dit privatliv. Denne politik beskriver, hvordan vi behandler personoplysninger, når du besøger entropicdefence.com, kontakter os eller bruger vores ydelser.',
           'Vi indsamler de oplysninger, du selv giver: navn, virksomhed, CVR-nummer, mail og det, du skriver i kontaktformularen. Vi bruger udelukkende oplysningerne til at besvare forespørgsler, give tilbud og opfylde aftaler.',
           'Vi sælger aldrig dine oplysninger og deler dem kun med de leverandører, der er nødvendige for at levere ydelsen (fx hosting), under aftaler, der beskytter dine data. Oplysninger slettes, når de ikke længere er nødvendige, dog senest i henhold til gældende bogførings- og sikkerhedslovgivning.',
           'Retsgrundlag: legitim interesse og/eller aftale. Du har ret til at anmode om indsigt, berigtigelse, sletning og dataportabilitet. Kontakt: support@entropicdefence.com.',
@@ -680,7 +680,7 @@ export const da: Dictionary = {
         title: 'Vilkår',
         body: [
           'Indholdet på entropicdefence.com gives til orientering. Vi tilstræber korrekthed, men garanterer ikke, at indholdet altid er fuldstændigt eller aktuelt.',
-          'Al tekst, grafik og varemærker tilhører Entropic Defence AB, medmindre andet er angivet. Indholdet må ikke kopieres, distribueres eller bruges kommercielt uden skriftlig tilladelse.',
+          'Al tekst, grafik og varemærker tilhører Entropic Defence, medmindre andet er angivet. Indholdet må ikke kopieres, distribueres eller bruges kommercielt uden skriftlig tilladelse.',
           'Ydelser beskrevet på siden defineres altid i en separat skriftlig aftale. Intet på siden udgør et bindende tilbud.',
           'Ved sikkerhedsspørgsmål om vores systemer: se vores Advisories & Disclosures-side.',
         ],

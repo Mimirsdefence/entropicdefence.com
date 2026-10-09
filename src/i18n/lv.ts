@@ -5,7 +5,7 @@ export const lv: Dictionary = {
     home: {
       title: 'Entropic Defence — Nepārtraukta drošība pret ārvalstu dalībniekiem',
       description:
-        'Entropic Defence AB. Vairāk nekā 40 gadu drošības darba pasaules augstākajā līmenī. Nepārtraukta drošība, ārējās pārbaudes un konsultācijas uzņēmumiem, iestādēm un kritiskajai infrastruktūrai.',
+        'Entropic Defence. Vairāk nekā 40 gadu drošības darba pasaules augstākajā līmenī. Nepārtraukta drošība, ārējās pārbaudes un konsultācijas uzņēmumiem, iestādēm un kritiskajai infrastruktūrai.',
     },
     checkout: {
       title: 'Izvēlieties pakotni — Entropic Defence',
@@ -131,7 +131,7 @@ export const lv: Dictionary = {
 
   forms: {
     company: 'Uzņēmums *',
-    companyPlaceholder: 'Entropic Defence AB',
+    companyPlaceholder: 'Entropic Defence',
     orgNumber: 'Reģistrācijas numurs',
     orgNumberPlaceholder: '559999-9999',
     contactPerson: 'Kontaktpersona *',
@@ -370,7 +370,7 @@ export const lv: Dictionary = {
         name: 'Iknedēļas pārbaude',
         cadence: '1 ārējā pārbaude nedēļā',
         description:
-          'Uzņēmumiem, kas nevar atļauties ievainojamību ilgāk par dažām dienām — biežākas pārbaudes un saskaņotas konsultācijas atradumu aizvēršanai.',
+          'Uzņēmumiem, kuru darbības pārtraukumi var ietekmēt kritiskas sabiedrības funkcijas — biežākas pārbaudes un saskaņotas konsultācijas atradumu aizvēršanai.',
         features: [
           '1 ārējā drošības pārbaude katru nedēļu',
           'Rakstisks ziņojums un labojumi katram atradumam',
@@ -478,7 +478,7 @@ export const lv: Dictionary = {
       militar: {
         name: 'Militārais līmenis',
         level: '3. līmenis',
-        tagline: 'Sistēmas nav redzamas pat tad, kad kāds tās pingina.',
+        tagline: 'Nav paraksta. Nav atbildes. Nav ritma.',
         description:
           'Augstākais iekšējais līmenis, ko piegādājam. Sistēma eksistē, bet nesniedz atbildi, pirkstu nospiedumus un nekādu regularitāti. Rezervēts aizsardzībai, valsts iestādēm un kritiskajai infrastruktūrai.',
         features: [
@@ -670,7 +670,7 @@ export const lv: Dictionary = {
       {
         title: 'Privātuma politika',
         body: [
-          'Entropic Defence AB ("mēs", "mūs") aizsargā jūsu privātumu. Šī politika apraksta, kā mēs apstrādājam personas datus, kad apmeklējat entropicdefence.com, sazināties ar mums vai izmantojat mūsu pakalpojumus.',
+          'Entropic Defence ("mēs", "mūs") aizsargā jūsu privātumu. Šī politika apraksta, kā mēs apstrādājam personas datus, kad apmeklējat entropicdefence.com, sazināties ar mums vai izmantojat mūsu pakalpojumus.',
           'Mēs vācam tikai tos datus, kurus pats iesniedzat: vārdu, uzņēmumu, reģistrācijas numuru, e-pastu un to, ko rakstāt kontaktu veidlapā. Datus izmantojam tikai, lai atbildētu uz pieprasījumiem, sagatavotu piedāvājumus un izpildītu līgumus.',
           'Mēs nekad nepārdodam jūsu datus un kopīgojam tos tikai ar pakalpojumu sniedzējiem, kas nepieciešami pakalpojuma sniegšanai (piem., mitināšana), saskaņā ar līgumiem, kas aizsargā jūsu datus. Dati tiek dzēsti, kad tie vairs nav nepieciešami, vēlākais saskaņā ar spēkā esošajiem grāmatvedības un drošības tiesību aktiem.',
           'Juridiskais pamats: leģitīmas intereses un/vai līgums. Jums ir tiesības pieprasīt informāciju, labošanu, dzēšanu un datu pārnesamību. Kontakts: support@entropicdefence.com.',
@@ -680,7 +680,7 @@ export const lv: Dictionary = {
         title: 'Noteikumi',
         body: [
           'entropicdefence.com saturs tiek sniegts informatīvos nolūkos. Mēs tiecamies pēc precizitātes, bet negarantējam, ka saturs vienmēr ir pilnīgs vai aktuāls.',
-          'Viss teksts, grafika un preču zīmes pieder Entropic Defence AB, ja nav norādīts citādi. Saturu nedrīkst kopēt, izplatīt vai izmantot komerciāli bez rakstiskas atļaujas.',
+          'Viss teksts, grafika un preču zīmes pieder Entropic Defence, ja nav norādīts citādi. Saturu nedrīkst kopēt, izplatīt vai izmantot komerciāli bez rakstiskas atļaujas.',
           'Vietnē aprakstītie pakalpojumi vienmēr tiek definēti atsevišķā rakstiskā līgumā. Nekas vietnē nav saistošs piedāvājums.',
           'Drošības jautājumos par mūsu sistēmām: skatiet Advisories & Disclosures lapu.',
         ],

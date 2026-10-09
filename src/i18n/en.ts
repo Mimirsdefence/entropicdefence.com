@@ -5,7 +5,7 @@ export const en: Dictionary = {
     home: {
       title: 'Entropic Defence — Continuous security against foreign actors',
       description:
-        'Entropic Defence AB. 40+ years of security work at the world’s highest security classification. Continuous security, external security reviews and advisory services for companies, government agencies and critical infrastructure.',
+        'Entropic Defence. 40+ years of security work at the world’s highest security classification. Continuous security, external security reviews and advisory services for companies, government agencies and critical infrastructure.',
     },
     checkout: {
       title: 'Choose a package — Entropic Defence',
@@ -132,7 +132,7 @@ export const en: Dictionary = {
 
   forms: {
     company: 'Company *',
-    companyPlaceholder: 'Entropic Defence AB',
+    companyPlaceholder: 'Entropic Defence',
     orgNumber: 'Company registration number',
     orgNumberPlaceholder: '559999-9999',
     contactPerson: 'Contact person *',
@@ -381,7 +381,7 @@ export const en: Dictionary = {
         name: 'Weekly review',
         cadence: '1 external review per week',
         description:
-          'For businesses that cannot afford to be vulnerable for more than a few days — more frequent reviews and dedicated consulting to close the issues.',
+          'For organisations whose downtime can affect critical societal functions — more frequent reviews and dedicated consulting to close the issues.',
         features: [
           '1 external security review every week',
           'Written report with remediation per finding',
@@ -490,7 +490,7 @@ export const en: Dictionary = {
       militar: {
         name: 'Military grade',
         level: 'Level 3',
-        tagline: 'The systems do not even show up when someone pings them.',
+        tagline: 'No signature. No response. No rhythm.',
         description:
           'The highest internal level we deliver. The system exists, but returns no answer, no fingerprint and no regularity. Reserved for defence, government and critical infrastructure.',
         features: [
@@ -691,7 +691,7 @@ export const en: Dictionary = {
       {
         title: 'Privacy policy',
         body: [
-          'Entropic Defence AB ("we", "us") cares about your privacy. This policy describes how we process personal data when you visit entropicdefence.com, contact us or engage our services.',
+          'Entropic Defence ("we", "us") cares about your privacy. This policy describes how we process personal data when you visit entropicdefence.com, contact us or engage our services.',
           'We collect the information you provide yourself: name, company, registration number, email and what you write in contact forms. We use the information solely to answer enquiries, provide quotes and perform agreements.',
           'We never sell your information and share it only with the suppliers required to run the service (for example hosting), under agreements that protect your information. Information is deleted when it is no longer needed, and at the latest in accordance with applicable accounting and security legislation.',
           'Legal basis: legitimate interest and/or contract. You have the right to request a register extract, rectification, erasure and data portability. Contact us at support@entropicdefence.com.',
@@ -701,7 +701,7 @@ export const en: Dictionary = {
         title: 'Terms of use',
         body: [
           'The content on entropicdefence.com is provided for information purposes. We strive for accuracy but give no guarantee that the content is always complete or current.',
-          'All texts, graphics and trademarks belong to Entropic Defence AB unless otherwise stated. Content may not be copied, distributed or used commercially without written permission.',
+          'All texts, graphics and trademarks belong to Entropic Defence unless otherwise stated. Content may not be copied, distributed or used commercially without written permission.',
           'Services described on the website are always governed by a separate written agreement. Nothing on the website constitutes a binding offer.',
           'For security-related questions about our systems, see our Advisories & Disclosures page.',
         ],

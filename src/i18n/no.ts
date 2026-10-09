@@ -5,7 +5,7 @@ export const no: Dictionary = {
     home: {
       title: 'Entropic Defence — Kontinuerlig sikkerhet mot utenlandske aktører',
       description:
-        'Entropic Defence AB. Over 40 års sikkerhetsarbeid på verdens høyeste sikkerhetsnivå. Kontinuerlig sikkerhet, eksterne gjennomganger og rådgivning til bedrifter, myndigheter og kritisk infrastruktur.',
+        'Entropic Defence. Over 40 års sikkerhetsarbeid på verdens høyeste sikkerhetsnivå. Kontinuerlig sikkerhet, eksterne gjennomganger og rådgivning til bedrifter, myndigheter og kritisk infrastruktur.',
     },
     checkout: {
       title: 'Velg pakke — Entropic Defence',
@@ -131,7 +131,7 @@ export const no: Dictionary = {
 
   forms: {
     company: 'Bedrift *',
-    companyPlaceholder: 'Entropic Defence AB',
+    companyPlaceholder: 'Entropic Defence',
     orgNumber: 'Organisasjonsnummer',
     orgNumberPlaceholder: '559999-9999',
     contactPerson: 'Kontaktperson *',
@@ -370,7 +370,7 @@ export const no: Dictionary = {
         name: 'Ukentlig gjennomgang',
         cadence: '1 ekstern gjennomgang per uke',
         description:
-          'For bedrifter som ikke har råd til å være sårbare mer enn noen dager — tettere gjennomganger og avtalt konsulentbistand for å lukke problemer.',
+          'For bedrifter der driftsavbrudd kan påvirke kritiske samfunnsfunksjoner — tettere gjennomganger og avtalt konsulentbistand for å lukke problemer.',
         features: [
           '1 ekstern sikkerhetsgjennomgang hver uke',
           'Skriftlig rapport og utbedringer for hvert funn',
@@ -478,7 +478,7 @@ export const no: Dictionary = {
       militar: {
         name: 'Militært nivå',
         level: 'Nivå 3',
-        tagline: 'Systemene er ikke engang synlige når noen pinger dem.',
+        tagline: 'Ingen signatur. Intet svar. Ingen rytme.',
         description:
           'Det høyeste interne nivået vi leverer. Systemet eksisterer, men avgir ikke noe svar, intet fingeravtrykk og ingen regelmessighet. Reservert for forsvar, myndigheter og kritisk infrastruktur.',
         features: [
@@ -670,7 +670,7 @@ export const no: Dictionary = {
       {
         title: 'Personvernerklæring',
         body: [
-          'Entropic Defence AB ("vi", "oss") verner om personvernet ditt. Denne erklæringen beskriver hvordan vi behandler personopplysninger når du besøker entropicdefence.com, kontakter oss eller bruker tjenestene våre.',
+          'Entropic Defence ("vi", "oss") verner om personvernet ditt. Denne erklæringen beskriver hvordan vi behandler personopplysninger når du besøker entropicdefence.com, kontakter oss eller bruker tjenestene våre.',
           'Vi samler inn opplysningene du selv gir: navn, bedrift, organisasjonsnummer, e-post og det du skriver i kontaktskjemaet. Vi bruker opplysningene utelukkende til å svare på forespørsler, gi tilbud og oppfylle avtaler.',
           'Vi selger aldri opplysningene dine og deler dem kun med de leverandørene som er nødvendige for å levere tjenesten (f.eks. hosting), under avtaler som beskytter dataene dine. Opplysninger slettes når de ikke lenger er nødvendige, senest i tråd med gjeldende regnskaps- og sikkerhetslovgivning.',
           'Retsgrunnlag: berettiget interesse og/eller avtale. Du har rett til å be om innsyn, retting, sletting og dataportabilitet. Kontakt: support@entropicdefence.com.',
@@ -680,7 +680,7 @@ export const no: Dictionary = {
         title: 'Vilkår',
         body: [
           'Innholdet på entropicdefence.com tilbys i informasjonsøyemed. Vi tilstreber korrekthet, men garanterer ikke at innholdet alltid er fullstendig eller oppdatert.',
-          'All tekst, grafikk og varemerker tilhører Entropic Defence AB med mindre annet er angitt. Innholdet må ikke kopieres, distribueres eller brukes kommersielt uten skriftlig tillatelse.',
+          'All tekst, grafikk og varemerker tilhører Entropic Defence med mindre annet er angitt. Innholdet må ikke kopieres, distribueres eller brukes kommersielt uten skriftlig tillatelse.',
           'Tjenester beskrevet på siden defineres alltid i en separat skriftlig avtale. Ingenting på siden utgjør et bindende tilbud.',
           'Ved sikkerhetsspørsmål om systemene våre: se Advisories & Disclosures-siden.',
         ],

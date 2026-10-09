@@ -7,7 +7,7 @@ export const sl: Dictionary = {
     home: {
       title: 'Entropic Defence — Neprekinjeno varovanje pred tujimi akterji',
       description:
-        'Entropic Defence AB. Več kot 40 let varnostnega dela na najvišji svetovni varnostni stopnji. Neprekinjeno varovanje, zunanji varnostni pregledi in svetovanje za podjetja, državne organe in kritično infrastrukturo.',
+        'Entropic Defence. Več kot 40 let varnostnega dela na najvišji svetovni varnostni stopnji. Neprekinjeno varovanje, zunanji varnostni pregledi in svetovanje za podjetja, državne organe in kritično infrastrukturo.',
     },
     checkout: {
       title: 'Izberite paket — Entropic Defence',
@@ -139,7 +139,7 @@ export const sl: Dictionary = {
   // ── Obrazci ──────────────────────────────────────────────────────────
   forms: {
     company: 'Podjetje *',
-    companyPlaceholder: 'Entropic Defence AB',
+    companyPlaceholder: 'Entropic Defence',
     orgNumber: 'Matična številka',
     orgNumberPlaceholder: '559999-9999',
     contactPerson: 'Kontaktna oseba *',
@@ -388,7 +388,7 @@ export const sl: Dictionary = {
         name: 'Tedenski pregled',
         cadence: '1 zunanji pregled na teden',
         description:
-          'Za organizacije, ki si ne morejo privoščiti ranljivosti več kot nekaj dni — pogostejši pregledi in prilagojeno svetovanje za odpravo težav.',
+          'Za organizacije, katerih prekinitev lahko vpliva na kritične družbene funkcije — pogostejši pregledi in prilagojeno svetovanje za odpravo težav.',
         features: [
           '1 zunanji varnostni pregled vsak teden',
           'Pisno poročilo z odpravo za vsako ugotovitev',
@@ -497,7 +497,7 @@ export const sl: Dictionary = {
       militar: {
         name: 'Vojaška stopnja',
         level: 'Raven 3',
-        tagline: 'Sistemi se ne pokažejo niti takrat, ko jih kdo pinga.',
+        tagline: 'Brez podpisa. Brez odziva. Brez ritma.',
         description:
           'Najvišja notranja raven, ki jo izvedemo. Sistem obstaja, a ne vrne odgovora, prstnega odtisa ali rednega vzorca. Namenjeno obrambi, državni upravi in kritični infrastrukturi.',
         features: [
@@ -698,7 +698,7 @@ export const sl: Dictionary = {
       {
         title: 'Politika zasebnosti',
         body: [
-          'Entropic Defence AB („mi", „nas") spoštuje vašo zasebnost. Ta politika opisuje, kako obdelujemo osebne podatke, ko obiščete entropicdefence.com, nas kontaktirate ali najamete naše storitve.',
+          'Entropic Defence („mi", „nas") spoštuje vašo zasebnost. Ta politika opisuje, kako obdelujemo osebne podatke, ko obiščete entropicdefence.com, nas kontaktirate ali najamete naše storitve.',
           'Zbiramo podatke, ki nam jih posredujete sami: ime, podjetje, matično številko, e-naslov in vsebino, ki jo vpišete v kontaktni obrazec. Podatke uporabljamo izključno za odgovarjanje na povpraševanja, pripravo ponudb in izpolnjevanje pogodb.',
           'Vaših podatkov nikoli ne prodamo in jih delimo le z izvajalci, ki so potrebni za delovanje storitve (npr. gostovanje), na podlagi pogodb, ki varujejo vaše podatke. Podatke izbrišemo, ko niso več potrebni, v skladu z veljavno računovodsko in varnostno zakonodajo.',
           'Pravna podlaga: zakoniti interes in/ali pogodba. Imate pravico zahtevati izpis, popravek, izbris in prenosljivost podatkov. Pišite nam na support@entropicdefence.com.',
@@ -708,7 +708,7 @@ export const sl: Dictionary = {
         title: 'Pogoji uporabe',
         body: [
           'Vsebina na entropicdefence.com je objavljena v informativne namene. Prizadevamo si za točnost, vendar ne dajemo jamstev, da je vsebina vedno popolna ali aktualna.',
-          'Vsa besedila, grafika in blagovne znamke pripadajo podjetju Entropic Defence AB, razen če je navedeno drugače. Vsebine ni dovoljeno kopirati, razširjati ali komercialno uporabljati brez pisnega dovoljenja.',
+          'Vsa besedila, grafika in blagovne znamke pripadajo podjetju Entropic Defence, razen če je navedeno drugače. Vsebine ni dovoljeno kopirati, razširjati ali komercialno uporabljati brez pisnega dovoljenja.',
           'Storitve, opisane na spletni strani, vedno ureja ločena pisna pogodba. Nič na spletni strani ne predstavlja zavezujoče ponudbe.',
           'Za varnostna vprašanja o naših sistemih glejte stran Obvestila in razkritja.',
         ],

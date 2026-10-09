@@ -5,7 +5,7 @@ export const lt: Dictionary = {
     home: {
       title: 'Entropic Defence — Nuolatinė sauga nuo užsienio veikėjų',
       description:
-        'Entropic Defence AB. Daugiau nei 40 metų saugumo darbo aukščiausiu pasauliniu lygiu. Nuolatinė sauga, išorinės patikros ir konsultacijos įmonėms, institucijoms ir ypatingos svarbos infrastruktūrai.',
+        'Entropic Defence. Daugiau nei 40 metų saugumo darbo aukščiausiu pasauliniu lygiu. Nuolatinė sauga, išorinės patikros ir konsultacijos įmonėms, institucijoms ir ypatingos svarbos infrastruktūrai.',
     },
     checkout: {
       title: 'Pasirinkite paketą — Entropic Defence',
@@ -131,7 +131,7 @@ export const lt: Dictionary = {
 
   forms: {
     company: 'Įmonė *',
-    companyPlaceholder: 'Entropic Defence AB',
+    companyPlaceholder: 'Entropic Defence',
     orgNumber: 'Įmonės kodas',
     orgNumberPlaceholder: '559999-9999',
     contactPerson: 'Kontaktinis asmuo *',
@@ -370,7 +370,7 @@ export const lt: Dictionary = {
         name: 'Savaitės patikra',
         cadence: '1 išorinė patikra per savaitę',
         description:
-          'Įmonėms, kurios negali būti pažeidžiamos ilgiau nei kelias dienas — tankesnės patikros ir sutartos konsultacijos problemoms užbaigti.',
+          'Įmonėms, kurių veiklos sutrikimai gali paveikti kritines visuomenės funkcijas — tankesnės patikros ir sutartos konsultacijos problemoms užbaigti.',
         features: [
           '1 išorinė saugumo patikra kas savaitę',
           'Rašytinė ataskaita ir kiekvieno radinio ištaisymai',
@@ -478,7 +478,7 @@ export const lt: Dictionary = {
       militar: {
         name: 'Karinis lygis',
         level: '3 lygis',
-        tagline: 'Sistemos nematomos net tada, kai kas nors jas pingina.',
+        tagline: 'Jokio parašo. Jokio atsakymo. Jokio ritmo.',
         description:
           'Aukščiausias mūsų vidinis lygis. Sistema egzistuoja, bet neduoda jokio atsakymo, jokio piršto antspaudo ir jokio reguliarumo. Skirta gynybai, valdžios institucijoms ir kritinei infrastruktūrai.',
         features: [
@@ -670,7 +670,7 @@ export const lt: Dictionary = {
       {
         title: 'Privatumo politika',
         body: [
-          'Entropic Defence AB ("mes", "mums") saugo jūsų privatumą. Ši politika aprašo, kaip tvarkome asmens duomenis, kai lankotės entropicdefence.com, susisiekiate su mumis ar naudojatės paslaugomis.',
+          'Entropic Defence ("mes", "mums") saugo jūsų privatumą. Ši politika aprašo, kaip tvarkome asmens duomenis, kai lankotės entropicdefence.com, susisiekiate su mumis ar naudojatės paslaugomis.',
           'Renkame tik tuos duomenis, kuriuos pateikiate patys: vardą, įmonę, įmonės kodą, el. paštą ir tai, ką rašote kontaktų formoje. Duomenis naudojame tik užklausoms atsakyti, pasiūlymams teikti ir sutartims vykdyti.',
           'Niekada neparduodame jūsų duomenų ir dalijamės tik su tiekėjais, būtinais paslaugai teikti (pvz., priegloba), pagal sutartis, saugančias jūsų duomenis. Duomenys ištrinami, kai nebereikalingi, bet ne vėliau nei pagal galiojančius apskaitos ir saugumo teisės aktus.',
           'Teisinis pagrindas: teisėtas interesas ir (arba) sutartis. Turite teisę prašyti išrašo, taisymo, ištrynimo ir duomenų perkėlimo. Susisiekite: support@entropicdefence.com.',
@@ -680,7 +680,7 @@ export const lt: Dictionary = {
         title: 'Sąlygos',
         body: [
           'entropicdefence.com turinys pateikiamas informaciniais tikslais. Siekiame tikslumo, bet negarantuojame, kad turinys visada išsamus ar aktualus.',
-          'Visas tekstas, grafika ir prekių ženklai priklauso Entropic Defence AB, jei nenurodyta kitaip. Turinio negalima kopijuoti, platinti ar naudoti komerciniais tikslais be rašytinio leidimo.',
+          'Visas tekstas, grafika ir prekių ženklai priklauso Entropic Defence, jei nenurodyta kitaip. Turinio negalima kopijuoti, platinti ar naudoti komerciniais tikslais be rašytinio leidimo.',
           'Svetainėje aprašytos paslaugos visada apibrėžiamos atskira rašytine sutartimi. Nieka svetainėje nėra įpareigojantis pasiūlymas.',
           'Saugumo klausimais apie mūsų sistemas: žr. Advisories & Disclosures puslapį.',
         ],

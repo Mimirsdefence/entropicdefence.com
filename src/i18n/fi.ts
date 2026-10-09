@@ -5,7 +5,7 @@ export const fi: Dictionary = {
     home: {
       title: 'Entropic Defence — Jatkuva turvallisuus ulkomaisia toimijoita vastaan',
       description:
-        'Entropic Defence AB. Yli 40 vuotta turvallisuustyötä maailman korkeimmalla turvaluokituksella. Jatkuva turvallisuus, ulkoiset tarkastukset ja neuvonanto yrityksille, viranomaisille ja kriittiselle infrastruktuurille.',
+        'Entropic Defence. Yli 40 vuotta turvallisuustyötä maailman korkeimmalla turvaluokituksella. Jatkuva turvallisuus, ulkoiset tarkastukset ja neuvonanto yrityksille, viranomaisille ja kriittiselle infrastruktuurille.',
     },
     checkout: {
       title: 'Valitse paketti — Entropic Defence',
@@ -131,7 +131,7 @@ export const fi: Dictionary = {
 
   forms: {
     company: 'Yritys *',
-    companyPlaceholder: 'Entropic Defence AB',
+    companyPlaceholder: 'Entropic Defence',
     orgNumber: 'Y-tunnus',
     orgNumberPlaceholder: '559999-9999',
     contactPerson: 'Yhteyshenkilö *',
@@ -370,7 +370,7 @@ export const fi: Dictionary = {
         name: 'Viikkotarkastus',
         cadence: '1 ulkoinen tarkastus viikossa',
         description:
-          'Yrityksille, joilla ei ole varaa olla haavoittuvia muutamaa päivää kauempaa — tiheämpiä tarkastuksia ja sovitettu konsultointi ongelmien sulkemiseen.',
+          'Yrityksille, joiden keskeytykset voivat vaikuttaa kriittisiin yhteiskunnan toimintoihin — tiheämpiä tarkastuksia ja sovitettu konsultointi ongelmien sulkemiseen.',
         features: [
           '1 ulkoinen turvallisuustarkastus joka viikko',
           'Kirjallinen raportti ja korjaustoimet jokaiseen löydökseen',
@@ -478,7 +478,7 @@ export const fi: Dictionary = {
       militar: {
         name: 'Sotilaallinen taso',
         level: 'Taso 3',
-        tagline: 'Järjestelmät eivät näy edes silloin, kun joku pingaa niitä.',
+        tagline: 'Ei allekirjoitusta. Ei vastausta. Ei rytmiä.',
         description:
           'Korkein toimittamamme sisäinen taso. Järjestelmä on olemassa, mutta ei anna vastausta, sormenjälkeä eikä säännönmukaisuutta. Varattu puolustukselle, viranomaisille ja kriittiselle infrastruktuurille.',
         features: [
@@ -670,7 +670,7 @@ export const fi: Dictionary = {
       {
         title: 'Tietosuojaseloste',
         body: [
-          'Entropic Defence AB ("me", "meitä") vaalii yksityisyyttänne. Tämä seloste kuvaa, miten käsittelemme henkilötietoja, kun vierailette entropicdefence.com-sivustolla, otatte meihin yhteyttä tai käytätte palveluitamme.',
+          'Entropic Defence ("me", "meitä") vaalii yksityisyyttänne. Tämä seloste kuvaa, miten käsittelemme henkilötietoja, kun vierailette entropicdefence.com-sivustolla, otatte meihin yhteyttä tai käytätte palveluitamme.',
           'Keräämme tiedot, jotka itse annatte: nimi, yritys, y-tunnus, sähköposti ja se, mitä kirjoitatte yhteydenottolomakkeeseen. Käytämme tietoja vain pyyntöihin vastaamiseen, tarjousten tekemiseen ja sopimusten täyttämiseen.',
           'Emme koskaan myy tietojanne ja jaamme niitä vain niille palveluntarjoajille, joita palvelun tuottaminen edellyttää (esim. hosting), sopimuksin, jotka suojaavat tietojanne. Tiedot poistetaan, kun niitä ei enää tarvita, kuitenkin viimeistään voimassa olevan kirjanpito- ja turvallisuuslainsäädännön mukaisesti.',
           'Oikeusperuste: oikeutettu etu ja/tai sopimus. Teillä on oikeus pyytää rekisteriote, oikaisu, poisto ja tietojen siirto. Ottakaa yhteyttä: support@entropicdefence.com.',
@@ -680,7 +680,7 @@ export const fi: Dictionary = {
         title: 'Käyttöehdot',
         body: [
           'entropicdefence.com-sivuston sisältö tarjotaan tiedotustarkoituksessa. Pyrimme oikeellisuuteen mutta emme takaa, että sisältö on aina täydellistä tai ajantasaista.',
-          'Kaikki tekstit, grafiikka ja tavaramerkit kuuluvat Entropic Defence AB:lle, ellei toisin mainita. Sisältöä ei saa kopioida, levittää tai käyttää kaupallisesti ilman kirjallista lupaa.',
+          'Kaikki tekstit, grafiikka ja tavaramerkit kuuluvat Entropic Defence:lle, ellei toisin mainita. Sisältöä ei saa kopioida, levittää tai käyttää kaupallisesti ilman kirjallista lupaa.',
           'Sivustolla kuvatut palvelut määritellään aina erillisellä kirjallisella sopimuksella. Mikään sivustolla ei muodosta sitovaa tarjousta.',
           'Turvallisuuteen liittyvissä kysymyksissä järjestelmistämme: katso Advisories & Disclosures -sivumme.',
         ],

@@ -5,7 +5,7 @@ export const et: Dictionary = {
     home: {
       title: 'Entropic Defence — Pidev turve välisosalejate vastu',
       description:
-        'Entropic Defence AB. Üle 40 aasta turvatööd maailma kõrgeimal tasemel. Pidev turve, välised ülevaatused ja nõustamine ettevõtetele, ametiasutustele ja elutähtsale taristule.',
+        'Entropic Defence. Üle 40 aasta turvatööd maailma kõrgeimal tasemel. Pidev turve, välised ülevaatused ja nõustamine ettevõtetele, ametiasutustele ja elutähtsale taristule.',
     },
     checkout: {
       title: 'Vali pakett — Entropic Defence',
@@ -131,7 +131,7 @@ export const et: Dictionary = {
 
   forms: {
     company: 'Ettevõte *',
-    companyPlaceholder: 'Entropic Defence AB',
+    companyPlaceholder: 'Entropic Defence',
     orgNumber: 'Registrikood',
     orgNumberPlaceholder: '559999-9999',
     contactPerson: 'Kontaktisik *',
@@ -370,7 +370,7 @@ export const et: Dictionary = {
         name: 'Iganädalane ülevaatus',
         cadence: '1 väline ülevaatus nädalas',
         description:
-          'Ettevõtetele, kes ei saa endale lubada haavatavust kauemaks kui mõneks päevaks — tihedamad ülevaatused ja kokkulepitud konsultatsioon probleemide sulgemiseks.',
+          'Ettevõtetele, mille katkestused võivad mõjutada ühiskonna kriitilisi funktsioone — tihedamad ülevaatused ja kokkulepitud konsultatsioon probleemide sulgemiseks.',
         features: [
           '1 väline turbeülevaatus iga nädal',
           'Kirjalik aruanne ja parandused igale leiule',
@@ -478,7 +478,7 @@ export const et: Dictionary = {
       militar: {
         name: 'Sõjaline tase',
         level: 'Tase 3',
-        tagline: 'Süsteemid pole nähtavad isegi siis, kui keegi neid pingib.',
+        tagline: 'Ei allkirja. Ei vastust. Ei rütmi.',
         description:
           'Kõrgeim sisemine tase, mida pakume. Süsteem on olemas, kuid ei anna vastust, sõrmejälge ega regulaarsust. Reserveeritud kaitsele, riigiasutustele ja kriitilisele infrastruktuurile.',
         features: [
@@ -670,7 +670,7 @@ export const et: Dictionary = {
       {
         title: 'Privaatsuspoliitika',
         body: [
-          'Entropic Defence AB ("meie", "meid") kaitseb teie privaatsust. See poliitika kirjeldab, kuidas töötleme isikuandmeid, kui külastate entropicdefence.com, võtate meiega ühendust või kasutate meie teenuseid.',
+          'Entropic Defence ("meie", "meid") kaitseb teie privaatsust. See poliitika kirjeldab, kuidas töötleme isikuandmeid, kui külastate entropicdefence.com, võtate meiega ühendust või kasutate meie teenuseid.',
           'Kogume ainult neid andmeid, mille ise esitate: nimi, ettevõte, registrikood, meil ja see, mida kontaktvormi kirjutate. Kasutame andmeid üksnes päringutele vastamiseks, pakkumiste tegemiseks ja lepingute täitmiseks.',
           'Me ei müü kunagi teie andmeid ja jagame neid ainult teenuse osutamiseks vajalike teenusepakkujatega (nt majutus), lepingute alusel, mis kaitsevad teie andmeid. Andmed kustutatakse, kui need pole enam vajalikud, hiljemalt kehtivate raamatupidamis- ja turbeõigusaktide kohaselt.',
           'Õiguslik alus: õigustatud huvi ja/või leping. Teil on õigus nõuda teavet, parandamist, kustutamist ja andmete ülekandmist. Kontakt: support@entropicdefence.com.',
@@ -680,7 +680,7 @@ export const et: Dictionary = {
         title: 'Tingimused',
         body: [
           'entropicdefence.com sisu on esitatud teavitamise eesmärgil. Püüdleme täpsuse poole, kuid ei garanteeri, et sisu on alati täielik või ajakohane.',
-          'Kogu tekst, graafika ja kaubamärgid kuuluvad Entropic Defence AB-le, kui pole märgitud teisiti. Sisu ei tohi kopeerida, levitada ega äriliselt kasutada ilma kirjaliku loata.',
+          'Kogu tekst, graafika ja kaubamärgid kuuluvad Entropic Defence-le, kui pole märgitud teisiti. Sisu ei tohi kopeerida, levitada ega äriliselt kasutada ilma kirjaliku loata.',
           'Lehel kirjeldatud teenused määratletakse alati eraldi kirjalikus lepingus. Miski lehel ei ole siduv pakkumine.',
           'Turbeküsimustes meie süsteemide kohta: vt Advisories & Disclosures lehte.',
         ],

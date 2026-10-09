@@ -5,7 +5,7 @@ export const fr: Dictionary = {
     home: {
       title: 'Entropic Defence — Sécurité continue contre les acteurs étrangers',
       description:
-        'Entropic Defence AB. Plus de 40 ans de travail de sécurité au plus haut niveau mondial. Sécurité continue, revues externes et conseil aux entreprises, aux autorités et aux infrastructures critiques.',
+        'Entropic Defence. Plus de 40 ans de travail de sécurité au plus haut niveau mondial. Sécurité continue, revues externes et conseil aux entreprises, aux autorités et aux infrastructures critiques.',
     },
     checkout: {
       title: 'Choisissez un pack — Entropic Defence',
@@ -131,7 +131,7 @@ export const fr: Dictionary = {
 
   forms: {
     company: 'Entreprise *',
-    companyPlaceholder: 'Entropic Defence AB',
+    companyPlaceholder: 'Entropic Defence',
     orgNumber: 'Numéro d\'organisation',
     orgNumberPlaceholder: '559999-9999',
     contactPerson: 'Personne de contact *',
@@ -370,7 +370,7 @@ export const fr: Dictionary = {
         name: 'Revue hebdomadaire',
         cadence: '1 revue externe par semaine',
         description:
-          'Pour les entreprises qui ne peuvent pas se permettre une vulnérabilité plus de quelques jours — des revues plus fréquentes et un conseil convenu pour refermer les constats.',
+          'Pour les organisations dont l\'interruption peut affecter des fonctions sociétales critiques — des revues plus fréquentes et un conseil convenu pour refermer les constats.',
         features: [
           '1 revue de sécurité externe par semaine',
           'Rapport écrit et corrections pour chaque constat',
@@ -478,7 +478,7 @@ export const fr: Dictionary = {
       militar: {
         name: 'Niveau militaire',
         level: 'Niveau 3',
-        tagline: 'Les systèmes ne sont même pas visibles quand quelqu\'un les pingue.',
+        tagline: 'Aucune signature. Aucune réponse. Aucun rythme.',
         description:
           'Le plus haut niveau interne que nous livrons. Le système existe, mais n\'émet aucune réponse, aucune empreinte et aucune régularité. Réservé à la défense, aux autorités et aux infrastructures critiques.',
         features: [
@@ -670,7 +670,7 @@ export const fr: Dictionary = {
       {
         title: 'Politique de confidentialité',
         body: [
-          'Entropic Defence AB (« nous ») protège votre vie privée. Cette politique décrit comment nous traitons les données personnelles lorsque vous visitez entropicdefence.com, nous contactez ou utilisez nos services.',
+          'Entropic Defence (« nous ») protège votre vie privée. Cette politique décrit comment nous traitons les données personnelles lorsque vous visitez entropicdefence.com, nous contactez ou utilisez nos services.',
           'Nous ne collectons que les données que vous fournissez : nom, entreprise, numéro d\'organisation, e-mail et le contenu du formulaire de contact. Nous utilisons les données uniquement pour répondre aux demandes, établir des devis et exécuter des contrats.',
           'Nous ne vendons jamais vos données et ne les partageons qu\'avec les prestataires nécessaires au service (p. ex. hébergement), dans le cadre de contrats qui protègent vos données. Les données sont supprimées lorsqu\'elles ne sont plus nécessaires, au plus tard conformément à la législation comptable et de sécurité applicable.',
           'Base juridique : intérêt légitime et/ou contrat. Vous avez le droit de demander l\'information, la rectification, la suppression et la portabilité des données. Contact : support@entropicdefence.com.',
@@ -680,7 +680,7 @@ export const fr: Dictionary = {
         title: 'Conditions',
         body: [
           'Le contenu d\'entropicdefence.com est fourni à titre informatif. Nous visons l\'exactitude mais ne garantissons pas que le contenu soit toujours complet ou à jour.',
-          'Tous les textes, graphiques et marques appartiennent à Entropic Defence AB, sauf indication contraire. Le contenu ne peut être copié, distribué ou utilisé commercialement sans autorisation écrite.',
+          'Tous les textes, graphiques et marques appartiennent à Entropic Defence, sauf indication contraire. Le contenu ne peut être copié, distribué ou utilisé commercialement sans autorisation écrite.',
           'Les services décrits sur le site sont toujours définis dans un contrat écrit distinct. Rien sur le site ne constitue une offre contraignante.',
           'Pour les questions de sécurité concernant nos systèmes : voir la page Advisories & Disclosures.',
         ],

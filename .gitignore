@@ -21,6 +21,7 @@ dist-ssr
 .state.json
 agents/.state.json
 agents/.audit.log
+agents/stripe/.stripe-map.json
 
 # Editor directories and files
 .vscode/*

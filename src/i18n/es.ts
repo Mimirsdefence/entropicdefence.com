@@ -5,7 +5,7 @@ export const es: Dictionary = {
     home: {
       title: 'Entropic Defence — Seguridad continua contra actores extranjeros',
       description:
-        'Entropic Defence AB. Más de 40 años de trabajo en seguridad al más alto nivel mundial. Seguridad continua, revisiones externas y asesoramiento a empresas, autoridades e infraestructuras críticas.',
+        'Entropic Defence. Más de 40 años de trabajo en seguridad al más alto nivel mundial. Seguridad continua, revisiones externas y asesoramiento a empresas, autoridades e infraestructuras críticas.',
     },
     checkout: {
       title: 'Elige un paquete — Entropic Defence',
@@ -131,7 +131,7 @@ export const es: Dictionary = {
 
   forms: {
     company: 'Empresa *',
-    companyPlaceholder: 'Entropic Defence AB',
+    companyPlaceholder: 'Entropic Defence',
     orgNumber: 'Número de organización',
     orgNumberPlaceholder: '559999-9999',
     contactPerson: 'Persona de contacto *',
@@ -370,7 +370,7 @@ export const es: Dictionary = {
         name: 'Revisión semanal',
         cadence: '1 revisión externa a la semana',
         description:
-          'Para empresas que no pueden permitirse una vulnerabilidad más de unos días — revisiones más frecuentes y consultoría acordada para cerrar hallazgos.',
+          'Para organizaciones cuya interrupción pueda afectar a funciones críticas de la sociedad — revisiones más frecuentes y consultoría acordada para cerrar hallazgos.',
         features: [
           '1 revisión de seguridad externa a la semana',
           'Informe escrito y correcciones para cada hallazgo',
@@ -478,7 +478,7 @@ export const es: Dictionary = {
       militar: {
         name: 'Nivel militar',
         level: 'Nivel 3',
-        tagline: 'Los sistemas ni siquiera se ven cuando alguien les hace ping.',
+        tagline: 'Sin firma. Sin respuesta. Sin ritmo.',
         description:
           'El nivel interno más alto que entregamos. El sistema existe, pero no emite respuesta, huella ni regularidad. Reservado para defensa, autoridades e infraestructura crítica.',
         features: [
@@ -670,7 +670,7 @@ export const es: Dictionary = {
       {
         title: 'Política de privacidad',
         body: [
-          'Entropic Defence AB («nosotros») protege su privacidad. Esta política describe cómo tratamos los datos personales cuando visita entropicdefence.com, se pone en contacto con nosotros o utiliza nuestros servicios.',
+          'Entropic Defence («nosotros») protege su privacidad. Esta política describe cómo tratamos los datos personales cuando visita entropicdefence.com, se pone en contacto con nosotros o utiliza nuestros servicios.',
           'Solo recopilamos los datos que usted mismo proporciona: nombre, empresa, número de organización, correo y lo que escribe en el formulario de contacto. Usamos los datos únicamente para responder a solicitudes, elaborar presupuestos y cumplir contratos.',
           'Nunca vendemos sus datos y solo los compartimos con proveedores necesarios para el servicio (p. ej. alojamiento), mediante contratos que protegen sus datos. Los datos se eliminan cuando ya no son necesarios, como máximo según la legislación contable y de seguridad vigente.',
           'Base jurídica: interés legítimo y/o contrato. Tiene derecho a solicitar información, rectificación, supresión y portabilidad de los datos. Contacto: support@entropicdefence.com.',
@@ -680,7 +680,7 @@ export const es: Dictionary = {
         title: 'Términos',
         body: [
           'El contenido de entropicdefence.com se ofrece con fines informativos. Buscamos la exactitud, pero no garantizamos que el contenido esté siempre completo o actualizado.',
-          'Todo el texto, los gráficos y las marcas pertenecen a Entropic Defence AB, salvo que se indique lo contrario. El contenido no puede copiarse, distribuirse ni usarse comercialmente sin autorización escrita.',
+          'Todo el texto, los gráficos y las marcas pertenecen a Entropic Defence, salvo que se indique lo contrario. El contenido no puede copiarse, distribuirse ni usarse comercialmente sin autorización escrita.',
           'Los servicios descritos en el sitio se definen siempre en un contrato escrito aparte. Nada en el sitio constituye una oferta vinculante.',
           'Para cuestiones de seguridad sobre nuestros sistemas: consulte la página Advisories & Disclosures.',
         ],

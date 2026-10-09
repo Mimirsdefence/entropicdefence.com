@@ -9,7 +9,7 @@ export const sv = {
     home: {
       title: 'Entropic Defence — Kontinuerlig säkerhet mot utländska aktörer',
       description:
-        'Entropic Defence AB. 40+ år av säkerhetsarbete i världens högsta säkerhetsklass. Kontinuerlig säkerhet, externa säkerhetskontroller och rådgivning för företag, myndigheter och kritisk infrastruktur.',
+        'Entropic Defence. 40+ år av säkerhetsarbete i världens högsta säkerhetsklass. Kontinuerlig säkerhet, externa säkerhetskontroller och rådgivning för företag, myndigheter och kritisk infrastruktur.',
     },
     checkout: {
       title: 'Välj paket — Entropic Defence',
@@ -141,7 +141,7 @@ export const sv = {
   // ── Formulär ────────────────────────────────────────────────────────
   forms: {
     company: 'Företag *',
-    companyPlaceholder: 'Entropic Defence AB',
+    companyPlaceholder: 'Entropic Defence',
     orgNumber: 'Organisationsnummer',
     orgNumberPlaceholder: '559999-9999',
     contactPerson: 'Kontaktperson *',
@@ -383,7 +383,7 @@ export const sv = {
         name: 'Veckokontroll',
         cadence: '1 extern kontroll per vecka',
         description:
-          'För verksamheter som inte har råd att vara sårbara i mer än några dagar — tätare kontroller och anpassad konsultering för att stänga problemen.',
+          'För verksamheter vars avbrott kan innebära påverkan på kritiska samhällsfunktioner — tätare kontroller och anpassad konsultering för att stänga problemen.',
         features: [
           '1 extern säkerhetskontroll varje vecka',
           'Skriftlig rapport med remediering per fynd',
@@ -492,7 +492,7 @@ export const sv = {
       militar: {
         name: 'Militär grad',
         level: 'Nivå 3',
-        tagline: 'Systemen syns inte ens när någon pingar dem.',
+        tagline: 'Ingen signatur. Inget svar. Ingen rytm.',
         description:
           'Den högsta interna nivån vi levererar. Systemet existerar, men avger inget svar, inget fingeravtryck och ingen regelbundenhet. Reserverat för försvar, myndighet och kritisk infrastruktur.',
         features: [
@@ -689,7 +689,7 @@ export const sv = {
       {
         title: 'Integritetspolicy',
         body: [
-          'Entropic Defence AB ("vi", "oss") värnar din integritet. Denna policy beskriver hur vi hanterar personuppgifter när du besöker entropicdefence.com, kontaktar oss eller anlitar våra tjänster.',
+          'Entropic Defence ("vi", "oss") värnar din integritet. Denna policy beskriver hur vi hanterar personuppgifter när du besöker entropicdefence.com, kontaktar oss eller anlitar våra tjänster.',
           'Vi samlar in de uppgifter du själv lämnar: namn, företag, organisationsnummer, e-post och det du skriver i kontaktformulär. Vi använder uppgifterna enbart för att besvara förfrågningar, offerera och fullgöra avtal.',
           'Vi säljer aldrig dina uppgifter och delar dem endast med de leverantörer som krävs för att driva tjänsten (t.ex. hosting) under avtal som skyddar dina uppgifter. Uppgifter raderas när de inte längre behövs, dock senast i enlighet med gällande bokförings- och säkerhetslagstiftning.',
           'Rättslig grund: berättigat intresse och/eller avtal. Du har rätt att begära registerutdrag, rättelse, radering och dataportabilitet. Kontakta oss på support@entropicdefence.com.',
@@ -699,7 +699,7 @@ export const sv = {
         title: 'Användarvillkor',
         body: [
           'Innehållet på entropicdefence.com tillhandahålls i informationssyfte. Vi strävar efter korrekthet men lämnar inga garantier för att innehållet alltid är fullständigt eller aktuellt.',
-          'Alla texter, grafik och varumärken tillhör Entropic Defence AB om inget annat anges. Innehåll får inte kopieras, spridas eller användas kommersiellt utan skriftligt tillstånd.',
+          'Alla texter, grafik och varumärken tillhör Entropic Defence om inget annat anges. Innehåll får inte kopieras, spridas eller användas kommersiellt utan skriftligt tillstånd.',
           'Tjänster som beskrivs på webbplatsen regleras alltid av separat skriftligt avtal. Inget på webbplatsen utgör ett bindande anbud.',
           'Vid säkerhetsrelaterade frågor om våra system, se vår sida för Advisories & Disclosures.',
         ],
