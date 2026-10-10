@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
 import { Resend } from 'resend'
 
-import { sendConfirmation } from './_lib/confirm.ts'
+import { sendConfirmation } from './_lib/confirm.js'
 
 const resend = new Resend(process.env.RESEND_API_KEY)
 
