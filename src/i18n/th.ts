@@ -10,7 +10,7 @@ export const th: Dictionary = {
     checkout: {
       title: 'เลือกแพ็กเกจ — Entropic Defence',
       description:
-        'ราคาคงที่สำหรับความปลอดภัยต่อเนื่อง: การตรวจสอบภายนอก การตรวจสอบภายใน และการนำด้านความปลอดภัย เริ่มต้น 18 700 kr ต่อเดือน',
+        'ราคาคงที่สำหรับความปลอดภัยต่อเนื่อง: การตรวจสอบภายนอก การตรวจสอบภายใน และการนำด้านความปลอดภัย เริ่มต้น 18 700 SEK ต่อเดือน',
     },
     checkoutExtern: {
       title: 'การตรวจสอบความปลอดภัยต่อเนื่อง — Entropic Defence',
@@ -82,7 +82,7 @@ export const th: Dictionary = {
     active: 'ใช้งานอยู่',
     ongoing: 'กำลังดำเนินการ',
     from: 'เริ่มต้น',
-    currency: 'kr',
+    currency: 'SEK',
     chooseLanguage: 'เลือกภาษา',
     language: 'ภาษา',
     periodLabel: 'รอบการเรียกเก็บเงิน',

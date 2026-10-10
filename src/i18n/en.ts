@@ -10,7 +10,7 @@ export const en: Dictionary = {
     checkout: {
       title: 'Choose a package — Entropic Defence',
       description:
-        'Fixed prices for continuous security: external review, internal audit and security management. From 18 700 kr per month.',
+        'Fixed prices for continuous security: external review, internal audit and security management. From 18 700 SEK per month.',
     },
     checkoutExtern: {
       title: 'Continuous security review — Entropic Defence',
@@ -82,7 +82,7 @@ export const en: Dictionary = {
     active: 'Active',
     ongoing: 'In progress',
     from: 'From',
-    currency: 'kr',
+    currency: 'SEK',
     chooseLanguage: 'Choose language',
     language: 'Language',
     // Billing period selector (point 5)

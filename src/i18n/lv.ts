@@ -10,7 +10,7 @@ export const lv: Dictionary = {
     checkout: {
       title: 'Izvēlieties pakotni — Entropic Defence',
       description:
-        'Fiksētas cenas nepārtrauktai drošībai: ārējā pārbaude, iekšējais audits un drošības vadība. No 18 700 kr mēnesī.',
+        'Fiksētas cenas nepārtrauktai drošībai: ārējā pārbaude, iekšējais audits un drošības vadība. No 18 700 SEK mēnesī.',
     },
     checkoutExtern: {
       title: 'Nepārtraukta drošības pārbaude — Entropic Defence',
@@ -82,7 +82,7 @@ export const lv: Dictionary = {
     active: 'Aktīvs',
     ongoing: 'Notiek',
     from: 'No',
-    currency: 'kr',
+    currency: 'SEK',
     chooseLanguage: 'Izvēlieties valodu',
     language: 'Valoda',
     periodLabel: 'Norēķinu periods',

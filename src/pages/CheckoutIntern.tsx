@@ -132,7 +132,7 @@ export default function CheckoutIntern() {
         </p>
       </section>
 
-      {/* Varför 3 500 kr/tim */}
+      {/* Varför 3 500 SEK/tim */}
       <section className="border-t border-line/70 bg-abyss/50">
         <div className="mx-auto max-w-7xl px-5 py-20 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-2">

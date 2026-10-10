@@ -11,7 +11,7 @@ export const pl: Dictionary = {
     checkout: {
       title: 'Wybierz pakiet — Entropic Defence',
       description:
-        'Stałe ceny za ciągłe bezpieczeństwo: kontrola zewnętrzna, audyt wewnętrzny i zarządzanie bezpieczeństwem. Od 18 700 kr miesięcznie.',
+        'Stałe ceny za ciągłe bezpieczeństwo: kontrola zewnętrzna, audyt wewnętrzny i zarządzanie bezpieczeństwem. Od 18 700 SEK miesięcznie.',
     },
     checkoutExtern: {
       title: 'Ciągła kontrola bezpieczeństwa — Entropic Defence',
@@ -83,7 +83,7 @@ export const pl: Dictionary = {
     active: 'Aktywny',
     ongoing: 'W toku',
     from: 'Od',
-    currency: 'kr',
+    currency: 'SEK',
     chooseLanguage: 'Wybierz język',
     language: 'Język',
     periodLabel: 'Okres rozliczeniowy',

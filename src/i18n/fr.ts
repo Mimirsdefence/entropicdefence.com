@@ -10,7 +10,7 @@ export const fr: Dictionary = {
     checkout: {
       title: 'Choisissez un pack — Entropic Defence',
       description:
-        'Tarifs fixes pour une sécurité continue : revue externe, audit interne et pilotage de sécurité. Dès 18 700 kr par mois.',
+        'Tarifs fixes pour une sécurité continue : revue externe, audit interne et pilotage de sécurité. Dès 18 700 SEK par mois.',
     },
     checkoutExtern: {
       title: 'Revue de sécurité continue — Entropic Defence',
@@ -82,7 +82,7 @@ export const fr: Dictionary = {
     active: 'Actif',
     ongoing: 'En cours',
     from: 'Dès',
-    currency: 'kr',
+    currency: 'SEK',
     chooseLanguage: 'Choisir la langue',
     language: 'Langue',
     periodLabel: 'Période de facturation',

@@ -12,7 +12,7 @@ export const sl: Dictionary = {
     checkout: {
       title: 'Izberite paket — Entropic Defence',
       description:
-        'Fiksne cene za neprekinjeno varovanje: zunanji pregled, notranja revizija in varnostno vodenje. Od 18 700 kr na mesec.',
+        'Fiksne cene za neprekinjeno varovanje: zunanji pregled, notranja revizija in varnostno vodenje. Od 18 700 SEK na mesec.',
     },
     checkoutExtern: {
       title: 'Neprekinjeni varnostni pregled — Entropic Defence',
@@ -85,7 +85,7 @@ export const sl: Dictionary = {
     active: 'Aktivno',
     ongoing: 'V teku',
     from: 'Od',
-    currency: 'kr',
+    currency: 'SEK',
     chooseLanguage: 'Izberite jezik',
     language: 'Jezik',
     // Izbirnik obdobja

@@ -10,7 +10,7 @@ export const fi: Dictionary = {
     checkout: {
       title: 'Valitse paketti — Entropic Defence',
       description:
-        'Kiinteät hinnat jatkuvalle turvallisuudelle: ulkoinen tarkastus, sisäinen auditointi ja turvallisuusjohtaminen. Alkaen 18 700 kr kuukaudessa.',
+        'Kiinteät hinnat jatkuvalle turvallisuudelle: ulkoinen tarkastus, sisäinen auditointi ja turvallisuusjohtaminen. Alkaen 18 700 SEK kuukaudessa.',
     },
     checkoutExtern: {
       title: 'Jatkuva turvallisuustarkastus — Entropic Defence',
@@ -82,7 +82,7 @@ export const fi: Dictionary = {
     active: 'Aktiivinen',
     ongoing: 'Käynnissä',
     from: 'Alkaen',
-    currency: 'kr',
+    currency: 'SEK',
     chooseLanguage: 'Valitse kieli',
     language: 'Kieli',
     periodLabel: 'Laskutuskausi',
