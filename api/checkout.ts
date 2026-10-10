@@ -1,6 +1,8 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
 import { Resend } from 'resend'
 
+import { sendConfirmation } from './_lib/confirm.ts'
+
 const resend = new Resend(process.env.RESEND_API_KEY)
 
 const CONSULTANT_EMAIL = 'consultant@entropicdefence.com'
@@ -61,6 +63,14 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       console.error('Resend send failed:', error)
       return res.status(500).json({ error: 'Failed to send email' })
     }
+
+    // Best-effort: skicka autobekräftelse till kunden.
+    await sendConfirmation(req, {
+      to: email,
+      replyTo: CONSULTANT_EMAIL,
+      name,
+      reference: plan,
+    })
   } catch (error) {
     console.error('Resend send threw:', error)
     return res.status(500).json({ error: 'Failed to send email' })
