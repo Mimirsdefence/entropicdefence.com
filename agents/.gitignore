@@ -1,0 +1,18 @@
+# Hemligheter och lokala tillståndsfiler — ska aldrig in i git
+.env
+.env.*
+!.env.example
+
+# Lokal agent-tillståndsfil
+.state.json
+
+# Lokal Stripe-karta (pris-id per miljö)
+stripe/.stripe-map.json
+
+# Beroenden och loggar
+node_modules/
+*.log
+
+# Körtidsfiler: pid-fil, arbetarlogg, energischemats utfall — maskinlokala,
+# aldrig intressanta i git (och kan innehalla driftdetaljer).
+logs/

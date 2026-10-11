@@ -1,0 +1,29 @@
+{
+  "name": "@entropic/agents",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Mejlagenter (Support, Security, Consultant) for entropicdefence.com",
+  "scripts": {
+    "check": "tsc -p tsconfig.json",
+    "guardrails": "tsx index.ts guardrails",
+    "once": "tsx index.ts once",
+    "cli": "tsx index.ts",
+    "worker": "tsx worker/index.ts",
+    "stripe:plan": "tsx stripe/setup.ts plan",
+    "stripe:apply": "tsx stripe/setup.ts apply",
+    "stripe:invoice": "tsx stripe/invoice.ts"
+  },
+  "dependencies": {
+    "imapflow": "^2.2.2",
+    "mailparser": "^3.9.33",
+    "nodemailer": "^10.0.14"
+  },
+  "devDependencies": {
+    "@types/mailparser": "^3.9.0",
+    "@types/node": "^26.6.4",
+    "@types/nodemailer": "^8.0.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
