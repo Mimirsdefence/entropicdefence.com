@@ -31,6 +31,11 @@ export const sv = {
       description:
         'Strategisk säkerhetsrådgivning för ledning och styrelse, utbildning av personal och en 24/7 säkerhetsexpert som kommer snart.',
     },
+    checkoutSmall: {
+      title: 'Startups & mindre företag — Entropic Defence',
+      description:
+        'Kvartalsvis penetrationstest och månadsvis säkerhetskontroll för upp till 20 exponerade adresser. Fast pris per faktureringsperiod — från 4 999 SEK per månad.',
+    },
     success: {
       title: 'Förfrågan mottagen — Entropic Defence',
       description: 'Er förfrågan är mottagen. En konsult återkommer snarast.',
@@ -459,6 +464,83 @@ export const sv = {
         vecka: 'Kontinuerlig säkerhetskontroll — Veckokontroll',
         dag: 'Kontinuerlig säkerhetskontroll — Daglig kontroll',
         large: 'System över 100 exponerade adresser — behovsanalys',
+      },
+    },
+  },
+
+  // ── CheckoutSmall (Startups & mindre företag) ─────────────────────────
+  checkoutSmall: {
+    hero: {
+      eyebrow: 'Startups & mindre företag',
+      titleLead: 'Penetrationstest varje kvartal, ',
+      titleHighlight: 'till fast pris',
+      titleEnd: '.',
+      description:
+        'Ett riktigt penetrationstest varje kvartal — upp till 20 exponerade adresser. Varje test avslutas med rapport, remediering och Statusintyg. Månadsvis kontroll finns som ett enklare komplement för den löpande basen.',
+    },
+    scopeLabel: 'Omfattning',
+    scopeShort: 'Upp till 20 adresser',
+    scopeText:
+      'Båda paketen gäller system med upp till 20 exponerade adresser. Priset är fast per faktureringsperiod — år, kvartal eller månad.',
+    plans: {
+      kvartal: {
+        name: 'Kvartalsvis penetrationstest',
+        cadence: '4 penetrationstester per år',
+        description:
+          'Ett riktigt penetrationstest varje kvartal — inte bara en sårbarhetsskanning. Varje test avslutas med rapport, remediering och ett Statusintyg som bevisar kontinuerlig säkerhet.',
+        features: [
+          'Penetrationstest varje kvartal — 4 per år',
+          'Upp till 20 exponerade adresser',
+          'Rapport, remediering och Statusintyg varje kvartal',
+          '6 konsulttimmar per kvartal — extra tid 500 kr/t',
+        ],
+      },
+      manad: {
+        name: 'Månadsvis kontroll',
+        cadence: '1 extern kontroll per månad',
+        description:
+          'Den löpande basen: en fullständig extern kontroll varje månad, med åtgärdsförslag och 48 timmars konsultering som hjälper er IT att stänga fynden.',
+        features: [
+          '1 extern säkerhetskontroll varje månad',
+          'Upp till 20 exponerade adresser',
+          'Skriftlig rapport med remediering per fynd',
+          '48 timmars konsultering som hjälper er IT att genomföra åtgärderna',
+        ],
+      },
+    },
+    requestQuote: 'Begär offert',
+    bookCall: 'Boka ett samtal',
+    consult: {
+      eyebrow: 'Ingår i varje paket',
+      title: 'En konsult som hjälper er stänga fynden — inte bara en rapport.',
+      cards: [
+        {
+          title: 'Remediering per fynd',
+          text: 'Varje rapport beskriver exakt vad som är fel och hur det åtgärdas — prioriterat efter verklig risk.',
+        },
+        {
+          title: 'Konsulttid som ingår',
+          text: 'Kvartalsvis penetrationstest: 6 konsulttimmar per kvartal. Månadsvis kontroll: 48 timmars konsultering. Extra tid 500 kr/timme.',
+        },
+        {
+          title: 'Statusintyg varje kvartal',
+          text: 'Ett Statusintyg som visar att kontinuerlig säkerhet genomförs — underlag för krav från kunder, revisorer och ramverk.',
+        },
+      ],
+    },
+    form: {
+      title: 'Boka ett samtal om er verksamhet.',
+      description:
+        'Berätta kort om ert system och hur många exponerade adresser ni har, så bekräftar vi pris och startdatum.',
+      bullets: [
+        'Direktsvar, alla dagar',
+        'Kostnadsfritt första samtal',
+        'Offert utan förpliktelser',
+        'PGP finns för känslig kommunikation',
+      ],
+      options: {
+        kvartal: 'Startups & mindre företag — Kvartalsvis penetrationstest',
+        manad: 'Startups & mindre företag — Månadsvis kontroll',
       },
     },
   },

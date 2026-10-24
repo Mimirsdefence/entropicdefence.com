@@ -8,6 +8,7 @@ import CookieToast from '@/components/CookieToast'
 import Home from '@/pages/Home'
 import Checkout from '@/pages/Checkout'
 import CheckoutExtern from '@/pages/CheckoutExtern'
+import CheckoutSmall from '@/pages/CheckoutSmall'
 import CheckoutIntern from '@/pages/CheckoutIntern'
 import CheckoutLedning from '@/pages/CheckoutLedning'
 import Success from '@/pages/Success'
@@ -33,6 +34,7 @@ function usePageEffects() {
     '/': t.meta.home,
     '/checkout': t.meta.checkout,
     '/checkout/extern': t.meta.checkoutExtern,
+    '/checkout/mindre': t.meta.checkoutSmall,
     '/checkout/intern': t.meta.checkoutIntern,
     '/checkout/ledning': t.meta.checkoutLedning,
     '/success': t.meta.success,
@@ -93,6 +95,7 @@ export default function App() {
             <Route index element={<Home />} />
             <Route path="checkout" element={<Checkout />} />
             <Route path="checkout/extern" element={<CheckoutExtern />} />
+            <Route path="checkout/mindre" element={<CheckoutSmall />} />
             <Route path="checkout/intern" element={<CheckoutIntern />} />
             <Route path="checkout/ledning" element={<CheckoutLedning />} />
             <Route path="success" element={<Success />} />

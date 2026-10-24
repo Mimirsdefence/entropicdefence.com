@@ -52,4 +52,10 @@ export const SMALL_BUSINESS_PRICES: Record<BillingPeriod, number> = {
 /** Extra konsulttid utöver de 6 ingående timmarna per kvartal. */
 export const SMALL_BUSINESS_EXTRA_HOUR_RATE = 500
 
+/**
+ * Månadsvis kontroll (flyttad från Kontinuerlig säkerhetskontroll, <20 adresser).
+ * Baspris per månad — periodPrice() ger 18 700 kr/mån (år) och 22 400 kr/mån (kvartal).
+ */
+export const SMALL_BUSINESS_MONTHLY_CHECK_BASE = 24900
+
 export const INTERNAL_LEVEL_IDS: InternalLevelId[] = ['vanlig', 'hog', 'militar']

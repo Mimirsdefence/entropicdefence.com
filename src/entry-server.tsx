@@ -35,6 +35,7 @@ const META_KEYS: Record<string, keyof (typeof translations)['sv']['meta']> = {
   '/': 'home',
   '/checkout': 'checkout',
   '/checkout/extern': 'checkoutExtern',
+  '/checkout/mindre': 'checkoutSmall',
   '/checkout/intern': 'checkoutIntern',
   '/checkout/ledning': 'checkoutLedning',
   '/success': 'success',

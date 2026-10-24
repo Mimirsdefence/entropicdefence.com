@@ -17,6 +17,7 @@ const ROUTES = [
   '',
   '/checkout',
   '/checkout/extern',
+  '/checkout/mindre',
   '/checkout/intern',
   '/checkout/ledning',
   '/success',

@@ -82,8 +82,7 @@ export default function Checkout() {
       period: small.period,
       description: small.description,
       features: small.features,
-      href: '#forfragan',
-      cta: t.forms.sendRequest,
+      to: '/checkout/mindre',
     })
   }
 
