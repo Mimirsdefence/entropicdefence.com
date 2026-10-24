@@ -24,13 +24,13 @@ import {
 } from '@/data/packages'
 import { useI18n } from '@/i18n'
 
-const TIER_KEYS: PageTierKey[] = ['small', 'medium', 'large']
+const TIER_KEYS: PageTierKey[] = ['medium', 'large']
 
 const consultIcons = [MessagesSquare, Clock, Wallet]
 
 export default function CheckoutExtern() {
   const { t, lang } = useI18n()
-  const [tier, setTier] = useState<PageTierKey>('small')
+  const [tier, setTier] = useState<PageTierKey>('medium')
   const [period, setPeriod] = useState<BillingPeriod>('year')
   const home = `/${lang}`
   const to = (p: string) => (p === '/' ? home : `${home}${p}`)
